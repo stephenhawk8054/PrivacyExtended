@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Thu, 12 Jan 2023 06:45:00 UTC
+! Last modified: Thu, 12 Jan 2023 07:05:00 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -218,46 +218,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||tracker.legitwebsite.com^ (should be in tracking_servers_firstparty.txt)
 !
-!
-! Blocking Firebase crash reporting is quite problematic:
-! https://github.com/AdguardTeam/AdguardForAndroid/issues/1334#issuecomment-319302543
-! ||app-measurement.com^
-!
-! Crashlytics is commented by @ameshkov.
-! The reason for unblocking crashlytics is to not make developers life worse by breaking crash reporting.
-! In a hostile network like when an ad blocker is present, apps might be crashing, and these errors need to be
-! reported to devs, otherwise they won't learn about the issue and won't fix it.
-! Also, it is not a common third-party analytics tracker, Crashlytics is not used for collecting users' data.
-! ||e.crashlytics.com^
-! ||settings.crashlytics.com^
-!
-! The list of bug-tracker services(Sentry, etc.)
-! Add as commented rules. Will be used in additional list and/or strict DNS
-! ||bugherd.com^$third-party
-! ||in.appcenter.ms^
-! ||api.loganalytics.io^
-! ||crashlyticsreports-pa.googleapis.com^
-! ||e.crashlytics.com^
-! ||settings.crashlytics.com^
-! ||sessions.bugsnag.com^
-! ||notify.bugsnag.com^
-! ||crashlytics2.l.google.com^
-! ||crashlyticsreports-pa.googleapis.com^
-! ||bugly.qcloud.com^
-! ||admob-app-id-*.firebaseio.com^
-! ||events.split.io^
-! ||apptrace.com^
-! ||opentelemetry.io^
-! ||crash-reports.browser.yandex.net^
-! ||raygun.io^
-! ||cdn.signalfx.com^
-! ||sny.monosnap.com^
-! ||sentry.vieon.vn^
-! ||events.backtrace.io^
-!
-!
-! ||ensighten.com^$third-party - not a tracker
-!
 ! Be careful when blocking snssdk.com. It is used also for legal purposes
 ||mon.snssdk.com^
 ||mcs.snssdk.com^
@@ -269,65 +229,32 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
-||loggly.com^$third-party
-||offer-go.com^$third-party
+||fpnpmcdn.net^
 ||d2ezz24t9nm0vu.cloudfront.net^
 ||px*.mediahills.ru^
 ||sdk.conscent.in^$third-party
 ||tpstelemetry.tencent.com^
-||posthog.com^$third-party
-||crossees.com^
-||plausiblecdn.co^
 ||humanz.com^$third-party
-||gateway.foresee.com^
-||analytics.foresee.com^
-||hatmiso.net^$third-party
 ||t.influ2.com^
-||trk.adbutter.net^
-||oribi.io^$third-party
 ||eoapxl.com^
 ||improving.duckduckgo.com^
 ||web-vitals.bfops.io^
 ||media.richrelevance.com^$third-party
 ||eventtracking.hubapi.com^
 ||traffic.wdc.center^
-||evnt.iol.it^
-||frog.editorx.com^
-||e.metarouter.io^
-||tzegilo.com^$third-party
-||data.hicloud.com^$third-party
 ||cdn.mavi.digital^
 ||tieszhu.com^
-||sensorsdata.cn^$third-party
-||counter.dev^$third-party
 ||pro-web-metrics.alias.s24cloud.net^$third-party
 ||i.tct-rom.com^
 ||js.glossom.jp^$third-party
-||trackad.cz^$third-party
-||segmenthub.com^$third-party
 ||tracking-api.hotmart.com^
-||tag.statshop.fr^
 ||analytics.contentexchange.me^
-||extole.io^$third-party
-||tracking3.vnncdn.net^
 ||analytics.dap-networks.de^
-||analytics.algolia.com^
-||t.360.audion.fm^
-||withcabin.com^$third-party
-||pixel.ipinfo.io^
 ||f4cebacks.com^
-||pixmg.com^
-||serveipqs.com^$third-party
 ||insights-collector.newrelic.com^
-||analytics.126.net^
-||metrics.userguiding.com^
 -spiky.clevertap-prod.com^$third-party
-||ptztvpremium.com^$third-party
 ||analyticssystems.net^$third-party
-||events.il.fi^
 ||network.screen13.com^
-||tracker.gleanview.com^
-||pahtag.tech^$third-party
 ||rtc.dymatrix.cloud^
 ||tracking.shaadi.com^
 ||tdbc.redgalaxy.com^$third-party
@@ -7532,10 +7459,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d10vy5gom1ed53.cloudfront.net^
 ||um-public-panel-prod.s3.amazonaws.com^
 ! end:
-!-------------------------------------------------------------------------------!
-!-------------- CNAME trackers  ------------------------------------------------!
-!-------------------------------------------------------------------------------!
-!
+! CNAME trackers
 ! This section contains the list of the rules are against CNAME tracking networks.
 !
 ! Good: !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/trackers/adspyglass.txt
@@ -32852,10 +32776,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||form.ict-toshiba.jp^$badfilter
 ! cart blocked at www.matsuzaka-steak.com
 ||cart.matsuzaka-steak.com^$badfilter
-!-------------------------------------------------------------------------------!
-!-------------- General (unsorted) url blocking --------------------------------!
-!-------------------------------------------------------------------------------!
-!
+! 
+! URLs path tracking
 ! This section contains the list of generic blocking rules.
 !
 ! Good: .org/ads/
@@ -32864,7 +32786,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Blocking conversion tracking URLs that are used by WebKit
 ! More info: https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/
 ! Content blockers can prevent this: https://bugs.webkit.org/show_bug.cgi?id=197183
-!+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
 !
 /wp-content/plugins/google-analytics-for-wordpress/*
@@ -33386,10 +33307,8 @@ _analytics.js?
 _pagespeed_beacon?
 _social_tracking.js^
 _tracking.php?b=
-!-------------------------------------------------------------------------------!
-!-------------- Specific web sites ---------------------------------------------!
-!-------------------------------------------------------------------------------!
 !
+! Specific websites
 ! This section contains the list of domain-specific rules that block analytics.
 !
 ! Good: example.org###counter; ||tracker.org/stats/
@@ -36598,402 +36517,16 @@ link.gmapp*.net$image
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
 ||bing.com/fd/ls/
-! https://github.com/AdguardTeam/AdguardFilters/issues/19165
-!-------------------------------------------------------------------------------!
-!-------------- Cookies --------------------------------------------------------!
-!-------------------------------------------------------------------------------!
 !
-!
-!
-! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
-!
-!------------------------------
-!---- Domain specific rules ---
-!------------------------------
+! Domain specific
 ! NOTE: Cookies specific
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139501
 ! Tripadvisor
 ! Used for user tracking across websites
 ||tripadvisor.TAUnique
-! https://github.com/AdguardTeam/AdguardFilters/issues/139322
-! https://github.com/AdguardTeam/AdguardFilters/issues/139263
-! makeway.pl - unique user ID
-! money.hu
-! relaido.jp
-! at-s.com
-! Branch.io / App.Link
-! Used to collect data on visitors behaviour and interaction
-! openresty.org - unique user ID
-! webdock.io - ad tracking
-! dreamstime.com - user ID
-! stocksy.com - unique user ID
-! https://github.com/AdguardTeam/AdguardFilters/issues/134089
-! depop.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/131068
-! https://github.com/AdguardTeam/AdguardFilters/issues/130723
-! https://github.com/AdguardTeam/AdguardFilters/issues/128820
-! https://github.com/AdguardTeam/AdguardFilters/issues/128392
-! https://github.com/AdguardTeam/AdguardFilters/issues/128259
-! https://github.com/AdguardTeam/AdguardFilters/issues/128243
-! https://github.com/AdguardTeam/AdguardFilters/issues/128195
-! https://github.com/AdguardTeam/AdguardFilters/issues/126960
-! https://github.com/AdguardTeam/AdguardFilters/issues/126303
-! bigw.com.au - user identification
-! Rambler group
-! AdFox
-! https://github.com/AdguardTeam/AdguardFilters/issues/125304
-! https://github.com/AdguardTeam/AdguardFilters/issues/125119
-! adingo.jp
-! wp.pl
-! https://github.com/AdguardTeam/AdguardFilters/issues/123962
-! gazeta.pl
-! https://github.com/AdguardTeam/AdguardFilters/issues/118022
-! PopIn
-! Taplytics
-! sharethrough.com ad analytics
-! OLX
-! 220-volt.ru tracking
-! indiatimes.com - tracking, fingerprinting
-! insider.com - tracking
-! Duolingo
-! onthe.io cookies
-! ad networks
-! Do not add new rules to this section. Add above with a comment
 !
-!------------------------------
-!---- Generic rules -----------
-!------------------------------
-! NOTE: Cookies generic rules
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/139310
-! Tracking cookie on many porn sites
-! thisiswaldo.com
-! findify.io
-! https://developers.findify.io/v3/docs/findify-tracking-code-in-shopify-order-notes
-! Tracking code used to check different metrics
-! AT Internet
-! albacross.com
-! Grupa Pracuj S.A.
-! User ID
-! XenForo
-! Determines if you see ads or not
-! Sitemetrics
-! Used for first-party tracking on many sites
-! ExitBee tracking
-! MixPanel - Used to identify individual users
-! Used by Google Analytics for usage analysis. Used by Loggly for performance and error tracking.
-! Tracking
-! Wired tracking
-! Used to count how many times a website has been visited by different visitors by assigning the visitor a random ID
-! Mgid
-! Ticimax
-! ShareThis tracking
-! igaw.io - used to make advertisements more relevant to the specific visitor
-! WeCanTrack - used to track the visitor’s session
-! flocktory.com - identifier of the user
-! wisepops.com widget counter
-! Demandware Analytics
-! retentionscience.com tracking
-! qualaroo.com tracking
-! Tradedoubler
-! The GUID Cookie holds an identifier to support server side storage of the user event history
-! Eloqua - collects information about how visitors use a website, for instance which pages visitors go to most often, and which search terms visitors used to get to our websites
-! Bitmovin tracking
-! Mediaprint
-! Sourcebuster JS tracking cookies
-! Dynatrace
-! Visitor ID to correlate sessions
-! Required to identify proper endpoints for beacon transmission
-! Tracks a visit across multiple requests
-!
-! spot.im
-!
-! vk.com
-! VK Pixel tracking
-!
-! piano.io(tinypass)
-! Used for analytics purpose.
-! New visitor ID
-!
-! parse.ly
-!
-! Tealium Universal tag
-!
-! rubiconproject.com
-! https://rubiconproject.com/rubicon-project-advertising-technology-privacy-policy/platform-cookie-statement/
-! Analytics: Used to record cookie consent data
-! Internal user identifier used for analytics
-!
-! Medallia
-! Profiling cookie, number between 0-1 used for percentage of users targeting
-! Profiling cookie, tracks number of sessions user has been in the browser
-! Profiling cookie, timestamp indicating when the user has started his session
-! Profiling cookie, tracks the number of pages the user has been in the session
-! Profiling cookie, UUID for identifying a user
-!
-! Collects data of user behaviour and interaction in order to advertisements
-! Collects anonymous data related to the user’s visits to the website(number of visits, average time spent on the website and which pages have been loaded)
-!
-! yahoo.com
-! Used in the targeting of relevant adverts and content on the Yahoo! platform
-! Yahoo Conversion Tracking
-!
-! 91app.com
-! Analytics(used on many sites)
-!
-! outbrain.com
-! Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement
-!
-! ezoic.com
-! Used to record the amount of time you have spent on this website
-! Used to store the referring domain
-! Used to record whether you have studied the content of this page
-! Used to uniquely identify a visit by you to this website
-! Used to record the time that you loaded the last page on this website
-! Used to record the time of your visit to this website so different visits can be differentiated from each other
-! Used to record the amount of time that you engaged with content on this website
-! Used to store the pixel size of your browser to help personalize your experience and ensure content fits
-! Used by the analytics and personalization company, Ezoic, to store the number of pages that you have viewed on this site in this session
-! Records an id that to your age and gender category. For example, id 923 might be for males between 20 and 30 years old
-!
-! vtex.io
-! Tracking
-!
-! linkedin.com
-! https://linkedin.com/legal/l/cookie-table?
-! These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented
-! Used to store information about the time a sync with the lms_analytics cookie took place for users in the Designated Countries
-! Provides page name value (URL) for use by Adobe Analytics
-! Used by Adobe Analytics to retain and fetch what percentage of a page was viewed
-! Used to determine if cookies are enabled for Adobe Analytics
-! Used to make a probabilistic match of a user's identity outside the Designated Countries
-! Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
-! Set for ID sync for Adobe Audience Manager
-! Used to identify LinkedIn Members off LinkedIn in the Designated Countries for advertising
-! Used to identify a LinkedIn Member for advertising through Google Ads
-!
-! adxns.com
-! Ads targeting cookie for AppNexus
-!
-! Google - https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
-! Used for advertising
-! Used to distinguish users.
-! Used to distinguish users.
-! Used to throttle request rate.
-! ---
-! Used to throttle request rate.
-! Used to throttle request rate.
-! Contains a token that can be used to retrieve a Client ID from AMP Client ID service.
-! Contains campaign related information for the user.
-! Used to persist session state.
-! Used to throttle request rate.
-! ---
-! Used to determine a user's inclusion in an experiment and the expiry of experiments a user has been included in.
-! Used to determine a user's inclusion in an experiment and the expiry of experiments a user has been included in
-! Used to distinguish users and sessions.
-! Used to throttle request rate.
-! Used to throttle request rate.
-! Used to determine new sessions/visits.
-! Not used in ga.js. Set for interoperability with urchin.js. Historically, this cookie operated in conjunction with the __utmb cookie to determine whether the user was in a new session/visit.
-! Stores the traffic source or campaign that explains how the user reached your site.
-! Used to store visitor-level custom variable data.
-! Used for campaigns mapped to Google Ads Customer IDs.
-! Used for campaigns mapped to Google Ads Campaign IDs.
-! Used for campaigns mapped to Google Ads Ad Group IDs.
-! Used for campaigns mapped to Google Ads Criterion IDs.
-! Stores the last utm_campaign query parameter.
-! This cookie is created when running a redirect experiment. It stores the experiment ID, the variant ID and the referrer to the page that's being redirected.
-! Used to register what ads have been displayed to the user.
-! This cookie enables experiments with advertisement efficiency across websites in the Google Ads network.
-! Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
-! https://policies.google.com/technologies/cookies/embedded?hl=en-US
-! personalization and analytics
-! https://github.com/AdguardTeam/AdguardFilters/issues/126001#issuecomment-1206679184
-! NID, ENID cookies are used to remember user preferences and other information, such as preferred language
-!
-! Marketo - https://developers.marketo.com/blog/get-a-visitors-cookie-id-and-then-query-associated-lead-data/
-! Used to track engagement and conversion and to make content more engaging to users.
-!
-! QuantCast
-! Used for marketing/tracking purpose.
-!
-! Facebook
-! This cookie is placed by Facebook, Instagram to manage ad display frequency.
-! This cookie is placed by Facebook to track visits across websites.
-!
-! Yandex - https://yandex.com/support/metrica/general/cookie-usage.html
-! Saves the date of the user's first site session
-! Determines whether a user has ad blockers.
-! Allows Session Replay to function correctly.
-! Used for identifying site users.
-! breaks yandex panoramas
-! Used for identifying site users.
-! Used for identifying site users.
-! Session ID
-! Yandex service cookie.
-! breaks manual location selection
-!
-! piano.io (traq.li)
-!
-! ziffdavis.com (zdbb.net)
-!
-! Chartbeat - https://help.chartbeat.com/hc/en-us/articles/360044659014-Chartbeat-Cookies
-! This cookie stores a visitor's unique identifier for Chartbeat tracking on your site.
-! This cookie stores timing information about when this visitor has visited your site before.
-! This is used by our video tracking system. It is a video-specific visitor identifier.
-! This cookie stores the original referrer for this site visitor
-!
-! mparticle.com
-!
-! Adobe - https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html
-! The purpose of this cookie is to allow persistent ID tracking in the 1st party state and is used as a reference ID if the AMCV cookie has expired.
-! This cookie is set and read by the JavaScript code when the ClickMap functionality or the Activity Map functionality are enabled; it contains information about the previous link that was clicked on by the user.
-! This cookie is used to identify a unique visitor.
-! This cookie is used to identify a unique visitor if the standard s_vi cookie is unavailable due to third-party cookie restrictions.
-! The demdex cookie helps Audience Manger perform basic functions such as visitor identification, ID synchronization, segmentation, modeling, reporting, etc.
-! Audience Manager sets this cookie to record the last time it made a data synchronization call.
-! Audience Manager sets this cookie when there's an error sending data to a destination.
-! A third-party cookie used to determine if a click event on a display ad applies to an Adobe Analytics hit.
-! A third-party cookie that stores user engagements with ads, such as “last seen ad xyz123 on June 30, 2016”
-! A first-party cookie that associates the surfer ID with relevant audience segments and conversions.
-! Created after a user initially clicks a client's ad, and used to map the current and subsequent clicks with other events on the client's website.
-! This cookie is used to identify a unique visitor.
-! Used to identify return visitors to the same website.
-!
-! nbcuniversal.com
-!
-! StickyADStv
-!
-! gemius.com
-! Used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign
-! Used for marketing/tracking purpose.
-!
-! Taboola - https://www.taboola.com/policies/cookie-policy
-! Indicates that the user clicked on an item that was recommended by Taboola’s Services. This is used for reporting and analytics purposes.
-! Assigns a unique User ID that allows Taboola to  recommend specific advertisements and content to this user.
-! Assigns a unique User ID that is used for attribution and reporting purposes.
-! Used on websites of our publisher Customers that utilize the Taboola Newsroom services. It maintains a session reference about the user’s visit to this particular website.
-! This cookie is used to identify the referring website (i.e. the website that the user visited prior to arriving at this publisher’s website).
-! Supports routine technical and performance improvements for Taboola’s browser-based Services.
-! Supports routine technical and performance improvements for Taboola’s mobile SDK Services.
-! Used on websites of our publisher Customers that utilize the Taboola Newsroom services. It measures performance of the publisher’s homepage articles that are clicked.
-!
-! Hotjar - https://help.hotjar.com/hc/en-us/articles/115011789248-Hotjar-Cookie-Information
-! Hotjar cookie that is set when the customer first lands on a page with the Hotjar script. It is used to persist the Hotjar User ID, unique to that site on the browser.
-! This is set to identify a new user’s first session.
-! This cookie is used to detect the first pageview session of a user.
-! This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's daily session limit.
-! This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's pageview limit.
-! ---
-!
-! Microsoft
-! Sets a unique user id for tracking how the user uses the site.
-! It breaks possibility to save Bing preferences/settings
-! Microsoft an unique user ID. The cookie enables user tracking by synchronising the ID across many Microsoft domains.
-! Sets a unique user id for tracking how the user uses the site.
-!  Microsoft Bing Ads Universal Event Tracking (UET) tracking cookie.
-! This is a cookie utilised by Microsoft Bing Ads and is a tracking cookie. It allows us to engage with a user that has previously visited our website.
-!
-! smartadserver.com
-! Identifies new users and generates a unique ID for each user.
-!
-! Eulerian
-! This cookie uses user ID to be able to track, for analytical purposes.
-!
-! Pubmatic
-! PubMatic cookies store information on the pages visited by users with the goal of facilitating browsing and displaying more personalised information more efficiently.
-! PubMatic cookies store information on the pages visited by users with the goal of facilitating browsing and displaying more personalised information more efficiently.
-!
-! bidswitch.net
-! BidSwitch cookies gather information on website traffic and interactions with the site.
-! Contains a unique visitor ID, which allows Bidswitch.com to track the visitor across multiple websites.
-!
-! Amazon
-! Used by Amazon Advertising to register user actions and target content on the website based on ad clicks on a different website.
-!
-! Sitecore - https://doc.sitecore.com/developers/91/sitecore-experience-platform/en/tracking-contacts.html
-! Used for tracking users. Stores a unique identifier that identifies the site user as a "contact".
-!
-! Optimizely - https://www.optimizely.com/legal/cookie-policy/
-! Random generated id for anonymous visitors. Used to count different users.
-! Stores a visitor's unique Optimizely identifier.
-!
-! Outbrain
-! Collects data on the user’s navigation and behavior on the website.
-!
-! Cxense - https://www.cxense.com/about-us/platform-privacy-policy
-! Global ID mapping different ids together into one ID.
-! Used to identify the user.
-! Used to identify the user.
-! For building user profile information across all sites in the Cxense network.
-! Used to keep track of session start times.
-!
-! adtlgc.com
-!
-! yTrack
-!
-! doubleclick.net
-! Used for serving targeted advertisements that are relevant to you across the web.
-! Used for serving targeted advertisements that are relevant to you across the web.
-!
-! Reblaze
-! This cookie is used to maintain an anonymised unique identifier for session.
-! It causes that some websites don't load -  https://github.com/AdguardTeam/AdguardFilters/issues/81164 and https://github.com/AdguardTeam/AdguardFilters/issues/81232
-! This cookie is used to attribute an unique identifier for session.
-!
-! Alexa
-! Used to track and report visitor information to the Alexa analytics service.
-!
-! amplitude.com
-! These cookies are set by Amplitude analytics. Uniquely identify the user's machine.
-!
-! DataDog
-! DataDog cookie used to provide web performance analytics
-!
-! sophi.io
-! Analytics
-!
-! Salesforce
-! Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant.
-!
-! Disqus
-! Internal statistics, used for anonymous visitors (Sigma)
-!
-! Visual Website Optimizer
-! Used to track visitor movements anonymously.
-!
-! Squarespace
-! This analytic cookie identifies unique visitors and tracks a visitor’s sessions on a site.
-!
-! Criteo
-! Ads targeting
-!
-! Prebid PubCid
-! Analytics, targeting
-!
-! BrightFunnel
-! Used to identify unique users and for analytics.
-!
-!
-!
-!------------------------------
-!---- Fixing filtering errors -
-!------------------------------
-! NOTE: Cookies allowlist
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/129422
-! https://github.com/AdguardTeam/AdguardFilters/issues/128154
-! https://github.com/easylist/easylist/pull/11359
-! https://github.com/AdguardTeam/AdguardFilters/issues/108624
-! https://github.com/AdguardTeam/AdguardFilters/issues/101014
-! https://github.com/AdguardTeam/AdguardFilters/issues/101455
-! https://github.com/AdguardTeam/AdguardFilters/issues/91367
-! https://github.com/AdguardTeam/AdguardFilters/issues/90058
-!-------------------------------------------------------------------------------!
-!-------------- Mobile analytics  ----------------------------------------------!
-!-------------------------------------------------------------------------------!
-!
+! Mobile analytics
 ! This section contains the list of the rules that block mobile analytics and spyware.
 !
 ! Good: ||adeventtracker.spotify.com^
