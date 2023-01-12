@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Thu, 12 Jan 2023 06:27:23 UTC
+! Last modified: Thu, 12 Jan 2023 06:45:00 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -37744,10 +37744,7 @@ link.gmapp*.net$image
 ! https://reports.exodus-privacy.eu.org/en/trackers/44/
 ! https://www.vice.com/en/article/m7vzjb/location-data-abortion-clinics-safegraph-planned-parenthood
 ||api.safegraph.com^
-!-------------------------------------------------------------------------------!
-!-------------- Mobile analytics exceptions  -----------------------------------!
-!-------------------------------------------------------------------------------!
-!
+! Mobile
 ! This section contains the list of the base rules that fix broken mobile apps and mobile websites. Rules should be specific.
 !
 ! Good: @@||tracker.org^$domain=m.example.org
