@@ -36456,6 +36456,7 @@ link.gmapp*.net$image
 !
 ||bing.com/fd/ls/
 ||m1tm.motor1.com/analytics.js
+||elpais.com.uy/google-analytics
 !
 ! Domain specific
 ! NOTE: Cookies specific
