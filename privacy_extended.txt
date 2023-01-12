@@ -50,7 +50,7 @@ configurator.ducati.com##+js(set, WURFL, {})
 forfun.ist##+js(no-fetch-if, ssl.geoplugin.net/javascript.gp)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118441
 ! Related to removeparam rules
-qiita.com##+js(addEventListener-defuser, load, navigator)
+qiita.com##+js(aeld, load, navigator)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120883
 nettiauto.com##+js(set, listingGoogleEETracking, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120143
