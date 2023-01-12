@@ -34091,7 +34091,6 @@ chaos2ch.com###sub div.plugin-memo:last-child
 ||ems.youku.com/event?
 ||dspnow.ru/beacon/
 ||grammarly.com/api/tracking/
-||googletagmanager.com/gtm/
 ||static.vocstatic.com/tag-manager/latest/vtm.js
 ||bilibili.com/x/frontend/finger/fpfmc?
 ||components.justanswer.com/v3/main-tracking-script@released.js
@@ -34634,7 +34633,6 @@ the-ans.jp##.side-reccomend
 ||r.yna.co.kr/global/lib/*/js/nlogger.js
 ||uol.com.br/*/stats^
 ||clck.yandex.ru^$other
-||googletagmanager.com/ns.html?$3p
 ||dubox.com/api/analytics
 ||media.r18.com/track/$all
 ||app.retargetapp.com/pixel/pixel.min.js
@@ -35205,7 +35203,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||graph.facebook.com/logging_client_events
 ||goto.kz/img.php^$3p
 ||googlesyndication.com/safeframe/$3p
-||googletagmanager.com/gtm.js$3p
 ||goodbookbook.com/_.gif?_
 ||front.sspicy.ru/collect?$3p
 ||findme.ru/Counter$3p
@@ -35581,7 +35578,6 @@ utorrent.games,borfilm.com,hronika.info##.count
 ||dealer.com^*/tracker/
 ||medya.ilan.gov.tr/widgets/assets/analytics.js
 ||arc.msn.com/*/Impression?PID=
-||googletagmanager.com/gtag/$3p
 ||199.19.203.46/js
 ||jimdo.com/app/tracking/common/index/
 ||gutefrage.net/px.js
