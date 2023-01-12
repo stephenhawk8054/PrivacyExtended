@@ -167,10 +167,10 @@ elpais.com,chip.de,moviepilot.com,madison.com,promiflash.de,trendblog.net,qctime
 ! Good: example.org#?#main > div.row:has(> div.ad)
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
-biteki.com##.slick-slide > div[id] + script:upward(1):style(remove: true;)
+biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110304#issuecomment-1057807201
 kuow.org#?#.story-content-wrapper > div.embed_block:has(> div[ub-in-page])
-kuow.org#?#.story-content-wrapper > div.embed_block:has(> script:contains(usabilla))
+kuow.org#?#.story-content-wrapper > div.embed_block:has(> script:contains(window.usabilla))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6281
 vol.az#?##footer > .column-one-fourth[-ext-has=".line > span:contains(Sayğac)"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5449
@@ -11428,7 +11428,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||marketing.arlington.org^
 ||marketing.arysta-na.com^
 ||marketing.ashianahomes.com^
-||marketing.asmartercom^
+||marketing.asmarter.window.com^
 ||marketing.assessio.com^
 ||marketing.astm.org^
 ||marketing.atbs.com^
