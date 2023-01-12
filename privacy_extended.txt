@@ -5240,8 +5240,7 @@ nethunt.com/api/v1/track/email/$image
 ! Marketo tracking (see https://docs.marketo.com/display/public/DOCS/Configure+Protocols+for+Marketo)
 ||mkto-*.com^$third-party
 ! end: Mail Tracking
-!
-!+ NOT_PLATFORM(windows, mac, android)
+
 ||artfut.com^$redirect=nooptext,important,image,media,frame,stylesheet,script,xhr,other
 !
 ! This section contains the list of tracking networks domains, which are hosted on non advertising sites as subdomains.
@@ -5251,7 +5250,6 @@ nethunt.com/api/v1/track/email/$image
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: host rules with partial blocking (for example $domain, content type and redirect modifiers)
 !
-!
 ! https://github.com/AdguardTeam/cname-trackers/issues/30
 ! TODO: remove once the issue is resolved
 ||tagman.britishairways.com^
@@ -5259,7 +5257,6 @@ nethunt.com/api/v1/track/email/$image
 ||ct.pinterest.com^
 !
 ! This rule breaks Australian sites
-!+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 !
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
@@ -33415,21 +33412,11 @@ _tracking.php?b=
 ! TODO: check the allowlist file from time to time to remove unnecessary exceptions
 ! https://github.com/AdguardTeam/Scriptlets/issues/253#issuecomment-1308957501 - do not remove `~id.x5.ru`
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137243
-!+ NOT_PLATFORM(windows, mac, android)
 ! TODO: replace `~domain.com` by exclusions after ext4.0 release
-! https://github.com/AdguardTeam/AdguardForWindows/issues/3973
-! Probably caused by overriding "dataLayer.push" function
-||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=~olx.*|~banki.ru|~bigc.co.th
-! https://github.com/uBlockOrigin/uAssets/issues/9458
-||google-analytics.com/ga.js$script,redirect=google-analytics_ga.js,domain=~daj.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101178 - bethesda.net
 ! https://github.com/AdguardTeam/Scriptlets/issues/160 - simon.com
 ! https://www.reddit.com/r/uBlockOrigin/comments/pyfove/ublock_origin_breaks_corsairs_website_when_using/ (Firefox)
 ! TODO: Blocking GTM globally is dangerous, needs to be tested manually on problematic websites
-! ||googletagmanager.com/gtm.js?$third-party,script,redirect=googletagmanager-gtm,domain=~corsair.com|~olx.*|~simon.com|~bethesda.net|~paddle.com
-||googletagservices.com/tag/js/gpt.js$xhr,script,redirect=googletagservices_gpt.js
-! fix https://golf.com/news/tour-confidential-match-play-concession-augusta-womens-am/
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw
 !
 ! Some sites are broken. The rules are required for apps only.
 .demdex.net/id^$redirect=nooptext,important,image,media,frame,stylesheet,script,xhr,other
@@ -36561,9 +36548,7 @@ dreamprogs.net##td[width="88"][height="31"]
 ||google.com/log?$redirect=nooptext,image,media,frame,stylesheet,script,xhr,other
 ||yandex.ru/clck/click|
 ||clck.dzen.ru/click|
-!+ NOT_PLATFORM(ios, ext_safari)
 ||yandex.*/clck/
-!+ NOT_PLATFORM(ios, ext_android_cb)
 ||naver.net/wcslog.js
 !
 ! blueconic.net on hearst.com sites
@@ -36601,7 +36586,6 @@ link.gmapp*.net$image
 ||imrworldwide.com^$domain=cnet.com,important
 ||scorecardresearch.com^$domain=cnet.com,important
 !
-!+ NOT_PLATFORM(ios, ext_safari, android)
 ||hh.ru/analytics^
 ! End: cnet.com trackers
 !
@@ -36613,7 +36597,6 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43140
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
-!+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||bing.com/fd/ls/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19165
 !-------------------------------------------------------------------------------!
@@ -37103,7 +37086,6 @@ link.gmapp*.net$image
 ||stat.y.qq.com^
 ! Relap - avoid breaking their website on desktop
 ! but make sure it's blocked in apps
-!+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 ! Kochava
 ||co.akisinn.info^
@@ -37988,7 +37970,6 @@ goodwillfinds.com##+js(set, _etmc, [])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132140
 @@||cdn.segment.com/analytics.js/$domain=reuters.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132024
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||googleoptimize.com/optimize.js$domain=revv.co.in
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131893
 ||googletagmanager.com/gtm.js$script,redirect=google-analytics_ga.js,domain=animestore.docomo.ne.jp
@@ -38128,12 +38109,10 @@ ouminews.net#@#img[width="88"][height="31"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122659
 ||api.ipify.org/?format=json$xhr,redirect=nooptext,domain=utils.surf
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122614
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||share.9cdn.net/share/long_cache/js/tracking/tracking.*.min.js$domain=nine.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122396
 @@||cdn.segmentify.com^$domain=gratis.com
 !#safari_cb_affinity
-!+ NOT_PLATFORM(ios, ext_safari)
 @@||cdn.segmentify.com/*/segmentify.js$domain=gratis.com
 ||cdn.segmentify.com/*/segmentify.js$script,important,redirect=noopjs,domain=gratis.com
 ! https://github.com/uBlockOrigin/uAssets/issues/13782
@@ -38192,7 +38171,6 @@ ouminews.net#@#img[width="88"][height="31"]
 @@||googleoptimize.com/optimize.js$domain=tehnomanija.rs
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118321
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118188
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||ugdturner.com/xd.sjs$domain=nba.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117497
 neocities.org#@#img[width="88"][height="31"]
@@ -38248,7 +38226,6 @@ neocities.org#@#img[width="88"][height="31"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115489
 userstyles.org##+js(set, poptin_display, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115332
-!+ NOT_PLATFORM(windows, mac, android)
 ||plausible.io/js/plausible.js$script,redirect=noopjs,domain=sammobile.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115234
 @@||googletagmanager.com/gtm.js$domain=managertoday.com.tw
@@ -38300,7 +38277,6 @@ extrahop.com##+js(no-setTimeout-if, ad blocker)
 @@||custojusto.pt/smarttag.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118108
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112998
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||pix2.services.tvn.pl/pix2.js$domain=tvn24.pl|ttv.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112205
 @@||tm.jsuol.com.br/uoltm.js$domain=oantagonista.uol.com.br
@@ -38370,7 +38346,6 @@ suki-kira.com##+js(ra, disabled, button.vote-submit)
 ||new.hnair.com/hainanair/ibe/static/scripts/new/profile/fingerprint2.js$script,redirect=fingerprint2.js,important
 @@||new.hnair.com/hainanair/ibe/static/scripts/new/profile/fingerprint2.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108678
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||datadoghq-browser-agent.com/datadog-logs-v*.js$domain=radiotimes.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108760
 ||uim.tifbs.net/js/*.js$script,redirect=noopjs,domain=web.de|gmx.net|gmx.ch|gmx.at
@@ -38444,7 +38419,6 @@ ntp.msn.com#@%#navigator.getBattery = undefined;
 ||googletagmanager.com/gtag/js$script,other,redirect=google-analytics_ga.js,domain=filmomaniak.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101263
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102558
-!+ NOT_PLATFORM(windows, mac, android)
 @@||cnet.com/*/video-player/*/lib/tracking/comscore/comscore.streaming.*.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102387
 @@||googletagmanager.com/gtm.js$domain=independent.co.uk
@@ -38646,7 +38620,6 @@ pizzakiosk.ee#@#img[width="88"][height="31"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91230
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=noopjs
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91087
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||googletagmanager.com/gtm.js$domain=shockwave.com
 ! fix history on Firefox
 @@||dsb.yahoo.co.jp/api/v1/stream$xhr,domain=gyao.yahoo.co.jp
@@ -38939,7 +38912,6 @@ demae-can.com##+js(ra, data-trm-action|data-trm-category|data-trm-label, .trm_ev
 @@||google-analytics.com/plugins/ua/ec.js$domain=flyingv.cc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72465
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69078#issuecomment-762889762
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||static.chartbeat.com/js/chartbeat.js$domain=hindustantimes.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72221
 ! fix msi reward program join button
@@ -39401,7 +39373,6 @@ nnmclub.ro,nnm-club.t0r.xyz,nnmclub.to#@#img[width="88"][height="31"]
 @@||googletagmanager.com/gtm.js$domain=wibc.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46786
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47334
-!+ PLATFORM(ios, ext_android_cb, ext_safari, ext_edge, ext_ublock)
 @@||google-analytics.com/analytics.js$domain=rzd.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47187
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46988
@@ -39697,7 +39668,6 @@ nnmclub.ro,nnm-club.t0r.xyz,nnmclub.to#@#img[width="88"][height="31"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28754
 @@||klp.no/person/plugins/komponentbiblioteket/utils/tracking/Tracking.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25957
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium, ext_edge)
 @@||cdn.optimizely.com/public/$script,domain=nytimes.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27885
 @@||cdn.crowdtwist.com/img/$image,domain=myperks.catchow.com
@@ -39740,7 +39710,6 @@ nnmclub.ro,nnm-club.t0r.xyz,nnmclub.to#@#img[width="88"][height="31"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25632
 @@||google-analytics.com/analytics.js$domain=linetv.tw
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25252
-!+ NOT_PLATFORM(windows, mac, android)
 @@||interia.hit.gemius.pl/redot.gif?$domain=m.interia.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25189
 @@||static.chartbeat.com/js/chartbeat_mab.js$domain=ny1.com
@@ -39763,7 +39732,6 @@ nnmclub.ro,nnm-club.t0r.xyz,nnmclub.to#@#img[width="88"][height="31"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23481
 @@||google-analytics.com/analytics.js$domain=mamibuy.com.tw
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23568
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||googleadservices.com/pagead/conversion_async.js$domain=kizi.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23182
 @@||cxense.com^$domain=ikea.com
@@ -40118,7 +40086,6 @@ nnmclub.ro,nnm-club.t0r.xyz,nnmclub.to#@#img[width="88"][height="31"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5839
 !
 ! lenta.ru, championat.com, afisha.ru - broken pages
-!+ NOT_PLATFORM(windows, mac, android)
 @@||ssp.rambler.ru/capirs_async.js$domain=lenta.ru|championat.com|afisha.ru
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14773
