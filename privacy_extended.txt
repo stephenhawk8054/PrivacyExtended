@@ -36444,8 +36444,6 @@ link.gmapp*.net$image
 ||facebook.com/tr/?$domain=cnet.com,important
 ||imrworldwide.com^$domain=cnet.com,important
 ||scorecardresearch.com^$domain=cnet.com,important
-!
-||hh.ru/analytics^
 ! End: cnet.com trackers
 !
 ! https://github.com/AdguardTeam/AdguardForWindows/issues/3973
@@ -36457,6 +36455,7 @@ link.gmapp*.net$image
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
 ||bing.com/fd/ls/
+||m1tm.motor1.com/analytics.js
 !
 ! Domain specific
 ! NOTE: Cookies specific
@@ -36471,7 +36470,6 @@ link.gmapp*.net$image
 !
 ! Good: ||adeventtracker.spotify.com^
 ! Bad:  ||adeventtracker.spotify.com^ (if this is everywhere, should be in tracking_servers.txt)
-!
 !
 ! Do not block pixapi.net. It causes issues
 !
