@@ -32880,7 +32880,7 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 /sensorsdata.min.js
 ://vip.*/?pge=$image,3p
-/snowplow.*.js$3p
+/snowplow.*.js$domain=~snowplow.io
 /shared/js/ga.js|
 /s/s/js/m/om.js?v=
 /utx?tid=
