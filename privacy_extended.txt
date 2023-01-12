@@ -36403,9 +36403,10 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43140
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
+||adtonos.com/atr/*/px.gif
 ||bing.com/fd/ls/
-||m1tm.motor1.com/analytics.js
 ||elpais.com.uy/google-analytics
+||m1tm.motor1.com/analytics.js
 !
 ! Domain specific
 ! NOTE: Cookies specific
