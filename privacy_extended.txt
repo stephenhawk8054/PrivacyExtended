@@ -5543,7 +5543,6 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.thenest.com^
 ||analytics.thenewslens.com^
 ||analytics.thetab.com^
-||analytics.thevideo.me^
 ||analytics.tio.ch^
 ||analytics.tmonews.com^
 ||analytics.tout.com^
@@ -6301,7 +6300,6 @@ nethunt.com/api/v1/track/email/$image
 ||log.suumo.jp^
 ||log.tbs.qq.com^
 ||log.tf.co.kr^
-||log.thevideo.me^
 ||log.ttbc-hcm.gov.vn^
 ||log.vava.com^
 ||log.vdn.apps.cntv.cn^
@@ -6904,7 +6902,6 @@ nethunt.com/api/v1/track/email/$image
 ||stats.someecards.com^
 ||stats.storify.com^
 ||stats.suite101.com^
-||stats.thevideo.me^
 ||stats.tipser.com^
 ||stats.townnews.com^
 ||stats.travelask.ru^
@@ -36088,7 +36085,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||liverail.com/track/?
 ||livestream.com^*/analytics/
 ||log.liverail.com^
-||log.thevideo.me/logpop^
 ||logger-*.vty.dailymotion.com/dm/
 ||logger.danawa.com/tracker
 ||logger.rm.uol.com.br^
