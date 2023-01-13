@@ -36397,6 +36397,7 @@ link.gmapp*.net$image
 !
 ||adtonos.com/atr/*/px.gif
 ||bing.com/fd/ls/
+||diarioregistrado.com/api/v*/analytics
 ||elpais.com.uy/google-analytics
 ||m1tm.motor1.com/analytics.js
 !
