@@ -36397,6 +36397,9 @@ link.gmapp*.net$image
 ||elpais.com.uy/google-analytics
 ||m1tm.motor1.com/analytics.js
 ||sbazar.cz/*/hit|$xhr
+! astar.bz
+||rtb.wedeo.ru/track?
+||v*.astar.bz/*/ping.gif
 !
 ! Domain specific
 ! NOTE: Cookies specific
