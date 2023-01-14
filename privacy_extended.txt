@@ -244,7 +244,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||i.tct-rom.com^
 ||js.glossom.jp^$3p
 ||tracking-api.hotmart.com^
-||analytics.contentexchange.me^
 ||analytics.dap-networks.de^
 ||f4cebacks.com^
 ||insights-collector.newrelic.com^
@@ -255,7 +254,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||tracking.shaadi.com^
 ||tdbc.redgalaxy.com^$3p
 ||t.c-rtb.com^
-||testingmetriksbre.ru^$3p
 ||t.ssp.hinet.net^
 ||bb8.aotter.net^
 ||dmkt.point-ad-game.com^
