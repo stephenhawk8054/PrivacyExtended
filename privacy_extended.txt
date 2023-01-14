@@ -36400,7 +36400,6 @@ link.gmapp*.net$image
 ||s.sofoot.com^
 ||sbazar.cz/*/hit|$xhr
 ! astar.bz
-||rtb.wedeo.ru/track?
 ||v*.astar.bz/*/ping.gif
 !
 ! Domain specific
