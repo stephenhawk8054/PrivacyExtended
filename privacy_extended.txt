@@ -36396,6 +36396,7 @@ link.gmapp*.net$image
 ||diarioregistrado.com/api/v*/analytics
 ||elpais.com.uy/google-analytics
 ||m1tm.motor1.com/analytics.js
+||plug.it/iplug/js/lib/iol/analytics/
 ||sbazar.cz/*/hit|$xhr
 ! astar.bz
 ||rtb.wedeo.ru/track?
