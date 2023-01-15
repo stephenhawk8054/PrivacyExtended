@@ -23996,15 +23996,15 @@ link.gmapp*.net$image
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
 ||adtonos.com/atr/*/px.gif
+||astar.bz/*/ping.gif
 ||bing.com/fd/ls/
 ||collect.rtl.lu^
-||diarioregistrado.com/api/v*/analytics
+||diarioregistrado.com/api/*/analytics
 ||elpais.com.uy/google-analytics
 ||m1tm.motor1.com/analytics.js
 ||plug.it/iplug/js/lib/iol/analytics/
 ||s.sofoot.com^
 ||sbazar.cz/*/hit|$xhr
-||v*.astar.bz/*/ping.gif
 !
 ! Domain specific
 ! NOTE: Cookies specific
