@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 16 Jan 2023 05:34 UTC
+! Last modified: Fri, 16 Jan 2023 08:43 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -3902,15 +3902,11 @@ nethunt.com/api/v1/track/email/$image
 ||triggertag.gorillanation.com^
 ||trk.10ru.pt^
 ||trk.i0.cz^
+||trk.lightdatahouse.com^
 ||trk.storyly.io^
-||trk.stroeermediabrands.de^
 ||trk.vidible.tv^
 ||trk*.vidible.tv^
-||truehits1.gits.net.th^
-||truehits3.gits.net.th^
 ||ttauri.laptopmag.com^
-||tw*.netcore.co.in^
-||twin-iq.kickfire.com^
 ||two.tracedock.com^
 ||u.btserve.com^
 ||ub.finanzfrage.net^
@@ -3926,23 +3922,16 @@ nethunt.com/api/v1/track/email/$image
 ||vra.outbrain.com^
 ||vrt.outbrain.com^
 ||vstats.digitaltrends.com^
-||vzw.sp1.convertro.com^
 ||w.oix.net^
 ||w1jesu6.package12.com^
 ||wa.gmx.
 ||wa.mail.com^
-||walgreens.sc.omtrdc.net^
-||waves.retentionscience.com^
-||web-analytics.engagio.com^
 ||web-vitals.booking.com^
 ||webanalyzer.bussion.com^
-||webed.dm-event.net^
-||webid.ad.daum.net^
 ||weblog.coupang.com^
 ||weblog.hankookilbo.com^
 ||weblog.zdnet.co.kr^
 ||webvitals.luxnet.ua^
-||whos.amung.us^
 ||widget.perfectmarket.com^
 ||wl.yna.co.kr^
 ||wlog.tmon.co.kr^
