@@ -23962,6 +23962,7 @@ link.gmapp*.net$image
 ||plug.it/iplug/js/lib/iol/analytics/
 ||s.sofoot.com^
 ||sbazar.cz/*/hit|$xhr
+||tags.chip.de^
 ! uta-net.com
 ||uta-net.com/res/banner_count_js.php
 ||uta-net.com/res/getreco.php
