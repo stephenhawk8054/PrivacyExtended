@@ -136,6 +136,8 @@ guancha.cn##+js(set, sensors.init, noopFunc)
 guancha.cn##+js(set, sensors.track, noopFunc)
 guancha.cn##+js(set, sensors.quick, noopFunc)
 guancha.cn##+js(set, sensors.registerPage, noopFunc)
+! https://www.itsu.com/
+itsu.com##+js(set, AtreemoTrackingLbr, noopFunc)
 
 ! Generic cosmetic filters
 ##img[src^="//counter.ukr.net/"]
