@@ -3488,6 +3488,7 @@ nethunt.com/api/v1/track/email/$image
 ||r.razer.com^
 ||r.rbc.ru^
 ||r.remarketingpixel.com^
+||r-log.dable.io^
 ||rake.11st.co.kr^
 ||recs.atgsvcs.com^
 ||reveal.clearbit.com^
