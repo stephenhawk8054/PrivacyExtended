@@ -23965,6 +23965,7 @@ link.gmapp*.net$image
 ||s.sofoot.com^
 ||sbazar.cz/*/hit|$xhr
 ||tags.chip.de^
+||tracker.citicsinfo.com^
 ! uta-net.com
 ||uta-net.com/res/banner_count_js.php
 ||uta-net.com/res/getreco.php
