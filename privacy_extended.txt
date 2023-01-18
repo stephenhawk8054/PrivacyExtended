@@ -23964,8 +23964,6 @@ link.gmapp*.net$image
 ||collect.rtl.lu^
 ||diarioregistrado.com/api/*/analytics
 ||elpais.com.uy/google-analytics
-||events.mz.unity3d.com^
-||logs.ironsrc.mobi^
 ||m1tm.motor1.com/analytics.js
 ||plug.it/iplug/js/lib/iol/analytics/
 ||s.sofoot.com^
@@ -24695,6 +24693,10 @@ link.gmapp*.net$image
 ! https://reports.exodus-privacy.eu.org/en/trackers/44/
 ! https://www.vice.com/en/article/m7vzjb/location-data-abortion-clinics-safegraph-planned-parenthood
 ||api.safegraph.com^
+||event.togothermany.com^
+||events.mz.unity3d.com^
+||logs.ironsrc.mobi^
+||oldevent.togothermany.com^
 ! Mobile
 ! This section contains the list of the base rules that fix broken mobile apps and mobile websites. Rules should be specific.
 !
