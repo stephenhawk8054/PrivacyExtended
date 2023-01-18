@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 18 Jan 2023 03:30 UTC
+! Last modified: Fri, 18 Jan 2023 08:54 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -212,7 +212,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 m4ex.com###footer-widget
 m4ex.com##.plugin-counter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140288#issuecomment-1385509403
-blog.livedoor.jp##.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
 blogterest.net##.blockSide > div.blockWrapper > div > div.ninja-recommend-block:upward(2)
 nukeruerodouga.com###main-right > div.right_area > div.ninja-recommend-block:upward(2)
 blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
@@ -3832,6 +3831,7 @@ nethunt.com/api/v1/track/email/$image
 ||tracker.cartprotector.com^
 ||tracker.cdn-moneysmart.com^
 ||tracker.cpapath.com^
+||tracker.dcdn.baidu.com^
 ||tracker.giftd.ru^
 ||tracker.joongang.co.kr^
 ||tracker.joost.com^
