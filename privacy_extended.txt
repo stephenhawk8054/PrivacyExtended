@@ -207,6 +207,7 @@ kinoman.me#?##extra_block > div.extra_mod > div.extra_mod:has(> div.extra_mod_ti
 latino-serialo.tv#?##sidebar-left > div.block[-ext-has="> div.box > h2:contains(Счетчик)"]
 prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистика)
 journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Счетчик)"]
+blog.livedoor.jp#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
 ! m4ex.com
 m4ex.com###footer-widget
 m4ex.com##.plugin-counter
