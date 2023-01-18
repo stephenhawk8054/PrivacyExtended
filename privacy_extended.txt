@@ -209,7 +209,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Счетчик)"]
 ! m4ex.com
 m4ex.com###footer-widget
-m4ex.com##.plugin-counter   
+m4ex.com##.plugin-counter
 
 ! Tracking servers
 ! This section contains the list of third party tracking networks domains.
@@ -3710,6 +3710,7 @@ nethunt.com/api/v1/track/email/$image
 ||tdapi.wickey.nl^
 ||tdep.hema.nl^
 ||tdk.petsplace.nl^
+||tealium.cbsnews.com^
 ||telegraf.detmir-stats.ru^
 ||telemetry-in.battle.net^
 ||telemetry.allrecipes.com^
