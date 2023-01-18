@@ -3478,6 +3478,7 @@ nethunt.com/api/v1/track/email/$image
 ||production-mcs.lvp.llnw.net^
 ||prudsys-rde.de^
 ||prx.wayfair.com^
+||push.zhanzhang.baidu.com^
 ||put.qostore.daumkakao.io^
 ||px.dynamicyield.com^
 ||px.gfycat.com^
