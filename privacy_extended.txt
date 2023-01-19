@@ -2720,6 +2720,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.thetab.com^
 ||analytics.tmonews.com^
 ||analytics.tripoto.com^
+||analytics.ubports.com^
 ||analytics.upworthy.com^
 ||analytics.us.archive.org^
 ||analytics.vadio.com^
