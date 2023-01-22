@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 22 Jan 2023 10:29 UTC
+! Last modified: Fri, 22 Jan 2023 10:38 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -745,36 +745,22 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||cicero-mit.com^
 ||awseukpi.whisbi.com^$3p
 ||sys.refocus.ru^$3p
-||apn.c.appier.net^$3p
-||stats2.agilecrm.com^$3p
-||doorbrazil.com^$3p
 ||dmzls.safe-installation.com^$3p
-||pixel.safe-installation.com^$3p
-||troubledtail.com^$3p
-||spellsalsa.com^$3p
 ||hits-i.iubenda.com^
 ||lk.vectoranalytics.ru^$3p
 ||track.ilonofficial.com^
 ||track.saygames.io^
 ||stats.datawrapper.de^$3p
 ||bigdata.riamedia.com.ua^$3p
-||track.adabra.com^$3p
 ||reindaks.com^$3p
 ||go.rcvlinks.com^$3p
-||monu.delivery^$3p
 ||collectfasttracks.com^$3p
 ||pixel.advertising.com^
-||id5-sync.com^$3p
 ||analytics.vodgc.net^$3p
-||youborafds01.com^$3p
 ||mc.admetrica.ru^
-||toecircle.com^$3p
 ||qzxmtyy.com^$3p
-||altg.widerplanet.com^
-||astg.widerplanet.com^
 ||analytic.press^
 ||d1tracker.ru^
-||bagbeam.com^$3p
 ||irxcm.com^$3p
 ||unid.go.com^$3p
 ||v3.fstats.xyz^
@@ -785,20 +771,14 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||track.segmentstream.com^$3p
 ||vboro.de^$3p
 ||barddfvgkhctch11.ru^$3p
-||tr.webantenna.info^$3p
-||trkn.us^$3p
 ||counter.pixplug.in^
 ||visitor.pixplug.in^
-||ringsrecord.com^$3p
 ||stat.analytiall.com^
 ||edw.edmunds.com^$3p
 ||z.opmnstr.com^
 ||a.quora.com^
 ||fuel451.com^$3p
-||tag.getdrip.com^$3p
-||sc-static.net^$3p
 ||vyg.mobi^$3p
-||tracker.convead.io^$3p
 ||trafficscanner.pl^$3p
 ||collect.blishtech.co^$3p
 ||rob.megaopen.ru^$3p
