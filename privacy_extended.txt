@@ -23971,6 +23971,7 @@ link.gmapp*.net$image
 ||diarioregistrado.com/api/*/analytics
 ||elpais.com.uy/google-analytics
 ||m1tm.motor1.com/analytics.js
+||piano.io/publisher/fusion/lucid/data/
 ||plug.it/iplug/js/lib/iol/analytics/
 ||s.sofoot.com^
 ||sbazar.cz/*/hit|$xhr
