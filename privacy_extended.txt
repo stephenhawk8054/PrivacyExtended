@@ -23967,9 +23967,10 @@ link.gmapp*.net$image
 ||astar.bz/*/ping.gif
 ||bing.com/fd/ls/
 ||cdn.panelbear.com/analytics.js
-||cs.pikabu.ru/apps/*/analytics.js
+||coralproject.net/assets/js/count.js
 ||cnobi.jp/*/recommend/
 ||collect.rtl.lu^
+||cs.pikabu.ru/apps/*/analytics.js
 ||diarioregistrado.com/api/*/analytics
 ||elpais.com.uy/google-analytics
 ||m1tm.motor1.com/analytics.js
