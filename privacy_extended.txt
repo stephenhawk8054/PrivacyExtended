@@ -2962,6 +2962,7 @@ nethunt.com/api/v1/track/email/$image
 ||d.impactradius-event.com^
 ||d.sondakika.com^
 ||d14pdm1b7fi5kh.cloudfront.net^
+||d17tqr44y57o31.cloudfront.net^
 ||d1cerpgff739r9.cloudfront.net^
 ||d1clufhfw8sswh.cloudfront.net^
 ||d1daeonbqcq0oh.cloudfront.net^
