@@ -21518,7 +21518,7 @@ park.ajinomoto.co.jp##.bottomMenu
 newsdig.tbs.co.jp#?#.l-contents-wrap > div[v-scope^="Recommend"]:upward(1)
 ||kraken.com/js/sift.min.js
 ||javynow.com/ajax/access.php
-nikkansports.com##div[id^="cx_"]
+augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
 ||outlook-1.cdn.office.net/owamini/*/resources/analytics-ping.js
 ||rocket.ivi.ru/event/
 ||g.ivi.ru/track
