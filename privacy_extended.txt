@@ -2608,6 +2608,7 @@ nethunt.com/api/v1/track/email/$image
 ||a.hstrck.com^
 ||a.klaviyo.com^
 ||a.oix.net^
+||a.pikabu.ru^
 ||a.ria.ru^
 ||a1.huiqituan.com^
 ||a3.ogt.jp^
@@ -23966,6 +23967,7 @@ link.gmapp*.net$image
 ||astar.bz/*/ping.gif
 ||bing.com/fd/ls/
 ||cdn.panelbear.com/analytics.js
+||cs.pikabu.ru/apps/*/analytics.js
 ||cnobi.jp/*/recommend/
 ||collect.rtl.lu^
 ||diarioregistrado.com/api/*/analytics
