@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 22 Jan 2023 10:38 UTC
+! Last modified: Fri, 23 Jan 2023 10:21 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -789,29 +789,21 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||itrustzone.site^$3p
 ||dable.io^$3p
 ||lists-tracking.komando.com^
-||js.hsadspixel.net^$3p
 ||clickanalytics208.com^$3p
 ||logs.roku.com^
 ||tapstat.ru^$3p
 ||cdn.driveback.ru^$3p
-||tms-st.cdn.ngenix.net$3p
 ||track.aplaut.io^$3p
-||stat.tildacdn.com^$3p
 ||cervell.io^$3p
 ||sonet-rp.swaxis.com^$3p
-||stiffstem.com^$3p
 ||admon.pro^$3p
-||stats.mos.ru^$3p
-||px.staticfiles.at^$3p
 ||wapempire.com^$3p
 ||chali.info^$3p
 ||ulogin-stats.ru^$3p
-||stat.enter-system.com^$3p
 ||t.hoood.info^
 ||kepler-37b.com^$3p
 ||voluumtlkrnarketing.com^$3p
 ||liod1ours.com^$3p
-||ubiquitousyard.com^$3p
 ||statsp.fpop.net^$3p
 ||zorosrv.com$3p
 ||api.cazamba.com^$3p
@@ -820,13 +812,10 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||logger.pw^$3p
 ||log-ird.outbrain.com^
 ||sb.voicefive.com^
-||mrb.upapi.net^$3p
 ||analytics*.clickdimensions.com^
 ||pngme.ru^$3p
 ||qoopler.ru^$3p
 ||s.clicktex.ru^$3p
-||tracking.lqm.io^$3p
-||app.shoptarget.com.br^$3p
 ||netdeal.com.br^$3p
 ||ibclick.stream^$3p
 ||trv.upperbooking.com^$3p
@@ -837,10 +826,7 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||s24-analytics.com^
 ||checkyourgeo.info^$3p
 ||targetman.ru^$3p
-||s-onetag.com^$3p
 ||personaclick.com^$3p
-||counter*.freecounter.ovh^$3p
-||analytics.logsss.com^$3p
 ||redatastore.ru^$3p
 ||cinarra.com^$3p
 ||marketo.com^$3p
