@@ -3298,6 +3298,7 @@ nethunt.com/api/v1/track/email/$image
 ||mastertag.effiliation.com^
 ||matomo.a1.by^
 ||mediator.imgsmail.ru^
+||meduza.us10.list-manage.com^
 ||metcon.hulu.com^
 ||meter-svc.nytimes.com^
 ||metric-agent.i10c.net^
