@@ -3298,7 +3298,6 @@ nethunt.com/api/v1/track/email/$image
 ||mastertag.effiliation.com^
 ||matomo.a1.by^
 ||mediator.imgsmail.ru^
-||meduza.us10.list-manage.com^
 ||metcon.hulu.com^
 ||meter-svc.nytimes.com^
 ||metric-agent.i10c.net^
@@ -23941,6 +23940,7 @@ link.gmapp*.net$image
 ||cs.pikabu.ru/apps/*/analytics.js
 ||diarioregistrado.com/api/*/analytics
 ||elpais.com.uy/google-analytics
+||list-manage.com/track/
 ||m1tm.motor1.com/analytics.js
 ||piano.io/publisher/fusion/lucid/data/
 ||plug.it/iplug/js/lib/iol/analytics/
