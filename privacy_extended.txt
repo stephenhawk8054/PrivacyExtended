@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 23 Jan 2023 10:21 UTC
+! Last modified: Fri, 24 Jan 2023 01:46 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -832,15 +832,11 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||marketo.com^$3p
 ||bd4travel.com^$3p
 ||bm.adentifi.com^$3p
-||prvsz4pe.micpn.com^$3p
-||target.mixi.media^$3p
 ||analytics.servogram.io^
 ||checkmygeo.com^$3p
 ||collector-*.perimeterx.net^$3p
-||client.perimeterx.net^$3p
 ||stats.coronalabs.com^
 ||track.special-offers.online^$3p
-||crm-analytics.imweb.ru^$3p
 ||crm.agency^$3p
 ||i.clean.gg^
 ||xl-trk.com^$3p
@@ -850,13 +846,7 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||smpl.hit.ppdb.pl^
 ||topiz.ru^$3p
 ||socialhoney.co^$3p
-||bs.nakanohito.jp^$3p
-||cs.nakanohito.jp^$3p
-||uh.nakanohito.jp^$3p
-||c.nakanohito.jp^$3p
-||b16.nakanohito.jp^$3p
 ||trk.olnl.net^$3p
-||ustat.info^$3p
 ||ustat.pro^$3p
 ||stat.uitools.space^$3p
 ||track.ddmanager.ru^$3p
@@ -864,14 +854,10 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||rdstation.com.br^$3p
 ||analytic.rocks^
 ||counter.log24.ru^$3p
-||bouncyproperty.com^$3p
-||cloud.roistat.com^$3p
 ||adoric.com^$3p
-||stack-sonar.com^$3p
 ||13p76nnir.de^$3p
 ||smrtb.com^$3p
 ||piwik.pro^$3p
-||lift.acquia.com^$3p
 ||osniffer.pro^$3p
 ||webtrekk.com^$3p
 ||usereachpeople.com^$3p
@@ -882,7 +868,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||nextclick.pl^$3p
 ||rigelink.com^$3p
 ||visitor-metrics.com^$3p
-||summerhamster.com^$3p
 ||lhinsights.com^$3p
 ||mobtop.com^$3p
 ||excpm.com^$3p
