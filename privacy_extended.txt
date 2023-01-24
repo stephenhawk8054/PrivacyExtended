@@ -23930,6 +23930,7 @@ link.gmapp*.net$image
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
 ||adtonos.com/atr/*/px.gif
+||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||astar.bz/*/ping.gif
 ||bing.com/fd/ls/
 ||cdn.panelbear.com/analytics.js
@@ -23939,7 +23940,6 @@ link.gmapp*.net$image
 ||cs.pikabu.ru/apps/*/analytics.js
 ||diarioregistrado.com/api/*/analytics
 ||elpais.com.uy/google-analytics
-||fast.a.klaviyo.com/media/js/analytics/klaviyo_analytics.js
 ||m1tm.motor1.com/analytics.js
 ||piano.io/publisher/fusion/lucid/data/
 ||plug.it/iplug/js/lib/iol/analytics/
