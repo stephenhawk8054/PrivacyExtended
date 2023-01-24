@@ -2572,7 +2572,6 @@ nethunt.com/api/v1/track/email/$image
 ||gtm.eduki.com^
 ||a-stat.appmifile.com^
 ||a.hstrck.com^
-||a.klaviyo.com^
 ||a.oix.net^
 ||a.pikabu.ru^
 ||a.ria.ru^
@@ -23940,6 +23939,7 @@ link.gmapp*.net$image
 ||cs.pikabu.ru/apps/*/analytics.js
 ||diarioregistrado.com/api/*/analytics
 ||elpais.com.uy/google-analytics
+||fast.a.klaviyo.com/media/js/analytics/klaviyo_analytics.js
 ||m1tm.motor1.com/analytics.js
 ||piano.io/publisher/fusion/lucid/data/
 ||plug.it/iplug/js/lib/iol/analytics/
