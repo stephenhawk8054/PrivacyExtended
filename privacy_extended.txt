@@ -381,7 +381,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||analytics2.awsli.com.br^
 ||cdn.raekdata.com^
 ||gae.karte.io^
-||collector-*.px-cloud.net^
 ||metricskey.com^$3p
 ||d.k3r.jp^
 ||nc0.co^$3p
@@ -834,7 +833,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||bm.adentifi.com^$3p
 ||analytics.servogram.io^
 ||checkmygeo.com^$3p
-||collector-*.perimeterx.net^$3p
 ||stats.coronalabs.com^
 ||track.special-offers.online^$3p
 ||crm.agency^$3p
