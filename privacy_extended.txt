@@ -23933,6 +23933,7 @@ link.gmapp*.net$image
 ||psprices.com/staticfiles/build/frontend_psprices_js_analytics_ts.*.js
 ||s.sofoot.com^
 ||sbazar.cz/*/hit|$xhr
+||so-zou.jp/js/ga.js
 ||static.iris.informa.com/widgets/*/iris-t.js
 ||tags.chip.de^
 ||tracker.citicsinfo.com^
