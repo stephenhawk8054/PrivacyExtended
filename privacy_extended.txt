@@ -2831,6 +2831,7 @@ nethunt.com/api/v1/track/email/$image
 ||cnt.xhamster.com^
 ||cnt.yeptube.
 ||cntcerber.rambler.ru^
+||cntxtfl.com^
 ||code.lockbot.net^
 ||codes.royalad.pl^
 ||collect-elb-*.amazonaws.com^
