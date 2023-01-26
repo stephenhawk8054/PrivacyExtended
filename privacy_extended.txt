@@ -23905,6 +23905,7 @@ link.gmapp*.net$image
 ||cs.pikabu.ru/apps/*/analytics.js
 ||diarioregistrado.com/api/*/analytics
 ||elpais.com.uy/google-analytics
+||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
 ||list-manage.com/track/
 ||m1tm.motor1.com/analytics.js
 ||piano.io/publisher/fusion/lucid/data/
