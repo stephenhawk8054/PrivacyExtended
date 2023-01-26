@@ -999,13 +999,9 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||directrix.ru^$3p
 ||djers.com^$3p
 ||dmd53.com^$3p
-||dmpxs.com^$3p
 ||dmtry.com^$3p
 ||dotomi.com^$3p
-||doubleclick.net^$image,3p
 ||dtscout.com^$3p
-||dwin1.com^$3p
-||dwin2.com^$3p
 ||e-zeeinternet.com^$3p
 ||easytarget.ru^$3p
 ||ecn5.com^$3p
@@ -1017,7 +1013,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||erotop.lv^$3p
 ||estadisticasgratis.es^$3p
 ||etracking24.de^$3p
-||everesttech.net^$3p
 ||ewebcounter.com^$3p
 ||exmarkt.de^$3p
 ||exovueplatform.com^$3p
@@ -1030,7 +1025,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||fetchback.com^$3p
 ||finderlocator.com^$3p
 ||fishhoo.com^$3p
-||metrics*.fitanalytics.com^$3p
 ||fixwap.net^$3p
 ||flashadengine.com^$3p
 ||t.flix360.com^
@@ -1049,7 +1043,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||gezinti.com^$3p
 ||glanceguide.com^
 ||globalviptraffic.com^$3p
-||go-mpulse.net^$3p
 ||goaltraffic.com^$3p
 ||google-pagerank.net^$3p
 ||gosquared.com^$3p
@@ -1065,11 +1058,9 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||hitmeter.ru^$3p
 ||hits.e.cl^$3p
 ||hlserve.com^$3p
-||hs-analytics.net^$3p
 ||ibillboard.com^$3p
 ||ilk10.az^$3p
 ||improvely.com^$3p
-||imrworldwide.com^$3p
 ||intarget.ru^$3p
 ||intelevance.com^$3p
 ||intelli-tracker.com^$3p
