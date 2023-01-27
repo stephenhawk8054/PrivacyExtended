@@ -23890,6 +23890,7 @@ link.gmapp*.net$image
 ||diarioregistrado.com/api/*/analytics
 ||elpais.com.uy/google-analytics
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
+||gitpod.io/api/collect-data
 ||list-manage.com/track/
 ||m1tm.motor1.com/analytics.js
 ||piano.io/publisher/fusion/lucid/data/
