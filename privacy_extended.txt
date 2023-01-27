@@ -2569,6 +2569,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.74.ru^
 ||analytics.247sports.com^
 ||analytics.adoffice.11st.co.kr^
+||analytics.aklamio.com^
 ||analytics.anvato.net^
 ||analytics.appservice.tech^
 ||analytics.artirix.com^
