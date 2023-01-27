@@ -23894,6 +23894,7 @@ link.gmapp*.net$image
 ||m1tm.motor1.com/analytics.js
 ||piano.io/publisher/fusion/lucid/data/
 ||plug.it/iplug/js/lib/iol/analytics/
+||postbank.de/etc/*/clientlib-postbank-webtrekk
 ||psprices.com/staticfiles/build/frontend_psprices_js_analytics_ts.*.js
 ||s.sofoot.com^
 ||sbazar.cz/*/hit|$xhr
