@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 26 Jan 2023 11:41 UTC
+! Last modified: Fri, 27 Jan 2023 03:49 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1130,7 +1130,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||pagerank.fr^$3p
 ||pagesense.com^$3p
 ||pc1.io^$3p
-||pippio.com^$3p
 ||piwik.org^$3p
 ||polarmobile.com^$3p
 ||predictivedna.com^$3p
@@ -1142,7 +1141,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||putags.com^$3p
 ||qdtracking.com^$3p
 ||qualtrics.com^$3p
-||quantserve.com^$~object,3p
 ||questionpro.com^$3p
 ||radarurl.com^$3p
 ||rang.com.ua^$3p
@@ -1156,8 +1154,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||rep0pkgr.com^$3p
 ||researchnow.co.uk^$3p
 ||ritecounter.com^$3p
-||rkdms.com^$3p
-||rlcdn.com^$3p
 ||rollingcounters.com^$3p
 ||rs6.net^$3p
 ||rucounter.ru^$3p
@@ -1168,12 +1164,10 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||sajari.com^$3p
 ||sbdtds.com^$3p
 ||scounter.rambler.ru^$3p
-||script.opentracker.net$3p
 ||securestudies.com^$3p
 ||seewhy.com^$3p
 ||seogift.ru^$3p
 ||servedbyopenx.com^$3p
-||sharp.ondu.ru^$3p
 ||shrinktheweb.com^$3p
 ||sitebot.cn^$3p
 ||sitelinktrack.com^$3p
@@ -1187,7 +1181,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||spn.ee^$3p
 ||springserve.com^$3p
 ||statcounters.info^$3p
-||statdb.pressflex.com^$3p
 ||state.sml2.ru^$3p
 ||statistiq.com^$3p
 ||statistx.com^$3p
@@ -1231,11 +1224,9 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||trackvoluum.com^$3p
 ||tradedoubler.com^$3p
 ||treehousei.com^$3p
-||tru.am^$3p
 ||tst14netreal.com^$3p
 ||tstlabs.co.uk^$3p
 ||tsw0.com^$3p
-||ugdturner.com^$3p
 ||universaltrackingcontainer.com^$3p
 ||upalytics.com^$3p
 ||uptime.monitorus.ru^$3p
@@ -1243,7 +1234,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||vantage-media.net^$3p
 ||vdc.zoomph.com^
 ||visadd.com^$3p
-||visit.webhosting.yahoo.com^$3p
 ||visitlog.net^$3p
 ||visitorinspector.com^$3p
 ||vizu.com^$3p
@@ -1271,15 +1261,11 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||www.net.kg^$3p
 ||xpanama.net^$3p
 ||xref.io^$3p
-||x.clearbit.com^$3p
-||x.clearbitjs.com^$3p
 ||yadro.ru^$3p
 ||youcanoptout.com^$3p
 ||youmetrix.co.uk^$3p
 ||zaehler.tv^$3p
-||zdbb.net^$3p
 ||zoomflow.com^$3p
-||zqtk.net^$3p
 ||zroitracker.com^$3p
 !
 ! relateddigital.com domains
