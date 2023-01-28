@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 28 Jan 2023 04:03 UTC
+! Last modified: Fri, 28 Jan 2023 04:07 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1287,47 +1287,6 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||secondhandfall.com^$3p
 ||farmerfireman.com^$3p
 ||whisperingflesh.com^$3p
-||gleamingtrade.com^$3p
-||youngmarble.com^$3p
-||batbuilding.com^$3p
-||fuzzyweather.com^$3p
-||educatedeggnog.com^$3p
-||vanfireworks.com^$3p
-||paleleaf.com^$3p
-||cubchannel.com^$3p
-||businessbells.com^$3p
-||dolldetail.com^$3p
-||tendertest.com^$3p
-||bitterbear.com^$3p
-||stickysheet.com^$3p
-||delightfulhour.com^$3p
-||beadbears.com^$3p
-||mightyspiders.com^$3p
-||pastepot.com^$3p
-||ar1nvz5.com^$3p
-||bunchance.com^$3p
-||chesscolor.com^$3p
-||exuberanteyes.com^$3p
-||nullnorth.com^$3p
-||owlsr.us^$3p
-||frailoffer.com^$3p
-||innocentwax.com^$3p
-||scarcesign.com^$3p
-||btez8.xyz^$3p
-||pegasusplate.com^$3p
-||modifyeyes.com^$3p
-||crabbychin.com^$3p
-||completecabbage.com^$3p
-||chinsnakes.com^$3p
-||attractiveafternoon.com^$3p
-||previousplayground.com^$3p
-||faultycanvas.com^$3p
-||chairscrack.com^$3p
-||flakyfeast.com^$3p
-||piquantpigs.com^$3p
-||decisivedrawer.com^$3p
-||omniscientspark.com^$3p
-||instrumentsponge.com^$3p
 ||spurioussteam.com^$3p
 ||impossibleexpansion.com^$3p
 ||showsteel.com^$3p
