@@ -23881,6 +23881,7 @@ link.gmapp*.net$image
 ||lecturas.com/Content/*/js/trackPopup.js
 ||list-manage.com/track/
 ||m1tm.motor1.com/analytics.js
+||ok.ru/gwtlog
 ||piano.io/publisher/fusion/lucid/data/
 ||plug.it/iplug/js/lib/iol/analytics/
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
