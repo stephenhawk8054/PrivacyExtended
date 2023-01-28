@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 27 Jan 2023 03:49 UTC
+! Last modified: Fri, 28 Jan 2023 04:03 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1282,100 +1282,11 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ! More info: https://getadmiral.com/products/measure
 ! Add same rules to the Admiral section of Annoyances filter
 !
-||chubbycreature.com^$3p
 ||restrainstorm.com^$3p
 ||sugarfriction.com^$3p
-||fortunatemark.com^$3p
-||threetruck.com^$3p
-||superficialspring.com^$3p
-||crashchance.com^$3p
-||handsomehose.com^$3p
 ||secondhandfall.com^$3p
 ||farmerfireman.com^$3p
-||protestcopy.com^$3p
-||pointlesshour.com^$3p
-||cosmosjackson.com^$3p
-||afraidlanguage.com^$3p
-||meatydime.com^$3p
-||attractionbanana.com^$3p
-||mundanenail.com^$3p
-||flowerstreatment.com^$3p
-||pocketfaucet.com^$3p
-||childlikecrowd.com^$3p
-||stretchsister.com^$3p
-||tastelesstrucks.com^$3p
-||handsomelyhealth.com^$3p
-||expansioneggnog.com^$3p
-||laughablelizards.com^$3p
-||floweryflavor.com^$3p
-||fearlessfaucet.com^$3p
-||terrifictooth.com^$3p
-||parchedsofa.com^$3p
-||automaticairplane.com^$3p
-||outstandingincome.com^$3p
-||teenytinyshirt.com^$3p
-||childlikeform.com^$3p
-||nappyattack.com^$3p
-||outstandingsnails.com^$3p
-||bedsberry.com^$3p
-||shrillspoon.com^$3p
-||fearlessfaucet.com^$3p
-||nondescriptnote.com^$3p
-||tiresomethunder.com^$3p
-||sordidsmile.com^$3p
-||annoyedairport.com^$3p
-||auspiciousyard.com^$3p
-||superficialeyes.com^$3p
-||hollowafterthought.com^$3p
-||rabbitbreath.com^$3p
-||friendwool.com^$3p
-||breadbalance.com^$3p
-||stakingsmile.com^$3p
-||rabbitrifle.com^$3p
-||cherriescare.com^$3p
-||conditionchange.com^$3p
-||scarfsmash.com^$3p
-||fadewaves.com^$3p
-||breakableinsurance.com^$3p
-||cratecamera.com^$3p
-||awesomeagreement.com^$3p
 ||whisperingflesh.com^$3p
-||pluckypocket.com^$3p
-||sparklingshelf.com^$3p
-||scintillatingsilver.com^$3p
-||sulkycook.com^$3p
-||shakegoldfish.com^$3p
-||livelylaugh.com^$3p
-||hystericalcloth.com^$3p
-||caringcast.com^$3p
-||selfishsnake.com^$3p
-||soretrain.com^$3p
-||ancientact.com^$3p
-||ticketaunt.com^$3p
-||warmafterthought.com^$3p
-||fumblingform.com^$3p
-||aloofvest.com^$3p
-||bawdybalance.com^$3p
-||unwieldyhealth.com^$3p
-||boilingcredit.com^$3p
-||wearbasin.com^$3p
-||puffypaste.com^$3p
-||stiffgame.com^$3p
-||satisfycork.com^$3p
-||placidperson.com^$3p
-||blushingbeast.com^$3p
-||storesurprise.com^$3p
-||observantice.com^$3p
-||balloonbit.com^$3p
-||bhcumsc.com^$3p
-||bravebone.com^$3p
-||timetwig.com^$3p
-||benthose.com^$3p
-||channelcamp.com^$3p
-||silentcredit.com^$3p
-||thickticket.com^$3p
-||controlswim.com^$3p
-||scatteredheat.com^$3p
 ||gleamingtrade.com^$3p
 ||youngmarble.com^$3p
 ||batbuilding.com^$3p
