@@ -20643,6 +20643,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Plausible
 ||plausible.io/api/event
 !
+/senddata?site=inpage
 /sensorsdata.min.js
 ://vip.*/?pge=$image,3p
 /snowplow.*.js$domain=~snowplow.io
