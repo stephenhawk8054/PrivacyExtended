@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 29 Jan 2023 02:37 UTC
+! Last modified: Fri, 29 Jan 2023 02:40 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1276,6 +1276,11 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 !
 ! https://github.com/easylist/easylist/commit/a4d380ad1a3b33a0fab679a1a8c5a791321622b3
 ||functionalclam.com^$3p
+!
+! Admiral domains
+! These domains are used for tracking purposes according to the data that is being sent there.
+! More info: https://getadmiral.com/products/measure
+! Add same rules to the Admiral section of Annoyances filter
 !
 ||restrainstorm.com^$3p
 ||delightdriving.com^$3p
