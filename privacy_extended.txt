@@ -2685,6 +2685,7 @@ nethunt.com/api/v1/track/email/$image
 ||collector1.xhamster.com^
 ||comet.sputniknews.com^
 ||conf.international.baidu.com^
+||cookie.codemarketing.cloud^
 ||cookie.fuel451.com^
 ||count.channeladvisor.com^
 ||count.livetv.ru^
