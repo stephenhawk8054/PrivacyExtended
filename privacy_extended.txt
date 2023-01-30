@@ -23058,6 +23058,7 @@ link.gmapp*.net$image
 ||static.iris.informa.com/widgets/*/iris-t.js
 ||tags.chip.de^
 ||tracker.citicsinfo.com^
+||web.snrbox.com/tck/$domain=komputronik.pl
 ! uta-net.com
 ||uta-net.com/res/banner_count_js.php
 ||uta-net.com/res/getreco.php
@@ -23823,7 +23824,9 @@ link.gmapp*.net$image
 !
 ! Good: example.org#@#.ad
 !
-!
+! https://github.com/AdguardTeam/AdguardFilters/issues/141319
+@@||web.snrbox.com/tck/$xmlhttprequest,redirect=nooptext,domain=komputronik.pl
+@@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
 !### Temporary ###
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125637
 ! TODO: remove after fixing https://github.com/AdguardTeam/Scriptlets/issues/233
