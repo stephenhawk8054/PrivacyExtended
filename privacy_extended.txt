@@ -1302,6 +1302,7 @@ blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upwa
 ||scarcestream.com^$3p
 ||shakesea.com^$3p
 ||pocketsonic.com^$3p
+||measlymiddle.com^
 !
 ! TikTok
 ||rtc-logger-va.tiktokv.com^
@@ -2042,6 +2043,7 @@ nethunt.com/api/v1/track/email/$image
 ||d1rszqblq924lq.cloudfront.net^
 ||d1snv67wdds0p2.cloudfront.net^
 ||d1stxfv94hrhia.cloudfront^
+||d1zxg9iar5y3ur.cloudfront.net^
 ||d1uy7uzra011au.cloudfront.net^
 ||d1yu5hbtu8mng9.cloudfront.net^
 ||d2dq2ahtl5zl1z.cloudfront.net^
