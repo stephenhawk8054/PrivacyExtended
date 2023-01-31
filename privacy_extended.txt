@@ -21907,6 +21907,7 @@ link.gmapp*.net$image
 ||plug.it/iplug/js/lib/iol/analytics/
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
 ||psprices.com/staticfiles/build/frontend_psprices_js_analytics_ts.*.js
+||r.bh.d.sendibt3.com/tr/
 ||s.sofoot.com^
 ||sbazar.cz/*/hit|$xhr
 ||so-zou.jp/js/ga.js
