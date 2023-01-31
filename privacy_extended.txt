@@ -2567,6 +2567,7 @@ nethunt.com/api/v1/track/email/$image
 ||recs.atgsvcs.com^
 ||reveal.clearbit.com^
 ||revi.rcs.it^
+||rferl.c.goolara.net^
 ||rosenberg.appmetrica.yandex.net^
 ||rrss.abc.es^
 ||rtax.criteo.com^
