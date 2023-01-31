@@ -21912,6 +21912,7 @@ link.gmapp*.net$image
 ||static.iris.informa.com/widgets/*/iris-t.js
 ||tags.chip.de^
 ||tracker.citicsinfo.com^
+||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||web.snrbox.com/tck/$domain=komputronik.pl
 ! uta-net.com
 ||uta-net.com/res/banner_count_js.php
