@@ -18986,6 +18986,7 @@ _analytics.js?
 _pagespeed_beacon?
 _social_tracking.js^
 _tracking.php?b=
+/smi/fp.min.js
 !
 ! Specific websites
 ! This section contains the list of domain-specific rules that block analytics.
@@ -21887,6 +21888,8 @@ link.gmapp*.net$image
 ||bing.com/fd/ls/
 ||cdn.panelbear.com/analytics.js
 ||cdn.pdst.fm/ping.min.js
+||cdn.pranmcpkx.com^
+||cdn.wgchrrammzv.com^
 ||coralproject.net/assets/js/count.js
 ||cnobi.jp/*/recommend/
 ||collect.rtl.lu^
