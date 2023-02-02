@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 31 Jan 2023 08:19 UTC
+! Last modified: Fri, 31 Jan 2023 08:22 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -18764,16 +18764,6 @@ charlestownwyllie.oaklawnnonantum.com^
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xhr,1p
 /cdn-cgi/bm/cv/*$script
 /cgi-bin/bm/cv/*$script
-!
-! Tracking pixels (for instance, analytics.businessinsider.com/t.gif)
-.at/t.gif?
-.au/t.gif?
-.com/t.gif?
-.net/t.gif?
-.nz/t.gif?
-.pt/t.gif?
-.sg/t.gif?
-.uk/t.gif?
 !
 ! dynaTrace Monitor
 !
