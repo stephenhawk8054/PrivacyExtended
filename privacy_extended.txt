@@ -216,6 +216,7 @@ m4ex.com##.plugin-counter
 blogterest.net##.blockSide > div.blockWrapper > div > div.ninja-recommend-block:upward(2)
 nukeruerodouga.com###main-right > div.right_area > div.ninja-recommend-block:upward(2)
 blog.jp,vipstyle.tokyo##.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
+russianbeauties.jp###secondary-column > div.text-recommend
 
 ! Tracking servers
 ! This section contains the list of third party tracking networks domains.
