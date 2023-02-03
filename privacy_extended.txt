@@ -2274,6 +2274,7 @@ nethunt.com/api/v1/track/email/$image
 ||hwa.his.huawei.com^
 ||hydrahydra.ir^
 ||i.bigin.io^
+||iad.anm.co.uk^
 ||ibeat.indiatimes.com^
 ||ichnaea-web.netflix.com^
 ||ichnaea.netflix.com^
