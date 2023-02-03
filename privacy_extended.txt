@@ -22702,3 +22702,5 @@ link.gmapp*.net$image
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141229
 @@||wipe.de/wa.js$domain=dasoertliche.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/141708
+@@||docs.telemetry.mozilla.org^$domain=docs.telemetry.mozilla.org
