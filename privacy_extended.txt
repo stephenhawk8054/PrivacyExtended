@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 31 Jan 2023 08:22 UTC
+! Last modified: Fri, 03 Feb 2023 07:26 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -18767,11 +18767,6 @@ charlestownwyllie.oaklawnnonantum.com^
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xhr,1p
 /cdn-cgi/bm/cv/*$script
 /cgi-bin/bm/cv/*$script
-!
-! dynaTrace Monitor
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/116388
-!
 ! YouTube
 ! https://github.com/easylist/easylist/issues/5297
 ! RD Station
@@ -18811,50 +18806,27 @@ charlestownwyllie.oaklawnnonantum.com^
 /check.php?t=*&rand=$image,1p
 /akamai/*/mediaanalytics/Mediaanalytics.min.js
 /wp-content/plugins/pb-ga-google-analytics/*$domain=~wordpress.org
-/DG/DEFAULT/cs?
-/wp-content/plugins/stat-analytics/*
-/wp-content/plugins/stat-dfp/*
-/activecampaign-subscription-forms/site_tracking.js
-/caos-analytics/*.js
 /dooanalytics/*$script
 /w_js.php|$script,1p
 /plugins/aurora-heatmap$stylesheet,script
 /pum/*/analytics/*
 /wp-content/plugins/google-analytics-premium/*
 /js/ad_insight/*
-.com/s.gif?
-/facebookPixel.
-/ajax/fdlogger/send
-/PhoenixGoogleAnalytics.min.js
 /.bootscripts/analytics.min.js
 /exactag_clientside.js
 /stats.php?*event=$image
-/google_tag/*$script
 /duracelltomi-google-tag-manager/*$script
-/Analytics/Tracking.js
 /pv?u=$image
 directtrack.*.js
 /trackjs.js
 /api/increment-pv$xhr
-/matomo.php?idsite=
 /watch.*.js?key=*&kw=*&refer=
-_analytics.js?
-/tracking/call.$script
-/static/js/analytics-helper.js
 /js/counter.js
 /bpix.bmp?b=
-/chicken.gif?z=
-/analytics-event-adapter.
 /alog.mobile.min.js
-.cn/b.gif?
-.com/b.gif?
-.jp/b.gif?
-/v.gif?t=
-.com/v.gif?
 /__Analytics-Start?url=
 /?mailoptin-ajax=track_optin_impression
 /collector.php?$~frame
-/matomo.php?action_name=
 /wp-content/plugins/wp-google-analytics-events/*
 /wp-content/cache/busting/google-tracking/*
 /rainbow/track
