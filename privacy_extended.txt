@@ -22701,6 +22701,6 @@ link.gmapp*.net$image
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141229
-@@||wipe.de/wa.js$domain=dasoertliche.de
+@@||wipe.de/wa.js$domain=dasoertliche.de|dastelefonbuch.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141708
 @@||docs.telemetry.mozilla.org^$domain=docs.telemetry.mozilla.org
