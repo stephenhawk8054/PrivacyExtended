@@ -2635,6 +2635,7 @@ nethunt.com/api/v1/track/email/$image
 ||stat.adultium.com^
 ||stat.alibaba.com^
 ||stat.alloha.tv^
+||stat.arzamas.academy^
 ||stat.botdetector.ru^
 ||stat.clickfrog.ru^
 ||stat.dealtime.com^
