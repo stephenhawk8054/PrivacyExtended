@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: Fri, 03 Feb 2023 07:26 UTC
+! Last modified: Fri, 04 Feb 2023 01:23 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -18829,46 +18829,31 @@ directtrack.*.js
 /?mailoptin-ajax=track_optin_impression
 /collector.php?$~frame
 /wp-content/plugins/wp-google-analytics-events/*
-/wp-content/cache/busting/google-tracking/*
 /rainbow/track
 /mip-stats-cnzz/*
 /flying-analytics/js/analytics.js
-/js/sync?visitor_id=
 /pixel/?block_id=*&hash=*&host=
 .demandbase.*.js
 /common/tracking/webtrekk
 /bbtstats/*
 /px.js?ch=
 /_CPiX/art
-/trackad.$3p
 /clarity-*.js
 /smartpixel.
 .cf/gif/impression?
-/CntRpt.aspx?hCase=
 /smarttag.js
-/smarttag-prod.js
-/smarttag_PROD.js
 .cloudfront.net/br?tid=
-/logger/p.gif?*d=/*
 /amplitude-*-min.gz.js
 /google-analytics.
-/2010/JS/AnalTrack.js^
 /wp-content/plugins/pageviews/pageviews.js
-/adrum.js^
 -asset-tag.
 -ajax.php?action=ajax-hits-counter-
 .amazonaws.com/thbeacon
-.com/a.gif?
-.com/c.gif?
-.com/cct?
-.com/i.gif?
-.de/pt.gif?type=
 .histats.*.js
 .hit.gemius.*.js
 .hit.gemius.*?
 .hit.stat24.
 .hit.ua/hit?
-.jp/c.gif?
 .jp/analyze/
 .jp/urchin.js
 .microsoft.*/broker.js$domain=~technet.microsoft.com
@@ -18876,7 +18861,6 @@ directtrack.*.js
 .microsoft.com/wupixel/
 .providesupport.com/cmd/*?ps_t=
 .tns-counter.ru/v13a
-/analysis/AccessLog?
 /b/ss/wdgdolad
 /beacon.php3?
 /beacon.php?
