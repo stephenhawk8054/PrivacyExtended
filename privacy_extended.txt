@@ -22677,3 +22677,5 @@ link.gmapp*.net$image
 @@||wipe.de/wa.js$domain=dasoertliche.de|dastelefonbuch.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141708
 @@||docs.telemetry.mozilla.org^$domain=docs.telemetry.mozilla.org
+! https://github.com/AdguardTeam/AdguardFilters/issues/141814
+@@||api-stg.ensonhaber.com/data/ilginizi-cekebilir.json$domain=ensonhaber.com
