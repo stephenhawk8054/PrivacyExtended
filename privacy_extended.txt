@@ -21882,6 +21882,9 @@ link.gmapp*.net$image
 ||tracker.citicsinfo.com^
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||web.snrbox.com/tck/$domain=komputronik.pl
+! jscrambler.com
+||jscrambler.com/bc.js
+||jscrambler.com/api/statistics
 ! uta-net.com
 ||uta-net.com/res/banner_count_js.php
 ||uta-net.com/res/getreco.php
