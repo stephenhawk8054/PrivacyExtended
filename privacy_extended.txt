@@ -219,6 +219,7 @@ pachinkopachisro.com,blog.livedoor.jp,blog.jp,vipstyle.tokyo#?#.plugin-memo > di
 !
 russianbeauties.jp###secondary-column > div.text-recommend
 norisoku.com###random
+diamond.jp###main-column > article > div.main-special
 
 ! Tracking servers
 ! This section contains the list of third party tracking networks domains.
