@@ -2324,6 +2324,7 @@ nethunt.com/api/v1/track/email/$image
 ||l.tamaliver.jp^
 ||l.tenkomori.tv^
 ||l.ti-da.net^
+||l.traxmag.com^
 ||l.www.naver.com^
 ||lb.secureweb24.net^
 ||lcs.modoo.at^
