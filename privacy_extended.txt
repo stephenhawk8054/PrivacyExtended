@@ -21822,6 +21822,7 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43140
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
+||160.16.86.134/rtools/*/r_counter.js
 ||adtonos.com/atr/*/px.gif
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||astar.bz/*/ping.gif
