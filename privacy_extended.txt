@@ -1308,6 +1308,7 @@ diamond.jp###main-column > article > div.main-special
 ||shakesea.com^$3p
 ||pocketsonic.com^$3p
 ||measlymiddle.com^
+||exchangedetail.com^
 !
 ! TikTok
 ||rtc-logger-va.tiktokv.com^
