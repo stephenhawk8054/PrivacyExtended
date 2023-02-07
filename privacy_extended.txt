@@ -2849,7 +2849,6 @@ nethunt.com/api/v1/track/email/$image
 ||track.cbs.com^
 ||track.clkfly.com^$all
 ||track.codepen.io^
-||track.collegehumor.com^
 ||track.datescan.info
 ||track.easeus.com^
 ||track.effiliation.com^
