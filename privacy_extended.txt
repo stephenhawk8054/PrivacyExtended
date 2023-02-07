@@ -2674,7 +2674,6 @@ nethunt.com/api/v1/track/email/$image
 ||stats.aplus.com^
 ||stats.articlesbase.com^
 ||stats.avg.com^
-||stats.aws.rubiconproject.com^
 ||stats.bbc.co.uk^
 ||stats.behance.net^
 ||stats.binki.es^
