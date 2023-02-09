@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: 07 Feb 2023 02:49 UTC
+! Last modified: 09 Feb 2023 06:02 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -18968,14 +18968,11 @@ _tracking.php?b=
 ||utopia.de/app/themes/utopiamain/assets/js/wecantrack.js
 ||a.utopia.de/a.gif
 dealdoktor.de##img[src*="//vg09.met.vgwort.de/"]
-||mapbox.com/www/scripts/analytics.js
 ||parfuemerie-platen.de/static/version*/frontend/Parfuemerie/BeautyAlliance/de_DE/Smile_ElasticsuiteTracker
-||cdn.shopify.com/shopifycloud/web-pixels-manager/
 ||serve.albacross.com/track.js
 ||infostart.hu/js/ga.js
 ||on.aws/tracking/event
 ||execute-api*.amazonaws.com/pixel-prod/
-||images.hepsiburada.net/*/web-vitals.*.js
 ||ingress.pressreader.com/services/track
 ||bundle.app/js/PushAnalyticsEvent.js
 ||webgozar.*/c.aspx*&t=counter
@@ -18989,12 +18986,10 @@ dealdoktor.de##img[src*="//vg09.met.vgwort.de/"]
 ||launchpad-wrapper.privacymanager.io/*/launchpad-liveramp.js
 ||laz-g-cdn.alicdn.com/lazada/dynamic-static-nopolyfill/*/daraz-marketing-tracker.js
 ||tv8.daioncdn.net/events?
-||elog.tokyo/counter_access.php
 ||cdn.privacy-mgmt.com/wrapper/metrics$important
 ||c2shb.pubgw.yahoo.com/admax/bid/partners/PBJS^
 ||mixnews.lv/wp-content/uploads/perfmatters/gtagv*.js
 ||akakce.com/*/clickHeat/
-||mail.google.com^*/flushimpressions?
 ||cdn.one.store/javascript/dist/1.0/jcr-widget.js$domain=hificentre.com
 ||lendingtree.com/path/api/track/
 ||api.tua.gov.tr/api/visitor_statistics
@@ -19009,7 +19004,6 @@ dealdoktor.de##img[src*="//vg09.met.vgwort.de/"]
 ||cpu-api.infor.pl/event
 /banalytics.js$domain=posta.com.tr|cnnturk.com|fanatik.com.tr|gazetevatan.com|kanald.com.tr|teve2.com.tr|milliyet.com.tr|hurriyet.com.tr
 ||brave.com/static-assets/js/analysis.js
-||archive.org/includes/analytics.js
 ||radiozet.pl/extension/stats/design/standard/javascript/Stats.js
 ||ncbi.nlm.nih.gov/*/pinger.js
 ||oracle.com/asset/web/analytics/ora_ocom.js
