@@ -21847,6 +21847,7 @@ link.gmapp*.net$image
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||so-zou.jp/js/ga.js
 ||static.iris.informa.com/widgets/*/iris-t.js
+||sve.online.sberbank.ru/metrics/partners
 ||tags.chip.de^
 ||tracker.citicsinfo.com^
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
@@ -21854,9 +21855,6 @@ link.gmapp*.net$image
 ! jscrambler.com
 ||jscrambler.com/bc.js
 ||jscrambler.com/api/statistics
-! sberbank.ru
-||sve.online.sberbank.ru/metrics/partners
-||visor.sberbank.ru/get
 ! uta-net.com
 ||uta-net.com/res/banner_count_js.php
 ||uta-net.com/res/getreco.php
