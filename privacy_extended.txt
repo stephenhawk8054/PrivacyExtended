@@ -21854,6 +21854,9 @@ link.gmapp*.net$image
 ! jscrambler.com
 ||jscrambler.com/bc.js
 ||jscrambler.com/api/statistics
+! sberbank.ru
+||sve.online.sberbank.ru/metrics/partners
+||visor.sberbank.ru/get
 ! uta-net.com
 ||uta-net.com/res/banner_count_js.php
 ||uta-net.com/res/getreco.php
