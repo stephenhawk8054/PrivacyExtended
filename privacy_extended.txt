@@ -19504,8 +19504,8 @@ kuruma-news.jp##.recommend-container
 ||apis.naver.com/mcollector/
 ||volts.shopping.naver.com/pv
 ||webrazzi.com/api/post/stats
-||skyscanner.com.tr/*/metrics/
-||skyscanner.com.tr/*/collector
+||skyscanner.*/*/metrics/
+||skyscanner.*/*/collector
 ||teltarif.de/ttt.go?$image
 ||teltarif.de/scripts/ttt.js
 ||2gis.*/_/metrics
