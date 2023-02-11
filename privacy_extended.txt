@@ -588,7 +588,6 @@ jin115.com#?#.plugin-memo > div.side > script[src*="ziyu.net/"]:upward(2)
 ||suite*.linximpulse.net^$3p
 ||shopback.net^$3p
 ||shopconvert.com.br^$3p
-||neemu.com^$3p
 ||prod-sb-appanalytics-us1.servicebus.windows.net^$3p
 ||mci1.co.kr^$3p
 ||nave.foone.com.br^$3p
