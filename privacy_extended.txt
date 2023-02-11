@@ -18738,6 +18738,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Clickunder tracking
 .com/?rb=$xhr
 ! Popular on Japanese sites
+/outLoging.js
+/outLoging2.js
 /acc/acctag.js
 /js/wherego_tracker.js?
 .jp/log.php?
