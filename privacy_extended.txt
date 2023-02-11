@@ -2352,7 +2352,6 @@ nethunt.com/api/v1/track/email/$image
 ||log.krs-ix.ru^
 ||log.newsbreak.jp^
 ||log.newsvine.com^
-||log.ohmynews.com^
 ||log.player.cntv.cn/stat.html?
 ||log.polarisoffice.com^
 ||log.radiko.jp^
@@ -21851,6 +21850,9 @@ link.gmapp*.net$image
 ! jscrambler.com
 ||jscrambler.com/bc.js
 ||jscrambler.com/api/statistics
+! ohmynews.com
+||ohmynews.com/NWS_Web/Common/JS/TagManage
+||ohmynews.com/NWS_Web/Common/JS/GoogleAnalytics
 ! uta-net.com
 ||uta-net.com/res/banner_count_js.php
 ||uta-net.com/res/getreco.php
