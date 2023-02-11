@@ -2360,6 +2360,7 @@ nethunt.com/api/v1/track/email/$image
 ||log.strm.yandex.ru^
 ||log.tbs.qq.com^
 ||log.tf.co.kr^
+||log.trackingio.com^
 ||log.vava.com^
 ||log.vdn.apps.cntv.cn^
 ||log.wat.tv^
