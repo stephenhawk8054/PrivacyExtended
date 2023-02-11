@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: 09 Feb 2023 06:02 UTC
+! Last modified: 11 Feb 2023 06:32 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19005,27 +19005,20 @@ dealdoktor.de##img[src*="//vg09.met.vgwort.de/"]
 ||ncbi.nlm.nih.gov/*/pinger.js
 ||oracle.com/asset/web/analytics/ora_ocom.js
 scarfilm.org##.footer-col-3
-||bandcamp.com/stat_record?
 ||bcbits.com/bundle/*/analytics-*.js
-||dxb.to/logger/
 ||parismatch.com/a/p_pm.js
 ||parismatch.com/build/outbrain-tag.*.js
 ||strato.de/faq/assets/js/errorlogging.js
-||strato.de/faq/assets/js/tracking.js
 ||cdn.roshy.tv/wp-content/uploads/perfmatters/gtagv*.js
 ||dygassets.dygdigital.com^
-||go.cdnjs.work/metrics.js
 ||static-immobilienscout24.de/web-metrics/
 ||bing.com/api/v1/mediation/tracking?
 ||sgqcvfjvr.onet.pl/build/dlApi/dl.clickmap.min.js
 ||sgqcvfjvr.onet.pl/build/dlApi/dl.aureus.min.js
 blog.livedoor.jp##a[href="http://analyzer.fc2.com"]
-||sfstatic.net/build/js/basicMetricsTracking.*.js
-||sfstatic.net/build/js/gaControlTracker.*.js
 ||statis.simeji.me/report/
 ||icecat.biz/stats/scripts/live-stats.js
 ||courir.*/beacon?
-||vyatka-grad.ru/wp-content/cache/*/amp-analytics-*.js
 ||ajax.pngtree.com/api/statistics/
 ||sdk.qvol.tv/static/assets/vendor/yandex_metrica.js
 j-cast.com###sp_j-cast_kiji_recommend_1
@@ -19041,9 +19034,7 @@ j-cast.com###cxRelatedEntry
 markezine.jp##.carouselBlock > li[id^="cx_"].c-headlineindex_listitem
 ||static.ex.co/cdn/content/monetization/pixel-sdk/
 ||cdn.nwl1.megaknihy.cz/tr.js
-||amazon.*/*/track_framework_metrics?
 ||vicodes.com/tag/load-*.js
-||arms-retcode-sg.aliyuncs.com/r.png?
 ||app.turbobiyt.net/js/analytics/index.js
 ||sp.vtex.com/event-api/
 ||mall.tv/bundles/analytics?
@@ -19051,7 +19042,6 @@ markezine.jp##.carouselBlock > li[id^="cx_"].c-headlineindex_listitem
 ||moe-online.ru/api/moe/stat/sendStat
 ||a.wa.autodesk.com/asp.js
 ||api*.ipify.org/?format=
-||data.qvc.com/cm?tid
 ciudad.com.ar###cxense-wrapper
 ||cdn-front.ciudad.com.ar/*/cxense-min.js
 ||hayatbilgileri.com/*/js/front.js
