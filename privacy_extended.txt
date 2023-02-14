@@ -2022,6 +2022,7 @@ nethunt.com/api/v1/track/email/$image
 ||curiosity-seven.vercel.app^
 ||customerevents.netflix.com^
 ||cwt.citywire.info^
+||d-collector.jennifersoft.com^
 ||d.adtriba.com^
 ||d.email.forbes.com^
 ||d.impactradius-event.com^
