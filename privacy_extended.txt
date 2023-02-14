@@ -22641,3 +22641,6 @@ link.gmapp*.net$image
 @@||scdn.cxense.com/cx.cce.js$domain=cdn.cxpublic.com
 @@||cdn.cxense.com/cx.js$domain=cdn.cxpublic.com
 @@||api.cxense.com/public/widget/$domain=cdn.cxpublic.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/142569
+@@||cm-widget.nakanohito.jp/cm/$script,stylesheet
+@@||cm-beacon.nakanohito.jp/cm/comment_$xmlhttprequest
