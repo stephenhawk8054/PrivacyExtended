@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: 11 Feb 2023 06:32 UTC
+! Last modified: 14 Feb 2023 02:58 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19049,31 +19049,20 @@ ciudad.com.ar###cxense-wrapper
 ||clarin.com/detail/googleAnalyticsAndGoogleTagManagerUtil.js
 ||jooble.org/spa-metrics
 ||varianty.lviv.ua/counter.php
-||coccoc.com/log?
 ||caras.uol.com.br/increase_counters.js
 ||change.org/*/collector
 ||change.org/api-proxy/*/event_tracker?
 ||hpe.com/global/metrics/
 ||hombex.com/assets/js/component/analytics.js
-||kiekkofani.com/wp-json/track-the-click/
-||etpweb.happymod.io/event/
 ||data.clickocean.io/actions/
-||saint.to/api/stats.php?ping=
-||akamaized.net/amp.gif?
-||go-go.tech/0c.gif?
 ||pstatic.net/adimg3.search/adpost/
 ||cope.es/stats/services/recordEvent
-||163.com/*/__utm.gif?
 ||maximum.ru/uploads/metrics.js
-||hub.npo-data.nl/tags/tag.min.js
 ||zn.ua/actions/profile/banners/stat
-||cdn.admeira.ch/prod/tagmanager/*/atm.js$domain=blick.ch
-||gopuff.com/api/v1/track/impression/
 ||courrierinternational.com/bucket/*/js/standalone/at-internet.js
 ||courrierinternational.com/dist/assets/js/standalone/smarthaltag-*.js
 ||player.sbs.co.kr/log/
 ||adservice.sbs.co.kr/NetInsight/event/
-||includemodal.global.ssl.fastly.net/sp.js
 ||calc.ru/js/metrics.js
 ||calc.ru/stat.php
 ||stats.publitas.com/publitas-stats/track
@@ -19081,20 +19070,14 @@ ciudad.com.ar###cxense-wrapper
 ||clinique.com.tr/sites/all/libraries/analytics/
 ||clinique.com.tr/sites/clinique/themes/cl_base/js/shared/analytics.min.js
 ||turkiyegazetesi.com.tr/item/hit?
-||rossmann.com.tr//checkout/analytics/
+||rossmann.com.tr/checkout/analytics/
 ||chil-chil.net/cpAdShow/
 ||medifonews.com/weblog/gtracker.js
-||renotifier.miniclippt.com/rntracking.js
 ||op.gg/api/dab/
-||cdn.gifs.com/scripts/analytics.min.js
 ||ipada.cafe.naver.com^$xhr
-||kookbang.dema.mil.kr/newspaper/js/nlogger.js
 ||redcdn.pl/file/*/web/tdbc/*/js/redgalaxy-tdbc-*.min.js
-||efukt.com/analytics-efukt.js
-||betteranime.net/js/ga-lite.min.js
 ||redditmedia.com/gtm/
 ||webapi.depop.com/*/collector
-||baotintuc.vn/scripts/log.js
 ||v20.cnnd.vn/index2.html
 ||dest.modestsunf.com/tag/corejs/ATMG*.js$domain=vtv.vn
 ||thisirussia.io/cdn-cgi/trace
@@ -19103,7 +19086,6 @@ ciudad.com.ar###cxense-wrapper
 ||digitaltrends.com/wp-content/themes/dt-stardust/assets/scripts/js/dt-gtm-events.min.js
 ||digitaltrends.com/wp-content/themes/dt-stardust/assets/scripts/js/dt-metrics.min.js
 ||api.edkt.io/analytics
-||amzgame.com/home/CreateAnalytics.js
 ||aveda.com.tr/sites/all/libraries/analytics/
 ||aveda.com.tr/sites/aveda/themes/aveda_base/js/shared/analytics.min.js
 ||diariodonordeste.verdesmares.com.br/static/assets/scripts/p_googletag.js
