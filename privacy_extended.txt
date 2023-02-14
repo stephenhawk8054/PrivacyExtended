@@ -21832,6 +21832,7 @@ link.gmapp*.net$image
 ||static.iris.informa.com/widgets/*/iris-t.js
 ||sve.online.sberbank.ru/metrics/partners
 ||tags.chip.de^
+||theguru.co.kr/weblog/gtracker.php
 ||tracker.citicsinfo.com^
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||web.snrbox.com/tck/$domain=komputronik.pl
