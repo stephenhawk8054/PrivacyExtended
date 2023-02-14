@@ -2574,6 +2574,7 @@ nethunt.com/api/v1/track/email/$image
 ||rtax.criteo.com^
 ||rtb.softcube.com^
 ||rubicon.wellsfargo.com^
+||s.dc-tag.jp^
 ||s.frida.vse42.ru^
 ||s.infogr.am^
 ||s.izrnvo.com^
