@@ -21790,6 +21790,7 @@ link.gmapp*.net$image
 ||cdn.pdst.fm/ping.min.js
 ||cdn.pranmcpkx.com^
 ||cdn.wgchrrammzv.com^
+||comcast.net/measurements/
 ||coralproject.net/assets/js/count.js
 ||cnobi.jp/*/recommend/
 ||collect.rtl.lu^
