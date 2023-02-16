@@ -985,6 +985,7 @@ zch-vip.com##.plugin-access
 ||contentexchange.me^$3p
 ||counter160.com^$3p
 ||countercity.de^$3p
+||cra.hum.works^
 ||creativecdn.com^$3p
 ||crowdskout.com^$3p
 ||cy-pr.com^$3p
