@@ -2336,6 +2336,7 @@ nethunt.com/api/v1/track/email/$image
 ||log-player.arte.tv^
 ||log-stats.weathercn.com^
 ||log.adap.tv^
+||log.affiliate.rakuten.co.jp^
 ||log.ajunews.com^
 ||log.api.zaloapp.com^
 ||log.appdriver.jp^
@@ -22632,3 +22633,5 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142569
 @@||cm-widget.nakanohito.jp/cm/$script,stylesheet
 @@||cm-beacon.nakanohito.jp/cm/comment_$xmlhttprequest
+! https://github.com/AdguardTeam/AdguardFilters/issues/142567
+@@||csm.cxpublic.com/nikkansports.js$domain=nikkansports.com,script
