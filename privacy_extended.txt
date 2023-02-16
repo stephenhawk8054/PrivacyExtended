@@ -22184,6 +22184,7 @@ link.gmapp*.net$image
 ||analytics.projectcarmen.com^
 ||monitoring-sdk.experimentation.intuit.com^
 ||analytics.prod.mybuddy.ai^
+||dualstack-logs.amap.com^
 ||logs.amap.com^
 ||edmanalytics.pandahall.com^
 ||applogs.pixelfederation.com^
