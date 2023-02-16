@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: 14 Feb 2023 02:58 UTC
+! Last modified: 16 Feb 2023 05:46 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19095,22 +19095,17 @@ ciudad.com.ar###cxense-wrapper
 ||diariodonordeste.verdesmares.com.br/static/assets/scripts/p_googletag.js
 ||clck.dzen.ru/click/$ping
 ||cp.hallo-eltern.de/stats
-||yastatic.net/*/rsya-tag-users/
-||lifenewsjr.com/xstat/
 ||api.solvvy.com/v1/pixels/track
 androplus.org##a[href^="https://px.a8.net/"]
-||statistics.aldi-international.com/ppms.js
 ||interesting-engineering.froomle.com/api/ie/events
 ||inzynieria.com/addStats
 ||alteregomedia.org/files/js/gtags.js
-||views.b1tv.ro/track.js
 ||r.dcs.redcdn.pl/*/tracking/atdsTracking.min.js
 ||views.playtech.ro/track.js
 ||wawel-service.pl/checkleadforvisitor
 ||jsuol.com.br/aud/
 ||s.deepl.com/*/statistics
 ||app.avada.io/scripttag/tracking/avada-track.min.js
-||clickiocdn.com/utr/$image
 ||baidu.com/*/track.gif?$image,redirect=1x1.gif
 ||chaynikam.info/php/*pagestat.phtml
 ||log.cognativex.com/pixel.
@@ -19119,7 +19114,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||interpark.com/logs/
 ||static.airbridge.io/sdk/
 ||gotcha-server.evo.run/log
-||serverside.antalyahomes.com/gtm.js
 ||coral.diks.fi/assets/js/count.js
 ||hktvmall.com/_ui/desktop/common/js/uiAnalytics/
 ||hktvmall.com/_ui/shared/common/js/InappCommunicationManager.js
@@ -19128,8 +19122,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||hktvmall.com/yuicombo|$script,1p
 ||w-api.baomoi.com/api/*/log/
 ||static.searchiq.co/t/pxl.gif
-||itsfoss.com/wp-content/plugins/lasso/admin/assets/js/lasso-ga.js
-||s.teknolojioku.com/assets/web/js/hitcounter.min.js
 ||kayak.co.kr/s/vestigo/*/measure^
 ||amd.sellingsimplified.net/wt/resource/js/track.js
 ||screensaversplanet.com/js/analytics.js
@@ -19138,19 +19130,13 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||yastatic.net/s*/milab/js/metrika-counter.js
 ||note.com/api/v*/trackings/
 /production/track$domain=note.com
-||neeva.com/logql/Log
-||s.yimg.com/av/yap/ga/yap.js
 ||hogangnono.com/api/*/activity-logs/collect
 ||hogangnono.com/collect?
-||ctv.by/sites/default/files/googleanalytics/analytics.js
 ||t*.daumcdn.net/midas/rt/dk_bt/roosevelt_dk_bt.js
-||iframe.iono.fm/tracking?
 ||suumo.jp/jj/jjcommon/js/send-beacon.js
 ||suumo.jp/jj/jjcommon/vos/
-||p.flipp.com/beacons
 ||secretcv.com/log/
 ||segodnya.ua/article/view/inc/*?counter_locale=
-||delivery.r2b2.cz/events.php?
 ||dtory.ebs.co.kr/wlo/Logging
 ||exilelink.com/impression/
 ||18comic.vip/templates/frontend/airav/js/td_js/td_ga_tracker.js
