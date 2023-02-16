@@ -216,6 +216,7 @@ russianbeauties.jp###secondary-column > div.text-recommend
 norisoku.com###random
 diamond.jp###main-column > article > div.main-special
 jin115.com#?#.plugin-memo > div.side > script[src*="ziyu.net/"]:upward(2)
+zch-vip.com##.plugin-access
 
 ! Tracking servers
 ! This section contains the list of third party tracking networks domains.
