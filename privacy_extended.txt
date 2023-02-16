@@ -21802,6 +21802,7 @@ link.gmapp*.net$image
 ||elpais.com.uy/google-analytics
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
 ||gitpod.io/api/collect-data
+||istoe.com.br/@nave/gateway/reply?navtrackdata=
 ||lecturas.com/Content/*/js/trackPopup.js
 ||list-manage.com/track/
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
