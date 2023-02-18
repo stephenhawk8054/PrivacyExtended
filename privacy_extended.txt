@@ -21974,6 +21974,7 @@ link.gmapp*.net$image
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||node.aibeacon.jp^
 ||metrics.plaid.com^
 ||mon*-platform-*.tiktokv.com^
 ||log*-applog-*.tiktokv.com^
