@@ -21692,8 +21692,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||videos.giga.de/*/tracking
 ||videostat.meta.ua^
 ||visualstudio.com/v*/track$3p
-||w.ahalogy.com/e?v=
-||w.ahalogy.com/widget/frame?&client=
 ||wdr.de/*/tracker/
 ||webmetrics.nintendo-europe.com^
 ||webstat.freaks4u.com^
