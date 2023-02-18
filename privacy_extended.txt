@@ -345,7 +345,6 @@ zch-vip.com##.plugin-access
 ||cdp.cloud.unity3d.com^
 ||sdk.51.la^$3p
 ||lightstep.medium.systems^
-||03c844c9-d265-4006-a39d-400e6cb40bb7.xyz^
 ||simplewebanalysis.com^$3p
 ||wait.re^
 ||analytics-script.ad-shield.io^
@@ -362,7 +361,6 @@ zch-vip.com##.plugin-access
 ||dynatrace-managed.com^
 ||cdn.reproio.com^
 ||init.blackcrow.ai^
-||1ee085aa-4c05-43a8-a4fe-fafedbedd062.xyz^
 ||track.swaptrap.live^
 ||triplewhale-pixel.web.app^
 ||wtvertnet.com^
