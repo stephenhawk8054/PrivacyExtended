@@ -22623,3 +22623,5 @@ link.gmapp*.net$image
 @@||cm-beacon.nakanohito.jp/cm/comment_$xmlhttprequest
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142567
 @@||csm.cxpublic.com/nikkansports.js$domain=nikkansports.com,script
+! https://github.com/AdguardTeam/AdguardFilters/issues/102126
+@@||wurfl.io/wurfl.js$domain=adshnk.com
