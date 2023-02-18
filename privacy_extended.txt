@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: 16 Feb 2023 05:46 UTC
+! Last modified: 18 Feb 2023 12:58 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19140,22 +19140,17 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||dtory.ebs.co.kr/wlo/Logging
 ||exilelink.com/impression/
 ||18comic.vip/templates/frontend/airav/js/td_js/td_ga_tracker.js
-||cdn.webeyo.com/ipinfo|
 ||was.livere.me/api/ad|
 ||trnox.com/ssp/ws/*/action/log?
 ||foursquare.com/*/collector/noScript.gif
 ||api.foursquare.com/*/logactions
 ||foursquare.com/*/logger
 ||foursquare.com/*/wtrack?event=
-||res.cdn.office.net/owamail/*/scripts/owa.Analytics.js
-||res.cdn.office.net/owamail/*/resources/analytics-ping.js
 ||wix.com/_api/wix-laboratory-server/laboratory/conductAllInScope
-||yaanimail.com/assets/js/facebook/pageview.js
 ||util.geeksforgeeks.org/post/api/usertracking
 ||developers.google.com/_d/analytics-iframe
 ||cdn-gl.nmrodam.com/conf/
 ||ardmediathek.de/tp/
-||cdn.threadloom.com/ga/
 ||1ps.ru/cdn-cgi/challenge-platform/
 ||skyscanner.com.br/*/collector
 ||sportskeeda.com/service-workers/helpers/google-analytics
@@ -19166,14 +19161,10 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||player.kwikmotion.com/packages/videojs-stat/
 ||assets.alicdn.com/g/alilog/aplus_plugin_xwj/index.js
 ||s.click.aliexpress.com/af_pixel.htm
-||onlyfans.com/*/stats-collect
-||raiplaysound.it/common/assets/js/theplayer/TheoPlayer/plugins/THEOplayerAkamaiSDK/THEOplayer_AkamaiMediaAnalytics.js
-||hsforms.com/*/counters.gif
 /statistik/statistik.js^$domain=koe-vip.com|enpopulersorular.com|immergruen.at|rwa.hu|bwsb.at|lagerhaus-gleinstaetten.at|landforst.at|sbl-mv.de|greencare-oe.at|wechselgau.at|rwa.at|lfi.at|tirol.lko.at|igwindkraft.at
 /lastpass.com(\/[\w\d-]{2,10}){6,10}\/[\w]{3,5}$/$script,xhr,domain=lastpass.com
 ||lastpass.com/assets/js/analyticsjs.js$script,redirect=google-analytics_analytics.js
 ||cdn.lmiutil.com/lpassets/contentsquare/
-||connect.facebook.net/*/fbds.js$3p
 ||js.zohocdn.com/salesiq/js/track_
 ||xsrv.jp/ga/
 ||super.cz/*/impress?
@@ -19185,7 +19176,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||super.cz/*/jquery?$image
 ||mozilla.org/media/js/firefox_new_pixel.
 ||bc.thestreet.com/DG/DEFAULT/rest/
-||audit.qiuwen.wiki/analytics.js
 ||tiebac.baidu.com/*/log/
 ||sopoe.cn/index.php/user/ajax_ulog/
 ||businessmirror.com.ph/wp-content/plugins/wp-analytify
