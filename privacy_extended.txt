@@ -21776,6 +21776,7 @@ link.gmapp*.net$image
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||astar.bz/*/ping.gif
 ||bing.com/fd/ls/
+||ccp.digitaltrends.com/scripts/cc-tracking.js
 ||cdn.panelbear.com/analytics.js
 ||cdn.pdst.fm/ping.min.js
 ||cdn.pranmcpkx.com^
