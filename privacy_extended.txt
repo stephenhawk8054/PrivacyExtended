@@ -1838,7 +1838,9 @@ nethunt.com/api/v1/track/email/$image
 ||b-aws.aol.com^
 ||b.aol.com^
 ||b.grvcdn.com^
+||b.karte.io^
 ||b.oix.net^
+||b0.yahoo.co.jp^
 ||bc.nhk.jp^
 ||bcd.esprit.de^
 ||bdg-analytics.appspot.com^
