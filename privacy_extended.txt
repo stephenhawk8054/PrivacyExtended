@@ -21794,6 +21794,7 @@ link.gmapp*.net$image
 ||list-manage.com/track/
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||m1tm.motor1.com/analytics.js
+||mediatrend.kr/aiDataScript.js
 ||piano.io/publisher/fusion/lucid/data/
 ||plug.it/iplug/js/lib/iol/analytics/
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
