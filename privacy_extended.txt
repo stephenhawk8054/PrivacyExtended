@@ -21780,6 +21780,7 @@ link.gmapp*.net$image
 ||psprices.com/staticfiles/build/frontend_psprices_js_analytics_ts.*.js
 ||r.bh.d.sendibt3.com/tr/
 ||s.sofoot.com^
+||safevisit.org/api/v*/c?$redirect=nooptext
 ||sbazar.cz/*/hit|$xhr
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||so-zou.jp/js/ga.js
