@@ -21794,6 +21794,7 @@ link.gmapp*.net$image
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||so-zou.jp/js/ga.js
 ||static.iris.informa.com/widgets/*/iris-t.js
+||surfsnow.jp/common/js/analytics_
 ||sve.online.sberbank.ru/metrics/partners
 ||tags.chip.de^
 ||theguru.co.kr/weblog/gtracker.php
