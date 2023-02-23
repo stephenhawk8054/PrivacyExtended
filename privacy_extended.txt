@@ -2118,6 +2118,7 @@ nethunt.com/api/v1/track/email/$image
 ||djibeacon.dowjoneson.com^
 ||djtflbt20bdde.cloudfront.net^
 ||dkhywqapojyk7.cloudfront.net^
+||dkotrack.com^
 ||dmc1acwvwny3.cloudfront.net^
 ||dmp.citiservi.es^
 ||dmtracking2.alibaba.com^
@@ -2477,6 +2478,7 @@ nethunt.com/api/v1/track/email/$image
 ||ns2.phorm.com^
 ||ns336739.ip-37-187-249.eu^
 ||odb.outbrain.com^
+||odtrtadl.com^
 ||ohcohz.stroeerdp.de^
 ||omapi.fangraphs.com^
 ||onclickpredictiv.com^
