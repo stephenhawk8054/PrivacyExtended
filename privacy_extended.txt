@@ -22623,3 +22623,7 @@ itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; 
 @@||wurfl.io/wurfl.js$domain=adshnk.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143029
 @@||mpsnare.iesnare.com/snare.js$domain=welcome.cryptothrills.io
+! https://github.com/AdguardTeam/AdguardFilters/issues/143511
+@@||cdn.personaclick.com^$domain=koctas.com.tr
+@@||api.personaclick.com/recommend/$domain=koctas.com.tr
+@@||api.personaclick.com/init$domain=koctas.com.tr
