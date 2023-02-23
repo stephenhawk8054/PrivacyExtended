@@ -2547,6 +2547,7 @@ nethunt.com/api/v1/track/email/$image
 ||ploz.mangadex.org^
 ||pp-serve.newsinc.com^
 ||prd-collector-anon-video.playbuzz.com^
+||predatasrv.com^
 ||presentationtracking.netflix.com^
 ||prod-collector.bigbasket.com^
 ||production-eqbc.lvp.llnw.net^
