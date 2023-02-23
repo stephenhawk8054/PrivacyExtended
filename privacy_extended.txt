@@ -21782,6 +21782,7 @@ link.gmapp*.net$image
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||m1tm.motor1.com/analytics.js
 ||mediatrend.kr/aiDataScript.js
+||mixi.net/static/js/build/mixi-analysis.production.js
 ||nikaraw.com/load_adb
 ||piano.io/publisher/fusion/lucid/data/
 ||plug.it/iplug/js/lib/iol/analytics/
