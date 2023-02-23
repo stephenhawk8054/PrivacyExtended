@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 1 days
-! Last modified: 22 Feb 2023 01:37 UTC
+! Last modified: 23 Feb 2023 08:40 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19233,14 +19233,12 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||kapi-office.yiche.com/apm_collect
 ||ga.yiche.com/autolog
 ||flux-cdn.com/*/analytics/
-||zimbio.com/beacon.gif?
 ||um.viuapi.io/loggingservice/
 ||toneden.io/*/analytics/
 ||bangkokpost.com/hits/*?t=
 ||androidauthority.com/track?u=
 ||yemeksepeti.com/*/xhr/api/*/collector
 ||yemeksepeti.com/*/xhr/b/s/beacon
-||honcierge.jp/pv?
 ||statistics.aldi-international.com/consent/collect
 ||api.reverso.net/stats/
 ||cdn.reverso.net/rumjs/
@@ -19250,23 +19248,18 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||cc.naver.com/cc$other,ping
 ||api.eduki.com/*/track
 ||computerbase.de/nlytcs
-||seesaa.net/common/track.gif^
 ||blogroll.livedoor.net/img/blank.gif?
 ||community.checkpoint.com/beacon/$image
 ||click.mail.disneyplus.com/open.aspx
 ||samsungtechwin.com/*.gif?orig=
 ||samsungtechwin.com/*.gif?e=
-||marche.onward.co.jp/*/sys/top_adobe_analytics.js
 ||nelo2-col.navercorp.com^$domain=~map.naver.com
-||rs.mail.ru^$domain=~account.mail.ru
 ||click.aliexpress.com^$image,script
 ||dw.cbsi.com^$domain=~cbsi.com
 ||geo.query.yahoo.com^$domain=~mail.yahoo.com
 ||tgrthaber.com.tr/item/hit?item_id=
-||api.livestory.io/*/collect
 ||unileversolutions.com/*/js/trackUser.
 ||eapi.pcloud.com/loganalyticsevent
-/facebook_fbevents.js$domain=femistories.com|chrum.com|deezee.eu
 /facebook_sdk_$domain=femistories.com|chrum.com|deezee.eu
 ||cdn.jsdelivr.net/gh/unib0ts/
 ||secure.booking.com/email_opened_tracking_pixel
@@ -19277,7 +19270,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||twivideo.net/templates/ajax_link_click.php
 ||zenmatefeedback.typeform.com/forms/*/insights/events/
 ||express.co.uk/analytics.config.json
-||s.kk-resources.com/leadtag.js
 ||media.flixcar.com/delivery/js/hotspot/
 ||api.teester.com/data/collect
 ||ucankus.com/inc/hhit.asp
