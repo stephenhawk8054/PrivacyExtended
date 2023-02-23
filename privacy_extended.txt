@@ -2786,6 +2786,7 @@ nethunt.com/api/v1/track/email/$image
 ||ta.trs.cn^
 ||tag.datariver.ru^
 ||tag.escalated.io^
+||tag.nifty.com^
 ||tags.bluekai.com^
 ||targeting.tbt.arcpublishing.com^
 ||tc-log.mattel163.com^
@@ -2914,6 +2915,7 @@ nethunt.com/api/v1/track/email/$image
 ||tracker.joongang.co.kr^
 ||tracker.joost.com^
 ||tracker.lolalytics.com^
+||tracker.kantan-access.com^
 ||tracker.mattel.com^
 ||tracker.neon-images.com^
 ||tracker.pinnaclesports.com^
