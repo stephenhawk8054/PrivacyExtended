@@ -2821,6 +2821,7 @@ nethunt.com/api/v1/track/email/$image
 ||top100-images.rambler.ru^
 ||top100.rambler.ru^
 ||top100.vkirove.ru^
+||torimochi.line-apps.com^$image,redirect=1x1.gif
 ||tpa7.iahorro.com^
 ||tr.datanyze.com^
 ||tr.ds.kakao.com^
