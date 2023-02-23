@@ -21952,6 +21952,12 @@ link.gmapp*.net$image
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||beacon-api.aliyuncs.com^
+||adash.man.aliyuncs.com^
+||woodpecker.uc.cn^
+||adashx4ae.ut.taobao.com^
+||audid-api.taobao.com^
+||analytics.ff.avast.com^
 ||node.aibeacon.jp^
 ||metrics.plaid.com^
 ||mon*-platform-*.tiktokv.com^
@@ -22389,7 +22395,7 @@ link.gmapp*.net$image
 ||4seeresults.com^
 ||abcd.mdc.akamaized.net/materials/index/?country=
 ||ad-analytics-bootstrap.metaps.com^
-||adash.m.taobao.com/rest/sur?ak=
+||adash.m.taobao.com^
 ||adfuture.cn^
 ||adserver.snapads.com^
 ||adsunflower.com^
