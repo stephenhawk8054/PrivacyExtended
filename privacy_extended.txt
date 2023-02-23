@@ -22636,3 +22636,5 @@ itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; 
 @@||cdn.personaclick.com^$domain=koctas.com.tr
 @@||api.personaclick.com/recommend/$domain=koctas.com.tr
 @@||api.personaclick.com/init$domain=koctas.com.tr
+! https://github.com/AdguardTeam/AdguardFilters/issues/143586
+reverso.net##+js(set, rumjs.business.setManualConsent, noopFunc)
