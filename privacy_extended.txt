@@ -929,6 +929,7 @@ samuraisoccer.doorblog.jp##.plugin-l-t:last-child
 ||72.172.88.25^$3p
 ||74.55.82.102^$3p
 ||79.125.117.123^$3p
+||1800cnt.com^$3p
 ||99click.com^$3p
 ||actonsoftware.com^$domain=~actonsoftware.com
 ||adchemix.com^$3p
