@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
-! Expires: 1 days
-! Last modified: 23 Feb 2023 08:40 UTC
+! Expires: 12 hours
+! Last modified: 25 Feb 2023 10:20 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19288,21 +19288,16 @@ cienradios.com##article[class^="cXense-"]
 ||karelcapek.co.jp/Scripts/tracker.js
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js
 ||academia.edu/v0/pv?
-||coocha.co.kr/static/js/common/tracker.js
-||coocha.co.kr/assets/js/tracking.js
 ||coocha.co.kr/log/
 ||recobell.io/rest/logs
 ||tintup.com/app/dist/tintAnalyticsProxy-bundle.js
-||d26b395fwzu5fz.cloudfront.net/keen-tracking-*.min.js
 park.ajinomoto.co.jp##.bottomMenu
 ||theurbanlist.com/assets/dist/autotrack.*.js
 ||static1.dmcdn.net/playerv5/dmp.pes_pip_tracking.*.js
 ||go.mgdjmp.com/eye.gif
 ||go.xhamster*.*/eye.gif
-||androidpolice.com/pixel.png?
 ||customfingerprints.bablosoft.com/clientsafe.js
 ||cdn.melhorplano.net/scripts/tracker/mpt.min.js
-||p.brid.tv/player/build/plugins/googleanalytics/
 ||retently.com/api/remote/tracking/
 ||web-g-p.com/info/js/cookie.js
 ||web-g-p.com/info/log/
