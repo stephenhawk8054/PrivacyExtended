@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 25 Feb 2023 10:20 UTC
+! Last modified: 26 Feb 2023 09:50 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19318,30 +19318,21 @@ augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
 ||vnecdn.net/*/?action=
 ||kenga.tech/heatmaps-
 ||startpage.com/sp/cl|
-||b.travel-assets.com/travel-pixel-js/
-||xc3.services.livejournal.com/ljcounter/
 ||imsdb.pw/cdn-cgi/trace
 ||imsdb.pw/player/ip.php
 ||boostog.net/visitor/
-||viously.com/*/mt?
 weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noopjs,domain=bilibili.com,important
 ||services.tvn.pl/maertsg.js
 ||services.tvn.pl/gstream.js
 ||services.tvn.pl/gemiuslib.js
 ||services.tvn.pl/fpdata.js
-||s3-sa-east-1.amazonaws.com/analytics-gjc/analytics-gjc-min.js
 ||liveux.netcentric.biz/collector
 ||analytics.chita.ru^
 ||websiteplanet.com/wp-content/themes/websiteplanet/js/header-footer.js
-||cheaptickets.com/cl/2x2.gif?
 ||portalcms.bm5.pl/Stat/statystyki.aspx
-||ebookers.com/cl/2x2.gif?
-||wotif.com/cl/2x2.gif?
-||buondua.com/hit/?
 ||hentai.name/js/track.js
 ||demo.zeenews.com/ads/counter.php
-||ws.zoominfo.com/pixel/
 ||b2b.ainews.kz/script/v*/ainews-click.js
 ||rokt.com/v1/events^
 ||rokt.com/v2/metrics^
@@ -19349,7 +19340,6 @@ weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 ||inform.kz/lenta*/count?
 ||fin.rainbownine.net/js/across_adn_
 ||wct-1.com/wct.js
-||bpt.webedia-group.com/pixel.png?
 ||blog.count.ly/_/batch
 ||cdn.jsdelivr.net/countly-sdk-web/
 ||xaas3.jp/tracking/$3p
@@ -19357,27 +19347,20 @@ weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 ||info.biz.nuro.jp/analytics?
 ||bo.kodflix.com/statsclick.php
 ||twitter.com/1.1/jot/client_event.json
-||cdn.attn.tv/*/dtag.js
 ||google.*/maps/*/log
 /\/js\/[a-z]{3}\d\.js$/$script,1p,domain=eegg.fun
 ||s-cdn.phonearena.com/js/ops/taina.js
 ||static.narrativ.com/tags/narrativ-pub.
 ||widgets.entireweb.com/pixel-track/
-.awstrack.me^$image
 /access.html$domain=2jigiri.net|pig109.net
 ||apis.naver.com/livecloud/livecloud/quantum/p2p/*/client/stat
 ||redditmedia.com/gtm?id=
 ||search-api.joongna.com/v*/ga/log|
-||click.email.trendyol.com/open.aspx?$image
-||msgrt.gamedistribution.com/collect^
 ||m.facebook.com/ajax/weblite_load_logging/
 ||m.facebook.com/ajax/weblite_resources_timing_logging/
-||search.yahoo.com/beacon
 ||app.simplelogin.io/static/js/an.js
-||gadasource.storage.googleapis.com/ivc.js
 ||rhea-cache.advividnetwork.com/tracker/
 ||askanydifference.com/beardeddragon/gilamonster.js
-||expedia.com/api/uisprime/track
 ||expedia.com/taps/v1/Impr?
 ||hitfm.ru/*yandex-metrika.js
 ||hitfm.ru/uploads/vk-pixel.js
