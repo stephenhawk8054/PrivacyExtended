@@ -1923,6 +1923,7 @@ nethunt.com/api/v1/track/email/$image
 ||clicks.wawlabs.com^
 ||clickstream.cresendo.net^
 ||client-event-reporter.twitch.tv^
+||client-telemetry.roblox.com^
 ||clientlog.midomi.com^
 ||clientlogger-prod.elasticbeanstalk.com^
 ||clk.about.com^
