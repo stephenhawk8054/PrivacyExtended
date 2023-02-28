@@ -22614,3 +22614,5 @@ itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; 
 @@||api.personaclick.com/init$domain=koctas.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143586
 reverso.net##+js(set, rumjs.business.setManualConsent, noopFunc)
+! https://github.com/AdguardTeam/AdguardFilters/issues/143218
+@@||openfpcdn.io/fingerprintjs/v3|$domain=imgcreator.zmo.ai
