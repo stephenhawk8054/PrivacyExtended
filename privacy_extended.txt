@@ -21778,6 +21778,7 @@ link.gmapp*.net$image
 ||tracker.citicsinfo.com^
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||web.snrbox.com/tck/$domain=komputronik.pl
+||windowspro.de/stats/mto.js
 ! jscrambler.com
 ||jscrambler.com/bc.js
 ||jscrambler.com/api/statistics
