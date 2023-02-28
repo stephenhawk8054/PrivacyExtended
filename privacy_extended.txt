@@ -1517,7 +1517,7 @@ nethunt.com/api/v1/track/email/$image
 ||cl.t3n.de^
 ||st.bitban.com^
 ||in.unext.jp^
-||sp*.baidu.com^
+||sp0.baidu.com^
 ||analytics.map.qq.com^
 ||trace.51jingying.com^
 ||ss.webdock.io^
@@ -20335,7 +20335,6 @@ ctvnews.ca##img[alt="comscorebeacon"]
 ||analdin.com/de/player/html.php
 ||baidu.com/xzhstatistics^
 ||etl-xlmc-ssl.xunlei.com/api/stat^
-||sp0.baidu.com*/s.gif?l=$3p
 ||static.metro.co.uk/rta2/
 ||metro.co.uk/wp-content/themes/metro-parent/dist/components/measurement.min.js
 ||wblt.oui.sncf/prod/*/vsca.js
