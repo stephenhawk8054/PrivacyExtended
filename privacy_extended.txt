@@ -18791,6 +18791,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Plausible
 ||plausible.io/api/event
 !
+.live/o.js
 /senddata?site=inpage
 /sensorsdata.min.js
 ://vip.*/?pge=$image,3p
