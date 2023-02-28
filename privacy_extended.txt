@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 26 Feb 2023 09:50 UTC
+! Last modified: 28 Feb 2023 04:47 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19368,27 +19368,20 @@ weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 ||expedia.com/taps/v1/Impr?
 ||hitfm.ru/*yandex-metrika.js
 ||hitfm.ru/uploads/vk-pixel.js
-||next.rikunabi.com/rnc/contents/pub/common/js/I2A.js
 ||dinos.co.jp/js/common/load-tagmanagers.js
 ||dinos.co.jp/js/common/load-fluct.js
 ||capterra.com/*/collector
 ||capterra.com/*/b/s|
 ||delamer.jp/sites/cremedelamer2/themes/cremedelamer2_base/js/shared/analytics.js
-||webanalytics.europa.eu/ppms.js
 ||utsgw.gmarket.co.kr/vi/send
-||daxab.com/cdn-cgi/beacon/
 bizjournals.com##.c1-ad-sticky
 chinatimes.com##.popin-recommend
 ||static.sahibinden.com/assets/analytics*.js
 ||prtimes.jp/common/*/html/js/heatmap-senddata.js
 ||prtimes.jp/common/js/GTMhead.js
-||prtimes.jp/common/js/googleana.js
-||js.hubspot.com/analytics/
 ||cdn.cubki.jp/shopping_tracker.js
 ||checkoutshopper-live.adyen.com/checkoutshopper/*/analytics
 ||petco.com/track-production/analytics.js
-||publisher-assets.spot.im/ad/event-tracking/$xhr,redirect=noopjs
-||ace-sync.toast.com/sendid?sid=*&uid=
 ||search.tmon.co.kr/api/direct/*/searchstatapi/api/search/count/click/
 ||cdn.adrise.tv/*/appboy.min.js
 ||cdn.adrise.tv/*/sentry/
@@ -19397,26 +19390,17 @@ chinatimes.com##.popin-recommend
 ||dist.micres.cyberowl.jp/packs/link-tracker.js
 ||show.revico.jp/providejs/tagmanager.js
 ||ddla593ymz72o.cloudfront.net^
-||mail.yahoo.com/px.gif?
-||mail.yahoo.com/comscore_beacon/
-||s.yimg.com/cx/pv/perf-vitals_
-||mail.yahoo.com/d/log?count=
 ||udc.yahoo.com/*/yql?
 ||infusionsoft.app/app/webTracking/
 ||cdn.lr-in.com/logger-1.min.js
 ||cdn.lr-in.com/LogRocket.min.js
 ||popularwidget.com/tracker/
 ||share.9cdn.net/share/long_cache/js/tracking/
-||cdnweb.avansas.com/_ui/shared/js/analyticsmediator.js
 ||visumo.jp/Content/js/tracking.js
 ||services.wiseadvice.ru/tracker/js/*/wa.min.js
 ||n.tooplay.com/s?v_unique=
 hobbylog.jp##.pbancut
 ||xserver.ne.jp/analytics?
-||cdn1.edgedatg.com/aws/apps/datg/web-js-telemetry-service/*/production/js/datgts.js
-||cdn1.edgedatg.com/aws/abc/scripts/adobe-analytics2.js
-||apnews.com/newrelic/newrelic.browser.prod.js
-||commerce.adobedc.net/collector^$3p
 ||youtube.com/api/stats/atr?
 ||nakanune.ru/count/img.php
 kuruma-news.jp##.recommend-container
