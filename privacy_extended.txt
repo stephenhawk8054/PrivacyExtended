@@ -21755,6 +21755,7 @@ link.gmapp*.net$image
 ||piano.io/publisher/fusion/lucid/data/
 ||plug.it/iplug/js/lib/iol/analytics/
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
+||print24.com/api/*/analytics/
 ||psprices.com/staticfiles/build/frontend_psprices_js_analytics_ts.*.js
 ||psr.staticbg.com/rum/monitor.min.js
 ||r.bh.d.sendibt3.com/tr/
