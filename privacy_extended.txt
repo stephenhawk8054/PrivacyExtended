@@ -21931,6 +21931,7 @@ link.gmapp*.net$image
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||logger.growstarry.com^
 ||beacon-api.aliyuncs.com^
 ||adash.man.aliyuncs.com^
 ||woodpecker.uc.cn^
