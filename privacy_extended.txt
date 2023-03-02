@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 28 Feb 2023 04:47 UTC
+! Last modified: 02 Feb 2023 02:28 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19418,22 +19418,17 @@ kuruma-news.jp##.recommend-container
 ||teltarif.de/scripts/ttt.js
 ||2gis.*/_/metrics
 dumskaya.net,da-te.jp##.counter
-||pageinfo-k8s.motorsport.com/stat/
-||gihosoft.com/wp-content/themes/gihosoft/js/gatrack.js
-||rd.yna.co.kr/global/js/yna_stat.js
 ||ouscous.acs.wecandeo.io/*/api/video*?data=
 ||derstandard.*/qy/zonck
 ||gets.faz.net/z.aspx
 ||quotiq.ru/api/client_events
 ||tbs.co.jp/js/gaaddons/
-||postguam.com/shared-content/art/stats/common/tracker.js
 ||pix2.services.tvn.pl^
 finders.me##.__popin
 finders.me##.__recommendedPosts
 ||ozone.ru/graphics/client-metrics/
 ||wsknow.net/jssdk/track/
-||wizcase.com/jssdk//track/
-||gaddet.com/*/event-tracking.js
+||wizcase.com/jssdk/track/
 ||cnet.com/ext/make/ingest/v*/t|
 ||static.teimg.com/analytics.js
 ||ucuzabilet.com/ajax/referrerAnalytics
@@ -19442,9 +19437,7 @@ finders.me##.__recommendedPosts
 ||agronews.com/js/tagmanager
 agronews.com##a[alt="Яндекс.Метрика"]
 ||cheerup.jp/js/analytics_
-||spice.eplus.jp^*/track.gif
 ||api.clerk.io/v*/log/
-||cdn.clerk.io/clerk.js
 ||compress-or-die.com/hokuspokus
 ||vid*/stats/event
 ||tpucdn.com/js/ga-*.js
@@ -19452,14 +19445,12 @@ agronews.com##a[alt="Яндекс.Метрика"]
 ||metric.cryptofans.asia/scripts/track_conversion.js
 ||purr.nytimes.com/*/purr-cache
 ||nytimes.com/ads/parakeet.min.js
-||d1rv23qj5kas56.cloudfront.net/js/lib/keen-tracker.min.js
 ||ocnk.net/include/access.php
 ||conectiva.io/XEngine/extensions/visitor/visitor.js
 ||cdn.awsli.com.br/production/static/analytics/owa.min.js
 ||api.rbsmi.ru/site/*/counter/
 ||estar.jp/access?status=
 ||linkinprofile.com/api/v1/raw_page_view_stats
-||kotaku.com/api/kala/t/event.js?
 ||idat.production.ippen.space/idat
 ||imfernsehen.de/z/z.inc.php
 ||api.blockchain.info/events/tracking/consent
