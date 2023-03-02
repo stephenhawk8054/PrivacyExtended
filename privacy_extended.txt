@@ -21785,6 +21785,9 @@ link.gmapp*.net$image
 ! webtekno.com
 ||webtekno.com/ajax-ping
 ||webtekno.com/ajax/ometric
+! Regex
+! https://github.com/AdguardTeam/AdguardFilters/issues/143862
+/^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 !
 ! Domain specific
 ! NOTE: Cookies specific
