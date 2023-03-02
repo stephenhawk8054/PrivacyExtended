@@ -21737,6 +21737,7 @@ link.gmapp*.net$image
 ||collect.rtl.lu^
 ||cs.pikabu.ru/apps/*/analytics.js
 ||diarioregistrado.com/api/*/analytics
+||ebs.co.kr/js/weblogs/nethru/wlo.js
 ||elpais.com.uy/google-analytics
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
 ||gitpod.io/api/collect-data
