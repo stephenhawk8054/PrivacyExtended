@@ -2608,6 +2608,7 @@ nethunt.com/api/v1/track/email/$image
 ||segments.adap.tv^
 ||sentry01.zerg.rambler.ru^
 ||services.wetek.com^
+||sgtm.fashionunited.
 ||shtrack.kingsoft.jp^
 ||siteintercept*.qualtrics.com^
 ||sl-h-statistics-ch-1.storeland.ru^
