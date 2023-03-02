@@ -2399,6 +2399,7 @@ nethunt.com/api/v1/track/email/$image
 ||ls.srvcs.tumblr.com^
 ||lt*.tritondigital.com^
 ||lynn.zgsemi.cn^
+||kaan.kakao.com^
 ||m.adtiming.com^
 ||m.czbiw.com^
 ||m.dubcm.com^
