@@ -22612,3 +22612,7 @@ itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; 
 reverso.net##+js(set, rumjs.business.setManualConsent, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143218
 @@||openfpcdn.io/fingerprintjs/v3|$domain=imgcreator.zmo.ai
+! https://github.com/AdguardTeam/AdguardFilters/issues/144390
+@@||cloudfront.net/frosmo.easy.js$script,domain=karkkainen.com
+@@||frosmo.com/messageApi$xhr,domain=karkkainen.com
+@@||frosmo.com/recoApi/v2$xhr,domain=karkkainen.com
