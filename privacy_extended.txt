@@ -21740,6 +21740,7 @@ link.gmapp*.net$image
 ||list-manage.com/track/
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||m1tm.motor1.com/analytics.js
+||mark.isbank.com.tr/cdn/automation.js
 ||mediatrend.kr/aiDataScript.js
 ||mixi.net/static/js/build/mixi-analysis.production.js
 ||mparticle.weather.com/webevents/
