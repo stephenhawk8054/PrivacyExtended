@@ -19158,7 +19158,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||suumo.jp/jj/jjcommon/vos/
 ||secretcv.com/log/
 ||segodnya.ua/article/view/inc/*?counter_locale=
-||dtory.ebs.co.kr/wlo/Logging
 ||exilelink.com/impression/
 ||18comic.vip/templates/frontend/airav/js/td_js/td_ga_tracker.js
 ||was.livere.me/api/ad|
@@ -19572,7 +19571,6 @@ news.biglobe.ne.jp##div[style="min-height: 610px"]
 ||webapp-middleware.21buttons.com/event_log/
 ||dailymail.co.uk/geo/edgedata.html
 ||cm.bilibili.com/cm/api/$xhr
-||feeds.ibt.com/track.gif
 ||paypalobjects.com/web/res/*/js/summary-analytics.js
 ||123recht.de/include/menu/header-stats.asp
 ||carfixer.co.kr/log/
@@ -19875,7 +19873,6 @@ sports.goo.ne.jp###taboola-below-sokuho-thumbnails
 ||locondo.jp/*/analysis/tracker.js
 ||wazzup.me/libs/track.js
 ||imstream.jp/analytics/js/
-||5-fifth.com/assets/js/pc/analytics.js
 ||stbbs.afreecatv.com/api/*_log.php
 ||wataugademocrat.com/shared-content/art/stats/common/tracker.js
 ||shutto.com/images/pv_beacon.gif
@@ -20119,7 +20116,6 @@ the-ans.jp##.side-reccomend
 ||api-cf.affirm.com/api/v*/session/touch_track
 ||101.ru/api/counters/
 ||d21gpk1vhmjuf5.cloudfront.net/unbxdAnalytics.js
-||express.co.uk/analytics.config.json.php
 ||tiava.com/js/analytics
 ||fuq.com/js/analytics
 ||cdn.jsdelivr.net/npm/perfops-rom$domain=kropic.com|opensubtitles.org
@@ -20185,7 +20181,6 @@ koneta.nifty.com###custom_html-2
 ||i.milliyet.com.tr/D/j/Molatik/GoogleAnalit.js
 .co/gc?id=$domain=nzma.org.nz
 /kukulufinger2.js$domain=erinn.biz|kuku.lu
-||pages.*/Script/pageTracking.js
 ||static-lvlt.xhcdn.com/js/track.min.js
 ||source.mmi.bemobile.ua/cm/
 vulture.com##div[data-uri="www.vulture.com/_components/clay-space/instances/taboola@published"]
@@ -20572,7 +20567,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||01net.com/e3/nrtv/?u=
 ||cdn.daenischesbettenlager.de/analytics.js
 ||salesreps.io/shopify.js^$3p
-||cdn.feeds.ibt.com/track.gif^
 ||scripts.hepsiburada.net/assets/analytics/analytics.*.js
 ||airbnb.*/tracking/
 ||googleadservices.com/pagead/conversion_async.js
@@ -20585,7 +20579,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||histats.com^$domain=avgle.com
 ||google-analytics.com^$domain=avgle.com
 ||business-key.com/top/$3p
-||businessinsider.com/track.gif
 ||bs.yandex.ru/informer/$3p
 ||bloombergbusiness.com/horizon/track
 ||biysk.info/cgi-bin/click$3p
@@ -20854,7 +20847,6 @@ msn.com##.trc_related_container
 ||shazoo.ru/ping|
 ||shazoo.ru/pixel/
 ||wix.com/_api/blog-social-counters/
-||data.reactandshare.com/track.gif
 ||merlininkazani.com/sayac
 ||ip-whois.net/img_ip*.php$3p
 ||4pna.com/clientscript/kr_scripts/rbs_scripts/rbs_banner_sender.min.js
@@ -20990,7 +20982,6 @@ utorrent.games,borfilm.com,hronika.info##.count
 ||vidmoly.me/suba.php
 ||vidmoly.me/log.php
 ||vidmoly.me/dl.php
-||pages.e.newsdigitalmedia.com.au/Script/pageTracking.js
 ||sa.sayaclar.com/c/s*.php?$3p
 ||faz.net/placingservice/count
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js
