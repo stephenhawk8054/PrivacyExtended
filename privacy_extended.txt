@@ -21142,7 +21142,6 @@ drive2.ru,drive2.com##.js-scrolltracking[data-adkind="relap"]
 ||log.prezi.com^
 thehill.com###block-thehill-blocks-amp-outbrain
 ||cstream.wi-fi.ru/csc-event$domain=wi-fi.ru
-||gj.applog.uc.cn/collect^
 ||gjapplog.uc.cn/collect^
 ||hqq.tv/js/gcounter.js
 ||hqq.tv/js/amung_counter.js
@@ -22443,7 +22442,6 @@ link.gmapp*.net$image
 ||online-metrix.net^
 ||openstat.net^
 ||ping.xlmc.sandai.net^
-||pingma.qq.com/mstat/
 ||pingma.qq.com^
 ||play.googleapis.com/log|
 ||play.googleapis.com/play/log^
@@ -22482,7 +22480,6 @@ link.gmapp*.net$image
 ||yikyakapi.net/api/logEvent?
 ||ymtracking.com^
 ! UC Browser
-||alog.umeng.co/app_logs^
 ||localytics.com^
 ||upoll.umengcloud.com^
 ||utop.umengcloud.com^
