@@ -19865,8 +19865,6 @@ seshop.com,shoeisha.co.jp###cceol
 ||creema.jp/ad/click-log
 ||creema.jp/ad/impression-log
 ||www.google.*/velog/
-||creema.jp/ad/click-log
-||creema.jp/ad/impression-log
 ||data.gov.in/ogdp-stats-
 ||xn--pckua2a7gp15o89zb.com/api/tracking.js
 ||indeed.com/indeedapply/tracking/
@@ -22067,8 +22065,6 @@ link.gmapp*.net$image
 ||alogsus.umeng.com^
 ||log1.happymod.com^
 ||log.pvpgang.com^
-||adash.man.aliyuncs.com^
-||beacon-api.aliyuncs.com^
 ||crs-event.line.me^
 ||crs-hometab-event.line.me^
 ||tr.gunosy.com^
@@ -22150,7 +22146,6 @@ link.gmapp*.net$image
 ||pingtas.qq.com^
 ||alogus.umeng.com^
 ||errlogos.umeng.com^
-||datacollector-*.dt.hicloud.com^
 ||tenant-content.apm.appfolio-analytics.com^
 ||log.avlyun.com^
 ||api-analytics.prod.birdapp.com^
@@ -22344,7 +22339,6 @@ link.gmapp*.net$image
 ||uc.ucweb.com^
 ||puds.ucweb.com^
 ||patriot.cs.pp.cn^
-||amdc.m.taobao.com^
 ||sdk-orion.appboy.com^
 ||api.elysium.opera.com/api/elysium/log_session_events
 ||api.elysium.opera.com/api/elysium/log_session_info
@@ -22376,7 +22370,6 @@ link.gmapp*.net$image
 ||stats.umsns.com^
 ||device-metrics-*.amazon.com^
 ||flurry.agentportal.*.yahoodns.net^
-||analytics.rayjump.com^
 ||iapp-cp.nuggad.net^
 ||4seeresults.com^
 ||abcd.mdc.akamaized.net/materials/index/?country=
@@ -22388,7 +22381,6 @@ link.gmapp*.net$image
 ||advmob.cn^
 ||alog.umeng.com^
 ||alog.umengcloud.com^
-||analytics-server.gimbal.com^
 ||analytics.ad.daum.net^
 ||analytics.liftoff.io^
 ||analytics.query.yahoo.com^
