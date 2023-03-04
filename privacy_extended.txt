@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 02 Feb 2023 02:28 UTC
+! Last modified: 04 Feb 2023 06:36 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19464,25 +19464,18 @@ agronews.com##a[alt="Яндекс.Метрика"]
 ||crunchbase.com/*/collector|
 ||docomo.ne.jp/js/beacon.js
 ||100widgets.com/stat.js.php
-||cdn.klambt.services/matomo/$3p
 ||scinable.net/access?vid=
-||leadberry.com/trackers/$3p
 ||shopify.com/*/site-tracking.php?
-||ezapp.ovh/track.js?pixelId=
 ||linkedin.com/pixel/
 politring.com##a[href="https://metrika.yandex.ru/"]
 ||tcloudbase.com/access?
 ||static-cdn.tinkoffjournal.ru/js/analytics.*.js
-||assets.pixlee.com/assets/fp.js
 ||rlsnet.ru/js/statistics/
-||shopify.com/shopifycloud/media-analytics/
 ||std-lab.jp/js/analytics.js.php
 ||gplinks.co/auth/ads_stats_controller.php
 ||mynewsmedia.co/*/linkpage/ads_stats_controller.php
 ||infusionsoft.com/app/webTracking/getTrackingCode
 ||mjt.lu/*/e.gif
-||useinsider.com^$domain=francfranc.com
-||staff-start.com/js/track/
 ||api.bunjang.co.kr/api/log/
 ||webassign.net/services/cubby/bff/analytics
 ||cengage.com/services/cubby/bff/analytics
@@ -19493,7 +19486,6 @@ politring.com##a[href="https://metrika.yandex.ru/"]
 ||assets.adsttc.com/insights/form-funnel.min.js
 /Avada-Child-Theme/js/GA.*js$domain=allurekorea.com|vogue.co.kr
 ||common.doosanmagazine.com/reciveLogs.php
-||mhealth.ru/_stat/log/
 ||common.doosanmagazine.com/js/eLogs.js$domain=allurekorea.com
 ||js.selfimg.com.cn/cna/analytics.js
 ||js.selfimg.com.cn/lib/ga/ga.js
