@@ -1798,6 +1798,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.xyscdn.com^
 ||analytics.zeekit.co^
 ||analytics*.carambo.la^
+||analytics-cdiscount.com^
 ||analytics-mkt.wemakeprice.com^
 ||analytics2.tvreport.co.kr^
 ||analyticsnew.overwolf.com^
