@@ -887,7 +887,6 @@ vidaextra.com##div[style="width:100%; height:160px"]
 ||sitestats.info^$3p
 ||ymetrica.com^$3p
 ||12fou.com^$3p
-||rtmark.net^$3p
 ||szsmtk.com^$3p
 ||doomna.com^$3p
 ||measuread.com^$3p
@@ -917,7 +916,6 @@ vidaextra.com##div[style="width:100%; height:160px"]
 ||180.76.2.18^$3p
 ||195.10.245.55^$3p
 ||200stran.ru^$3p
-||208.88.226.75^$3p
 ||208.88.226.75^$3p,domain=~informer.com.ip
 ||212.227.100.108^$3p
 ||212.95.32.75^$3p
