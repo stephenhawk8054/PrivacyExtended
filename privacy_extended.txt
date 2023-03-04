@@ -21738,6 +21738,7 @@ link.gmapp*.net$image
 ||halktv.com.tr/stats/
 ||istoe.com.br/@nave/gateway/reply?navtrackdata=
 ||lecturas.com/Content/*/js/trackPopup.js
+||linkedin.com/*/track|
 ||list-manage.com/track/
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||m1tm.motor1.com/analytics.js
