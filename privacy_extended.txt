@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 04 Feb 2023 06:36 UTC
+! Last modified: 05 Mar 2023 05:21 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19496,10 +19496,8 @@ politring.com##a[href="https://metrika.yandex.ru/"]
 ||st.work.ua/js/send_stat-min_*.js
 ||st.work.ua/js/banners/global-counter-min_*.js
 ||work.ua/analytics/view-page/
-||facebook.com/email_open_log_
 ||srv.onedio.com/counter/
 ||api-onedio-lambda-production.onedio.com/srv/counters/
-||platform-eu.cloud.coveo.com/rest/*/analytics/view?
 ||cdnen.rt.com/static/js/libs/counters.js
 ||pln-pskov.ru/cntr.php?id=
 ||fashionbykakao.com/api/*/tr?
@@ -19507,9 +19505,7 @@ oceans-nadia.com##.gtm-bnr-rensai
 ||5-fifth.com/assets/js/*/analytics.js
 ||data-platform.squarecloudservices.com/v1/batch
 ||squareup.com/tracking.json
-||instagram.com/static/bundles/*/EmbedAsyncLogger.js
 ||cm.cdn.md/js5/Mackolik/Analytics.js
-||sportrecs.com/intake/v*/rum/events
 ||sozcu.com.tr/aip/aip2Analytics.js
 ||datalytics.utair.io^$ping
 ||support.huawei.com/enterprisesearch/3rdParty/opensource/analytics/
@@ -19518,12 +19514,9 @@ oceans-nadia.com##.gtm-bnr-rensai
 ||swaven.com/widget/track/
 ||swaven.com/px.png
 nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
-||static.ao.gl/js/analytics-min.js
-||skillshare.com/events/track
 ||2day.kh.ua/*/statistics/
 ||seyredelim.com/lib/ajax/track.php
 ||facebook.com/sem_campaigns/sem_pixel_test/?
-||static.wattpad.com/js/tracker/app.js
 ||s.rbk.ru/*_rbcmetrika_static/*/build/_core.js
 ||s.rbk.ru/*_autonews_static/autonews-*/scripts/build/_gt-targeting.js
 ||autonews.ru/redir/stat/
@@ -19531,20 +19524,14 @@ nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
 ||esgazete.com/service/social-counter.json
 ||commons.dw.com/tracking/smarttagJwPlayerPlugin.js
 today.ua##.li-bi-container
-||bmscdn.com/m6/scripts/libs/bms-analytics.js
-||proxy.tproger.ru/yandex-metrika.js
 ||wurking.global.ssl.fastly.net/ingestly-ingest/
 ||rjno1.com/cdn-cgi/challenge-platform/h/b/scripts/invisible.js
 ||static.foxnews.com/static/leap/sites/fnc/metrics.js
 ||web.snrbox.com/*?tracker=
 ||web.snrbox.com/tck/$xhr,redirect=nooptext
-||fenerbahce.org/cmsapi/webanalytics/
 ||fns.modanisa.com/*/analytics.js
 ||crm.a1.by/bitrix/js/crm/tracking/
-||crm.a1.by/upload/crm/tag/call.tracker.js
-||d3fdp2ho8z9fyl.cloudfront.net/tracker.min.js
 culture.ru###page-error-modal
-||primer.typekit.net^$xhr
 ||gazisoft.com/counter.php
 ||c.keltis.com/c.aspx
 ||posty.kr/api/tr|
