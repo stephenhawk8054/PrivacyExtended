@@ -21731,6 +21731,11 @@ link.gmapp*.net$image
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||web.snrbox.com/tck/$domain=komputronik.pl
 ||windowspro.de/stats/mto.js
+! amazon.co.jp
+||aiv-delivery.net/Events/
+||aiv-delivery.net/v1/ReportEvent
+||amazon.*/cdp/usage/Clickstream
+||amazon.*/ReportEvent
 ! jscrambler.com
 ||jscrambler.com/bc.js
 ||jscrambler.com/api/statistics
