@@ -21696,6 +21696,7 @@ link.gmapp*.net$image
 ||elpais.com.uy/google-analytics
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
 ||gitpod.io/api/collect-data
+||gtm-server.healthline.com^
 ||halktv.com.tr/stats/
 ||istoe.com.br/@nave/gateway/reply?navtrackdata=
 ||lecturas.com/Content/*/js/trackPopup.js
