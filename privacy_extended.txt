@@ -21732,6 +21732,7 @@ link.gmapp*.net$image
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||web.snrbox.com/tck/$domain=komputronik.pl
 ||windowspro.de/stats/mto.js
+||zara.com/integration/zenit/events/hit
 ! amazon.co.jp
 ||aiv-delivery.net/Events/
 ||aiv-delivery.net/v1/ReportEvent
