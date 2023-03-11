@@ -1,6 +1,3 @@
-Privacy Extended after removing internal duplicates and redundancies with EasyPrivacy.
-11 March 2023
-
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
