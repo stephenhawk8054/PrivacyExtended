@@ -1738,6 +1738,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.cinematoday.jp^
 ||analytics.clic2buy.com^
 ||analytics.cn.ru^
+||analytics.data.visenze.com^
 ||analytics.dpd.com^
 ||analytics.edgekey.net^
 ||analytics.edgesuite.net^
