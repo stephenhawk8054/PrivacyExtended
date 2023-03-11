@@ -21726,6 +21726,7 @@ link.gmapp*.net$image
 ||tags.chip.de^
 ||theguru.co.kr/weblog/gtracker.php
 ||tingz.co/analytics/mp/track
+||tmserverside.mango.com/g/collect
 ||tracker.citicsinfo.com^
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||web.snrbox.com/tck/$domain=komputronik.pl
