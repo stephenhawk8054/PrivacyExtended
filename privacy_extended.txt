@@ -1041,6 +1041,7 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||freetracker.biz^$3p
 ||fuse-data.com^$3p
 ||gallupnet.fi^$3p
+||ganalytics.live^$3p
 ||gemtrackers.com^$3p
 ||getfreebacklinks.com^$3p
 ||getsidecar.com^$3p
