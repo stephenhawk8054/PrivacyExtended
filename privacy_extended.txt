@@ -18987,7 +18987,7 @@ _tracking.php?b=
 !
 /init.js|$domain=iherb.com|skyscanner.com.br|bloomberg.com|sweetwater.com
 !
-/analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr
+/analytics.js$domain=kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr
 !
 ||services.themarker.com/ds/impression
 ||img.sputnik.*/min/js/libs/ria.analytics.js
