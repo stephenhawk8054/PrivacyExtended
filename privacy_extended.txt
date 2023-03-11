@@ -21671,6 +21671,7 @@ link.gmapp*.net$image
 ||assets.rpglogs.com/js/global/googleAnalytics.*.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||astar.bz/*/ping.gif
+||bershka.com/integration/zenit/events/hit
 ||bing.com/fd/ls/
 ||blog-rss.com/track/
 ||bn.dxlive.com/js/rightColGa.js
