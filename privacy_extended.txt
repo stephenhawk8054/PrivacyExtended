@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 07 Mar 2023 03:33 UTC
+! Last modified: 11 Mar 2023 03:21 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19590,21 +19590,14 @@ topics.nintendo.co.jp##.topics-recommend__headline
 ||sa.openmedia.co/collect?*tid=
 chaos2ch.com###sub div.plugin-memo:last-child
 ||kraken.com/analytics
-||plusstyle.jp/js/common/analytics.js
 ||lastpass.com/m.php/loadanalytics2
 ||dspnow.ru/beacon/
 ||grammarly.com/api/tracking/
 ||static.vocstatic.com/tag-manager/latest/vtm.js
 ||bilibili.com/x/frontend/finger/fpfmc?
 ||components.justanswer.com/v3/main-tracking-script@released.js
-/scripts/data-unlocker.js$domain=earthclassmail.com
-/scripts/dataunlocker.js$domain=franchiseplus.nl
-||app.polymersearch.com/dataunlocker.js
 ||op.szlcsc.com/getFloatAdvertising?callback=
 ||media*.marktjagd.com/*/1x1.gif
-||middleware.marktjagd.de/proxy/trackings
-||jetfilmizle.*/wp-content/plugins/reduce-bounce-rate/js/analyticsjs.js
-/uvpjs-rv/*/lib/tracking/*$domain=cnet.com
 otekomachi.yomiuri.co.jp##.p-ads
 komachi.yomiuri.co.jp##._popIn_ranking_otekomachi
 komachi.yomiuri.co.jp##._popIn_recommend_tieup
@@ -19616,16 +19609,12 @@ komachi.yomiuri.co.jp##._popIn_recommend_tieup
 ||progorodchelny.ru/modules/lenta/stat.php
 ||weibo.com/ajax/log/
 ||megatyumen.ru/api/v*/metrika
-||multporn.net/modules/statistics/statistics.php
 ||cdn.shopify.com/shopifycloud/consent-tracking-api/*/consent-tracking-api.js
 /\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{25,}$/$script,1p,domain=gu-global.com|uniqlo.com
 textologia.ru##.bot_right
 ||manychat.com/js/visitor.js
-||manychat.com/analytics/event
 ||manychat.com/pixel/logEvent
 ||unsplash.com/nabc^
-||pa.7w.ro/js/trk.js
-||paypal.com/tagmanager/pptm.js
 ||dap.dmm.co.jp/imp?
 ||anonfiles.com/analytics/collect
 ||ebbs.jp/spa.php?
@@ -19635,7 +19624,6 @@ textologia.ru##.bot_right
 ||d2jjzw81hqbuqv.cloudfront.net/assets/*/autotrack-
 ||t.enuygun.com/assets/tracker.js
 ||steamchina.com/default/usabilitytracking
-||dtm-dre.platform.hicloud.com/download/web/dtm.js
 ||netflix.com/api/ftl/probe?monotonic=
 ||daisomall.co.kr/collect.php
 ||contents-search-windows.com/api/v1/x^
