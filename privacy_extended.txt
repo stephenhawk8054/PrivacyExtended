@@ -2562,6 +2562,7 @@ nethunt.com/api/v1/track/email/$image
 ||prd-collector-anon-video.playbuzz.com^
 ||predatasrv.com^
 ||presentationtracking.netflix.com^
+||prod.fennec.atp.fox^
 ||prod-collector.bigbasket.com^
 ||production-eqbc.lvp.llnw.net^
 ||production-mcs.lvp.llnw.net^
