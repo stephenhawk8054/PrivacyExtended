@@ -21728,6 +21728,7 @@ link.gmapp*.net$image
 ||tingz.co/analytics/mp/track
 ||tmserverside.mango.com/g/collect
 ||tracker.citicsinfo.com^
+||unite.nike.com/auth/unite_session_cookies/
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||web.snrbox.com/tck/$domain=komputronik.pl
 ||windowspro.de/stats/mto.js
