@@ -1606,7 +1606,6 @@ nethunt.com/api/v1/track/email/$image
 ||d2cmqkwo8rxlr9.cloudfront.net^
 ||log.haberturk.com^
 ||analytics.helpukrainewinwidget.org^
-||ninja.data.olxcdn.com^
 ||event-collector.prd.data.s.joyn.de^
 ||clanker-events.squarespace.com^
 ||p.ura.news^
