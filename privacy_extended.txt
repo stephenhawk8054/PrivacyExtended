@@ -21668,6 +21668,7 @@ link.gmapp*.net$image
 ||160.16.86.134/rtools/*/r_counter.js
 ||a.flux.jp/analytics.collect.v1.CollectService/
 ||adtonos.com/atr/*/px.gif
+||assets.rpglogs.com/js/global/googleAnalytics.*.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||astar.bz/*/ping.gif
 ||bing.com/fd/ls/
