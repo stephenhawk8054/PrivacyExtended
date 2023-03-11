@@ -21688,6 +21688,7 @@ link.gmapp*.net$image
 ||ebs.co.kr/js/weblogs/nethru/wlo.js
 ||elpais.com.uy/google-analytics
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
+||evs.proxy.analytics.shutterstock.com^
 ||gitpod.io/api/collect-data
 ||gtm-server.healthline.com^
 ||halktv.com.tr/stats/
