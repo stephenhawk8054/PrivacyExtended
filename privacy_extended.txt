@@ -2817,6 +2817,7 @@ nethunt.com/api/v1/track/email/$image
 ||temptation.ad.nl^
 ||terra.fp.oix.net^
 ||thj.astrakhan.ru^
+||thoth.utyug.media^
 ||timeslog.indiatimes.com^
 ||tivan.naver.com^
 ||tj3rql9siwef.www.freecodecamp.org^
