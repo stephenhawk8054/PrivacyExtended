@@ -21713,6 +21713,7 @@ link.gmapp*.net$image
 ||print24.com/api/*/analytics/
 ||psprices.com/staticfiles/build/frontend_psprices_js_analytics_ts.*.js
 ||psr.staticbg.com/rum/monitor.min.js
+||pullandbear.com/integration/zenit/events/hit
 ||r.bh.d.sendibt3.com/tr/
 ||s.sofoot.com^
 ||safevisit.org/api/v*/c?$redirect=nooptext
