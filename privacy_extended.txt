@@ -12,25 +12,10 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 embed.rtl.hu##+js(set, gemiusStream, {})
 embed.rtl.hu##+js(set, gemiusStream.event, noopFunc)
-! https://github.com/AdguardTeam/AdguardFilters/issues/134778
-! segment.com analytics
-! https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/identity/
-! TODO: replace by key removing scriptlet when it will be implemented
-! https://github.com/AdguardTeam/AdguardFilters/issues/81513
-! TODO: remove when `trusted-set-cookie` will be available in all AdGaurd release verions
-! https://github.com/AdguardTeam/AdguardFilters/issues/136436
-! https://github.com/AdguardTeam/AdguardFilters/issues/134220
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131034
 imdb.com##+js(set, doWithAds, noopFunc)
-! This rule is for suppressing Google Topics.
-! Read more about it here:
-! https://developer.chrome.com/docs/privacy-sandbox/topics/
-! TODO: replace with a scriptlet later: https://github.com/AdguardTeam/Scriptlets/issues/214
-! ##+js(set, Document.prototype.browsingTopics, undefined)
 ! https://github.com/AdguardTeam/AdguardFilters/pull/133054
 fmkorea.com##+js(set, link_url, '')
-! https://github.com/AdguardTeam/AdguardFilters/pull/130514
-! https://github.com/AdguardTeam/AdguardFilters/issues/132024
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131243
 app.tirelocator.ca##+js(set, googleAnalyticsEnhancedTrackEvent, noopFunc)
 app.tirelocator.ca##+js(set, googleAnalyticsEnhancedTrackPageview, noopFunc)
@@ -38,14 +23,10 @@ app.tirelocator.ca##+js(set, googleAnalyticsEnhancedTrackPageview, noopFunc)
 reelrundown.com##+js(no-fetch-if, uid.mavencoalition.io)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/130197
 mirrormedia.mg##+js(set, dataLayer, [])
-! https://github.com/AdguardTeam/AdguardFilters/issues/127628
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127461
 bulletin.sntba.com##+js(set, returnCitySN, {})
-! https://github.com/AdguardTeam/AdguardFilters/issues/126745
-! https://github.com/AdguardTeam/AdguardFilters/issues/122614
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121698
 configurator.ducati.com##+js(set, WURFL, {})
-! https://github.com/AdguardTeam/AdguardFilters/issues/121510
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121558
 forfun.ist##+js(no-fetch-if, ssl.geoplugin.net/javascript.gp)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118441
@@ -66,7 +47,6 @@ tarnkappe.info##+js(aopr, Matomo)
 careermap.co.uk##+js(set, trackEvent, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/pull/115192
 gmarket.co.kr##+js(set, pvprofiler.sendEvt, noopFunc)
-! https://github.com/AdguardTeam/AdguardFilters/issues/114901
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114227
 valleybreeze.com##+js(ra, hidden, #asset-content[hidden])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118108
@@ -76,22 +56,14 @@ ttv.pl,tvn24.pl##+js(set, gemiusStream, noopFunc)
 nytimes.com##+js(set, Navigator.prototype.joinParakeetInterestGroup, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110697
 freecodecamp.org##+js(acs, Function, b9kEBAW)
-! https://github.com/AdguardTeam/AdguardFilters/issues/108678
-! https://github.com/AdguardTeam/AdguardFilters/issues/99502
-! https://github.com/AdguardTeam/AdguardFilters/issues/103991
 ! Fixing video player if DNS filtering is enabled
 ! cw.com.tw - incorrect blocking - fixing video player (at the bottom)
 ! Example link - https://www.cw.com.tw/article/5119022
 cw.com.tw##+js(set, qg, noopFunc)
-! https://github.com/AdguardTeam/Scriptlets/issues/160
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97512
 alternative.me,justjaredjr.com,r-graph-gallery.com##+js(ra, onclick, a[href][onclick*="getOutboundLink"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95512
 eduscho.at##+js(set, exactagTrack, noopFunc)
-! https://github.com/AdguardTeam/AdguardFilters/issues/91255
-! TODO: can be replaced by redirect resources (Fingerprint2) when it will be added - https://github.com/AdguardTeam/Scriptlets/issues/141
-! https://github.com/AdguardTeam/AdguardFilters/issues/91087
-! https://github.com/AdguardTeam/AdguardFilters/issues/93708
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90258
 laprovence.com##+js(set, refresh_xiti, noopFunc)
 laprovence.com##+js(set, xt_click, noopFunc)
@@ -115,7 +87,6 @@ tweakers.net##+js(set, WebTrekkClickMap, noopFunc)
 tweakers.net##+js(aopr, snowplow)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24789
 timesnownews.com##+js(set, ga, noopFunc)
-! https://github.com/AdguardTeam/AdguardFilters/issues/69078#issuecomment-762889762
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71368
 store.line.me##+js(rc, async-hide, html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70941
@@ -1460,15 +1431,12 @@ welovepg.polymail.io$image
 polymail.io/v2/z$image
 ! YAMM
 yamm-track.appspot$image
-! GetResponse
 ! Close.io
 close.io/email_opened$image
 ! Return Path
 returnpath.net/pixel.gif$image
-! NetHunt
 ! JiveOn tracking
 /mpss/o/*$image
-! Marketo tracking (see https://docs.marketo.com/display/public/DOCS/Configure+Protocols+for+Marketo)
 ! end: Mail Tracking
 
 ||artfut.com^$redirect=nooptext,important,image,media,frame,stylesheet,script,xhr,other
@@ -1483,7 +1451,6 @@ returnpath.net/pixel.gif$image
 ! https://github.com/AdguardTeam/cname-trackers/issues/30
 ! TODO: remove once the issue is resolved
 ||tagman.britishairways.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/25467
 !
 ! This rule breaks Australian sites
 ||tags.news.com.au^$~script
@@ -3045,7 +3012,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Good: !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/trackers/adspyglass.txt
 ! Bad:  ||monerominer.rocks^$3p (should be in adservers.txt)
 !
-!
 ! Dataunlocker : smartproxy.dataunlocker.com  disguised trackers
 ! Currently is not fixable at the moment but maybe in the future
 ! https://github.com/AdguardTeam/cname-trackers/issues/15
@@ -3904,8 +3870,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||web.nuro-life.com^
 !
 ! Act-On : actonservice.com and actonsoftware.com disguised trackers
-!
-!
 !
 ||aahamarketing.hubinternational.com^
 ||advisers.kingstonsmith.co.uk^
@@ -5824,7 +5788,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||webanalytics.blueshieldca.com^
 !
 !
-!
 ! sc.omtrdc.net disguised trackers
 !
 ||a.publicmobile.ca^
@@ -7242,7 +7205,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ztrck.me^
 !
 !
-!
 ! bahag.tt.omtrdc.net disguised trackers
 !
 ||abt.bauhaus.info^
@@ -7294,21 +7256,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||target.stanfordchildrens.org^
 ||target.sunlife.com^
 !
-! mboxedge38-alb02.tt.omtrdc.net disguised trackers
-!
-!
-! mboxedge31-02.tt.omtrdc.net disguised trackers
-!
-!
-! mboxedge31-alb02.tt.omtrdc.net disguised trackers
-!
-!
 ! mboxedge32-02.tt.omtrdc.net disguised trackers
 !
 ||webtarget.logitechg.com.cn^
-!
-! mboxedge32-alb02.tt.omtrdc.net disguised trackers
-!
 !
 ! mboxedge34-02.tt.omtrdc.net disguised trackers
 !
@@ -7318,25 +7268,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||target.sgproof.com^
 ||target.sunlifeglobalinvestments.com^
 !
-! mboxedge34-alb02.tt.omtrdc.net disguised trackers
-!
-!
 ! mboxedge35-02.tt.omtrdc.net disguised trackers
 !
 ||stmetrics.bbva.com.co^
-!
-! mboxedge35-alb02.tt.omtrdc.net disguised trackers
-!
-!
-! mboxedge36-02.tt.omtrdc.net disguised trackers
-!
-!
-! mboxedge36-alb02.tt.omtrdc.net disguised trackers
-!
-!
-! nike.tt.omtrdc.net disguised trackers
-!
-!
 ! futbolclubbarcelona.tt.omtrdc.net disguised trackers
 !
 ||adtarget.barcainnovationhub.com^
@@ -7386,9 +7320,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||target.zeiss.de^
 ||targetsecure.kohler.com^
 !
-! mboxedge34.tt.omtrdc.net disguised trackers
-!
-!
 ! mboxedge35-alb.tt.omtrdc.net disguised trackers
 !
 ||purpose.maxizoo.be^
@@ -7403,9 +7334,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||target.telenet.be^
 ||target.vwfs.mx^
 ||tt.ubs.com^
-!
-! mboxedge35.tt.omtrdc.net disguised trackers
-!
 !
 ! mboxedge37-alb.tt.omtrdc.net disguised trackers
 !
@@ -7495,59 +7423,17 @@ charlestownwyllie.oaklawnnonantum.com^
 ||target.sunlife.co.id^
 ||target.sunlife.com.hk^
 !
-! mboxedge38.tt.omtrdc.net disguised trackers
-!
-!
-! mboxedge31-alb.tt.omtrdc.net disguised trackers
-!
-!
-! mboxedge31.tt.omtrdc.net disguised trackers
-!
-!
 ! mboxedge32-alb.tt.omtrdc.net disguised trackers
 !
 ||jptgtr.astellas.jp^
-!
-! mboxedge32.tt.omtrdc.net disguised trackers
-!
 !
 ! mboxedge36-alb.tt.omtrdc.net disguised trackers
 !
 ||stt.keno.com.au^
 !
-! mboxedge36.tt.omtrdc.net disguised trackers
-!
-!
-! creditsuisse.tt.omtrdc.net disguised trackers
-!
-!
-! suncorpmetwayltd.tt.omtrdc.net disguised trackers
-!
-!
 ! duerzc3hf5let.cloudfront.net disguised trackers
 !
 ||at-cdn.swisscom.ch^
-!
-! deutschebankag.tt.omtrdc.net disguised trackers
-!
-!
-! mclarenautomotivelim.tt.omtrdc.net disguised trackers
-!
-!
-! neom.tt.omtrdc.net disguised trackers
-!
-!
-! swisscomag.tt.omtrdc.net disguised trackers
-!
-!
-! atvodafone-fpssl.tt.omtrdc.net disguised trackers
-!
-!
-! adelaideedu.tt.omtrdc.net disguised trackers
-!
-!
-! harleydavidson.tt.omtrdc.net disguised trackers
-!
 !
 ! harrisbank.com.insight.omtrdc.net disguised trackers
 !
@@ -7569,42 +7455,9 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ||csvtr07.bmoinvestorline.com^
 !
-! demo3.tt.omtrdc.net disguised trackers
-!
-!
-! zooplus.tt.omtrdc.net disguised trackers
-!
-!
-! thermofisherscientif.tt.omtrdc.net disguised trackers
-!
-!
 ! lifetech.tt.omtrdc.net disguised trackers
 !
 ||dm-target.thermofisher.com^
-!
-! bcbsla.tt.omtrdc.net disguised trackers
-!
-!
-! asbbankltd.tt.omtrdc.net disguised trackers
-!
-!
-! fullbeauty.tt.omtrdc.net disguised trackers
-!
-!
-! astellas.tt.omtrdc.net disguised trackers
-!
-!
-! wegmans.tt.omtrdc.net disguised trackers
-!
-!
-! offermatica.tt.omtrdc.net disguised trackers
-!
-!
-! aaanortheast.tt.omtrdc.net disguised trackers
-!
-!
-! siriusxmradio.tt.omtrdc.net disguised trackers
-!
 !
 ! elb-geoblockemea-940286427.eu-west-1.elb.amazonaws.com disguised trackers
 !
@@ -7614,379 +7467,22 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ||metrics.maxgo.com^
 !
-! cooperativegroup.tt.omtrdc.net disguised trackers
-!
-!
-! lloydsbankinggroup.tt.omtrdc.net disguised trackers
-!
-!
-! fressnapftiernahrung.tt.omtrdc.net disguised trackers
-!
-!
-! fressnapftiernahrung-2.tt.omtrdc.net disguised trackers
-!
-!
-! ezlinks.tt.omtrdc.net disguised trackers
-!
-!
-! zurcherkantonalbank.tt.omtrdc.net disguised trackers
-!
-!
-! csu.tt.omtrdc.net disguised trackers
-!
-!
-! grafana.tt.omtrdc.net disguised trackers
-!
-!
-! spiegelverlagrudolfa.tt.omtrdc.net disguised trackers
-!
-!
-! apple.tt.omtrdc.net disguised trackers
-!
-!
-! aarp.tt.omtrdc.net disguised trackers
-!
-!
-! penfed.tt.omtrdc.net disguised trackers
-!
-!
-! sinkhole.paloaltonetworks.com disguised trackers
-!
-!
-! bellcanada.tt.omtrdc.net disguised trackers
-!
-!
-! southwestairlines.tt.omtrdc.net disguised trackers
-!
-!
-! nbly.tt.omtrdc.net disguised trackers
-!
-!
-! aircanada.tt.omtrdc.net disguised trackers
-!
-!
-! loyaltyone.tt.omtrdc.net disguised trackers
-!
-!
-! stargetbitdefender.tt.omtrdc.net disguised trackers
-!
-!
-! collegeboard.tt.omtrdc.net disguised trackers
-!
-!
-! intelcorporation.tt.omtrdc.net disguised trackers
-!
-!
-! lderbysa.tt.omtrdc.net disguised trackers
-!
-!
-! latrobe.tt.omtrdc.net disguised trackers
-!
-!
-! themathworksinc.tt.omtrdc.net disguised trackers
-!
-!
-! morganstanleyandco.tt.omtrdc.net disguised trackers
-!
-!
-! panera.tt.omtrdc.net disguised trackers
-!
-!
-! entertainmentbenefit.tt.omtrdc.net disguised trackers
-!
-!
-! tv2danmark.tt.omtrdc.net disguised trackers
-!
-!
-! vodafonespain.tt.omtrdc.net disguised trackers
-!
-!
-! westjet.tt.omtrdc.net disguised trackers
-!
-!
-! bbvaco.tt.omtrdc.net disguised trackers
-!
-!
-! bbvamx.tt.omtrdc.net disguised trackers
-!
-!
-! bbvaperu.tt.omtrdc.net disguised trackers
-!
-!
-! skydeutschlandag.tt.omtrdc.net disguised trackers
-!
-!
-! mbfaustraliaptylimit.tt.omtrdc.net disguised trackers
-!
-!
-! cpaaustralia.tt.omtrdc.net disguised trackers
-!
-!
-! deakinuniversity.tt.omtrdc.net disguised trackers
-!
-!
-! dellinc.tt.omtrdc.net disguised trackers
-!
-!
-! tabcorpkeno.tt.omtrdc.net disguised trackers
-!
-!
-! nvidia.tt.omtrdc.net disguised trackers
-!
-!
-! pluralsight.tt.omtrdc.net disguised trackers
-!
-!
-! tabcorpholdingslimit.tt.omtrdc.net disguised trackers
-!
-!
-! tattsgroup.tt.omtrdc.net disguised trackers
-!
-!
-! onemarketingazd.tt.omtrdc.net disguised trackers
-!
-!
-! nordea.tt.omtrdc.net disguised trackers
-!
-!
 ! firstchoice.co.uk.insight.omtrdc.net disguised trackers
 !
 ||t3e.firstchoice.co.uk^
-!
-! deka.tt.omtrdc.net disguised trackers
-!
-!
-! samsungus.tt.omtrdc.net disguised trackers
-!
-!
-! abanca.tt.omtrdc.net disguised trackers
-!
-!
-! accenture.tt.omtrdc.net disguised trackers
-!
-!
-! aialife.tt.omtrdc.net disguised trackers
-!
-!
-! fcanafta.tt.omtrdc.net disguised trackers
-!
 !
 ! onemarketingazeu.tt.omtrdc.net disguised trackers
 !
 ||target.allianz.at^
 !
-! onemarketingazeu-fpssl.tt.omtrdc.net disguised trackers
-!
-!
-! ansysinc.tt.omtrdc.net disguised trackers
-!
-!
-! australiapost.tt.omtrdc.net disguised trackers
-!
-!
-! bankofamerica.tt.omtrdc.net disguised trackers
-!
-!
-! bankwest.tt.omtrdc.net disguised trackers
-!
-!
-! libertyglobalpaneu.tt.omtrdc.net disguised trackers
-!
-!
-! bcbsnd.tt.omtrdc.net disguised trackers
-!
-!
-! saintgobain.tt.omtrdc.net disguised trackers
-!
-!
-! intactfinancialcorpo.tt.omtrdc.net disguised trackers
-!
-!
-! cnamecustomer.tt.omtrdc.net disguised trackers
-!
-!
-! fleetcortechnologies.tt.omtrdc.net disguised trackers
-!
-!
-! lacaixa.tt.omtrdc.net disguised trackers
-!
-!
-! champssports.tt.omtrdc.net disguised trackers
-!
-!
-! footlocker.tt.omtrdc.net disguised trackers
-!
-!
-! changehealthcare.tt.omtrdc.net disguised trackers
-!
-!
-! ciscosystemsinc.tt.omtrdc.net disguised trackers
-!
-!
-! comenityservicing.tt.omtrdc.net disguised trackers
-!
-!
-! coxcommunications.tt.omtrdc.net disguised trackers
-!
-!
-! cssversicherung.tt.omtrdc.net disguised trackers
-!
-!
-! premierfarnell.tt.omtrdc.net disguised trackers
-!
-!
-! eoncom.tt.omtrdc.net disguised trackers
-!
-!
-! eycom.tt.omtrdc.net disguised trackers
-!
-!
-! footlocker-2.tt.omtrdc.net disguised trackers
-!
-!
-! groupama.tt.omtrdc.net disguised trackers
-!
-!
-! healthengine.tt.omtrdc.net disguised trackers
-!
-!
-! qvc.tt.omtrdc.net disguised trackers
-!
-!
-! hyundaimotorcompany.tt.omtrdc.net disguised trackers
-!
-!
-! mmsngaa.tt.omtrdc.net disguised trackers
-!
-!
-! keybankassociation.tt.omtrdc.net disguised trackers
-!
-!
-! michaelsstores.tt.omtrdc.net disguised trackers
-!
-!
-! microsoftmscompoc.tt.omtrdc.net disguised trackers
-!
-!
-! nationwideinsurance.tt.omtrdc.net disguised trackers
-!
-!
-! netappinc.tt.omtrdc.net disguised trackers
-!
-!
-! nebraskafurnituremar.tt.omtrdc.net disguised trackers
-!
-!
-! insuranceaustraliali.tt.omtrdc.net disguised trackers
-!
-!
-! freescalesemiconduct.tt.omtrdc.net disguised trackers
-!
-!
-! pandasecurity.tt.omtrdc.net disguised trackers
-!
-!
-! whitbreadgroup.tt.omtrdc.net disguised trackers
-!
-!
-! sapientinc.tt.omtrdc.net disguised trackers
-!
-!
-! questdiagnostics.tt.omtrdc.net disguised trackers
-!
-!
-! southernwine.tt.omtrdc.net disguised trackers
-!
-!
-! sivasdescalzo.tt.omtrdc.net disguised trackers
-!
-!
-! sportsmanguide.tt.omtrdc.net disguised trackers
-!
-!
-! stanfordchildrens.tt.omtrdc.net disguised trackers
-!
-!
-! sunlifeassurance.tt.omtrdc.net disguised trackers
-!
-!
-! sunlifeassurance-2.tt.omtrdc.net disguised trackers
-!
-!
-! swinburne.tt.omtrdc.net disguised trackers
-!
-!
-! synergy.tt.omtrdc.net disguised trackers
-!
-!
-! thetruthinitiativefo.tt.omtrdc.net disguised trackers
-!
-!
 ! troweprice.tt.omtrdc.net disguised trackers
 !
 ||target.troweprice.com^
-!
-! veeam.tt.omtrdc.net disguised trackers
-!
-!
-! singaporetourismboar.tt.omtrdc.net disguised trackers
-!
 !
 ! volkswagenfinancials.tt.omtrdc.net disguised trackers
 !
 ||target.vwfs.gr^
 ||target.vwfs.it^
-!
-! volkswagenfinancials-2.tt.omtrdc.net disguised trackers
-!
-!
-! walgreenco.tt.omtrdc.net disguised trackers
-!
-!
-! carlzeiss.tt.omtrdc.net disguised trackers
-!
-!
-! adobeinternalmobiles.tt.omtrdc.net disguised trackers
-!
-!
-! kohlerco.tt.omtrdc.net disguised trackers
-!
-!
-! ibm.tt.omtrdc.net disguised trackers
-!
-!
-! hdfcbank.tt.omtrdc.net disguised trackers
-!
-!
-! ciscosystemsin.tt.omtrdc.net disguised trackers
-!
-!
-! rbs-fpssl.tt.omtrdc.net disguised trackers
-!
-!
-! sjab.tt.omtrdc.net disguised trackers
-!
-!
-! ubsag.tt.omtrdc.net disguised trackers
-!
-!
-! eastwestbank.tt.omtrdc.net disguised trackers
-!
-!
-! faz.tt.omtrdc.net disguised trackers
-!
-!
-! jcpenney.tt.omtrdc.net disguised trackers
-!
-!
-! logitech.tt.omtrdc.net disguised trackers
-!
-!
-! ingbelgium.tt.omtrdc.net disguised trackers
-!
-!
-! hukcoburg.tt.omtrdc.net disguised trackers
-!
 !
 ! AdSpyglass : 0i0i0i0.com disguised advertising networks
 ! included to BaseFilter/sections/cname_adservers.txt
@@ -8009,9 +7505,7 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! Commanders Act : tagcommander.com disguised trackers
 !
-!
 ! tagcommander.com disguised trackers
-!
 !
 !
 ||tc.europcar.com^
@@ -8761,7 +8255,6 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 !
 !
-!
 ||aarqmo.culturekings.co.nz^
 ||afecvu.bulevip.com^
 ||ahsmpt.cheerz.com^
@@ -8921,10 +8414,7 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 !
 !
-!
-!
 ! DataUnlocker : dataunlocker.com disguised trackers
-!
 !
 ! dataunlocker.com disguised trackers
 !
@@ -9301,8 +8791,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wlp3.aegon.es^
 ||xuc.monteleone.fr^
 ||xya4.groupefsc.com^
-!
-!
 !
 !
 !
@@ -10012,20 +9500,7 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! Company name: GMO Internet Group
 !
-!
-!
-!
-!
-!
 ||video.sp.gmossp-sp.jp^
-!
-!
-!
-!
-!
-!
-!
-!
 !
 ! GoDaddy : ads.bid disguised trackers
 ! included to BaseFilter/sections/cname_adservers.txt
@@ -11630,24 +11105,6 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ||k.brandalley.be^
 !
-!
-!
-! Lead Forensics : ghochv3eng.trafficmanager.net disguised trackers
-! not included
-!
-! LexisNexis Risk Solutions: online-metrix.net disguised trackers
-! removed from the blocking list - causes breakages
-! source: https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/trackers/lexisnexis-risk-solutions.txt
-!
-! Logly : logly.co.jp disguised trackers
-! not included
-!
-! NameSilo : ab1n.net disguised trackers
-! included to BaseFilter/sections/cname_adservers.txt
-!
-! Nativo : ntv.io disguised trackers
-! not included
-!
 ! NP6 : tracking.bp01.net disguised trackers
 !
 ! Company name: NP6
@@ -12173,7 +11630,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! s983435340.hs.eloqua.com disguised trackers
 !
 !
-!
 ||app.paciolan.com^
 ||app.tulsahurricane.com^
 ||app.vucommodores.com^
@@ -12335,7 +11791,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! s1705637988.hs.eloqua.com disguised trackers
 !
 !
-!
 ||act.pbs.org^
 ||connectfpc.zebra.com^
 ||discover.aptly.de^
@@ -12362,7 +11817,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||yourporsche.nabooda-auto.com^
 !
 ! s376572143.hs.eloqua.com disguised trackers
-!
 !
 !
 ||action.hassconsult.co.ke^
@@ -12475,9 +11929,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||oiat.dow.com^
 ||secure.info.domo.com^
 ||tracking.vodafone.co.uk^
-!
-! s1360.hs.eloqua.com disguised trackers
-!
 !
 ! elqcdn.eloqua.com disguised trackers
 !
@@ -12638,7 +12089,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! s127477.hs.eloqua.com disguised trackers
 !
 !
-!
 ||advise.gallup.com^
 ||connect.cap.hcahealthcare.com^
 ||etrack.ext.arubainstanton.com^
@@ -12657,7 +12107,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||webtracking.bankwebinars.com^
 !
 ! s831949997.hs.eloqua.com disguised trackers
-!
 !
 !
 ||advisorservicesfpc.etradefinancial.com^
@@ -12681,7 +12130,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||web.novogene.com^
 !
 ! s944935836.hs.eloqua.com disguised trackers
-!
 !
 !
 ||ae-go.experian.com^
@@ -12791,7 +12239,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! s1507516398.hs.eloqua.com disguised trackers
 !
 !
-!
 ||ai.thermo.com^
 ||ai.thermofisher.com^
 ||allergy.thermofisher.com^
@@ -12892,7 +12339,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! s1661434605.hs.eloqua.com disguised trackers
 !
 !
-!
 ||connect.health.lexmed.com^
 ||connect.memorialcare.org^
 ||eloquamarketing.masterlock.com^
@@ -12917,15 +12363,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||web.health.memorialcare.org^
 ||webtracking.becker.com^
 !
-! s1527.hs.eloqua.com disguised trackers
-!
-!
-! s1766854304.hs.eloqua.com disguised trackers
-!
-!
 ! s1844742678.hs.eloqua.com disguised trackers
-!
-!
 !
 ||anmeldung.promatis.ch^
 ||anmeldung.promatis.de^
@@ -12971,7 +12409,6 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ||answers.teradata.in^
 !
-!
 ||communication.hager.co.uk^
 ||contents.pwc.com^
 ||flavors.firmenich.com^
@@ -12988,8 +12425,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||webinars.coface.com^
 !
 ! s389462.hs.eloqua.com disguised trackers
-!
-!
 !
 ||apac.adpinfo.com^
 ||ast-en.adp.ca^
@@ -13021,7 +12456,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||www.adpinfo.com^
 ||www.infos-experts.adp.com^
 !
-!
 ||apac.info.mouser.com^
 ||app.arkansasrazorbacks.com^
 ||app.arts.uci.edu^
@@ -13043,7 +12477,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.hcltech.com^
 ||tracking.insead.edu^
 !
-!
 ||apacenews.roche.com^
 ||benelux2.secureforms.mcafee.com^
 ||campaigns.netscout.com^
@@ -13061,7 +12494,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mfg.informabi.com^
 ||tracking.info.servicenow.com^
 ||tracking.lenovo.com^
-!
 !
 ||apcinfo.vertexstandard.com^
 ||ask.antalis.com^
@@ -13142,7 +12574,6 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ||campaign.motorolasolutions.com^
 !
-!
 ||app.nhra.com^
 ||e.fdm.dk^
 ||now.greenbuildexpo.com^
@@ -13155,12 +12586,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.opentable.com^
 ||tracking.selective.com^
 !
-!
 ||dnews.abarth.it^
 ||dnews.fiat.it^
 ||dseloqua.youbet.dk^
 ||mkt-tracking.cloudmargin.com^
-!
 !
 ||app.cubuffs.com^
 ||app.meangreensports.com^
@@ -13194,8 +12623,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.protective.com^
 !
 ! s1016221.hs.eloqua.com disguised trackers
-!
-!
 !
 ||app.augustaentertainmentcomplex.com^
 ||app.olemisssports.com^
@@ -13243,7 +12670,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trk.mktg.nec.com^
 ||workplace.ricoh.co.uk^
 !
-!
 ||app.bluehens.com^
 ||app.gobulldogs.com^
 ||app.goheels.com^
@@ -13270,7 +12696,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.oppd.com^
 ||tracking.umbrella.com^
 !
-!
 ||assets.spectrumhealthlakeland.org^
 ||connect.ntx.hcahealthcare.com^
 ||getinfo.fullsail.edu^
@@ -13286,7 +12711,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.prodesa.com^
 ||trk.contentmarketinginstitute.com^
 ||webtracking.aucmed.edu^
-!
 !
 ||app.fightingillini.com^
 ||app.fordidahocenter.com^
@@ -13319,7 +12743,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.response.terex.com^
 ||tracking.rti-inc.com^
 !
-!
 ||app.godeacs.com^
 ||app.tysoncenter.com^
 ||connect.labcorp.com^
@@ -13347,7 +12770,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trk.emeadatacenter.services.global.ntt^
 ||www.learn.dunnhumby.com^
 !
-!
 ||app.engage.richardsonrfpd.com^
 ||app.marketing.richardsonrfpd.com^
 ||businessmaking.progress.com^
@@ -13374,8 +12796,6 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! s600830862.hs.eloqua.com disguised trackers
 !
-!
-!
 ||app.mgoblue.com^
 ||digital.dynatos.be^
 ||explore.epsilon.com^
@@ -13394,36 +12814,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.petrelocation.com^
 ||tracking.sailgp.com^
 !
-! s296651.hs.eloqua.com disguised trackers
-!
-!
-! s215151.hs.eloqua.com disguised trackers
-!
-!
-! s1107655.hs.eloqua.com disguised trackers
-!
-!
-! s1281471.hs.eloqua.com disguised trackers
-!
-!
-! s54006.hs.eloqua.com disguised trackers
-!
-!
-! s1457279.hs.eloqua.com disguised trackers
-!
-!
-! s42415.hs.eloqua.com disguised trackers
-!
-!
-! s2977661.hs.eloqua.com disguised trackers
-!
-!
-! s1550576449.hs.eloqua.com disguised trackers
-!
-!
 ! s274.hs.eloqua.com disguised trackers
-!
-!
 !
 ||app.kstatesports.com^
 ||app.poconoraceway.com^
@@ -13451,53 +12842,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||web.houstontexansluxe.com^
 ||web.lsse.net^
 !
-! s347007.hs.eloqua.com disguised trackers
-!
-!
-! s808240.hs.eloqua.com disguised trackers
-!
-!
-! s1260946616.hs.eloqua.com disguised trackers
-!
-!
-! s3690781.hs.eloqua.com disguised trackers
-!
-!
-! s1480.hs.eloqua.com disguised trackers
-!
-!
 ! s1552085.hs.eloqua.com disguised trackers
 !
 ||app.pbr.com^
 !
-! s756589.hs.eloqua.com disguised trackers
-!
-!
-! s94142.hs.eloqua.com disguised trackers
-!
-!
-! s8100632.hs.eloqua.com disguised trackers
-!
-!
-! s1241071892.hs.eloqua.com disguised trackers
-!
-!
-! s1575097598.hs.eloqua.com disguised trackers
-!
-!
-! s1701211846.hs.eloqua.com disguised trackers
-!
-!
-! s2119850.hs.eloqua.com disguised trackers
-!
-!
-! s2081649.hs.eloqua.com disguised trackers
-!
-!
 ! s1271891940.hs.eloqua.com disguised trackers
 !
 ||bps.ricoh.co.uk^
-!
 !
 ||asia.interface.com^
 ||connect.flowroute.com^
@@ -13521,28 +12872,16 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.risk.lexisnexis.com.br^
 ||welcome.item24.cz^
 !
-!
 ||assessment.vetassess.com.au^
 ||go5.global.toshiba^
 ||track.lesmills.com^
 ||tracking.mkt-email.samsungsds.com^
 !
-! s937.hs.eloqua.com disguised trackers
-!
-!
 ! s1038638438.hs.eloqua.com disguised trackers
 !
 ||immunocap.thermofisher.com^
 !
-! s883680860.hs.eloqua.com disguised trackers
-!
-!
-! s522772699.hs.eloqua.com disguised trackers
-!
-!
 ! s182847396.hs.eloqua.com disguised trackers
-!
-!
 !
 ||business-pages.edfenergy.com^
 ||france.alphabet.com^
@@ -13553,36 +12892,16 @@ charlestownwyllie.oaklawnnonantum.com^
 ||secure.constellation.iqvia.com^
 ||t.afry.com^
 !
-!
 ||bbk.pnc.com^
 ||event.clubcorp.com^
 ||secureod.odfl.com^
 ||tracking.pgi.com^
 !
-!
-!
-! s2115912527.hs.eloqua.com disguised trackers
-!
-!
-! s1965211.hs.eloqua.com disguised trackers
-!
-!
-! s2448.hs.eloqua.com disguised trackers
-!
-!
-! s1425463959.hs.eloqua.com disguised trackers
-!
-!
 ! s735616432.hs.eloqua.com disguised trackers
 !
 ||blog.bumpclubandbeyond.com^
 !
-! s3856805.hs.eloqua.com disguised trackers
-!
-!
 ! s188599536.hs.eloqua.com disguised trackers
-!
-!
 !
 ||business.vodafone.co.nz^
 ||choose.adelaide.edu.au^
@@ -13591,15 +12910,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.utas.edu.au^
 ||visit.tafensw.edu.au^
 !
-! s1525.hs.eloqua.com disguised trackers
-!
-!
-! s1325.hs.eloqua.com disguised trackers
-!
-!
 ! s1019741931.hs.eloqua.com disguised trackers
-!
-!
 !
 ||campaign.amadeus.com^
 ||communication.imec.be^
@@ -13618,8 +12929,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.wettfreunde.net^
 !
 ! s266319173.hs.eloqua.com disguised trackers
-!
-!
 !
 ||campaign.vendorpedia.com^
 ||comunicaciones.paginasamarillas.es^
@@ -13644,41 +12953,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracks3.ferrari.com^
 ||web.wearejust.co.uk^
 !
-! s355424421.hs.eloqua.com disguised trackers
-!
-!
-! s477278796.hs.eloqua.com disguised trackers
-!
-!
-! s128650407.hs.eloqua.com disguised trackers
-!
-!
-!
-!
-! s2025046056.hs.eloqua.com disguised trackers
-!
-!
-! s598301108.hs.eloqua.com disguised trackers
-!
-!
-! s487768300.hs.eloqua.com disguised trackers
-!
-!
-! s225147923.hs.eloqua.com disguised trackers
-!
-!
-! s1363.hs.eloqua.com disguised trackers
-!
-!
-! s1754.hs.eloqua.com disguised trackers
-!
-!
-! s1783.hs.eloqua.com disguised trackers
-!
-!
 ! s1856564273.hs.eloqua.com disguised trackers
-!
-!
 !
 ||connect.chamberlain.edu^
 ||connect.methodisthealthsystem.org^
@@ -13709,7 +12984,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||webtracking.chamberlain.edu^
 ||www.solutions.prudential.com^
 !
-!
 ||comunicaciones.daviviendacorredores.com^
 ||connect.chapman.com^
 ||connect.cont.hcahealthcare.com^
@@ -13734,24 +13008,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||webtracking.moneylaundering.com^
 ||webtrackingvet.rossu.edu^
 !
-! s1737033466.hs.eloqua.com disguised trackers
-!
-!
-! s522558593.hs.eloqua.com disguised trackers
-!
-!
-! s1926084247.hs.eloqua.com disguised trackers
-!
-!
-! s1439730185.hs.eloqua.com disguised trackers
-!
-!
-! s740070409.hs.eloqua.com disguised trackers
-!
-!
 ! s1015724034.hs.eloqua.com disguised trackers
-!
-!
 !
 ||clicks.tableau.com^
 ||elqtracking.cengage.com^
@@ -13766,377 +13023,48 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trackinglrus.wolterskluwer.com^
 ||updates.gaylordhotels.com^
 !
-! s840.hs.eloqua.com disguised trackers
-!
-!
-! s2104.hs.eloqua.com disguised trackers
-!
-!
-! s1006495326.hs.eloqua.com disguised trackers
-!
-!
-! s457207082.hs.eloqua.com disguised trackers
-!
-!
-! s1372101543.hs.eloqua.com disguised trackers
-!
-!
-! s1217594584.hs.eloqua.com disguised trackers
-!
-!
-! s490404737.hs.eloqua.com disguised trackers
-!
-!
-! s2650.hs.eloqua.com disguised trackers
-!
-!
 ! s1184.hs.eloqua.com disguised trackers
 !
 ||connect.partner-connect.netapp.com^
 !
-! s1150279252.hs.eloqua.com disguised trackers
-!
-!
 ! s2144.hs.eloqua.com disguised trackers
 !
 ||connect.arkadin.com^
-!
-! s1609254285.hs.eloqua.com disguised trackers
-!
-!
-! s462232510.hs.eloqua.com disguised trackers
-!
-!
-! s2190102.hs.eloqua.com disguised trackers
-!
-!
-! s703561.hs.eloqua.com disguised trackers
-!
-!
-! s57532.hs.eloqua.com disguised trackers
-!
-!
-! s626391.hs.eloqua.com disguised trackers
-!
-!
-! s4805455.hs.eloqua.com disguised trackers
-!
-!
-! s1354.hs.eloqua.com disguised trackers
-!
-!
-! s722592.hs.eloqua.com disguised trackers
-!
-!
-! s619564847.hs.eloqua.com disguised trackers
-!
-!
-! s978103.hs.eloqua.com disguised trackers
-!
-!
-! s2288812.hs.eloqua.com disguised trackers
-!
-!
-! s921859.hs.eloqua.com disguised trackers
-!
-!
-! s1485599638.hs.eloqua.com disguised trackers
-!
-!
-! s3292856.hs.eloqua.com disguised trackers
-!
-!
-! s1879417329.hs.eloqua.com disguised trackers
-!
-!
-! s1236759688.hs.eloqua.com disguised trackers
-!
-!
-! s609785623.hs.eloqua.com disguised trackers
-!
-!
-! s1533477511.hs.eloqua.com disguised trackers
-!
-!
-! s2090192166.hs.eloqua.com disguised trackers
-!
-!
-! s695499979.hs.eloqua.com disguised trackers
-!
 !
 ! p02g.hs.eloqua.com disguised trackers
 !
 ||contact.golder.com^
 ||secure.immixgroup.com^
 !
-!
 ||eqclicks.movember.com^
 ||experience.jcu.edu.au^
 ||study.jcu.edu.au^
 !
-! s1995000402.hs.eloqua.com disguised trackers
-!
-!
-! s1165.hs.eloqua.com disguised trackers
-!
-!
-! s287749648.hs.eloqua.com disguised trackers
-!
-!
-! s1240377118.hs.eloqua.com disguised trackers
-!
-!
-! s1521.hs.eloqua.com disguised trackers
-!
-!
-! s680149.hs.eloqua.com disguised trackers
-!
-!
 ! s338644260.hs.eloqua.com disguised trackers
-!
-!
 !
 ||future.uwindsor.ca^
 ||learn.uwindsor.ca^
 ||tracking.uwindsor.ca^
 !
-! s177345.hs.eloqua.com disguised trackers
-!
-!
-! s1280579067.hs.eloqua.com disguised trackers
-!
-!
-! s562186580.hs.eloqua.com disguised trackers
-!
-!
-! s2033604275.hs.eloqua.com disguised trackers
-!
-!
-! s220234876.hs.eloqua.com disguised trackers
-!
-!
-! s1857354912.hs.eloqua.com disguised trackers
-!
-!
-! s499517739.hs.eloqua.com disguised trackers
-!
-!
-! s676.hs.eloqua.com disguised trackers
-!
-!
-! s1086385399.hs.eloqua.com disguised trackers
-!
-!
-! s2082.hs.eloqua.com disguised trackers
-!
-!
-! s2826.hs.eloqua.com disguised trackers
-!
-!
-! s554290.hs.eloqua.com disguised trackers
-!
-!
-! s1097967772.hs.eloqua.com disguised trackers
-!
-!
-! s1897772577.hs.eloqua.com disguised trackers
-!
-!
-! s1981585949.hs.eloqua.com disguised trackers
-!
-!
-! s1669161669.hs.eloqua.com disguised trackers
-!
-!
-! s833068.hs.eloqua.com disguised trackers
-!
-!
-! s786780033.hs.eloqua.com disguised trackers
-!
-!
-! s899.hs.eloqua.com disguised trackers
-!
-!
-! s1819831755.hs.eloqua.com disguised trackers
-!
-!
-! s822460770.hs.eloqua.com disguised trackers
-!
-!
-! s1068922595.hs.eloqua.com disguised trackers
-!
-!
-! s840921098.hs.eloqua.com disguised trackers
-!
-!
-! s672742760.hs.eloqua.com disguised trackers
-!
-!
-! s1392964364.hs.eloqua.com disguised trackers
-!
-!
-! s1343588892.hs.eloqua.com disguised trackers
-!
-!
-! s418514676.hs.eloqua.com disguised trackers
-!
-!
-! s936847217.hs.eloqua.com disguised trackers
-!
-!
-! s795651218.hs.eloqua.com disguised trackers
-!
-!
-! s359022900.hs.eloqua.com disguised trackers
-!
-!
-! s832461399.hs.eloqua.com disguised trackers
-!
-!
-! s1009272243.hs.eloqua.com disguised trackers
-!
-!
-! s436121246.hs.eloqua.com disguised trackers
-!
-!
-! s2049007180.hs.eloqua.com disguised trackers
-!
-!
-! s978087.hs.eloqua.com disguised trackers
-!
-!
-! s351095147.hs.eloqua.com disguised trackers
-!
-!
-! s460529241.hs.eloqua.com disguised trackers
-!
-!
 ! s155608312.hs.eloqua.com disguised trackers
 !
 ||eloquatracking.relayr.io^
-!
-! s179956068.hs.eloqua.com disguised trackers
-!
 !
 ! s584437826.hs.eloqua.com disguised trackers
 !
 ||tracking.go.atcc.org^
 !
-! s538756640.hs.eloqua.com disguised trackers
-!
-!
-! s1535.hs.eloqua.com disguised trackers
-!
-!
-! s1548954099.hs.eloqua.com disguised trackers
-!
-!
-! s1795.hs.eloqua.com disguised trackers
-!
-!
-! s161752090.hs.eloqua.com disguised trackers
-!
-!
-! s1634.hs.eloqua.com disguised trackers
-!
-!
 ! s332.hs.eloqua.com disguised trackers
 !
-!
-!
 ||tracking.tdk.com^
-!
-! s386319996.hs.eloqua.com disguised trackers
-!
-!
-! s1371.hs.eloqua.com disguised trackers
-!
-!
-! s1616.hs.eloqua.com disguised trackers
-!
-!
-! s2213.hs.eloqua.com disguised trackers
-!
-!
-! s484374275.hs.eloqua.com disguised trackers
-!
-!
-! s373.hs.eloqua.com disguised trackers
-!
-!
-! s301091484.hs.eloqua.com disguised trackers
-!
-!
-! s1849907385.hs.eloqua.com disguised trackers
-!
-!
-! s1168626303.hs.eloqua.com disguised trackers
-!
-!
-! s1194310.hs.eloqua.com disguised trackers
-!
-!
-! s1738732214.hs.eloqua.com disguised trackers
-!
-!
-! s1555122525.hs.eloqua.com disguised trackers
-!
-!
-! s174746480.hs.eloqua.com disguised trackers
-!
-!
-! s230749692.hs.eloqua.com disguised trackers
-!
-!
-! s2391.hs.eloqua.com disguised trackers
-!
-!
-! s1250714985.hs.eloqua.com disguised trackers
-!
-!
-! s128040577.hs.eloqua.com disguised trackers
-!
-!
-! s1745.hs.eloqua.com disguised trackers
-!
-!
-! s1258972516.hs.eloqua.com disguised trackers
-!
 !
 ! s334284386.hs.eloqua.com disguised trackers
 !
 ||techprovider.intel.com^
 !
-! s298548211.hs.eloqua.com disguised trackers
-!
-!
-! s65254455.hs.eloqua.com disguised trackers
-!
-!
-! s362000045.hs.eloqua.com disguised trackers
-!
-!
-! s1365483532.hs.eloqua.com disguised trackers
-!
-!
-! s616291841.hs.eloqua.com disguised trackers
-!
-!
-! s1742027581.hs.eloqua.com disguised trackers
-!
-!
-! s290512336.hs.eloqua.com disguised trackers
-!
-!
-! s837031577.hs.eloqua.com disguised trackers
-!
-!
 ! p07g.hs.eloqua.com disguised trackers
 !
 ||engage.unisa.edu.au^
-!
-! s1535023188.hs.eloqua.com disguised trackers
-!
 !
 ! p07c.hs.eloqua.com disguised trackers
 !
@@ -14148,170 +13076,15 @@ charlestownwyllie.oaklawnnonantum.com^
 ||visit.donateblood.com.au^
 ||visit.lifeblood.com.au^
 !
-! s661931745.hs.eloqua.com disguised trackers
-!
-!
-! s177775138.hs.eloqua.com disguised trackers
-!
-!
-! s1636063769.hs.eloqua.com disguised trackers
-!
-!
-! s479233787.hs.eloqua.com disguised trackers
-!
-!
-! s113755760.hs.eloqua.com disguised trackers
-!
-!
-! s94443966.hs.eloqua.com disguised trackers
-!
-!
-! s704917861.hs.eloqua.com disguised trackers
-!
-!
-! s2048.hs.eloqua.com disguised trackers
-!
-!
-! s639.hs.eloqua.com disguised trackers
-!
-!
-! s1236288378.hs.eloqua.com disguised trackers
-!
-!
-! s1791556376.hs.eloqua.com disguised trackers
-!
-!
-! s672.hs.eloqua.com disguised trackers
-!
-!
-! s1411.hs.eloqua.com disguised trackers
-!
-!
-! s477300880.hs.eloqua.com disguised trackers
-!
-!
-! s680451474.hs.eloqua.com disguised trackers
-!
-!
-! s1885735477.hs.eloqua.com disguised trackers
-!
-!
-! s1775412872.hs.eloqua.com disguised trackers
-!
-!
-! s1044706121.hs.eloqua.com disguised trackers
-!
-!
-! s1107300821.hs.eloqua.com disguised trackers
-!
-!
-! s1658862228.hs.eloqua.com disguised trackers
-!
-!
-! s240978839.hs.eloqua.com disguised trackers
-!
-!
 ! s61088445.hs.eloqua.com disguised trackers
 !
 ||info.avigilon.com^
 !
-! s1056287425.hs.eloqua.com disguised trackers
-!
-!
-! s1746211102.hs.eloqua.com disguised trackers
-!
-!
-! s1278131127.hs.eloqua.com disguised trackers
-!
-!
-! s1251203807.hs.eloqua.com disguised trackers
-!
-!
-! s698935272.hs.eloqua.com disguised trackers
-!
-!
-! s868742820.hs.eloqua.com disguised trackers
-!
-!
-! s154878491.hs.eloqua.com disguised trackers
-!
-!
-! s2008141379.hs.eloqua.com disguised trackers
-!
-!
-! s84780736.hs.eloqua.com disguised trackers
-!
-!
-! s1265708786.hs.eloqua.com disguised trackers
-!
-!
-! s295390938.hs.eloqua.com disguised trackers
-!
-!
-! s652089797.hs.eloqua.com disguised trackers
-!
-!
-! s1929339847.hs.eloqua.com disguised trackers
-!
-!
-! s944086489.hs.eloqua.com disguised trackers
-!
-!
-! s1157.hs.eloqua.com disguised trackers
-!
-!
-! s1709896.hs.eloqua.com disguised trackers
-!
-!
 ! s127504789.hs.eloqua.com disguised trackers
-!
-!
 !
 ||gba.kwm.com^
 ||pages.kwm.com^
 ||track.auckland.ac.nz^
-!
-! s7468769.hs.eloqua.com disguised trackers
-!
-!
-! s788658067.hs.eloqua.com disguised trackers
-!
-!
-! s1053984823.hs.eloqua.com disguised trackers
-!
-!
-! s804077455.hs.eloqua.com disguised trackers
-!
-!
-! s1763.hs.eloqua.com disguised trackers
-!
-!
-! s3104.hs.eloqua.com disguised trackers
-!
-!
-! s335973.hs.eloqua.com disguised trackers
-!
-!
-! s616.hs.eloqua.com disguised trackers
-!
-!
-! s773611208.hs.eloqua.com disguised trackers
-!
-!
-! s903.hs.eloqua.com disguised trackers
-!
-!
-! s2376.hs.eloqua.com disguised trackers
-!
-!
-! s1061282284.hs.eloqua.com disguised trackers
-!
-!
-! s1424104964.hs.eloqua.com disguised trackers
-!
-!
-! s1012247495.hs.eloqua.com disguised trackers
-!
 !
 ! s5448495.hs.eloqua.com disguised trackers
 !
@@ -14321,91 +13094,13 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ||go.climate.emerson.com^
 !
-! s1983452.hs.eloqua.com disguised trackers
-!
-!
-! s1739541848.hs.eloqua.com disguised trackers
-!
-!
-! s1161.hs.eloqua.com disguised trackers
-!
-!
-! s4010901.hs.eloqua.com disguised trackers
-!
-!
 ! p02a.hs.eloqua.com disguised trackers
 !
 ||go.edmontonoilers.com^
 !
-! s1155674399.hs.eloqua.com disguised trackers
-!
-!
-! s958641.hs.eloqua.com disguised trackers
-!
-!
-! s367589339.hs.eloqua.com disguised trackers
-!
-!
-! s1783419991.hs.eloqua.com disguised trackers
-!
-!
-! s1704464.hs.eloqua.com disguised trackers
-!
-!
-! s634881558.hs.eloqua.com disguised trackers
-!
-!
-! s1068280789.hs.eloqua.com disguised trackers
-!
-!
-! s5139842.hs.eloqua.com disguised trackers
-!
-!
-! s638200148.hs.eloqua.com disguised trackers
-!
-!
-! s1973398186.hs.eloqua.com disguised trackers
-!
-!
-! s97097.hs.eloqua.com disguised trackers
-!
-!
-! s2118877368.hs.eloqua.com disguised trackers
-!
-!
-! s1372514231.hs.eloqua.com disguised trackers
-!
-!
-! s2136619493.hs.eloqua.com disguised trackers
-!
-!
-! s646005169.hs.eloqua.com disguised trackers
-!
-!
-! s1594690046.hs.eloqua.com disguised trackers
-!
-!
-! s1865390481.hs.eloqua.com disguised trackers
-!
-!
-! s1311950425.hs.eloqua.com disguised trackers
-!
-!
-! s2108654627.hs.eloqua.com disguised trackers
-!
-!
-! s1833705806.hs.eloqua.com disguised trackers
-!
-!
-! s1399701292.hs.eloqua.com disguised trackers
-!
-!
 ! secure.p04.eloqua.com disguised trackers
 !
 ||ihub.dpworlduae.com^
-!
-! s1792984.hs.eloqua.com disguised trackers
-!
 !
 ! s397286491.hs.eloqua.com disguised trackers
 !
@@ -14415,393 +13110,21 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ||info.arp.com^
 !
-! s986383348.hs.eloqua.com disguised trackers
-!
-!
 ! s1874466.hs.eloqua.com disguised trackers
 !
 ||info.barcoproducts.com^
-!
-! s906.hs.eloqua.com disguised trackers
-!
-!
-! s769142976.hs.eloqua.com disguised trackers
-!
-!
-! s1556.hs.eloqua.com disguised trackers
-!
-!
-! s517069690.hs.eloqua.com disguised trackers
-!
-!
-! s1054571203.hs.eloqua.com disguised trackers
-!
 !
 ! s1482233545.hs.eloqua.com disguised trackers
 !
 ||tracking.fdbhealth.com^
 !
-! s839961370.hs.eloqua.com disguised trackers
-!
-!
-! s141717539.hs.eloqua.com disguised trackers
-!
-!
-! s1779773941.hs.eloqua.com disguised trackers
-!
-!
-! s4793349.hs.eloqua.com disguised trackers
-!
-!
-! s1219509997.hs.eloqua.com disguised trackers
-!
-!
-! s208914684.hs.eloqua.com disguised trackers
-!
-!
-! s1492372420.hs.eloqua.com disguised trackers
-!
-!
-! s1674556495.hs.eloqua.com disguised trackers
-!
-!
-! s1017189481.hs.eloqua.com disguised trackers
-!
-!
-! s2124157686.hs.eloqua.com disguised trackers
-!
-!
-! s679701162.hs.eloqua.com disguised trackers
-!
-!
-! s258238139.hs.eloqua.com disguised trackers
-!
-!
-! s645819469.hs.eloqua.com disguised trackers
-!
-!
-! s642.hs.eloqua.com disguised trackers
-!
-!
-! s302289644.hs.eloqua.com disguised trackers
-!
-!
-! s1788.hs.eloqua.com disguised trackers
-!
-!
-! s1474118247.hs.eloqua.com disguised trackers
-!
-!
-! s1988571858.hs.eloqua.com disguised trackers
-!
-!
-! s3243454.hs.eloqua.com disguised trackers
-!
-!
-! s741846630.hs.eloqua.com disguised trackers
-!
-!
-! s1706134858.hs.eloqua.com disguised trackers
-!
-!
-! s1178718692.hs.eloqua.com disguised trackers
-!
-!
-! s1503422690.hs.eloqua.com disguised trackers
-!
-!
-! s1127287735.hs.eloqua.com disguised trackers
-!
-!
-! s2078548478.hs.eloqua.com disguised trackers
-!
-!
-! s341504499.hs.eloqua.com disguised trackers
-!
-!
-! s1654.hs.eloqua.com disguised trackers
-!
-!
-! s839411425.hs.eloqua.com disguised trackers
-!
-!
-! s1364398973.hs.eloqua.com disguised trackers
-!
-!
-! s508159127.hs.eloqua.com disguised trackers
-!
-!
-! s3049749.hs.eloqua.com disguised trackers
-!
-!
-! s570777387.hs.eloqua.com disguised trackers
-!
-!
-! s1433593509.hs.eloqua.com disguised trackers
-!
-!
-! s1133169544.hs.eloqua.com disguised trackers
-!
-!
-! s1025.hs.eloqua.com disguised trackers
-!
-!
-! s2417.hs.eloqua.com disguised trackers
-!
-!
-! s742824262.hs.eloqua.com disguised trackers
-!
-!
-! s4558456.hs.eloqua.com disguised trackers
-!
-!
-! s804982657.hs.eloqua.com disguised trackers
-!
-!
-! s1829601.hs.eloqua.com disguised trackers
-!
-!
-! s1469681.hs.eloqua.com disguised trackers
-!
-!
-! s608.hs.eloqua.com disguised trackers
-!
-!
-! s857737.hs.eloqua.com disguised trackers
-!
-!
-! s1777052651.hs.eloqua.com disguised trackers
-!
-!
-! s1361878872.hs.eloqua.com disguised trackers
-!
-!
-! s1107114332.hs.eloqua.com disguised trackers
-!
-!
-! s1507378874.hs.eloqua.com disguised trackers
-!
-!
-! s1145.hs.eloqua.com disguised trackers
-!
-!
-! s1660.hs.eloqua.com disguised trackers
-!
-!
-! s748859613.hs.eloqua.com disguised trackers
-!
-!
-! s1284661142.hs.eloqua.com disguised trackers
-!
-!
-! s55867.hs.eloqua.com disguised trackers
-!
-!
-! s1629121027.hs.eloqua.com disguised trackers
-!
-!
-! s1023994345.hs.eloqua.com disguised trackers
-!
-!
-! s640556.hs.eloqua.com disguised trackers
-!
-!
-! s223222610.hs.eloqua.com disguised trackers
-!
-!
-! s341921710.hs.eloqua.com disguised trackers
-!
-!
-! s2894949.hs.eloqua.com disguised trackers
-!
-!
-! s2126871889.hs.eloqua.com disguised trackers
-!
-!
-! s893956921.hs.eloqua.com disguised trackers
-!
-!
-! s50277215.hs.eloqua.com disguised trackers
-!
-!
-! s205422009.hs.eloqua.com disguised trackers
-!
-!
-! s417558342.hs.eloqua.com disguised trackers
-!
-!
-! s1475040089.hs.eloqua.com disguised trackers
-!
-!
-! s736472.hs.eloqua.com disguised trackers
-!
-!
-! s43975733.hs.eloqua.com disguised trackers
-!
-!
-! s1816717515.hs.eloqua.com disguised trackers
-!
-!
-! s645654258.hs.eloqua.com disguised trackers
-!
-!
-! s23693100.hs.eloqua.com disguised trackers
-!
-!
-! s1758221812.hs.eloqua.com disguised trackers
-!
-!
-! s244475.hs.eloqua.com disguised trackers
-!
-!
-! s20103530.hs.eloqua.com disguised trackers
-!
-!
-! s279295639.hs.eloqua.com disguised trackers
-!
-!
-! s1445544.hs.eloqua.com disguised trackers
-!
-!
-! s103126886.hs.eloqua.com disguised trackers
-!
-!
-! s1909208.hs.eloqua.com disguised trackers
-!
-!
-! s383344069.hs.eloqua.com disguised trackers
-!
-!
-! s9445901.hs.eloqua.com disguised trackers
-!
-!
-! s6148858.hs.eloqua.com disguised trackers
-!
-!
-! s1625795586.hs.eloqua.com disguised trackers
-!
-!
-! s983166544.hs.eloqua.com disguised trackers
-!
-!
-! s1887739738.hs.eloqua.com disguised trackers
-!
-!
-! s46849916.hs.eloqua.com disguised trackers
-!
-!
-! s1734025471.hs.eloqua.com disguised trackers
-!
-!
-! s1634886871.hs.eloqua.com disguised trackers
-!
-!
-! s1632284857.hs.eloqua.com disguised trackers
-!
-!
-! s1630091360.hs.eloqua.com disguised trackers
-!
-!
-! s2044960264.hs.eloqua.com disguised trackers
-!
-!
-! s1892927.hs.eloqua.com disguised trackers
-!
-!
-! s59104477.hs.eloqua.com disguised trackers
-!
-!
-! s1913652004.hs.eloqua.com disguised trackers
-!
-!
-! s1450716703.hs.eloqua.com disguised trackers
-!
-!
-! s1233.hs.eloqua.com disguised trackers
-!
-!
-! s2150.hs.eloqua.com disguised trackers
-!
-!
-! s459.hs.eloqua.com disguised trackers
-!
-!
-! s779983035.hs.eloqua.com disguised trackers
-!
-!
 ! p02j.hs.eloqua.com disguised trackers
 !
 ||response.desjardins.com^
 !
-! s2006753802.hs.eloqua.com disguised trackers
-!
-!
-! s225884627.hs.eloqua.com disguised trackers
-!
-!
-! s893759278.hs.eloqua.com disguised trackers
-!
-!
-! s1042585190.hs.eloqua.com disguised trackers
-!
-!
-! s1528.hs.eloqua.com disguised trackers
-!
-!
-! s2116941023.hs.eloqua.com disguised trackers
-!
-!
-! s362693299.hs.eloqua.com disguised trackers
-!
-!
-! s976772240.hs.eloqua.com disguised trackers
-!
-!
-! s159500889.hs.eloqua.com disguised trackers
-!
-!
-! s3086.hs.eloqua.com disguised trackers
-!
-!
-! s2427.hs.eloqua.com disguised trackers
-!
-!
-! s380021914.hs.eloqua.com disguised trackers
-!
-!
-! s1744479642.hs.eloqua.com disguised trackers
-!
-!
-! s3805888.hs.eloqua.com disguised trackers
-!
-!
-! s1133198723.hs.eloqua.com disguised trackers
-!
-!
-! s1368768478.hs.eloqua.com disguised trackers
-!
-!
-! s1423675.hs.eloqua.com disguised trackers
-!
-!
-! s1782160512.hs.eloqua.com disguised trackers
-!
-!
-! s2437.hs.eloqua.com disguised trackers
-!
-!
 ! s2085091463.hs.eloqua.com disguised trackers
 !
 ||secureforms.proagrica.com^
-!
-! s2824.hs.eloqua.com disguised trackers
-!
-!
-! s1505435838.hs.eloqua.com disguised trackers
-!
-!
-! s146977739.hs.eloqua.com disguised trackers
-!
 !
 ! s1236249806.hs.eloqua.com disguised trackers
 !
@@ -14815,237 +13138,9 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ||shelter.dupont.com^
 !
-! s394336720.hs.eloqua.com disguised trackers
-!
-!
-! s1447373.hs.eloqua.com disguised trackers
-!
-!
-! s849425.hs.eloqua.com disguised trackers
-!
-!
-! s1164411065.hs.eloqua.com disguised trackers
-!
-!
-! s409256115.hs.eloqua.com disguised trackers
-!
-!
-! s530566577.hs.eloqua.com disguised trackers
-!
-!
-! s1263502483.hs.eloqua.com disguised trackers
-!
-!
-! s456196690.hs.eloqua.com disguised trackers
-!
-!
-! s244630019.hs.eloqua.com disguised trackers
-!
-!
-! s1896.hs.eloqua.com disguised trackers
-!
-!
-! s1435678.hs.eloqua.com disguised trackers
-!
-!
-! s1896673673.hs.eloqua.com disguised trackers
-!
-!
-! s1728163616.hs.eloqua.com disguised trackers
-!
-!
-! s861531437.hs.eloqua.com disguised trackers
-!
-!
-! s2950557.hs.eloqua.com disguised trackers
-!
-!
-! s1460333.hs.eloqua.com disguised trackers
-!
-!
-! s1181141.hs.eloqua.com disguised trackers
-!
-!
-! s2767058.hs.eloqua.com disguised trackers
-!
-!
-! s4647128.hs.eloqua.com disguised trackers
-!
-!
-! s3978542.hs.eloqua.com disguised trackers
-!
-!
-! s2177364.hs.eloqua.com disguised trackers
-!
-!
-! s2906346.hs.eloqua.com disguised trackers
-!
-!
-! s718390.hs.eloqua.com disguised trackers
-!
-!
-! s4041393.hs.eloqua.com disguised trackers
-!
-!
-! s1674425.hs.eloqua.com disguised trackers
-!
-!
-! s2336561.hs.eloqua.com disguised trackers
-!
-!
-! s2941439.hs.eloqua.com disguised trackers
-!
-!
-! s3953753.hs.eloqua.com disguised trackers
-!
-!
-! s5797642.hs.eloqua.com disguised trackers
-!
-!
-! s70543.hs.eloqua.com disguised trackers
-!
-!
-! s77283.hs.eloqua.com disguised trackers
-!
-!
-! s717488.hs.eloqua.com disguised trackers
-!
-!
-! s2394888.hs.eloqua.com disguised trackers
-!
-!
-! s662344.hs.eloqua.com disguised trackers
-!
-!
-! s4743215.hs.eloqua.com disguised trackers
-!
-!
-! s1173582.hs.eloqua.com disguised trackers
-!
-!
-! s2414213.hs.eloqua.com disguised trackers
-!
-!
-! s261098.hs.eloqua.com disguised trackers
-!
-!
-! s1601981.hs.eloqua.com disguised trackers
-!
-!
-! s1108752.hs.eloqua.com disguised trackers
-!
-!
-! s20342.hs.eloqua.com disguised trackers
-!
-!
-! s2334089.hs.eloqua.com disguised trackers
-!
-!
-! s33828.hs.eloqua.com disguised trackers
-!
-!
-! s22009.hs.eloqua.com disguised trackers
-!
-!
-! s2342053.hs.eloqua.com disguised trackers
-!
-!
-! s533626.hs.eloqua.com disguised trackers
-!
-!
-! s773600.hs.eloqua.com disguised trackers
-!
-!
-! s2234957.hs.eloqua.com disguised trackers
-!
-!
-! s370925.hs.eloqua.com disguised trackers
-!
-!
-! s2200554.hs.eloqua.com disguised trackers
-!
-!
-! s2586496.hs.eloqua.com disguised trackers
-!
-!
-! s5520421.hs.eloqua.com disguised trackers
-!
-!
-! s3192205.hs.eloqua.com disguised trackers
-!
-!
-! s7610.hs.eloqua.com disguised trackers
-!
-!
-! s2279082.hs.eloqua.com disguised trackers
-!
-!
-! s2661780.hs.eloqua.com disguised trackers
-!
-!
-! s3921539.hs.eloqua.com disguised trackers
-!
-!
-! s873312.hs.eloqua.com disguised trackers
-!
-!
-! s3327771.hs.eloqua.com disguised trackers
-!
-!
-! s4239565.hs.eloqua.com disguised trackers
-!
-!
-! s9011856.hs.eloqua.com disguised trackers
-!
-!
-! s5183409.hs.eloqua.com disguised trackers
-!
-!
-! s2425245.hs.eloqua.com disguised trackers
-!
-!
-! s2019595.hs.eloqua.com disguised trackers
-!
-!
-! s593281.hs.eloqua.com disguised trackers
-!
-!
-! s474024.hs.eloqua.com disguised trackers
-!
-!
-! s5531012.hs.eloqua.com disguised trackers
-!
-!
-! s215943.hs.eloqua.com disguised trackers
-!
-!
-! s1013753.hs.eloqua.com disguised trackers
-!
-!
-! s790935.hs.eloqua.com disguised trackers
-!
-!
-! s2590381.hs.eloqua.com disguised trackers
-!
-!
-! s301200.hs.eloqua.com disguised trackers
-!
-!
-! s706700.hs.eloqua.com disguised trackers
-!
-!
-! s297511345.hs.eloqua.com disguised trackers
-!
-!
-! s1885539667.hs.eloqua.com disguised trackers
-!
-!
 ! s1836379484.hs.eloqua.com disguised trackers
 !
 ||temails.productnotice.thomsonreuters.com^
-!
-! s3016511.hs.eloqua.com disguised trackers
-!
 !
 ! s711385017.hs.eloqua.com disguised trackers
 !
@@ -15053,469 +13148,32 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tr-ms.profilo.com^
 ||tr-ms.siemens-home.bsh-group.com^
 !
-! s19803528.hs.eloqua.com disguised trackers
-!
-!
-! s1968580696.hs.eloqua.com disguised trackers
-!
-!
-! s2021.hs.eloqua.com disguised trackers
-!
-!
-! s810866859.hs.eloqua.com disguised trackers
-!
-!
-! s2033696.hs.eloqua.com disguised trackers
-!
-!
-! s694841291.hs.eloqua.com disguised trackers
-!
-!
-! s566810826.hs.eloqua.com disguised trackers
-!
-!
-! s1990924103.hs.eloqua.com disguised trackers
-!
-!
-! s2255121.hs.eloqua.com disguised trackers
-!
-!
-! s305496.hs.eloqua.com disguised trackers
-!
-!
-! s2175572.hs.eloqua.com disguised trackers
-!
-!
-! s3096123.hs.eloqua.com disguised trackers
-!
-!
-! s375943868.hs.eloqua.com disguised trackers
-!
-!
-! s19745433.hs.eloqua.com disguised trackers
-!
-!
-! s1990706537.hs.eloqua.com disguised trackers
-!
-!
-! s1129361478.hs.eloqua.com disguised trackers
-!
-!
-! s45830372.hs.eloqua.com disguised trackers
-!
-!
-! s1931362753.hs.eloqua.com disguised trackers
-!
-!
-! s459453599.hs.eloqua.com disguised trackers
-!
-!
-! s414407.hs.eloqua.com disguised trackers
-!
-!
-! s688533.hs.eloqua.com disguised trackers
-!
-!
-! s882904488.hs.eloqua.com disguised trackers
-!
-!
-! s365128.hs.eloqua.com disguised trackers
-!
-!
-! s1887074206.hs.eloqua.com disguised trackers
-!
-!
-! s868446402.hs.eloqua.com disguised trackers
-!
-!
-! s1734073713.hs.eloqua.com disguised trackers
-!
-!
-! s1444088438.hs.eloqua.com disguised trackers
-!
-!
-! s1006266832.hs.eloqua.com disguised trackers
-!
-!
-! s1571500494.hs.eloqua.com disguised trackers
-!
-!
-! s2132.hs.eloqua.com disguised trackers
-!
-!
-! s1887277791.hs.eloqua.com disguised trackers
-!
-!
-! s1253383126.hs.eloqua.com disguised trackers
-!
-!
-! s743081401.hs.eloqua.com disguised trackers
-!
-!
-! s2138.hs.eloqua.com disguised trackers
-!
-!
-! s1647363395.hs.eloqua.com disguised trackers
-!
-!
-! s856856423.hs.eloqua.com disguised trackers
-!
-!
-! s6137615.hs.eloqua.com disguised trackers
-!
-!
-! s252818013.hs.eloqua.com disguised trackers
-!
-!
-! s1358.hs.eloqua.com disguised trackers
-!
-!
-! s879985536.hs.eloqua.com disguised trackers
-!
-!
-! s1712683840.hs.eloqua.com disguised trackers
-!
-!
-! s534595109.hs.eloqua.com disguised trackers
-!
-!
-! s1672222.hs.eloqua.com disguised trackers
-!
-!
-! s97329354.hs.eloqua.com disguised trackers
-!
-!
-! s1739717246.hs.eloqua.com disguised trackers
-!
-!
 ! s275197016.hs.eloqua.com disguised trackers
 !
 ||tracking.fdm.dk^
-!
-! s1791.hs.eloqua.com disguised trackers
-!
-!
-! s2064197708.hs.eloqua.com disguised trackers
-!
-!
-! s544.hs.eloqua.com disguised trackers
-!
-!
-! s8258.hs.eloqua.com disguised trackers
-!
-!
-! s192083571.hs.eloqua.com disguised trackers
-!
-!
-! s1069047711.hs.eloqua.com disguised trackers
-!
-!
-! s8896332.hs.eloqua.com disguised trackers
-!
-!
-! s1253878073.hs.eloqua.com disguised trackers
-!
-!
-! s1022.hs.eloqua.com disguised trackers
-!
-!
-! s1800677.hs.eloqua.com disguised trackers
-!
-!
-! s956780691.hs.eloqua.com disguised trackers
-!
-!
-! s1733242902.hs.eloqua.com disguised trackers
-!
-!
-! s1133.hs.eloqua.com disguised trackers
-!
-!
-! s998125501.hs.eloqua.com disguised trackers
-!
-!
-! s869025237.hs.eloqua.com disguised trackers
-!
-!
-! s61956.hs.eloqua.com disguised trackers
-!
-!
-! s1717.hs.eloqua.com disguised trackers
-!
-!
-! s1407994545.hs.eloqua.com disguised trackers
-!
-!
-! s732646936.hs.eloqua.com disguised trackers
-!
-!
-! s881106.hs.eloqua.com disguised trackers
-!
-!
-! s1011041821.hs.eloqua.com disguised trackers
-!
-!
-! s73756918.hs.eloqua.com disguised trackers
-!
-!
-! s908331520.hs.eloqua.com disguised trackers
-!
-!
-! s188399297.hs.eloqua.com disguised trackers
-!
-!
-! s1981692173.hs.eloqua.com disguised trackers
-!
-!
-! s2071357376.hs.eloqua.com disguised trackers
-!
-!
-! s19892481.hs.eloqua.com disguised trackers
-!
-!
-! s1427524768.hs.eloqua.com disguised trackers
-!
-!
-! s5020318.hs.eloqua.com disguised trackers
-!
-!
-! s242670.hs.eloqua.com disguised trackers
-!
-!
-! s1920192983.hs.eloqua.com disguised trackers
-!
-!
-! s459912.hs.eloqua.com disguised trackers
-!
-!
-! s1953885032.hs.eloqua.com disguised trackers
-!
-!
-! s2020524045.hs.eloqua.com disguised trackers
-!
-!
-! s459519.hs.eloqua.com disguised trackers
-!
-!
-! s1505979.hs.eloqua.com disguised trackers
-!
-!
-! s1392407584.hs.eloqua.com disguised trackers
-!
-!
-! s839047.hs.eloqua.com disguised trackers
-!
-!
-! s576132794.hs.eloqua.com disguised trackers
-!
-!
-! s1799992300.hs.eloqua.com disguised trackers
-!
-!
-! s1387486446.hs.eloqua.com disguised trackers
-!
-!
-! s499344317.hs.eloqua.com disguised trackers
-!
-!
-! s1832.hs.eloqua.com disguised trackers
-!
-!
-! s1819762567.hs.eloqua.com disguised trackers
-!
-!
-! s441910513.hs.eloqua.com disguised trackers
-!
-!
-! s1487871083.hs.eloqua.com disguised trackers
-!
-!
-! s860818199.hs.eloqua.com disguised trackers
-!
-!
-! s1207496928.hs.eloqua.com disguised trackers
-!
-!
-! s1046939679.hs.eloqua.com disguised trackers
-!
-!
-! s1120.hs.eloqua.com disguised trackers
-!
-!
-! s1389013426.hs.eloqua.com disguised trackers
-!
-!
-! s157200592.hs.eloqua.com disguised trackers
-!
-!
-! s1125168648.hs.eloqua.com disguised trackers
-!
-!
-! s345548666.hs.eloqua.com disguised trackers
-!
-!
-! s1472843.hs.eloqua.com disguised trackers
-!
-!
-! s1234457786.hs.eloqua.com disguised trackers
-!
-!
-! s1122776361.hs.eloqua.com disguised trackers
-!
-!
-! s14611781.hs.eloqua.com disguised trackers
-!
-||tracks1.ferrari.com^
-!
-! s171237132.hs.eloqua.com disguised trackers
-!
-!
-! s468913550.hs.eloqua.com disguised trackers
-!
-!
-! s966913078.hs.eloqua.com disguised trackers
-!
 !
 ! s949606000.hs.eloqua.com disguised trackers
 !
 ||trk.admmontreal.com^
 ||trk.admtoronto.com^
 !
-! s230127911.hs.eloqua.com disguised trackers
-!
-!
 ! s1587191664.hs.eloqua.com disguised trackers
 !
 ||trk.americancityandcounty.com^
-!
-! s930.hs.eloqua.com disguised trackers
-!
-!
-! s1252280979.hs.eloqua.com disguised trackers
-!
-!
-! s1346786309.hs.eloqua.com disguised trackers
-!
-!
-! s1943367007.hs.eloqua.com disguised trackers
-!
-!
-! s1931078500.hs.eloqua.com disguised trackers
-!
-!
-! s736811171.hs.eloqua.com disguised trackers
-!
-!
-! s668595.hs.eloqua.com disguised trackers
-!
-!
-! s1893331.hs.eloqua.com disguised trackers
-!
-!
-! s434533438.hs.eloqua.com disguised trackers
-!
-!
-! s381216.hs.eloqua.com disguised trackers
-!
-!
-! s2677.hs.eloqua.com disguised trackers
-!
-!
-! s2073603363.hs.eloqua.com disguised trackers
-!
-!
-! s1824193043.hs.eloqua.com disguised trackers
-!
-!
-! s2307.hs.eloqua.com disguised trackers
-!
-!
-! s2022633471.hs.eloqua.com disguised trackers
-!
-!
-! s434397.hs.eloqua.com disguised trackers
-!
-!
-! s4758959.hs.eloqua.com disguised trackers
-!
 !
 ! s2698233.hs.eloqua.com disguised trackers
 !
 ||web.care.northoaks.org^
 !
-! s1595272163.hs.eloqua.com disguised trackers
-!
-!
-! s124923.hs.eloqua.com disguised trackers
-!
-!
-! s2287589.hs.eloqua.com disguised trackers
-!
-!
-! s984275552.hs.eloqua.com disguised trackers
-!
-!
-! s5267799.hs.eloqua.com disguised trackers
-!
-!
-! s220745253.hs.eloqua.com disguised trackers
-!
-!
-! s393074.hs.eloqua.com disguised trackers
-!
-!
-! s1711294798.hs.eloqua.com disguised trackers
-!
-!
-! s1683655354.hs.eloqua.com disguised trackers
-!
-!
-! s125869073.hs.eloqua.com disguised trackers
-!
-!
-! s1349436993.hs.eloqua.com disguised trackers
-!
-!
-! s301572493.hs.eloqua.com disguised trackers
-!
-!
-! s1173830714.hs.eloqua.com disguised trackers
-!
-!
-! s418793455.hs.eloqua.com disguised trackers
-!
-!
-! s218036981.hs.eloqua.com disguised trackers
-!
-!
-! s1894139733.hs.eloqua.com disguised trackers
-!
-!
-! s2090047988.hs.eloqua.com disguised trackers
-!
-!
-! s1606748220.hs.eloqua.com disguised trackers
-!
-!
-! s84397462.hs.eloqua.com disguised trackers
-!
-!
-! s1755874914.hs.eloqua.com disguised trackers
-!
-!
 ! Otto Group : oghub.io disguised trackers
 !
 ! Company name: Otto Group
-!
 !
 ||prod.nitrosniffer.ottogroup.io^
 ||sniffer.nitro-test-extern.otto.boreus.de^
 ||te.frankonia.at^
 ||te.frankoniamoda.ch^
 ||te.waeschepur.de^
-!
-! Pardot : go.pardot.com disguised trackers
-! not included
 !
 ! Parse.ly : parsely.com disguised trackers
 !
@@ -15536,8 +13194,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vo.ashgabat.fun^
 !
 ! Plausible Analytics : custom.plausible.io disguised trackers
-!
-!
 !
 ||a.remy.world^
 ||an.xavierrosee.com^
@@ -15746,9 +13402,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||we-love-privacy.humane.club^
 ||whz9ruftvh4pxz8fc7vh.theochu.com^
 ||yolo.philipbjorge.com^
-!
-! PopCash : popcashjs.b-cdn.net disguised advertising networks
-! included to BaseFilter/sections/cname_adservers.txt
 !
 ! RedTrack : rdtk.io disguised advertising networks
 !
@@ -16503,9 +14156,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||x.healthlabinstitute.com^
 ||x.neurofacts.org^
 !
-! TraceDock : *.eu-central-1.elb.amazonaws.com disguised trackers
-! not included
-!
 ! Webtrekk : webtrekk.net disguised trackers
 !
 ! Company name: Webtrekk
@@ -16517,7 +14167,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||now.peek-cloppenburg.de^
 ||tracking.tchibo.hu^
 ||wt.distrelec.com^
-!
 !
 ||da.hornbach.be^
 ||data.janvanderstorm.de^
@@ -16553,8 +14202,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||webt.aqipa.com^
 ||wt.ara.cat^
 !
-!
-!
 ! Wizaly : wizaly.com disguised trackers
 !
 ! Company name: Wizaly
@@ -16579,7 +14226,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trackv-test.esearchvision.com^
 ||tv-test.esvdigital.com^
 !
-!
 ! Fixing the issues
 !
 ! unblock https://form.ict-toshiba.jp/contact_form_recipewizard
@@ -16602,9 +14248,6 @@ charlestownwyllie.oaklawnnonantum.com^
 .com.br/cliente/trackRemote^|
 ! jentis.com tracker
 /get/*/live/_/jts.js
-! GfUBServer
-! webtrekk
-!
 ! transsion.com
 /athena-etm.js
 ! newrelic.com
@@ -16632,10 +14275,8 @@ charlestownwyllie.oaklawnnonantum.com^
 /lunalys/analyzer/*
 ! ex. https://l.tenkomori.tv/script.php?i=5071tenmaya&site=blog.tenkomori.tv
 ://l.*/script.php?i=$script,1p
-!
 ! Facebook
 /js/fb_tracking.js
-!
 ! Cloudflare
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xhr,1p
 /cdn-cgi/bm/cv/*$script
@@ -16804,16 +14445,6 @@ _tracking.php?b=
 ! Tealium
 ! The site should be carefully checked when you add this rule
 ||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com|d1lynpf6ndesae.cloudfront.net|rukrymr.azureedge.net|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com
-!
-!
-! TODO: check the allowlist file from time to time to remove unnecessary exceptions
-! https://github.com/AdguardTeam/Scriptlets/issues/253#issuecomment-1308957501 - do not remove `~id.x5.ru`
-! https://github.com/AdguardTeam/AdguardFilters/issues/137243
-! TODO: replace `~domain.com` by exclusions after ext4.0 release
-! https://github.com/AdguardTeam/AdguardFilters/issues/101178 - bethesda.net
-! https://github.com/AdguardTeam/Scriptlets/issues/160 - simon.com
-! https://www.reddit.com/r/uBlockOrigin/comments/pyfove/ublock_origin_breaks_corsairs_website_when_using/ (Firefox)
-! TODO: Blocking GTM globally is dangerous, needs to be tested manually on problematic websites
 !
 ! Some sites are broken. The rules are required for apps only.
 .demdex.net/id^$redirect=nooptext,important,image,media,frame,stylesheet,script,xhr,other
@@ -19054,7 +16685,6 @@ link.gmapp*.net$image
 !
 ! https://github.com/AdguardTeam/AdguardForWindows/issues/3973
 ||static.olx.pl/static/*/js/tracking/ninja.js$important,domain=olx.pl
-! https://github.com/AdguardTeam/AdguardFilters/issues/75799
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53722
 ||google-analytics.com/analytics.js$important,domain=unique-tutorials.info|getintopc.com|solvetube.site|tech-platform.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43140
@@ -19117,7 +16747,6 @@ link.gmapp*.net$image
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||windowspro.de/stats/mto.js
 ||zara.com/integration/zenit/events/hit
-! amazon.co.jp
 ! jscrambler.com
 ||jscrambler.com/bc.js
 ||jscrambler.com/api/statistics
@@ -19137,8 +16766,6 @@ link.gmapp*.net$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 !
 ! Domain specific
-! NOTE: Cookies specific
-!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139501
 ! Tripadvisor
 ! Used for user tracking across websites
@@ -19158,9 +16785,6 @@ link.gmapp*.net$image
 ||eviltracker.net^
 ||spotify.com/ads/
 ||trackersimulator.org^
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/31290
-! https://github.com/AdguardTeam/AdguardForAndroid/issues/908
 !
 ! For apps
 ||pangle-b.io^
@@ -19862,10 +17486,8 @@ cdn-settings.appsflyersdk.com^
 !
 ! Good: @@||tracker.org^$domain=m.example.org
 !
-!
 ! Repeated requests, two or more in one second if blocked - https://old.reddit.com/r/Adguard/comments/ztbv96/how_do_i_stop_this_my_phone_is_overheating_and/
 !
-! https://forum.adguard.com/index.php?threads/www-dailymotion-com.31223
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25363
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43046
 @@||redirect.appmetrica.yandex.net^
@@ -19902,7 +17524,6 @@ cdn-settings.appsflyersdk.com^
 @@||google-analytics.com/analytics.js$script,redirect-rule,domain=nordvpn.com
 !#################
 !
-!
 ! metrika-yandex - common exceptions for tag.js, watch.js
 ! For all platforms. If you add a domain here, you should also report https://github.com/AdguardTeam/Scriptlets/issues
 !@@||mc.yandex.ru/metrika/tag.js$domain=
@@ -19922,7 +17543,6 @@ cdn-settings.appsflyersdk.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142491
 @@||cdn.cxense.com/cx.js$domain=cdn.cxpublic.com
 @@||api.cxense.com/public/widget/$domain=cdn.cxpublic.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/142569
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142567
 @@||csm.cxpublic.com/nikkansports.js$domain=nikkansports.com,script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142640
