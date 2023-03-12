@@ -14876,6 +14876,7 @@ textologia.ru##.bot_right
 tourister.ru##.nt-foot-item[style="overflow:hidden;"]
 ||pravo.ru/assets/*/js/event.js
 ||fivemsociety.com/analitik.js
+||baseendpoint.stern.de/wrapper/metrics
 ||trk.mail.ru^$image,ping
 ||push.m.youku.com/collect-api/
 ||cast.imp.joins.com/persona.js
