@@ -112,7 +112,6 @@ itsu.com##+js(set, AtreemoTrackingLbr, noopFunc)
 
 ! Generic cosmetic filters
 ##img[src^="//counter.ukr.net/"]
-##amp-embed[type="taboola"]
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -283,14 +282,12 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||t.elasticsuite.io^
 ||tag.voice.zetacx.net^
 ||affil.top4football.com^
-||bttrack.com^
 ||papi.look.360.cn^
 ||cdn.dsspn.com^
 ||ujm.hansel.io^$3p
 ||app-measurement.com^
 ||elsa.memoinsights.com^
 ||cdn.mediatradecraft.com^$3p
-||my.rtmark.net^
 ||tangerine.io^$3p
 ||perzonalization.com^$3p
 ||acclog001.shop-pro.jp^
@@ -368,7 +365,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||events.audioplace.me^$3p
 ||usageanalytics.coveo.com^
 ||ox.bncounter.com^
-||pbkqidejmes.ru^
 ||sensors.ibreader.com^
 ||trk2-wtb.swaven.com^
 ||sgtm.sefamerve.com^
@@ -487,7 +483,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||powerbiz.co^$3p
 ||tag.search.sensefuel.live^$3p
 ||restisbench.com^$3p
-||events.tremorhub.com^
 ||mm.actionlink.jp^
 ||tracklog.58.com^
 ||static.terratraf.io^$3p
@@ -644,7 +639,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||tatsumi-sys.jp^$3p
 ||ad4m.at^
 ||mycheckergeo.com^$3p
-||casalemedia.com^
 ||ct2.kimodameshi.com^
 ||tag.pprl.io^
 ||tags.newscgp.com^
@@ -810,7 +804,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||stats.coronalabs.com^
 ||track.special-offers.online^$3p
 ||crm.agency^$3p
-||i.clean.gg^
 ||xl-trk.com^$3p
 ||nxcount.com^$3p
 ||pfx.sma-clsystem.info^$3p
@@ -1784,7 +1777,6 @@ returnpath.net/pixel.gif$image
 ||atlas1.krone.at^
 ||atm.youku.com^
 ||ats.otto.de^
-||audience.visiblemeasures.com^
 ||awsync.yandex.ru^
 ||b-aws.aol.com^
 ||b.aol.com^
@@ -1852,7 +1844,6 @@ returnpath.net/pixel.gif$image
 ||cc.calltracking.ru^
 ||cc.zeit.de^
 ||cdn.c-i.as^
-||cdn.contalyze.com^
 ||cdn.odoscope.cloud^
 ||cdnstats-a.akamaihd.net^
 ||ce-global-track-*.amazonaws.com^
@@ -2426,7 +2417,6 @@ returnpath.net/pixel.gif$image
 ||p.imgur.com^
 ||p.l1v.ly^
 ||p.raasnet.com^
-||p.smartertravel.com^
 ||p.vtracy.de^
 ||p0.raasnet.com^
 ||p2trc.emv2.com^
@@ -2449,7 +2439,6 @@ returnpath.net/pixel.gif$image
 ||pix.gfycat.com^
 ||pix.nbcuni.com^
 ||pix.sniperlog.ru^
-||pixazza.com/track/
 ||pixel.1und1.de^
 ||pixel.4pcdn.de^
 ||pixel.4players.de^
@@ -2504,7 +2493,6 @@ returnpath.net/pixel.gif$image
 ||qnajplxtvz-a.akamaihd.net^
 ||qos.video.yimg.com^
 ||r.miamano.com^
-||r.movad.de^
 ||r.razer.com^
 ||r.rbc.ru^
 ||r.remarketingpixel.com^
@@ -2522,7 +2510,6 @@ returnpath.net/pixel.gif$image
 ||rubicon.wellsfargo.com^
 ||s.frida.vse42.ru^
 ||s.infogr.am^
-||s.izrnvo.com^
 ||s.news.naver.com^
 ||s.union.360.cn^
 ||s3.smartphonehoesjes.nl^
@@ -2689,7 +2676,6 @@ returnpath.net/pixel.gif$image
 ||style.onvz.nl^
 ||swa.metro.co.uk^
 ||sync.1dmp.io^
-||sync.morgdm.ru^
 ||sysmon.kakaku.com^
 ||t-ak.hulu.com^
 ||t.451.io^
@@ -2802,7 +2788,6 @@ returnpath.net/pixel.gif$image
 ||track.lobi.co^
 ||track.miro.com^
 ||track.mopo.de^
-||track.my1elitclub.com^
 ||track.nifty.com^
 ||track.ning.com^
 ||track.nzz.ch^
@@ -2956,7 +2941,6 @@ returnpath.net/pixel.gif$image
 ||weblog.hankookilbo.com^
 ||weblog.zdnet.co.kr^
 ||webvitals.luxnet.ua^
-||widget.perfectmarket.com^
 ||wl.yna.co.kr^
 ||wlog.tmon.co.kr^
 ||wstat.ozon.ru^
@@ -2965,7 +2949,6 @@ returnpath.net/pixel.gif$image
 ||xtag.autotrader.com^
 ||ya.domain-vip.net^
 ||ybx.yahoo.co.jp^
-||yield-manager.browsiprod.com^
 ||yieldmo-builds.s3.amazonaws.com^
 ||ylog.nimo.tv^
 ||za.zingnews.vn^
@@ -13531,7 +13514,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||follow.megghanthompsoncoaching.com^
 ||follow.thechelsealaboratory.com^
 ||ga.amgtrack.link^
-||get.cmpgns.net^
 ||get.now.airielle.de^
 ||get.now.topchoinka.pl^
 ||gg.domen-specalno-dla-mm.fun^
@@ -14291,7 +14273,6 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 /wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/js/*
 .live/o.js
-/senddata?site=inpage
 /sensorsdata.min.js
 ://vip.*/?pge=$image,3p
 /snowplow.*.js$domain=~snowplow.io
@@ -14752,7 +14733,6 @@ cienradios.com##article[class^="cXense-"]
 park.ajinomoto.co.jp##.bottomMenu
 ||theurbanlist.com/assets/dist/autotrack.*.js
 ||static1.dmcdn.net/playerv5/dmp.pes_pip_tracking.*.js
-||go.mgdjmp.com/eye.gif
 ||go.xhamster*.*/eye.gif
 ||retently.com/api/remote/tracking/
 ||web-g-p.com/info/js/cookie.js
@@ -14775,7 +14755,6 @@ augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
 ||startpage.com/sp/cl|
 ||imsdb.pw/cdn-cgi/trace
 ||imsdb.pw/player/ip.php
-||boostog.net/visitor/
 weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noopjs,domain=bilibili.com,important
 ||services.tvn.pl/maertsg.js
@@ -14802,7 +14781,6 @@ weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 ||bo.kodflix.com/statsclick.php
 ||google.*/maps/*/log
 /\/js\/[a-z]{3}\d\.js$/$script,1p,domain=eegg.fun
-||s-cdn.phonearena.com/js/ops/taina.js
 ||static.narrativ.com/tags/narrativ-pub.
 ||widgets.entireweb.com/pixel-track/
 /access.html$domain=2jigiri.net|pig109.net
@@ -14841,8 +14819,6 @@ chinatimes.com##.popin-recommend
 ||ddla593ymz72o.cloudfront.net^
 ||udc.yahoo.com/*/yql?
 ||infusionsoft.app/app/webTracking/
-||cdn.lr-in.com/logger-1.min.js
-||cdn.lr-in.com/LogRocket.min.js
 ||popularwidget.com/tracker/
 ||services.wiseadvice.ru/tracker/js/*/wa.min.js
 ||n.tooplay.com/s?v_unique=
@@ -15201,7 +15177,6 @@ petyado.com##td[valign="top"][height="10"] > table[width="795"]
 ||misumi-ec.com/vcommon/common/js/karte.js
 /mrliteLogger.$image,script
 ||zyuken.net/gcp_remote/ads_imp/
-||api.fw.tv/embed/
 seshop.com,shoeisha.co.jp###cceol
 /wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=xpornass.com|vitacig.eu.com
 ||static.vocento.com/tag-manager/latest/vtm.js
@@ -15351,7 +15326,6 @@ the-ans.jp##.side-reccomend
 ||sprocket.bz/trackers/
 ||softland.co.kr/exec/front/eclog/
 ||softland.co.kr/app/Eclog/js/cid.generate.js
-||push.soft-com.biz/api/ui/metrics
 ||scv.band.us/jackpotlog/*/logs
 ||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
@@ -15431,7 +15405,6 @@ koneta.nifty.com###custom_html-2
 ||vk.com/rtrg$3p
 ||clickability.com/s?
 ||conduit.com/drawtoolbar/
-||fccinteractive.com/tracking/
 ||idg.se/3/idg/
 ||ratteb.com/js.
 ||seotoolset.com/pathmaps.
@@ -15473,8 +15446,6 @@ android-tools.ru###text-8
 ||a.cdn-hotels.com/cos/travel-pixel/
 ||wellsfargo.com/tas|
 ||tweakers.net/x/scripts/min/ptBO.js
-||franeski.net/js/lib.js
-||main.exoclick.com/tag.php
 ||cs.*/pixeljs|
 ||zaycev.net/clickmeter_
 ||cdnst.zaycev.net/static/*/countersm.js
@@ -15683,7 +15654,6 @@ tensaigakkou.ru###custom_html-16
 ||directmarketingturkey.com/vm_tracking.asp
 ||sonar.semantiqo.com^$3p
 ||manychat.com/widget/log?
-||glssp.net/logger.js
 /counter?$domain=amazon.com|amazon.de|amazon.it|amazon.com.tr
 ||medyaradar.com/Tools/AddHit.aspx?
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
@@ -15735,12 +15705,9 @@ continentseven.com##.gaoop
 ||cdn.lmiutil.com/lpassets/track-
 ||aaxdetect.com/pxext.gif^
 ||aaxdetect.com/pxusr.gif^
-||c.aaxads.com/aax.js^
-||l.aaxads.com/log^
 ||storytelling.nzz.ch/track-manager^
 ||nike.com*/trackingConfig?
 abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenmaxx.de
-||ie8eamus.com/fp?uuid=$domain=avgle.com
 ||p.adsymptotic.com/d/px^$domain=boudja.com
 ||fembed.com/api/ping/
 ||webcamsbabe.com/js/s.js
@@ -15818,7 +15785,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||news.com.au/track/
 ||news.com.au/tracking/
 ||my1.ru/stat/
-||movad.de/c.ount?
 ||misto.zp.ua/img/reiting_$3p
 ||metrika.yandex.ru/stat/?id=$3p
 ||metka.ru/counter/^$3p
@@ -15898,7 +15864,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||t.co/i/adsct*tw_sale_amount=
 ||d.adroll.com/ipixel^
 ||ps.eyeota.net/pixel^
-||ml314.com/csync.ashx^
 ||empa.flixbus.de/acv^
 ||pipe.flixbus.com/*/wt?src=pipe
 ||sp.fanatical.com/i?cd_c=*&aid=
@@ -16148,7 +16113,6 @@ computerbild.de##.articleAdditional > .mehrthema
 m.lenta.ru##.b-footer_counters
 ||88688.ru/api/geoip/
 ||openculture.com/wp-admin/admin-ajax.php*^action=rxn_
-||googletagservices.com/tag/js/gpt.js$domain=sinoptik.ua|gutefrage.net|dt.ua|ngs.ru|unian.net|easybib.com|bohenon.com|linuxtopia.org|newsroom.kh.ua|hclips.com|noticierodigital.com|northumberlandgazette.co.uk|mywebtimes.com|watchuseek.com|telekritika.ua|fontanka.ru|vesti.ua|bhub.com.ua|guhoyas.com|rst.ua|hh.ru|buhgalter.com.ua|unocero.com|autonews.com|metropoles.com|okezone.com|m.yeniakit.com.tr|kanalukraina.tv|day.az|knuddels.de
 ||imagecrest.com/asset/view/stats.php
 ||uaswitcher.org/logic/page/data
 ||vkcache.com/js/amung_counter.js
@@ -16598,7 +16562,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||tripadvisor.*/garecord
 ||tripadvisor.*/impressionrecord
 ||trivago.de/search/log
-||trk.helios.ligatus.com/imp?z=$image
 ||trust.zone/api_ip_info.php?$3p
 ||tunein.com/*/log/?
 ||tunein.com/*/report?
@@ -16611,7 +16574,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||underthesnow.ru/engine/modules/counter-
 ||uservoice.com^*/track.js
 ||vevo.com/event/
-||vid.me/api/metric
 ||video.steamstatic.com/*/stats/playerevent/?
 ||videos.giga.de/*/tracking
 ||videostat.meta.ua^
@@ -16828,13 +16790,8 @@ link.gmapp*.net$image
 ||data.mistat.intl.xiaomi.com^
 ||register.xmpush.xiaomi.com^
 ||storeconfig.mistat.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
-||api.ad.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||api.miui.security.xiaomi.com^
 ||shenghuo.xiaomi.com^
-||globalapi.ad.xiaomi.com^
-||api.ad.xiaomi.com^
 ||resolver.msg.xiaomi.net^
 ||abtest.mistat.xiaomi.com^
 ||o2o.api.xiaomi.com^
@@ -16842,7 +16799,6 @@ link.gmapp*.net$image
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.rus.xiaomi.com^
 ||data.mistat.xiaomi.com^
-||sdkconfig.ad.xiaomi.com^
 ! xiaomi mi band app
 ||datacollector-*.dt.hicloud.com^
 ||app-analytics-ru.huami.com^
@@ -17205,9 +17161,6 @@ cdn-settings.appsflyersdk.com^
 ||stat.meitudata.com^
 ||collect.media.jio.com^
 ||log.apk.v-mate.mobi^
-||track.mobshark.net^
-||dsp-adcreative.mobshark.net^
-||dsptrack.mobshark.net^
 ||analytics.metrix.ir^
 ||hwstats.unity3d.com^
 ||dsp-tracking.unityads.unity3d.com^
@@ -17292,9 +17245,7 @@ cdn-settings.appsflyersdk.com^
 ||e-ssl.apsalar.com^
 ||collector-axa.cloud.ca.com^
 ||track.adform.net^
-||sync.adotmob.com^
 ||logger.cloudmobi.net^
-||tracker.adotmob.com^
 ||measuread.com^
 ||global.cmcs.service.amazonsilk.com/metrics
 ||analytics-tracker.thescore.com^
