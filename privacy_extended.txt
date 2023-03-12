@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 12 Mar 2023 03:35 UTC
+! Last modified: 12 Mar 2023 04:02 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1292,7 +1292,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ! Keyade
 ||keyade.net^
 ||keyade.com^
-! Criteo
 ! AT Internet
 ||atinternet.com^
 ||mj23.eulerian.com^
@@ -1304,7 +1303,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||commandersact.com^$3p
 ! DataUnlocker
 ||delightful-development.ml^$3p
-! Wizaly
 ! Ingenious Technologies
 ||affex.org^
 !
@@ -14878,7 +14876,6 @@ textologia.ru##.bot_right
 tourister.ru##.nt-foot-item[style="overflow:hidden;"]
 ||pravo.ru/assets/*/js/event.js
 ||fivemsociety.com/analitik.js
-||baseendpoint.stern.de/wrapper/metrics
 ||trk.mail.ru^$image,ping
 ||push.m.youku.com/collect-api/
 ||cast.imp.joins.com/persona.js
