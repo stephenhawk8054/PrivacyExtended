@@ -40,9 +40,6 @@ lcwaikiki.com##+js(set, dataLayer, [])
 m.card-gorilla.com,pindirectshop.com,dongbanmall.com##+js(set, kakaoPixel, undefined)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119873
 athabascau.ca##+js(set, WURFL, {})
-! https://github.com/AdguardTeam/AdguardFilters/pull/119657#discussion_r881483259
-! tarnkappe.info revolving tracking
-tarnkappe.info##+js(aopr, Matomo)
 ! https://github.com/AdguardTeam/AdguardForWindows/issues/4138
 careermap.co.uk##+js(set, trackEvent, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/pull/115192
@@ -254,7 +251,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||gpm-mon-sg.bytegsdk.com^
 ||gpm-mon-sg.byteoversea.com^
 ||analytics.clientify.net^
-||stats.darkreader.app^
 ||t.adbr.io^
 ||cizion.com^
 ||analytics.iss.one^
@@ -306,7 +302,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||gs.mountain.com^
 ||events-jp.splash-screen.net^
 ||t.smartverify.pro^
-||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
 ||stat.onemob.mobi^
 ||ip.prvtx.net^
 ||avo.app^$3p
@@ -506,7 +501,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||site-kaiseki-tool.com^
 ||plugins.soclminer.com.br^$3p
 ||cdn.adsquirrel.ai^$3p
-||b90.yahoo.co.jp^
 ||mc-ya.ru^$3p
 ||beacon.digima.com^
 ||ac.miovp.com^
@@ -1171,7 +1165,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||surfertracker.com^$3p
 ||svr-prc-01.com^$3p
 ||taboola.com.cn^$3p
-||taboola.com^$3p
 ||tagtray.com^$3p
 ||tellaparts.com^$3p
 ||temnos.com^$3p
@@ -1465,7 +1458,6 @@ returnpath.net/pixel.gif$image
 ||unagi*.amazon.
 ||c.salon24.pl^
 ||pixel.archive.
-||cl.t3n.de^
 ||st.bitban.com^
 ||in.unext.jp^
 ||sp0.baidu.com^
@@ -1917,7 +1909,6 @@ returnpath.net/pixel.gif$image
 ||collector.szlcsc.com^
 ||collector.tescocompare.com^
 ||collector.trendmd.com^
-||collector.xhwide1.com^
 ||collector1.xhamster.com^
 ||comet.sputniknews.com^
 ||conf.international.baidu.com^
@@ -2067,7 +2058,6 @@ returnpath.net/pixel.gif$image
 ||dv0.info^
 ||dw.com.com^$domain=~cnet.com
 ||dynatrace.att.com^
-||e-stat.huya.com^
 ||e.dr-zh.com^
 ||e.reddit.com^
 ||e2e.mashable.com^
@@ -2666,7 +2656,6 @@ returnpath.net/pixel.gif$image
 ||statstracker.celebrity-gossip.net^
 ||stattrack.0catch.com^
 ||statweb.egloos.com^
-||statwup.huya.com^
 ||statwup.nimo.tv^
 ||stbt.coupons.com^
 ||stc.store.page.zaloapp.com^
@@ -2694,7 +2683,6 @@ returnpath.net/pixel.gif$image
 ||t.my.jobs^
 ||t.n.mcdonalds.de^
 ||t.premii.com^
-||t.simply-hentai.com^
 ||t.webjavaskript.net^
 ||t.wizards.com^
 ||t*.zcvh.net^
@@ -2740,7 +2728,6 @@ returnpath.net/pixel.gif$image
 ||top100-images.rambler.ru^
 ||top100.rambler.ru^
 ||top100.vkirove.ru^
-||torimochi.line-apps.com^$image,redirect=1x1.gif
 ||tpa7.iahorro.com^
 ||tr.datanyze.com^
 ||tr.ds.kakao.com^
@@ -14239,12 +14226,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Popular on Japanese sites
 /outLoging.js
 /outLoging2.js
-/acc/acctag.js
 .jp/log.php?
-.jp/static/js/track.js
-/oo/cl*.js?rd=$1p
-/oo/*/lsync.js$1p
-/oo/*/l.js|$1p
 ! Sample URL: http://ct2.kimodameshi.com/sc/1555377
 ://ct1.*.com/sc/
 ://ct1.*.jp/sc/
@@ -14274,10 +14256,8 @@ charlestownwyllie.oaklawnnonantum.com^
 /wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/js/*
 .live/o.js
 /sensorsdata.min.js
-://vip.*/?pge=$image,3p
 /snowplow.*.js$domain=~snowplow.io
 /shared/js/ga.js|
-/s/s/js/m/om.js?v=
 /utx?tid=
 /get/*/inventory|
 /metrika/*.png?x=
@@ -14288,19 +14268,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ://wa.*/s?$image
 /clicktrue_invocation.js?
 /cdn-cgi/challenge-platform/h/g/beacon/*$xhr,1p
-/?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /com_jrealtimeanalytics/*
 /top-10-tracker.min.js
 /acclog.js
 /?imp_id=
-/counter/?domain=$image,1p
 /access.php?referrer=
-/s/js/ta-2.3.js?
-/cfga/jquery.js?$image
-/npm/sks@0.*/lazyload.js$script,3p
 /_ajax/tebilisim.php?
 /track.php?
-/check.php?t=*&rand=$image,1p
 /akamai/*/mediaanalytics/Mediaanalytics.min.js
 /dooanalytics/*$script
 /w_js.php|$script,1p
@@ -14309,7 +14283,6 @@ charlestownwyllie.oaklawnnonantum.com^
 /wp-content/plugins/google-analytics-premium/*
 /js/ad_insight/*
 /exactag_clientside.js
-/stats.php?*event=$image
 /duracelltomi-google-tag-manager/*$script
 /pv?u=$image
 directtrack.*.js
@@ -14399,7 +14372,6 @@ directtrack.*.js
 /tealeaf.config.js
 /tealeafTarget2.html
 /tns-counter.js
-/visilabs.min.js
 /webservices/remoteModulesTracker.php
 /wp-content/plugins/asmb-tracking/*
 /wp-content/themes/vip/pmc-plugins/pmc-global-functions/js/geoPosition.js
@@ -14461,7 +14433,6 @@ dealdoktor.de##img[src*="//vg09.met.vgwort.de/"]
 ||laz-g-cdn.alicdn.com/lazada/dynamic-static-nopolyfill/*/daraz-marketing-tracker.js
 ||tv8.daioncdn.net/events?
 ||cdn.privacy-mgmt.com/wrapper/metrics$important
-||c2shb.pubgw.yahoo.com/admax/bid/partners/PBJS^
 ||mixnews.lv/wp-content/uploads/perfmatters/gtagv*.js
 ||cdn.one.store/javascript/dist/1.0/jcr-widget.js$domain=hificentre.com
 ||lendingtree.com/path/api/track/
@@ -14476,7 +14447,6 @@ dealdoktor.de##img[src*="//vg09.met.vgwort.de/"]
 ||wayfair.de/a/
 ||cpu-api.infor.pl/event
 /banalytics.js$domain=posta.com.tr|cnnturk.com|fanatik.com.tr|gazetevatan.com|kanald.com.tr|teve2.com.tr|milliyet.com.tr|hurriyet.com.tr
-||brave.com/static-assets/js/analysis.js
 ||radiozet.pl/extension/stats/design/standard/javascript/Stats.js
 ||ncbi.nlm.nih.gov/*/pinger.js
 ||oracle.com/asset/web/analytics/ora_ocom.js
@@ -14580,11 +14550,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||static.airbridge.io/sdk/
 ||gotcha-server.evo.run/log
 ||coral.diks.fi/assets/js/count.js
-||hktvmall.com/_ui/desktop/common/js/uiAnalytics/
-||hktvmall.com/_ui/shared/common/js/InappCommunicationManager.js
-||hktvmall.com/_ui/shared/common/js/analytics/with-intersection-track.js
-||hktvmall.com/_ui/shared/common/js/util/jquery.analytics-utils.js
-||hktvmall.com/yuicombo|$script,1p
 ||w-api.baomoi.com/api/*/log/
 ||static.searchiq.co/t/pxl.gif
 ||kayak.co.kr/s/vestigo/*/measure^
@@ -14754,7 +14719,6 @@ augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
 ||kenga.tech/heatmaps-
 ||startpage.com/sp/cl|
 ||imsdb.pw/cdn-cgi/trace
-||imsdb.pw/player/ip.php
 weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noopjs,domain=bilibili.com,important
 ||services.tvn.pl/maertsg.js
@@ -14884,8 +14848,6 @@ agronews.com##a[alt="Яндекс.Метрика"]
 politring.com##a[href="https://metrika.yandex.ru/"]
 ||tcloudbase.com/access?
 ||rlsnet.ru/js/statistics/
-||gplinks.co/auth/ads_stats_controller.php
-||mynewsmedia.co/*/linkpage/ads_stats_controller.php
 ||infusionsoft.com/app/webTracking/getTrackingCode
 ||mjt.lu/*/e.gif
 ||api.bunjang.co.kr/api/log/
@@ -14935,7 +14897,6 @@ nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
 ||esgazete.com/service/social-counter.json
 today.ua##.li-bi-container
 ||wurking.global.ssl.fastly.net/ingestly-ingest/
-||rjno1.com/cdn-cgi/challenge-platform/h/b/scripts/invisible.js
 ||static.foxnews.com/static/leap/sites/fnc/metrics.js
 ||web.snrbox.com/*?tracker=
 ||web.snrbox.com/tck/$xhr,redirect=nooptext
@@ -15012,7 +14973,6 @@ komachi.yomiuri.co.jp##._popIn_recommend_tieup
 ||weibo.com/ajax/log/
 ||megatyumen.ru/api/v*/metrika
 ||cdn.shopify.com/shopifycloud/consent-tracking-api/*/consent-tracking-api.js
-/\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{25,}$/$script,1p,domain=gu-global.com|uniqlo.com
 textologia.ru##.bot_right
 ||manychat.com/js/visitor.js
 ||manychat.com/pixel/logEvent
@@ -15044,9 +15004,7 @@ tourister.ru##.nt-foot-item[style="overflow:hidden;"]
 ||tosshub.com/sites/common/resources/trackdata/min/itgdtrack*.js
 ||api2.bybit.com/v2/public/metrics
 ||api.*.com/p/report?$domain=bybit.com
-||justmyshop.com/common/lib/f_ad_code.js
 ||hankookilbo.com/statistics/uv?
-||blozoo.info/js/inouttool/
 ||blozoo.info/js/ranktool/
 ||blozoo.info/js/reversetool/
 ||oculus.com/ajax/bz?
@@ -15069,14 +15027,12 @@ tourister.ru##.nt-foot-item[style="overflow:hidden;"]
 ||tonkosti.ru/JS/statistic.php
 ||static.tonkosti.ru/tonkosti/www/js/snvars.js
 fategrandorder.info##.sidebar_acr.side_inline
-||emea.flow.microsoft.com/providers/Internal.Telemetry
 ||glbimg.com/vendor/libs/comScore-*.min.js
 ||az416426.vo.msecnd.net^$3p
 ||api.biggylabs.com.br/track-api/
 ||statcounter.com/counter/*.js
 ||hector.baidu.com/static/h.gif?
 ||twowheeler.policybazaar.com/js/GTMgoogleAnalytics.js
-||ahentai.top/counter.php
 ||gizmodo.com/x-kinja-static/assets/*/trackers.
 ||img-kotonw.mncdn.com/*/acc.clickandcollect.js
 ||ecoms.koton.com/ma/collect
@@ -15303,7 +15259,6 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||sex-studentki.pro/system/stat/
 /static/peg_utils/peg_logger$domain=parship.de|elitepartner.de
 ||ikaclo.jp/api/admin/access_logs
-||playbrain.io/analytics/
 ||hotstar.com/*/track$domain=~bifrost-api.hotstar.com
 ||hotstar.com/*/identify$domain=~bifrost-api.hotstar.com
 ||livedoor.jp/js/c2.js
@@ -16707,11 +16662,8 @@ link.gmapp*.net$image
 ||tracker.citicsinfo.com^
 ||unite.nike.com/auth/unite_session_cookies/
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
-||windowspro.de/stats/mto.js
 ||zara.com/integration/zenit/events/hit
 ! jscrambler.com
-||jscrambler.com/bc.js
-||jscrambler.com/api/statistics
 ! ohmynews.com
 ||ohmynews.com/NWS_Web/Common/JS/TagManage
 ||ohmynews.com/NWS_Web/Common/JS/GoogleAnalytics
