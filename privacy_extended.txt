@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 13 Mar 2023 06:38 UTC
+! Last modified: 13 Mar 2023 07:10 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -17169,9 +17169,6 @@ cdn-settings.appsflyersdk.com^
 ! TODO: remove after fixing https://github.com/AdguardTeam/Scriptlets/issues/233
 ! checked 15.09.2022
 @@||google-analytics.com/analytics.js$script,redirect-rule,domain=expressvpn.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/125637
-! TODO: remove after fixing https://github.com/AdguardTeam/Scriptlets/issues/233
-! checked 15.09.2022
 !#################
 !
 ! metrika-yandex - common exceptions for tag.js, watch.js
