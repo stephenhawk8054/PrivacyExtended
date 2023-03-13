@@ -86,8 +86,6 @@ tweakers.net##+js(aopr, snowplow)
 timesnownews.com##+js(set, ga, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71368
 store.line.me##+js(rc, async-hide, html)
-! https://github.com/AdguardTeam/AdguardFilters/issues/70941
-pioneer.eu##+js(ra, onclick, a[href][onclick^="trackOutboundLink"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64616
 ! Remove tracking attributes from the search results
 www.google.*##+js(ra, ping, div[id="search"] a[data-ved][ping])
@@ -124,7 +122,6 @@ itsu.com##+js(set, AtreemoTrackingLbr, noopFunc)
 ##img[src*="counter.yadro.ru"]
 ##img[src^="http://c.bigmir.net/"]
 ~canstarblue.com.au,~stardewvalleywiki.com,~ricochet5.com,~underverse.su,~underver.se,~minu.stv.ee,~sota.com,~7kingdoms.ru,~epicl2.com,~forum.ixbt.com,~forum.themega.ru,~gamepedia.com,~makeserver.ru,~mozhor.ru,~onliner.by,~wiktionary.org,~yandex.by,~yandex.com,~yandex.com.tr,~yandex.ru##img[width="88"][height="31"]
-##.ninja-recommend-block
 
 ! Specific cosmetic filters
 ! This section contains the list of extended CSS rules against leftovers.
@@ -168,14 +165,10 @@ luxhard.com#?##sidebar-primary > .widget-container:has(a[href^="https://metrika.
 specialcom.net#?##sidebar > div.widget:has(span#openstat1)
 kinoman.me#?##extra_block > div.extra_mod > div.extra_mod:has(> div.extra_mod_title:contains(Счетчики))
 prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистика)
-jiji.com##.RecommendPianoWrapper
-jiji.com##.RecommendUnderlayer
 ! m4ex.com
 m4ex.com###footer-widget
 m4ex.com##.plugin-counter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140288#issuecomment-1385509403
-blogterest.net##.blockSide > div.blockWrapper > div > div.ninja-recommend-block:upward(2)
-nukeruerodouga.com###main-right > div.right_area > div.ninja-recommend-block:upward(2)
 minnyuu.jp#?#div[class$="BlockBase"] > div > div > div.plugin-freearea > div.ninja-recommend-block:upward(4)
 mesyuu.com#?#div[class$="_outline"] > div > div.plugin-freearea > div.ninja-recommend-block:upward(3)
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp,vipstyle.tokyo#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
@@ -183,7 +176,6 @@ doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp,vipstyle.tokyo#?#.plug
 russianbeauties.jp###secondary-column > div.text-recommend
 norisoku.com###random
 diamond.jp###main-column > article > div.main-special
-jin115.com#?#.plugin-memo > div.side > script[src*="ziyu.net/"]:upward(2)
 zch-vip.com##.plugin-access
 samuraisoccer.doorblog.jp##.plugin-l-t:last-child
 digi.no##img[src^="https://ish.tumedia.no/ish_tracker.gif"]
@@ -881,7 +873,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||adinsight.eu^$3p
 ||admdspc.com^$3p
 ||admeo.ru^$3p
-||admitad.com^$3p
 ||adprotraffic.com^$3p
 ||adrank24.de^$3p
 ||adtraction.com^$3p
@@ -919,7 +910,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||cleveritics.com^$3p
 ||clickforensics.com^$3p
 ||clickinc.com^$3p
-||clustrmaps.com^$3p
 ||cnetcontentsolutions.com^$3p
 ||cointent.com^$3p
 ||comagic.ru^$3p
@@ -1065,7 +1055,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||oidah.com^$3p
 ||oix.com^$3p
 ||oix.phorm.com^$3p
-||omeda.com^$3p
 ||omgpm.com^$3p
 ||onlinewebstats.com^$3p
 ||openinternetexchange.com^$3p
@@ -1715,7 +1704,6 @@ returnpath.net/pixel.gif$image
 ||apollo.plein.nl^
 ||app-analytics-*.snapchat.com^
 ||app.adjust.io^
-||app.adjust.net.in^
 ||app.adjust.world^
 ||app.airtrack.jp^
 ||app.crossengage.io^
@@ -1815,7 +1803,6 @@ returnpath.net/pixel.gif$image
 ||clicks.wawlabs.com^
 ||clickstream.cresendo.net^
 ||client-event-reporter.twitch.tv^
-||client-telemetry.roblox.com^
 ||clientlog.midomi.com^
 ||clientlogger-prod.elasticbeanstalk.com^
 ||clk.about.com^
@@ -2400,7 +2387,6 @@ returnpath.net/pixel.gif$image
 ||pixels.ingbank.com.tr^
 ||pixels.livingsocial.com^
 ||pla-tk.flipkart.net^
-||player-feedback-v1.glomex.com^
 ||ploz.mangadex.org^
 ||pp-serve.newsinc.com^
 ||prd-collector-anon-video.playbuzz.com^
@@ -14424,7 +14410,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||baidu.com/*/track.gif?$image,redirect=1x1.gif
 ||chaynikam.info/php/*pagestat.phtml
 ||log.cognativex.com/pixel.
-||player.hdgay.net/cdn-cgi/trace
 ||interpark.com/elog
 ||interpark.com/logs/
 ||static.airbridge.io/sdk/
@@ -14597,7 +14582,6 @@ augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
 ||vnecdn.net/*/?action=
 ||kenga.tech/heatmaps-
 ||startpage.com/sp/cl|
-||imsdb.pw/cdn-cgi/trace
 weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noopjs,domain=bilibili.com,important
 ||services.tvn.pl/maertsg.js
@@ -15111,7 +15095,6 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||hankyung.com/resource/js/w/view.gtmet.js
 ||discord.com/api/v*/science
 ||tvid.in/sdk/loader.js
-||intersc.igaming-service.io/hltv.org.js
 ||za.zalo.me/v*/brp?fts=
 ||za.zalo.me/v*/w/_zaf.gif
 ||api.eigene.io/rec/
@@ -16273,7 +16256,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||pinterest.com/_/_/report/
 ||pivol.com/count.asp?
 ||pixel.redditmedia.com^
-||player-feedback-mds.glomex.com/pf/?clientName=
 ||player.vimeo.com/log
 ||playerserver.walkme.com/Statistics/
 ||pornhub.com/pix.php?s=
@@ -16451,7 +16433,6 @@ link.gmapp*.net$image
 ||ccp.digitaltrends.com/scripts/cc-tracking.js
 ||cdn.pdst.fm/ping.min.js
 ||cdn.pranmcpkx.com^
-||cdn.wgchrrammzv.com^
 ||comcast.net/measurements/
 ||coralproject.net/assets/js/count.js
 ||cnobi.jp/*/recommend/
@@ -16471,7 +16452,6 @@ link.gmapp*.net$image
 ||m1tm.motor1.com/analytics.js
 ||mediatrend.kr/aiDataScript.js
 ||mparticle.weather.com/webevents/
-||nikaraw.com/load_adb
 ||plug.it/iplug/js/lib/iol/analytics/
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
 ||print24.com/api/*/analytics/
@@ -16901,7 +16881,6 @@ cdn-settings.appsflyersdk.com^
 ||insight.ucweb.com^
 ||gjapplog.ucweb.com^
 ||stat.meitudata.com^
-||collect.media.jio.com^
 ||log.apk.v-mate.mobi^
 ||analytics.metrix.ir^
 ||hwstats.unity3d.com^
@@ -17193,7 +17172,6 @@ cdn-settings.appsflyersdk.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125637
 ! TODO: remove after fixing https://github.com/AdguardTeam/Scriptlets/issues/233
 ! checked 15.09.2022
-@@||google-analytics.com/analytics.js$script,redirect-rule,domain=nordvpn.com
 !#################
 !
 ! metrika-yandex - common exceptions for tag.js, watch.js
