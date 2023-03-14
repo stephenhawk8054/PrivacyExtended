@@ -2046,6 +2046,7 @@ returnpath.net/pixel.gif$image
 ||evs.data.ciceksepeti.com^
 ||exacttarget.api.mashery.com^
 ||exc.ns.nl^
+||exilelink.com^
 ||ext.host-tracker.com^
 ||external-promo-metrics.yandex.net^
 ||fairfaxmedia.sharedcount.com^
