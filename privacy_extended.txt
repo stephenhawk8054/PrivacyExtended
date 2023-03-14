@@ -1566,6 +1566,8 @@ returnpath.net/pixel.gif$image
 ||d90z5o386dhs7.cloudfront.net^
 ||x.sexhd.pics^
 ||gtm.eduki.com^
+||aml.valuecommerce.com^
+||trj.valuecommerce.com^
 ||8digits.com^
 ||a-stat.appmifile.com^
 ||a.hstrck.com^
