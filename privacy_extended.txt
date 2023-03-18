@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 18 Mar 2023 02:16 UTC
+! Last modified: 18 Mar 2023 02:17 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -12131,7 +12131,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||webtracking.oncourselearning.com^
 ||www.acpprograms.org^
 !
-!
 ||ald.aldautomotive.be^
 ||campaign.fr.mazda.be^
 ||campaign.mazda.sk^
@@ -16449,7 +16448,6 @@ link.gmapp*.net$image
 ||blog-rss.com/track/
 ||bn.dxlive.com/js/rightColGa.js
 ||ccp.digitaltrends.com/scripts/cc-tracking.js
-||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-*.bundle.js
 ||cdn.pdst.fm/ping.min.js
 ||cdn.pranmcpkx.com^
 ||comcast.net/measurements/
@@ -16493,7 +16491,9 @@ link.gmapp*.net$image
 ||unite.nike.com/auth/unite_session_cookies/
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||zara.com/integration/zenit/events/hit
-! jscrambler.com
+! hwp.com.tr
+||hwp.com.tr/zrzga.js
+||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-
 ! ohmynews.com
 ||ohmynews.com/NWS_Web/Common/JS/TagManage
 ||ohmynews.com/NWS_Web/Common/JS/GoogleAnalytics
