@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 18 Mar 2023 02:19 UTC
+! Last modified: 18 Mar 2023 02:27 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -15063,17 +15063,14 @@ techmaniachd.pl###sidebar-right-1 > #HTML6
 ||cdn.gamedock.io/gamedock-web-tracker/
 ||walmart.com/px/
 ||cyberpedia.su/count.php
-||con.arbeitsagentur.de/prod/matomo/
 ||inthenews.co.kr/weblog/gtracker.
 ||cdn.pmweb.com.br/df/tag.js
 ||insider.com/chunks/scripts/datadog-
 ||webtoon.daum.net/common/click?
-||log.nordot.jp^$xhr
 ||fresheye.com/s.gif
 viva.ua##.footer-counters
 ||informazione.it/detroitchicago/cmb.js
 ||gamestar.de/*/index.cfm?event=tracking:
-||rihappy.com.br/Site/Track.aspx
 ||vteximg.com.br/scripts/track.js
 ||vtex.com.br/portal-ui/*/scripts/vtex-analytics.js
 ||rihappy.com.br/api/sessions?items
@@ -15089,7 +15086,6 @@ news.mynavi.jp##.articleList-attention
 ||mcrypto.club/track
 .php?p=stats$domain=ahwaktv.tv
 ||codeproject.com/a.min.js
-/yozons-lib/*$script,1p,domain=bradenton.com
 ||data.bilibili.*/log/
 ||stuttgarter-zeitung.de/cms/hitcount
 ||asahibeer.co.jp/tracking.js
