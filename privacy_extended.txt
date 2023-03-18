@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 18 Mar 2023 02:11 UTC
+! Last modified: 18 Mar 2023 02:12 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -2217,7 +2217,6 @@ returnpath.net/pixel.gif$image
 ||log.deutschegrammophon.com^
 ||log.enuri.com^
 ||log.g-enews.com^
-||log.gomlab.com^
 ||log.iyunmai.com^
 ||log.krs-ix.ru^
 ||log.newsbreak.jp^
@@ -2887,16 +2886,17 @@ charlestownwyllie.oaklawnnonantum.com^
 ||y752.milfordmirror.com^
 ||z590.fairfieldcitizenonline.com^
 ||z929.fuelfix.com^
-!
 ! Big Star Labs
 ||api2.poperblocker.com^
 ||ben.crxmouse.com^
-
 ! start: unimania
 ||collection-endpoint-prod.herokuapp.com^
 ||collection-endpoint-staging.herokuapp.com^
 ||d10vy5gom1ed53.cloudfront.net^
 ||um-public-panel-prod.s3.amazonaws.com^
+! gomlab.com
+||ana.gomtv.com^
+||log.gomlab.com^
 ! end:
 ! CNAME trackers
 ! This section contains the list of the rules are against CNAME tracking networks.
