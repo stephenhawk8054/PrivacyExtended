@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 21 Mar 2023 02:25 UTC
+! Last modified: 21 Mar 2023 02:33 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -15099,11 +15099,9 @@ news.mynavi.jp##.articleList-attention
 ||idm.skplanet.com/pixel
 ||tend-table.com/cgi-bin/WebLog.dll
 semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
-||googleoptimize.com/optimize.js$3p
 ||px.redgifs.com/px.gif
 ||cdn.cohesionapps.com/cohesion/xs1.html?xsid=
 ||hif.to/rkstat/
-||hubpages.com/ctracker/
 ||owlcation.com/.bootscripts/hubPages*Tracker.min.js
 ||hankyung.com/resource/js/w/view.gtmet.js
 ||discord.com/api/v*/science
@@ -15118,7 +15116,6 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||ads-partners.coupang.com/log/
 ||pla.naver.com/log/
 /universal_analytics.$domain=foerde-sparkasse.de
-||gold.contentsfeed.com/lb/sd/nw$domain=sportsseoul.com
 ||gtr1.yes24.com/wlo/Logging
 ||analytics.fsho.st/tracker.js
 ||las.danawa.com/log/
@@ -15135,7 +15132,6 @@ club-opel.com##.toplist
 israelnationalnews.com,insider.com##.taboola
 ||byjus.com/byjusweb/js/tracking-2.min.js
 ||ccpa.sp-prod.net/ccpa.js
-||embedly.com/widgets/xcomm.html^$3p
 ||episerver.net/ia.gif?r=
 ||wikihow.com/x/collect
 ||peerius.episerver.net/tracker/
