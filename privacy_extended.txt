@@ -1250,7 +1250,6 @@ cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward
 ||mon-*.tiktokv.com^
 ||mon.tiktokv.com^
 ||xlog.tiktokv.com^
-||log*-*.tiktokv.com^
 ||xlog*-*.tiktokv.com^
 ||mcs-va-*.tiktokv.com^
 !
