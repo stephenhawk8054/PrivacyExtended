@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 21 Mar 2023 02:33 UTC
+! Last modified: 22 Mar 2023 02:51 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -14283,6 +14283,7 @@ _tracking.php?b=
 !
 ! Tealium
 ! The site should be carefully checked when you add this rule
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com|d1lynpf6ndesae.cloudfront.net|rukrymr.azureedge.net|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com
 !
 ! Some sites are broken. The rules are required for apps only.
 .demdex.net/id^$redirect=nooptext,important,image,media,frame,stylesheet,script,xhr,other
