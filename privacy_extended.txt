@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 23 Mar 2023 02:36 UTC
+! Last modified: 23 Mar 2023 02:37 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -16642,6 +16642,17 @@ cdn-settings.appsflyersdk.com^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||accscdn.m.taobao.com^
+||acs.m.taobao.com^
+||heytapmobi.com^
+||apsrgeo.amap.com^
+||confe.dc.oppomobile.com^
+||conff.dc.oppomobile.com^
+||dragate.dc.oppomobile.com^
+||esa-reg-eup.myoppo.com^
+||heytapmobile.com^
+||moa-upload-online.coloros.com^
+||stat-in.dc.oppomobile.com^
 ||prod-analytics.royal.drmgms.com^
 ||trckr.contextualadv.com^
 ||logger.growstarry.com^
