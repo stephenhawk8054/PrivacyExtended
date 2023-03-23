@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 23 Mar 2023 02:37 UTC
+! Last modified: 23 Mar 2023 02:38 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1246,6 +1246,39 @@ syzran-small.ru##.footbl3 > div[style="margin-right:100px;"]
 ||shakesea.com^$3p
 ||pocketsonic.com^$3p
 ||friendlyfold.com^$3p
+!
+! Grabify
+||bathtub.pics^$all
+||catsnthing.com^$all
+||catsnthings.fun^$all
+||cheapcinema.club^$all
+||dateing.club^$all
+||foot.wiki^$all
+||fortnight.space^$all
+||fortnitechat.site^$all
+||gamergirl.pro^$all
+||gamertag.shop^$all
+||gaming-at-my.best^$all
+||gamingfun.me^$all
+||headshot.monster^$all
+||imagehost.pics^$all
+||imghost.pics^$all
+||joinmy.site^$all
+||myprivate.pics^$all
+||noodshare.pics^$all
+||photovault.pics^$all
+||pichost.pics^$all
+||picshost.pics^$all
+||progaming.monster^$all
+||screenshare.pics^$all
+||screenshot.best^$all
+||shhh.lol^$all
+||shrekis.life^$all
+||stopify.co^$all
+||thisdomainislong.lol^$all
+||toldyouso.lol^$all
+||toldyouso.pics^$all
+||yourmy.monster^$all
 !
 ! TikTok
 ||rtc-logger-va.tiktokv.com^
