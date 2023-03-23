@@ -14179,6 +14179,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Plausible
 ||plausible.io/api/event
 !
+/api/bfb_write_log
+/swell-ct-pv$xhr
+/swell-ct-ad-data$xhr
 /wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/js/*
 .live/o.js
 /sensorsdata.min.js
