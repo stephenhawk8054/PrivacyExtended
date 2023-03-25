@@ -16499,6 +16499,7 @@ link.gmapp*.net$image
 ||gitpod.io/api/collect-data
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
 ||gtm-server.healthline.com^
+||hair.heisei-housewarming.work/common_access/usercheck.php
 ||halktv.com.tr/stats/
 ||istoe.com.br/@nave/gateway/reply?navtrackdata=
 ||lecturas.com/Content/*/js/trackPopup.js
