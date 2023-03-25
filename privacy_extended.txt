@@ -1677,6 +1677,7 @@ returnpath.net/pixel.gif$image
 ||analytics.cn.ru^
 ||analytics.data.visenze.com^
 ||analytics.dpd.com^
+||analytics.dugun.com^
 ||analytics.edgesuite.net^
 ||analytics.electro-com.ru^
 ||analytics.fairfax.com.au^
