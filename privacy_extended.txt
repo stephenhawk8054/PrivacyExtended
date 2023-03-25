@@ -2470,6 +2470,7 @@ returnpath.net/pixel.gif$image
 ||rec.banggood.com^
 ||recs.atgsvcs.com^
 ||report.iciba.com^
+||report2.iciba.com^
 ||revi.rcs.it^
 ||rferl.c.goolara.net^
 ||rrss.abc.es^
