@@ -16501,6 +16501,7 @@ link.gmapp*.net$image
 ||gtm-server.healthline.com^
 ||hair.heisei-housewarming.work/common_access/usercheck.php
 ||halktv.com.tr/stats/
+||inshokuten.com/accessTracking/
 ||istoe.com.br/@nave/gateway/reply?navtrackdata=
 ||lecturas.com/Content/*/js/trackPopup.js
 ||linkedin.com/*/track|
