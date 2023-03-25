@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 24 Mar 2023 02:40 UTC
+! Last modified: 25 Mar 2023 01:44 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -17285,3 +17285,8 @@ reverso.net##+js(set, rumjs.business.setManualConsent, noopFunc)
 @@||cloudfront.net/frosmo.easy.js$script,domain=karkkainen.com
 @@||frosmo.com/messageApi$xhr,domain=karkkainen.com
 @@||frosmo.com/recoApi/v2$xhr,domain=karkkainen.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82485
+! https://github.com/AdguardTeam/AdguardFilters/issues/146063
+@@||walmart.com/px/*/init.js
+@@||walmart.com/px/*/captcha/captcha.js
+@@||collector-*.px-client.net/res/uc$domain=walmart.com
