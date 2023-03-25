@@ -16520,7 +16520,6 @@ link.gmapp*.net$image
 ||sbazar.cz/*/hit|$xhr
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||static.iris.informa.com/widgets/*/iris-t.js
-||stripe.com/*/fingerprinted/
 ||surfsnow.jp/common/js/analytics_
 ||sve.online.sberbank.ru/metrics/partners
 ||tags.chip.de^
