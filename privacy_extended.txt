@@ -16491,6 +16491,7 @@ link.gmapp*.net$image
 ||cnobi.jp/*/recommend/
 ||collect.rtl.lu^
 ||cs.pikabu.ru/apps/*/analytics.js
+||data.liba.com/_.gif
 ||diarioregistrado.com/api/*/analytics
 ||ebs.co.kr/js/weblogs/nethru/wlo.js
 ||elpais.com.uy/google-analytics
