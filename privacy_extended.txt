@@ -14183,6 +14183,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Plausible
 ||plausible.io/api/event
 !
+/common_access/usercheck.php?muid=$xhr
 /api/bfb_write_log
 /swell-ct-pv$xhr
 /swell-ct-ad-data$xhr
@@ -16504,7 +16505,6 @@ link.gmapp*.net$image
 ||gitpod.io/api/collect-data
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
 ||gtm-server.healthline.com^
-||hair.heisei-housewarming.work/common_access/usercheck.php
 ||halktv.com.tr/stats/
 ||inshokuten.com/accessTracking/
 ||istoe.com.br/@nave/gateway/reply?navtrackdata=
