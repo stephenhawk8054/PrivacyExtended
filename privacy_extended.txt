@@ -16509,6 +16509,7 @@ link.gmapp*.net$image
 ||lecturas.com/Content/*/js/trackPopup.js
 ||linkedin.com/*/track|
 ||m1tm.motor1.com/analytics.js
+||media.fc2.com/blank.gif
 ||mediatrend.kr/aiDataScript.js
 ||mparticle.weather.com/webevents/
 ||odsyms15.com/impression?
