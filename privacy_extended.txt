@@ -89,6 +89,8 @@ store.line.me##+js(rc, async-hide, html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64616
 ! Remove tracking attributes from the search results
 www.google.*##+js(ra, ping, div[id="search"] a[data-ved][ping])
+! https://github.com/AdguardTeam/AdguardFilters/issues/146387
+forbes.com##+js(set, Object.prototype.track, noopFunc)
 !
 !! facebook.com - removing tracking parameter
 !! external links
