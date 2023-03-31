@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 31 Mar 2023 11:24 UTC
+! Last modified: 31 Mar 2023 11:26 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -16492,7 +16492,6 @@ link.gmapp*.net$image
 ||cdn.iyosa.com/src/report.js
 ||cdn.pdst.fm/ping.min.js
 ||cdn.pranmcpkx.com^
-||cdn.shopify.com/*/web-pixels-manager/
 ||comcast.net/measurements/
 ||coralproject.net/assets/js/count.js
 ||cnobi.jp/*/recommend/
@@ -16557,6 +16556,9 @@ link.gmapp*.net$image
 ! ohmynews.com
 ||ohmynews.com/NWS_Web/Common/JS/TagManage
 ||ohmynews.com/NWS_Web/Common/JS/GoogleAnalytics
+! shopify
+||cdn.shopify.com/*/web-pixels-manager/
+||cdn.shopify.com/s/files/*/ba_tracking.js
 ! uta-net.com
 ||uta-net.com/res/banner_count_js.php
 ||uta-net.com/res/getreco.php
@@ -16565,6 +16567,7 @@ link.gmapp*.net$image
 ! webtekno.com
 ||webtekno.com/ajax-ping
 ||webtekno.com/ajax/ometric
+!
 ! Regex
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143862
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
