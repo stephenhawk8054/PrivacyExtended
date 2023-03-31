@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 31 Mar 2023 11:27 UTC
+! Last modified: 31 Mar 2023 11:35 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -15510,7 +15510,6 @@ tensaigakkou.ru###custom_html-16
 ||directmarketingturkey.com/n.asp
 ||directmarketingturkey.com/r.asp
 ||directmarketingturkey.com/vm_tracking.asp
-||sonar.semantiqo.com^$3p
 ||manychat.com/widget/log?
 /counter?$domain=amazon.com|amazon.de|amazon.it|amazon.com.tr
 ||medyaradar.com/Tools/AddHit.aspx?
@@ -15522,9 +15521,7 @@ continentseven.com##.gaoop
 ||contx.net/ingest/res/i/collect
 ||practicequiz.com/responsive/js/ga.js
 ||t.blog.livedoor.jp/u.js
-||e-kuzbass.ru/rank$3p
 ||pr-cy.net/image.php^$3p
-||veeseo.com/tracking/$3p
 ||sm.batuu.pl/collect?
 ||s.batuu.pl/smartlink/collect?
 ||ajanimo.com/wp-content/plugins/mashshare-google-analytics/assets/js/mashga.min.js
@@ -15532,7 +15529,6 @@ continentseven.com##.gaoop
 ||s.p7s1.io/datalayer/conviva
 ||video.golem.de/download/*&cpxl=$image
 ||nbalive.pw^$3p,frame
-||s3.amazonaws.com/cdx-radar^
 ||yvesrocher.com.tr/images/avenseo/tr_TR/avenseo-uniq.min.js
 ||yvesrocher.com.tr/images/js/coremetrics.js
 ||yvesrocher.com.tr/images/js/tracking^
