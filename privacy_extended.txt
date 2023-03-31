@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 30 Mar 2023 03:32 UTC
+! Last modified: 31 Mar 2023 10:56 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -19,8 +19,6 @@ fmkorea.com##+js(set, link_url, '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131243
 app.tirelocator.ca##+js(set, googleAnalyticsEnhancedTrackEvent, noopFunc)
 app.tirelocator.ca##+js(set, googleAnalyticsEnhancedTrackPageview, noopFunc)
-! https://github.com/AdguardTeam/AdguardFilters/issues/130685
-reelrundown.com##+js(no-fetch-if, uid.mavencoalition.io)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/130197
 mirrormedia.mg##+js(set, dataLayer, [])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127461
@@ -2884,7 +2882,6 @@ returnpath.net/pixel.gif$image
 ||udc.msn.com^
 ||uep.gaijin.net^
 ||ui.oix.net^
-||uid.mavencoalition.io^
 ||ut.gamersyde.com^
 ||ut.o2.pl^
 ||vhsrwd.aip24.pl^
