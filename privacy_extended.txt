@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 01 Apr 2023 03:25 UTC
+! Last modified: 01 Apr 2023 03:53 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -15556,7 +15556,6 @@ continentseven.com##.gaoop
 ||finn.no/clientstats.html
 ||finn.no/ec/REK^
 ||iha.com.tr/track.php^
-||tag.aumago.com^$3p,script
 ||as.1und1.de/ias/track^
 ||api.salesmachine.io/*/track/event
 ||cdn.lmiutil.com/lpassets/track-
@@ -15573,7 +15572,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||sendsay.ru/js/target/tracking.js
 ||trtarsiv.com/js/Player/jwTracking.js
 ||business-key.com/top/$3p
-||bs.yandex.ru/informer/$3p
 ||bloombergbusiness.com/horizon/track
 ||biysk.info/cgi-bin/click$3p
 ||bestpersons.ru/service/visit
@@ -15586,21 +15584,13 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||2ip.ru/sbar/$3p
 ||2ip.io/sbar/$3p
 ||2-ip.online/sbar/$3p
-||doubleclick.net^*/trackimp/$3p
 ||downloads.redbull.com/webtrekk/
-||doubleclick.net/activity$3p
-||doubleclick.net/imp%$3p
-||doubleclick.net/imp;$3p
-||doubleclick.net/json?$3p
-||doubleclick.net/pixel?$3p
 ||dmcdn.net/track/$3p
-||disqus.com/api/ping?$3p
 ||dis.*.criteo.com/dis/
 ||dailymail.co.uk/tracking/
 ||d1izbwxtc3f9ue.cloudfront.net/?tid=
 ||d2d5uvkqie1lr5.cloudfront.net^*/analytics-
 ||d2d5uvkqie1lr5.cloudfront.net^*/analytics.
-||criteo.com/event?$3p
 ||condenastdigital.com/track$3p
 ||cnt.re/cnt/$3p
 ||clck.yandex.ru/click/dtype=$3p
