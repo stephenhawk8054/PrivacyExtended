@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 02 Apr 2023 04:01 UTC
+! Last modified: 02 Apr 2023 04:09 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -15601,7 +15601,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||cdn.appdynamics.com/adrum
 ||graph.facebook.com/logging_client_events
 ||goto.kz/img.php^$3p
-||googlesyndication.com/safeframe/$3p
 ||front.sspicy.ru/collect?$3p
 ||findme.ru/Counter$3p
 ||eu.angsrvr.com/count
@@ -15616,7 +15615,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||inq.com/tagserver/*/onEvent
 ||inq.com/tagserver/tracking/
 ||infotor.net/button.php^$3p
-||informers.sinoptik.ua/counter.php$3p
 ||inet.az/img.php$3p
 ||inews.name/top.php
 ||indexsite.ru/online_user.php$3p
@@ -15627,7 +15625,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||my1.ru/stat/
 ||misto.zp.ua/img/reiting_$3p
 ||metrika.yandex.ru/stat/?id=$3p
-||metka.ru/counter/^$3p
 ||metaprom.ru/top100/counter.php
 ||mediachat.ru/cnt
 ||mail.ebay.com/img/*.gif
