@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 05 Apr 2023 12:19 UTC
+! Last modified: 05 Apr 2023 12:25 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -15645,13 +15645,8 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||pivol.com/analytic/$3p
 ||plista.com/async/$3p
 ||prlog.ru/images/counter/$3p
-||quantserve.com^*.swf?$3p
-||quantserve.com^*^a=$3p
-||quantserve.com/pixel$3p
 ||qoo.by/counter.js$3p
-||researchnow.com/t/beacon$3p
 ||rover.ebay.com.au^*&cguid=
-||sinajs.cn/open/analytics/$3p
 ||skidka.ru/tracker/$3p
 ||sovetnik.net/count
 ||surfingbird.ru/api/similar_pages.js$3p
@@ -15671,7 +15666,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||top.startua.com/?$3p
 ||top.novosel.ru/top.gif$3p
 ||top10.vl.ru/hh.hit$3p
-||touchcommerce.com/tagserver/logging/$3p
 ||ttic.ru/counter^$3p
 ||tribdss.com/meter/$3p
 ||top.mail.ru/counter$3p
@@ -15681,14 +15675,12 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||ucoz.kz/stat/
 ||ucoz.net/stat/
 ||ucoz.ru/stat/
-||webtalking.ru/counter/$3p
 ||womentop.ru/top$3p
 ||wpdigital.net/metrics/
 ||alibaba.com/js/beacon_
 ||amazonaws.com/?wsid=
 ||api.apisolutions.work/track/$3p
 ||api.aio.media/stat?
-||yandeg.ru/count$3p
 ||yandex.ru/cycounter$3p
 ||xsltcache.alexa.com/site_stats/$3p
 ||ncp-e.com/typo3conf/ext/leadlab/res/wm_autotrack_v*.js
