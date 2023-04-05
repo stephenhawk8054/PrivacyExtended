@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 05 Apr 2023 12:16 UTC
+! Last modified: 05 Apr 2023 12:19 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -2960,6 +2960,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ephemeralcounters.api.roblox.com^
 ||ecsv2.roblox.com^
 ||tracing.roblox.com^
+! snapchat.com
+||accounts.snapchat.com/accounts/static/scripts/pixel.js
+||snap-api.arkoselabs.com/metrics/
+||web.snapchat.com/web-analytics-
 ! end:
 ! CNAME trackers
 ! This section contains the list of the rules are against CNAME tracking networks.
