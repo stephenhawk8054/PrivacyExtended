@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 06 Apr 2023 14:03 UTC
+! Last modified: 07 Apr 2023 11:47 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1313,7 +1313,20 @@ brasil247.com###taboola-mid-article-leia-mais
 ||x3-policy-maker.goguardian.com^
 ||x3-predictor.goguardian.com^
 !
+||log.qvb.qcloud.com^
+||log.tpns.gz2.tencent.com^
+||trace.zhiyan.tencent-cloud.net^
+||norma-external-collect.meizu.com^
+||log.iflytek.com^
+||log.voicecloud.cn^
+||aads.shuzilm.cn^
+||adxlog-adnet.vivo.com.cn^
+||user-analysis.7moor.com^
+!
 ! Baidu
+||sp1.baidu.com^
+||sp2.baidu.com^
+||sp3.baidu.com^
 ||als.baidu.com^
 ||afd.baidu.com^
 ||jpaasne.e.shifen.com^
@@ -2955,6 +2968,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ! gomlab.com
 ||ana.gomtv.com^
 ||log.gomlab.com^
+! qq
+||uplog.inews.qq.com^
+||log1.wtlogin.qq.com^
 ! reelevant.com
 ||collector.reelevant.com^
 ||scripts-repo.reelevant.com^
@@ -14746,7 +14762,6 @@ hobbylog.jp##.pbancut
 ||nakanune.ru/count/img.php
 kuruma-news.jp##.recommend-container
 ||apis.naver.com/mcollector/
-||volts.shopping.naver.com/pv
 ||webrazzi.com/api/post/stats
 ||skyscanner.*/*/metrics/
 ||skyscanner.*/*/collector
