@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 07 Apr 2023 11:47 UTC
+! Last modified: 07 Apr 2023 12:06 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -15747,7 +15747,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||tvigle.ru/track/
 ||reisen.de/usertracking^
 ||heise.de/avw-bin/ivw/CP^
-||heise.de/ivw-bin/ivw/CP^
 ||quelle.de/servlet/LandmarkServlet?clientId=
 ||receiver-hetzner.showheroes.com/events^
 ||creativefactory.zalando.de/impressions^
