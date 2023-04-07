@@ -17337,3 +17337,5 @@ reddit.com##+js(set, Object.prototype.allowClickTracking, false)
 twitter.com##+js(href-sanitizer, a[href^="https://t.co/"])
 ! https://github.com/uBlockOrigin/uAssets/pull/12351
 twitch.tv##+js(no-fetch-if, /video-edge-[^/]+ttvnw.net/ method:POST)
+! https://github.com/AdguardTeam/AdguardFilters/issues/144978
+@@||geoloc.hurriyet.com.tr/api/country$domain=kanald.com.tr
