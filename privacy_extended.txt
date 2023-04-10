@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 10 Apr 2023 10:39 UTC
+! Last modified: 10 Apr 2023 10:35 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -30,8 +30,6 @@ forfun.ist##+js(no-fetch-if, ssl.geoplugin.net/javascript.gp)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118441
 ! Related to removeparam rules
 qiita.com##+js(aeld, load, navigator)
-! https://github.com/AdguardTeam/AdguardFilters/issues/120883
-nettiauto.com##+js(set, listingGoogleEETracking, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120143
 lcwaikiki.com##+js(set, dataLayer, [])
 ! https://github.com/AdguardTeam/AdguardFilters/pull/119949
