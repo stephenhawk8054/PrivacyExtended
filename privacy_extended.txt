@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 12 Apr 2023 11:46 UTC
+! Last modified: 12 Apr 2023 12:09 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -14359,6 +14359,7 @@ directtrack.*.js
 ://b.*/vanity/?
 _tracking.php?b=
 /smi/fp.min.js
+/flying-analytics/js/analytics.js
 !
 ! Specific websites
 ! This section contains the list of domain-specific rules that block analytics.
@@ -16482,12 +16483,15 @@ link.gmapp*.net$image
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
 ||160.16.86.134/rtools/*/r_counter.js
+||51nongyao.net/js/analytics.js
 ||adtonos.com/atr/*/px.gif
 ||amazonpay.com/customerInsight?
+||analdin.com/js/analytics.js
 ||api.airfind.com/stats/
 ||assets.rpglogs.com/js/global/googleAnalytics.*.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||astar.bz/*/ping.gif
+||bauen-und-heimwerken.de/myphpfiles/js/analytics.js
 ||bershka.com/integration/zenit/events/hit
 ||bing.com/fd/ls/
 ||blog-rss.com/track/
@@ -16504,6 +16508,7 @@ link.gmapp*.net$image
 ||daimaoh.co.jp/afimp.php
 ||data.liba.com/_.gif
 ||diarioregistrado.com/api/*/analytics
+||dojq4kt8ws9iq.cloudfront.net/js/analytics.js
 ||ebs.co.kr/js/weblogs/nethru/wlo.js
 ||elpais.com.uy/google-analytics
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
@@ -16514,9 +16519,13 @@ link.gmapp*.net$image
 ||gtm-server.healthline.com^
 ||halktv.com.tr/stats/
 ||hotels.com/cl/*.gif?
+||img.sportsworldi.com/static/w_sportsworld/common/js/analytics.js
+||imobie.com/js/analytics.js
 ||imstream.jp/analytics/js/
 ||inshokuten.com/accessTracking/
+||istanbul.com/ui/js/analytics.js
 ||istoe.com.br/@nave/gateway/reply?navtrackdata=
+||kazi.co.jp/js/analytics.js
 ||lecturas.com/Content/*/js/trackPopup.js
 ||linkedin.com/*/track|
 ||m1tm.motor1.com/analytics.js
@@ -16525,6 +16534,7 @@ link.gmapp*.net$image
 ||odsyms15.com/impression?
 ||ok.ru/web-api/pixel?
 ||platform.loyaltylion.com/analytics/
+||playentry.org/js/analytics.js
 ||plug.it/iplug/js/lib/iol/analytics/
 ||pornyoungtube.tv/kriss/cron.php
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
@@ -16537,11 +16547,16 @@ link.gmapp*.net$image
 ||s.sofoot.com^
 ||safevisit.org/api/v*/c?$redirect=nooptext
 ||sbazar.cz/*/hit|$xhr
+||screensaversplanet.com/js/analytics.js
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sexhd.pics/x/x.js
+||sirporno.xxx/js/analytics.js
 ||skalnik.pl/static/*/js/tracking.min.js
 ||static.gazeta.ru/nm2021/js/block_counter.
 ||static.iris.informa.com/widgets/*/iris-t.js
+||static.iyzipay.com/buyer-protection/assets/js/analytics.js
+||static-cdn.tinkoffjournal.ru/js/analytics.*.js
+||std-lab.jp/js/analytics.js.php
 ||surfsnow.jp/common/js/analytics_
 ||sve.online.sberbank.ru/metrics/partners
 ||tags.chip.de^
