@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 14 Apr 2023 11:17 UTC
+! Last modified: 14 Apr 2023 11:18 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -173,6 +173,7 @@ minnyuu.jp#?#div[class$="BlockBase"] > div > div > div.plugin-freearea > div.nin
 mesyuu.com#?#div[class$="_outline"] > div > div.plugin-freearea > div.ninja-recommend-block:upward(3)
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp,vipstyle.tokyo#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
 !
+curazy.com##.sponsor-link-text
 russianbeauties.jp###secondary-column > div.text-recommend
 norisoku.com###random
 diamond.jp###main-column > article > div.main-special
