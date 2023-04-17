@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 17 Apr 2023 11:01 UTC
+! Last modified: 17 Apr 2023 11:07 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -16105,18 +16105,15 @@ dreamprogs.net##td[width="88"][height="31"]
 ||ab-in-den-urlaub.de/usertracking
 ||ace.segye.com/?cookie
 ||ace.segye.com/?uid=
-||addthis.com/red/$script,3p
 ||addthis.com/red/p.png?
 ||addthis.com^*/p.json?*&ref=
 ||adobe.com/*/pdc_s_code.js
 ||adobe.com/*/s_code*.js
-||adobedtm.com^*/satelliteLib-$script,domain=euronews.com|allrecipes.com|nvidia.at|nvidia.be|nvidia.cn|nvidia.co.jp|nvidia.co.kr|nvidia.co.uk|nvidia.com|nvidia.com.br|nvidia.com.mx|nvidia.com.tr|nvidia.com.tw|nvidia.cz|nvidia.de|nvidia.dk|nvidia.es|nvidia.fi|nvidia.fr|nvidia.in|nvidia.it|nvidia.nl|nvidia.no|nvidia.pl|nvidia.ru|nvidia.se
 ||aimp.ru/data/counter.html
 ||aksam.com.tr/analytic
 ||alawar.com/gcounter_alawar.js
 ||amazon.com*/recordevent.html?
 ||amazon.com/*/cerberus/log/
-||amazon.com/empty.gif?
 ||amazon.com/follow/log-metrics^
 ||amazonaws.com/pixelpop/app/pixelpop-
 ||analytics-static.unister-gmbh.de^
