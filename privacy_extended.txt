@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 18 Apr 2023 11:53 UTC
+! Last modified: 18 Apr 2023 11:55 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -2971,8 +2971,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 ! any.run
-||counter.any.run^
 ||cllctr.any.run^
+||counter.any.run^
 ||owa.any.run^
 ! Big Star Labs
 ||api2.poperblocker.com^
@@ -2998,6 +2998,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||accounts.snapchat.com/accounts/static/scripts/pixel.js
 ||snap-api.arkoselabs.com/metrics/
 ||web.snapchat.com/web-analytics-
+! usergram.info
+||code.usergram.info^
+||tr.usergram.info^
 ! end:
 ! CNAME trackers
 ! This section contains the list of the rules are against CNAME tracking networks.
