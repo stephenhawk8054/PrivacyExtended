@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 19 Apr 2023 10:28 UTC
+! Last modified: 20 Apr 2023 09:57 UTC
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -85,8 +85,6 @@ store.line.me##+js(rc, async-hide, html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64616
 ! Remove tracking attributes from the search results
 www.google.*##+js(ra, ping, div[id="search"] a[data-ved][ping])
-! https://github.com/AdguardTeam/AdguardFilters/issues/146387
-forbes.com##+js(set, Object.prototype.track, noopFunc)
 !
 !! facebook.com - removing tracking parameter
 !! external links
