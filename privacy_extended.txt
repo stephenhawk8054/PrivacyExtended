@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.04.25.4
+! Last modified: 2023.04.25.5
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1156,7 +1156,6 @@ gendai.media#?#.elementSectionHeadingsWithSuffix:has(+ div[id^="taboola-below-ar
 ||thetrafficstat.net^
 ||tm.zedo.com^$3p
 ||tm1-001.com^$3p
-||top-staging.mail.ru^
 ||top.list.ru^$3p
 ||toro-tags.com^$3p
 ||trackcdn.com^$3p
@@ -15001,7 +15000,6 @@ tourister.ru##.nt-foot-item[style="overflow:hidden;"]
 ||pravo.ru/assets/*/js/event.js
 ||fivemsociety.com/analitik.js
 ||baseendpoint.stern.de/wrapper/metrics
-||trk.mail.ru^$image,ping
 ||push.m.youku.com/collect-api/
 ||cast.imp.joins.com/persona.js
 ||tosshub.com/sites/common/resources/trackdata/min/itgdtrack*.js
@@ -16400,7 +16398,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||travelocity.com/cl/data/typeahead_client_metrics.json
 ||travelocity.com/minify/exp.core.channeltracking
 ||travelocity.com/minify/exp.core.tvlytracking
-||travelocity.com^*/2x2.gif?
 ||travelocity.com^*/evaluateexperimentsandlog
 ||traveltracking.check24.de^
 ||tribl.io/h.js
@@ -16410,7 +16407,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||tripadvisor.*/garecord
 ||tripadvisor.*/impressionrecord
 ||trivago.de/search/log
-||trust.zone/api_ip_info.php?$3p
 ||tunein.com/*/log/?
 ||tunein.com/*/report?
 ||tvsquared.com/tv2track$3p
