@@ -2823,7 +2823,6 @@ returnpath.net/pixel.gif$image
 ||tracker.cdn-moneysmart.com^
 ||tracker.cpapath.com^
 ||tracker.dcdn.baidu.com^
-||tracker.files.fm^
 ||tracker.giftd.ru^
 ||tracker.joongang.co.kr^
 ||tracker.joost.com^
