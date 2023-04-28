@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.04.28.2
+! Last modified: 2023.04.28.3
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -15148,7 +15148,6 @@ seshop.com,shoeisha.co.jp###cceol
 ||creema.jp/ad/impression-log
 ||www.google.*/velog/
 ||data.gov.in/ogdp-stats-
-||xn--pckua2a7gp15o89zb.com/api/tracking.js
 ||indeed.com/indeedapply/tracking/
 ||cnt-*.svc.iptv.rt.ru/event_collector
 ||honda.co.jp/common/beacon/
@@ -16542,10 +16541,8 @@ link.gmapp*.net$image
 ||imobie.com/js/analytics.js
 ||imstream.jp/analytics/js/
 ||ingestion.sportskeeda.com/logviewedpage
-||inshokuten.com/accessTracking/
 ||istanbul.com/ui/js/analytics.js
 ||istoe.com.br/@nave/gateway/reply?navtrackdata=
-||jav4tv.com/player/analytics
 ||kazi.co.jp/js/analytics.js
 ||lecturas.com/Content/*/js/trackPopup.js
 ||linkedin.com/*/track|
