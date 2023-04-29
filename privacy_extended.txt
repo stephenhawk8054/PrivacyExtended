@@ -16591,6 +16591,7 @@ link.gmapp*.net$image
 ||ok.ru/web-api/pixel?
 ||owata-net.com/js/ga.js
 ||p.brid.tv/player/build/plugins/googleanalytics/
+||patreon.com/api/tracking^
 ||platform.loyaltylion.com/analytics/
 ||playentry.org/js/analytics.js
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
@@ -16644,6 +16645,7 @@ link.gmapp*.net$image
 ||visumo.jp/Content/js/tracking.js
 ||wilfmovies.com/wp-content/plugins/google-analytics-dashboard-for-wp/
 ||x.kinja-static.com/assets/packaged-js/*trackers
+||xn--pckua2a7gp15o89zb.com/api/tracking.js
 ||zara.com/integration/zenit/events/hit
 ||zona.plus/ajax/visit-stats
 ! cbsinteractive.com
