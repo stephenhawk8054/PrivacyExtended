@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.05.04.9
+! Last modified: 2023.05.04.10
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -118,7 +118,6 @@ itsu.com##+js(set, AtreemoTrackingLbr, noopFunc)
 ##a[href^="https://top.mail.ru/jump"]
 ##img[src*="counter.yadro.ru"]
 ##img[src^="http://c.bigmir.net/"]
-~canstarblue.com.au,~stardewvalleywiki.com,~ricochet5.com,~underverse.su,~underver.se,~minu.stv.ee,~sota.com,~7kingdoms.ru,~epicl2.com,~forum.ixbt.com,~forum.themega.ru,~gamepedia.com,~makeserver.ru,~mozhor.ru,~onliner.by,~wiktionary.org,~yandex.by,~yandex.com,~yandex.com.tr,~yandex.ru##img[width="88"][height="31"]
 
 ! Specific cosmetic filters
 ! This section contains the list of extended CSS rules against leftovers.
@@ -17464,8 +17463,6 @@ reverso.net##+js(set, rumjs.business.setManualConsent, noopFunc)
 @@||sp1.baidu.com/*/gettts?$media
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149222
 @@||comeresaprensasl.tt.omtrdc.net/rest/v*/delivery?$domain=hoy.es
-! https://github.com/AdguardTeam/AdguardFilters/issues/149439
-wikimedia.org#@#img[width="88"][height="31"]
 !
 ! ### Additional ###
 ! https://www.reddit.com/r/uBlockOrigin/comments/tihpyw/oldredditcom_outbound_tracking_via_out_reddit_com/i1f290z/?context=3
