@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.05.06.1
+! Last modified: 2023.05.07.1
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -2969,7 +2969,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||log.musical.ly^
 ||log2.musical.ly^
 ||xlog-va.musical.ly^
-!
 ! blueconic.net on hearst.com sites
 ||c993.westport-news.com^
 ||f164.sheltonherald.com^
@@ -3034,6 +3033,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ! usergram.info
 ||code.usergram.info^
 ||tr.usergram.info^
+! https://github.com/easylist/easylist/pull/15827
+||track.buzzerilla.com^
+||track.historictalk.com^
+||track.juststarz.com^
+||track.kueez.com^
+||track.parentmood.com^
+||track.shrinkplus.com^
+||track.thefunpost.com^
 ! end:
 ! CNAME trackers
 ! This section contains the list of the rules are against CNAME tracking networks.
