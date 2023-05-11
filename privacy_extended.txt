@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.05.11.3
+! Last modified: 2023.05.11.4
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -42,9 +42,10 @@ careermap.co.uk##+js(set, trackEvent, noopFunc)
 gmarket.co.kr##+js(set, pvprofiler.sendEvt, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114227
 valleybreeze.com##+js(ra, hidden, #asset-content[hidden])
+! https://github.com/AdguardTeam/AdguardFilters/issues/150590
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118108
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112998
-ttv.pl,tvn24.pl##+js(set, gemiusStream, noopFunc)
+tvnturbo.pl,ttv.pl,tvn24.pl##+js(set, gemiusStream, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109426
 nytimes.com##+js(set, Navigator.prototype.joinParakeetInterestGroup, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110697
