@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.05.12.1
+! Last modified: 2023.05.12.2
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -16697,6 +16697,9 @@ link.gmapp*.net$image
 ||navitime.co.jp/*/jquery.adcount.js
 ||navitime.co.jp/*/jquery.gacount.js
 ||navitime.co.jp/*/log/logger.js
+! nicovideo.jp
+||nicovideo.jp/api/ria/log.gif
+||nicovideo.jp/log.gif
 ! ohmynews.com
 ||ohmynews.com/NWS_Web/Common/JS/TagManage
 ||ohmynews.com/NWS_Web/Common/JS/GoogleAnalytics
