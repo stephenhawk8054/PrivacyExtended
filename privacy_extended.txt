@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.05.13.2
+! Last modified: 2023.05.13.3
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -16530,6 +16530,7 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43140
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
+/log.gif$domain=nicovideo.jp
 ||160.16.86.134/rtools/*/r_counter.js
 ||18comic.vip/templates/frontend/airav/js/td_js/td_ga_tracker.js
 ||4tololo.ru/core/modules/statistics/statistics.php
@@ -16629,6 +16630,7 @@ link.gmapp*.net$image
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
 ||plug.it/iplug/js/lib/iol/analytics/
 ||popfilmeshd.net/wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-analytics-events.js
+||pornbest.org/site/stat?
 ||pornyoungtube.tv/kriss/cron.php
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
 ||print24.com/api/*/analytics/
@@ -16701,9 +16703,6 @@ link.gmapp*.net$image
 ||navitime.co.jp/*/jquery.adcount.js
 ||navitime.co.jp/*/jquery.gacount.js
 ||navitime.co.jp/*/log/logger.js
-! nicovideo.jp
-||nicovideo.jp/api/ria/log.gif
-||nicovideo.jp/log.gif
 ! ohmynews.com
 ||ohmynews.com/NWS_Web/Common/JS/TagManage
 ||ohmynews.com/NWS_Web/Common/JS/GoogleAnalytics
