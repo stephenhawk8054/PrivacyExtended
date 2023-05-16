@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.05.16.2
+! Last modified: 2023.05.16.3
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1798,6 +1798,7 @@ returnpath.net/pixel.gif$image
 ||apptracker.gamedock.io^
 ||apv-launcher.minute.ly^
 ||astat.nikkei.co.jp^
+||astral.nicovideo.jp^
 ||atax.gamespy.com^
 ||atax.gamestats.com^
 ||atax.ign.com^
@@ -15161,7 +15162,6 @@ otekomachi.yomiuri.co.jp###_popIn_right
 ||qgraph.io/dist/aiqua-wp.js
 ||qgraph.io/v3/r/aiqua.js
 ||a.apkpure.com/analytics_*.js
-||public.api.nicovideo.jp/v*/log/display-log
 ||dcdn.cdn.nicovideo.jp/shared_httpd/log.gif
 ||app.leadplan.ru/assets/img/1px.gif
 ||dp.voocdn.com/statistics/vastTracking?
@@ -16533,7 +16533,6 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43140
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
-/log.gif$domain=nicovideo.jp
 ||160.16.86.134/rtools/*/r_counter.js
 ||18comic.vip/templates/frontend/airav/js/td_js/td_ga_tracker.js
 ||4tololo.ru/core/modules/statistics/statistics.php
@@ -16710,6 +16709,11 @@ link.gmapp*.net$image
 ||navitime.co.jp/*/jquery.adcount.js
 ||navitime.co.jp/*/jquery.gacount.js
 ||navitime.co.jp/*/log/logger.js
+! nicovideo.jp
+/log.gif$domain=nicovideo.jp
+||nicovideo.jp/api/counter/
+||nicovideo.jp/v1/recommend/log/
+||nicovideo.jp/v2/user/actions/watch-events.json
 ! ohmynews.com
 ||ohmynews.com/NWS_Web/Common/JS/TagManage
 ||ohmynews.com/NWS_Web/Common/JS/GoogleAnalytics
