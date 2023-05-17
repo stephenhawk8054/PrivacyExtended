@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.05.17.6
+! Last modified: 2023.05.17.7
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -3018,6 +3018,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||collection-endpoint-staging.herokuapp.com^
 ||d10vy5gom1ed53.cloudfront.net^
 ||um-public-panel-prod.s3.amazonaws.com^
+! danawa.com
+||insight.danawa.com^
+||las.danawa.com^
 ! deliverr.com
 ||shopify-fast-tags.deliverr.com^
 ||event-tracking.deliverr.com^
@@ -15284,7 +15287,6 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 /universal_analytics.$domain=foerde-sparkasse.de
 ||gtr1.yes24.com/wlo/Logging
 ||analytics.fsho.st/tracker.js
-||las.danawa.com/log/
 ||news.chosun.com/svc/fb_count.html
 ||news.chosun.com/dhtm/*/collecter.js
 ||openapi.tv.zum.com/logs/ad/
