@@ -2598,6 +2598,7 @@ returnpath.net/pixel.gif$image
 ||ssp*.rtb.beeline.ru^
 ||sstats.adobe.com^
 ||st-*.dynamicyield.com^
+||st-5cva8vttppvjafpc7jvj.kodik.biz^
 ||st.avsplow.com^
 ||st.film.ru^
 ||st.top100.ru^
@@ -16631,6 +16632,7 @@ link.gmapp*.net$image
 ||kazi.co.jp/js/analytics.js
 ||kindernetz.de/static/tracking/xtclicks.js
 ||kinja.com/api/analytics/
+||kodik.info/stats|
 ||kotaku.com/api/analytics/
 ||lecturas.com/Content/*/js/trackPopup.js
 ||lifo.gr/modules/custom/lifo_statistics/
