@@ -171,7 +171,9 @@ fudge.jp##.ratio-wrapper
 comichara.com,movient.net###text-6
 okazuch.site###custom_html-30
 aatyu.livedoor.blog#?#.article > div.plugin-memo:has(> div.side > div.ninja-recommend-block)
+! ero-anime.net
 ero-anime.net#?##side_col #index_side_widget:has(.ninja-recommend-block)
+ero-anime.net###top_area_under
 ! m4ex.com
 m4ex.com###footer-widget
 m4ex.com##.plugin-counter
