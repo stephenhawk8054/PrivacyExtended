@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.05.26.3
+! Last modified: 2023.05.27.1
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -15379,7 +15379,6 @@ the-ans.jp##.side-reccomend
 ||cdn.retailrocket.*/*/tracking.js
 ||ru-mi.com/*/ee_tracking.js
 ||uol.com.br/*/stats^
-||clck.yandex.ru^$other
 ||dubox.com/api/analytics
 ||media.r18.com/track/$all
 ||app.retargetapp.com/pixel/pixel.min.js
@@ -15722,8 +15721,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||d2d5uvkqie1lr5.cloudfront.net^*/analytics.
 ||condenastdigital.com/track$3p
 ||cnt.re/cnt/$3p
-||clck.yandex.ru/click/dtype=$3p
-||clck.yandex.ru/jclck^$3p
 ||clan.su/stat/
 ||cdn.api.twitter.com/*/urls/count.json$3p
 ||cdn.appdynamics.com/adrum
@@ -16242,7 +16239,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||check24.de/misc/tracking_gif.php
 ||citizensvoice.com/logger/p.gif
 ||clancy.spiceworks.com/jackryan.js^
-||clck.yandex.ru/counter/$domain=metro.yandex.ru
 ||cleverbridge.com/*/cleverAnalytics.js^
 ||click.xda-developers.com/api/pixel.gif
 ||clientlog.portal.office.com^
@@ -16773,6 +16769,10 @@ link.gmapp*.net$image
 ! webtekno.com
 ||webtekno.com/ajax-ping
 ||webtekno.com/ajax/ometric
+! yandex
+||clck.yandex.ru/click
+||clck.yandex.ru/counter/
+||ya.ru/clck/
 ! zingnews.vn
 ||api.zingnews.vn/*/r?ze=
 ||api.zingnews.vn/*/trackpv/
