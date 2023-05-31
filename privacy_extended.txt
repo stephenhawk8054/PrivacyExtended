@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.05.31.3
+! Last modified: 2023.05.31.4
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -197,6 +197,7 @@ brasil247.com###taboola-mid-article-leia-mais
 gendai.media#?#.elementSectionHeadingsWithSuffix:has(+ div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152371
 gmx.com#?#.content-wrapper > div[data-mod-name="container"]:has(> div.taboola-teasers)
+gmx.com##div[data-mod-name="taboolateasers"]
 
 ! Tracking servers
 ! This section contains the list of third party tracking networks domains.
