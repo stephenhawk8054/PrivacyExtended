@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.02.4
+! Last modified: 2023.06.03.1
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -2347,6 +2347,7 @@ returnpath.net/pixel.gif$image
 ||logcol.kyobobook.co.kr^
 ||logcollect.totalcms.ncloud.or.kr^
 ||logconfig.polarisoffice.com^
+||logger*.kma.go.kr^
 ||logger-*.dailymotion.com^
 ||logger.applovefrom.com^
 ||logger.cbs.co.kr^
@@ -16722,6 +16723,7 @@ link.gmapp*.net$image
 ||vanilla.futurecdn.net/tvtechnology/media/shared/js/jwplayer-analytics
 ||vesseltracker.com/assets/js/leaflet-ais-trackingsymbols/
 ||visumo.jp/Content/js/tracking.js
+||weather.go.kr/w/resources/js/logger
 ||widgets.binotel.com/calltracking/js/information-about-the-visitor.js
 ||wilfmovies.com/wp-content/plugins/google-analytics-dashboard-for-wp/
 ||x.kinja-static.com/assets/packaged-js/*trackers
@@ -17574,10 +17576,9 @@ twitch.tv##+js(no-fetch-if, /video-edge-[^/]+ttvnw.net/ method:POST)
 ||etonline.com/themes/custom/et/js/tracking.js
 ||raxcdn.com/app/themes/*/js/tracking.js
 /wp-content/*/js/tracking.js
+/shared-content/art/stats/common/tracker.js
 ! https://github.com/Smile-SA/elasticsuite/wiki/GDPRCompliance
 /Smile_ElasticsuiteTracker/js/tracking.js
-!
-/shared-content/art/stats/common/tracker.js
 ! https://github.com/uBlockOrigin/uAssets/issues/18023#issuecomment-1543231459
 /^https:\/\/(\w+\.){2}[a-z]{2,}\/js\/container_[a-zA-Z0-9]{8}\.js$/$script,match-case
 ! dubox-analysis
