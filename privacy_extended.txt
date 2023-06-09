@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.09.6
+! Last modified: 2023.06.09.7
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -16707,6 +16707,7 @@ link.gmapp*.net$image
 ||static.iris.informa.com/widgets/*/iris-t.js
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js
 ||static.me.me/static/versions/js/external/google_analytics-*.js
+||static-cdn.spot.im/production/topic-tracker/tags/*/topic-tracker.js
 ||static-cdn.tinkoffjournal.ru/js/analytics.*.js
 ||statnews.com/wp-content/compiled/js/stat-hubspot-tracker.js
 ||strato.de/faq/assets/js/tracking.js
@@ -16778,9 +16779,6 @@ link.gmapp*.net$image
 ! shopify
 ||cdn.shopify.com/*/web-pixels-manager/
 ||cdn.shopify.com/s/files/*/ba_tracking.js
-! spot.im
-||static-cdn.spot.im/production/topic-tracker/tags/*/topic-tracker.js
-||static-cdn.spot.im/production/launcher/tags/*/launcher/metrics-reporter-bundle.js
 ! stavka.tv
 ||stavka.tv/post-affilate-pro.js
 ||stavka.tv/metrika/watch.js
@@ -17574,9 +17572,6 @@ secure1.comed.com##+js(set, setupGoogleAnalytics, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152414
 @@||visilabs.net/*/Visilabs.min.js$domain=paribucineverse.com
 @@||vsh.visilabs.net/Visilabs.min.js$domain=paribucineverse.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/153156
-! https://github.com/AdguardTeam/AdguardFilters/issues/153200
-@@||static-cdn.spot.im/production/launcher/$domain=nypost.com|foxnews.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151369
 @@||beacon.unext.jp/beacon/stop/$domain=video.unext.jp
 !
