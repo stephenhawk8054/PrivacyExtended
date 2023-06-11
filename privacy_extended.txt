@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.10.2
+! Last modified: 2023.06.11.1
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -17573,6 +17573,10 @@ secure1.comed.com##+js(set, setupGoogleAnalytics, noopFunc)
 @@||vsh.visilabs.net/Visilabs.min.js$domain=paribucineverse.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151369
 @@||beacon.unext.jp/beacon/stop/$domain=video.unext.jp
+! Disney sites - buttons do not work
+@@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=disney.*
+@@||dcf.espn.com/TWDC-DTCI/prod/serverComponent.php$domain=disney.*
+@@||dcf.espn.com/TWDC-DTCI/prod/code/$script,domain=disney.*
 !
 ! https://github.com/stephenhawk8054/PrivacyExtended/issues/5
 @@||apple.com/metrics/ac-analytics/*/scripts/ac-analytics.js$script,1p
