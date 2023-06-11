@@ -17607,4 +17607,5 @@ elahmad.com##+js(set, Object.prototype.analytics, noopFunc)
 /firebase-analytics.js
 ||firebaseinstallations.googleapis.com/*/dubox-analysis/
 ! lightboxcdn
+! https://github.com/AdguardTeam/AdguardFilters/issues/109968
 ||lightboxcdn.com^$domain=~powerstep.com
