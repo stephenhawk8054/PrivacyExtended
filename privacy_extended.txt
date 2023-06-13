@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.13.4
+! Last modified: 2023.06.13.5
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -17586,29 +17586,29 @@ elahmad.com##+js(set, Object.prototype.analytics, noopFunc)
 ||narrativ.com^
 ! wordpress tracking
 /wp-admin/admin-ajax.php*^action=rxn_
+/wp-content/*/asmb-tracking
 /wp-content/*/components/measurement.min.js
 /wp-content/*/dt-gtm-events.min.js
 /wp-content/*/dt-metrics.min.js
 /wp-content/*/dynamic-tracker.js
+/wp-content/*/eiu-google-tag-manager
+/wp-content/*/fast-view-counts
 /wp-content/*/geoPosition.js
+/wp-content/*/google-analytics-dashboard-for-wp
+/wp-content/*/google-analytics-for-wordpress
+/wp-content/*/google-analytics-premium
 /wp-content/*/js/analytics.js
 /wp-content/*/js/ga.js
 /wp-content/*/js/tracking.js
 /wp-content/*/js/tracking.min.js
+/wp-content/*/mashshare-google-analytics
 /wp-content/*/pageviews.js
+/wp-content/*/pb-ga-google-analytics$domain=~wordpress.org
 /wp-content/*/stat-hubspot-tracker.js
+/wp-content/*/woocommerce-google-adwords-conversion-tracking-tag
 /wp-content/*/wp-analytify
-/wp-content/plugins/asmb-tracking/*
-/wp-content/plugins/eiu-google-tag-manager/*
-/wp-content/plugins/fast-view-counts/*
-/wp-content/plugins/google-analytics-dashboard-for-wp/*
-/wp-content/plugins/google-analytics-for-wordpress/*
-/wp-content/plugins/google-analytics-premium/*
-/wp-content/plugins/mashshare-google-analytics/*
-/wp-content/plugins/pb-ga-google-analytics/*$domain=~wordpress.org
-/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/*
-/wp-content/plugins/wp-google-analytics-events/*
-/wp-content/plugins/wp-mop-analytics/*
+/wp-content/*/wp-google-analytics-events
+/wp-content/*/wp-mop-analytics
 /wp-content/themes/websiteplanet/js/header-footer.js
 /wp-content/uploads/perfmatters/gtagv*.js
 /wp-includes/js/u_hits_control.js
