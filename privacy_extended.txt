@@ -17546,6 +17546,8 @@ secure1.comed.com##+js(set, setupGoogleAnalytics, noopFunc)
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=disney.*
 @@||dcf.espn.com/TWDC-DTCI/prod/serverComponent.php$domain=disney.*
 @@||dcf.espn.com/TWDC-DTCI/prod/code/$script,domain=disney.*
+! https://github.com/AdguardTeam/AdguardFilters/issues/153458
+@@||tracking.immobilienscout24.de/tr.js?customCounterName=is24.de.meinkonto.merkzettel.myscout
 !
 ! https://github.com/stephenhawk8054/PrivacyExtended/issues/5
 @@||apple.com/metrics/ac-analytics/*/scripts/ac-analytics.js$script,1p
