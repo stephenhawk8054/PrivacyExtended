@@ -17603,7 +17603,7 @@ elahmad.com##+js(set, Object.prototype.analytics, noopFunc)
 /wp-content/plugins/google-analytics-premium/*
 /wp-content/plugins/mashshare-google-analytics/*
 /wp-content/plugins/pb-ga-google-analytics/*$domain=~wordpress.org
-/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/js/*
+/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/*
 /wp-content/plugins/wp-google-analytics-events/*
 /wp-content/plugins/wp-mop-analytics/*
 /wp-content/themes/websiteplanet/js/header-footer.js
