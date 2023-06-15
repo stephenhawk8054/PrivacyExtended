@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.15.7
+! Last modified: 2023.06.15.8
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1890,6 +1890,7 @@ returnpath.net/pixel.gif$image
 ||cdn-redirector.glopal.com^
 ||cdn.odoscope.cloud^
 ||cdn.pranmcpkx.com^
+||cdn.userleap.com^
 ||cdnstats-a.akamaihd.net^
 ||ce-global-track-*.amazonaws.com^
 ||cfg.imtt.qq.com^
@@ -2101,6 +2102,7 @@ returnpath.net/pixel.gif$image
 ||dkhywqapojyk7.cloudfront.net^
 ||dmc1acwvwny3.cloudfront.net^
 ||dmp.citiservi.es^
+||dna8twue3dlxq.cloudfront.net^
 ||dnh523js9661q.cloudfront.net^
 ||dobrnovosti.com^
 ||dorangesource.alicdn.com^
@@ -2158,6 +2160,7 @@ returnpath.net/pixel.gif$image
 ||events*.cre.ma^
 ||eventtracker.elitedaily.com^
 ||evs.data.ciceksepeti.com^
+||evs.sgmt.loom.com^
 ||exacttarget.api.mashery.com^
 ||exc.ns.nl^
 ||exilelink.com^
@@ -2532,6 +2535,7 @@ returnpath.net/pixel.gif$image
 ||production-mcs.lvp.llnw.net^
 ||prudsys-rde.de^
 ||prx.wayfair.com^
+||public.profitwell.com^
 ||push.zhanzhang.baidu.com^
 ||put.qostore.daumkakao.io^
 ||px.reactrmod.com^
@@ -16788,6 +16792,7 @@ link.gmapp*.net$image
 ||adtima-media.zascdn.me^
 ||px.dmp.zaloapp.com^
 !
+/js/profitwell.js
 /log/pv?id=
 /uvpjs-rv/*/lib/tracking/*$domain=cnet.com
 !
