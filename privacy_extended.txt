@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.17.1
+! Last modified: 2023.06.19.1
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -16744,6 +16744,10 @@ link.gmapp*.net$image
 ! fc2.com
 ||media.fc2.com/blank.gif
 ||media.fc2.com/counter_img
+! herz-fuer-tiere.de
+||herz-fuer-tiere.de/assets/themes/default/images/sunshine.gif
+||herz-fuer-tiere.de/assets/themes/default/images/ad.gif
+||data-e0448d0e4a.herz-fuer-tiere.de/base.io
 ! hwp.com.tr
 ||hwp.com.tr/zrzga.js
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-
