@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.21.9
+! Last modified: 2023.06.21.10
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -17603,7 +17603,7 @@ twitch.tv##+js(no-fetch-if, /video-edge-[^/]+ttvnw.net/ method:POST)
 ! https://github.com/Smile-SA/elasticsuite/wiki/GDPRCompliance
 /Smile_ElasticsuiteTracker/js/tracking.js
 ! https://github.com/uBlockOrigin/uAssets/issues/18023#issuecomment-1543231459
-/^https:\/\/(\w+\.){2}[a-z]{2,}\/js\/container_[a-zA-Z0-9]{8}\.js$/$script,match-case
+/^https:\/\/(\w+\.){2}[a-z]{2,}\/js\/container_[A-z0-9]{8}\.js$/$script
 ! elahmad.com
 ||elahmad.com/*/blockadblock.min.js$1p,important
 ||elahmad.com/*/videojs-analytics$1p,important
@@ -17648,7 +17648,7 @@ elahmad.com##+js(set, Object.prototype.analytics, noopFunc)
 /wp-content/themes/websiteplanet/js/header-footer.js
 /wp-content/uploads/perfmatters/gtagv*.js
 /wp-includes/js/u_hits_control.js
-/wp-json/*/visitortrack/*
+/wp-json/*/visitortrack
 /wp-json/wp/v*/tc_events
 /wp-stat/*$1p
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153392
