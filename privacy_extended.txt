@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.24.1
+! Last modified: 2023.06.24.2
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -176,6 +176,7 @@ cbssports.com##.taboola-recommends
 theqoo.net##.theqoo-counter
 kino-zeit.de##.vgwort-metis-marker
 anime-drama.jp###block-11
+club.berkovich-zametki.com,koneta.nifty.com###custom_html-2
 ! ero-anime.net
 ero-anime.net#?##side_col #index_side_widget:has(.ninja-recommend-block)
 ero-anime.net###top_area_under
@@ -15415,7 +15416,6 @@ inside-games.jp##.cx-subhead
 ||pornhub.com/video/category_tracker?e=$important
 ||wp-r.github.io/*/assets/js/jquery.iframetracker.js
 business.nikkei.com##.cbCxense
-koneta.nifty.com###custom_html-2
 ||churchtechtoday.com/?wordfence_lh=
 ||playep.pro/pl/vendor/stat.min.js
 ||computerbase.de/api/consent-analytics
