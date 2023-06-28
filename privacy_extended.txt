@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.27.8
+! Last modified: 2023.06.27.10
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -400,7 +400,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||leadrebel.io^$3p
 ||nessainy.net^$3p
 ||tagcachestaticx.com^$3p
-||vm5.i7akpd1.xyz^$3p
 ||analytics.tiendaenoferta.com^$3p
 ||pecukirom.com^$3p
 ||analytics.churnzero.net^
@@ -435,7 +434,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||vortex.data.msn.com^
 ||integrations.syncmedia.io^
 ||fbthirdpartypixel.com^$3p
-||log.lon22.com^
 ||tracking.leeep.jp^$3p
 ||tracking.parte.com^$3p
 ||f.sen.seg.br^$3p
@@ -473,7 +471,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||sanity-dataplane.rudderstack.com^$3p
 ||counter.kikibobo.top^$3p
 ||c1.politexpert.ru^$3p
-||coll.v00yvd.xyz^$3p
 ||analytics.fatmedia.io^$3p
 ||snowplow-collector-*.amazonaws.com^$3p
 ||log.gobankingrates.com^
@@ -579,7 +576,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||tapjoy.net^$3p
 ||logger.eigene.io^
 ||receiver.eigene.io^
-||fryvzw.com^$3p
 ||c.dpgmedia.net^$3p
 ||aff.trackinglibrary.prodperfect.com^
 ||click-plus.net^
@@ -599,7 +595,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||counter.monkeybanana3.com^
 ||analytic-client.playful-fairies.com^
 ||tk.promit.ru^$3p
-||ztest1track.com^$3p
 ||breathebuds.com^
 ||4sqt6jq.de^
 ||sprocket-ping.s3.amazonaws.com^
@@ -645,7 +640,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||log-marketing.jp^
 ||tatsumi-sys.jp^$3p
 ||ad4m.at^
-||mycheckergeo.com^$3p
 ||ct2.kimodameshi.com^
 ||tag.pprl.io^
 ||collector.mediator.media^$3p
@@ -665,7 +659,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||smetrics.att.com^
 ||fhits.xyz^$3p
 ||pdc.dmleonyc.com^$3p
-||gheochecke.com^$3p
 ||stats*.videonow.ru^
 ||beak.bd.313.nl^
 ||tracker.durasite.net^
@@ -711,7 +704,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||pj.l.admedo.com^$3p
 ||tr.infopanel.jp^
 ||blok.link^
-||cicero-mit.com^
 ||awseukpi.whisbi.com^$3p
 ||sys.refocus.ru^$3p
 ||dmzls.safe-installation.com^$3p
@@ -725,7 +717,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||collectfasttracks.com^$3p
 ||analytics.vodgc.net^$3p
 ||mc.admetrica.ru^
-||qzxmtyy.com^$3p
 ||analytic.press^
 ||d1tracker.ru^
 ||irxcm.com^$3p
@@ -840,7 +831,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||longertail.pl^$3p
 ||fmnetwork.nl^$3p
 ||adclicks.io^$3p
-||getmygeo.com^$3p
 ||trvtrk.com^$3p
 ||mwtraf.mobi^$3p
 ||getbeacon.io^$3p
@@ -870,7 +860,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||tanidigital.com^$3p
 //t100.ru^$3p
 ||02ip.ru^$3p
-||0tracker.com^$3p
 ||1-cl0ud.com^$3p
 ||149.13.65.144^$3p
 ||180.76.2.18^$3p
@@ -905,16 +894,12 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||adagency.digital^$3p
 ||affiliates-pro.com^$3p
 ||akavita.com^$3p
-||alcvid.com^$3p
 ||alexacdn.com^$3p
 ||amazy.ru^$3p
-||analysistools.net^$3p
-||analytics-engine.net^$3p
 ||angsrvr.com^$3p
 ||apptentive.com^$redirect=nooptext,image,media,frame,stylesheet,script,xhr,other
 ||apptimize.com^$redirect=nooptext,image,media,frame,stylesheet,script,xhr,other
 ||atdmt.com^$3p
-||atticwicket.com^$3p
 ||audienceamplify.com^$3p
 ||avastats.com^$3p
 ||az7t8.com^$3p
@@ -1753,7 +1738,6 @@ returnpath.net/pixel.gif$image
 ||analytics.mobile.walmart.com^
 ||analytics.move.ru^
 ||analytics.msnbc.msn.com^
-||analytics.newsinc.com^
 ||analytics.nextopia.net^
 ||analytics.omgpop.com/log
 ||analytics.onedio.com^
@@ -1883,7 +1867,6 @@ returnpath.net/pixel.gif$image
 ||c.ipaddress.com^
 ||c.microsoft.com^
 ||c.msn.com^
-||c.newsinc.com^
 ||c.opinion.com.ua^
 ||c.pravo.ru^
 ||c.t-online.de^
@@ -2048,7 +2031,6 @@ returnpath.net/pixel.gif$image
 ||d2kmrmwhq7wkvs.cloudfront.net^
 ||d2lv4zbk7v5f93.cloudfront.net^
 ||d2o5idwacg3gyw.cloudfront.net^
-||d2p3zdq8vjvnxd.cloudfront.net^
 ||d2pxb4n3f9klsc.cloudfront.net^
 ||d2q7mvwub8tmwf.cloudfront.net^
 ||d2qmp7jjpd79k7.cloudfront.net^
@@ -2083,7 +2065,6 @@ returnpath.net/pixel.gif$image
 ||d36lvucg9kzous.cloudfront.net^
 ||d36wtdrdo22bqa.cloudfront.net^
 ||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
-||d396ihyrqc81w.cloudfront.net^
 ||d3135glefggiep.cloudfront.net^
 ||d3-umami.up.railway.app^
 ||dadi.technology^
@@ -2107,7 +2088,6 @@ returnpath.net/pixel.gif$image
 ||discovery.newspic.kr^
 ||dj4odketdva9s.cloudfront.net^
 ||djibeacon.dowjoneson.com^
-||djtflbt20bdde.cloudfront.net^
 ||dkhywqapojyk7.cloudfront.net^
 ||dl.reg.163.com^
 ||dmc1acwvwny3.cloudfront.net^
@@ -2535,7 +2515,6 @@ returnpath.net/pixel.gif$image
 ||pixels.livingsocial.com^
 ||pla-tk.flipkart.net^
 ||ploz.mangadex.org^
-||pp-serve.newsinc.com^
 ||pra.praxis.nl^
 ||prd-collector-anon-video.playbuzz.com^
 ||predatasrv.com^
@@ -2586,7 +2565,6 @@ returnpath.net/pixel.gif$image
 ||sa.bbc.co.uk^
 ||sa.bbc.com^
 ||saber.srvcs.tumblr.com^
-||sana.newsinc.com.s3.amazonaws.com^
 ||sayac.tmgrup.com.tr^
 ||secure-wa-na.unileversolutions.com^
 ||sentry01.zerg.rambler.ru^
@@ -14511,7 +14489,7 @@ _tracking.php?b=
 !
 ! Tealium
 ! The site should be carefully checked when you add this rule
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com|d1lynpf6ndesae.cloudfront.net|rukrymr.azureedge.net|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com|rukrymr.azureedge.net|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com
 !
 ! Some sites are broken. The rules are required for apps only.
 .demdex.net/id^$redirect=nooptext,important,image,media,frame,stylesheet,script,xhr,other
@@ -15561,7 +15539,6 @@ dokonline.com###Counters + div[class="block"]
 ||sheego.de/request/pvp.php
 ||yastatic.net/s3/distribution/yanalytics/yanalytics.js
 ||c0.froala.com/i?
-||streamlava.cc/stats^
 ||bestbuy.com/*/analytics-*/
 ||shopclues.com/assets/js/sc_tracker.js
 ||shopclues.com/assets/js/slick.js
@@ -15589,7 +15566,6 @@ kinotan.ru##.counts
 ||app.huawei.com/hwa-c*&action=
 ||toptracker.ru/buttons/counter.gif
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href="#pixel"]
-||heyhelga.net/analytics.js
 ||topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/trans_pixel.gif
 tap.az##.links-sites > .counters
 ||freepornq.com/counter/
@@ -15667,7 +15643,6 @@ continentseven.com##.gaoop
 ||vidmoly.me/metric.php?
 ||s.p7s1.io/datalayer/conviva
 ||video.golem.de/download/*&cpxl=$image
-||nbalive.pw^$3p,frame
 ||yvesrocher.com.tr/images/avenseo/tr_TR/avenseo-uniq.min.js
 ||yvesrocher.com.tr/images/js/coremetrics.js
 ||yvesrocher.com.tr/images/js/tracking^
@@ -15724,9 +15699,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||dmcdn.net/track/$3p
 ||dis.*.criteo.com/dis/
 ||dailymail.co.uk/tracking/
-||d1izbwxtc3f9ue.cloudfront.net/?tid=
-||d2d5uvkqie1lr5.cloudfront.net^*/analytics-
-||d2d5uvkqie1lr5.cloudfront.net^*/analytics.
 ||condenastdigital.com/track$3p
 ||cnt.re/cnt/$3p
 ||clan.su/stat/
@@ -15752,7 +15724,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||inews.name/top.php
 ||indexsite.ru/online_user.php$3p
 ||imtop.ru/*/count$3p
-||icounter.net/getcode.php?site=
 ||news.com.au/track/
 ||news.com.au/tracking/
 ||my1.ru/stat/
@@ -15829,7 +15800,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||bemail.it/audiens.php?
 ||sayyar.mynet.com/api/hit/
 ||citybeat.de/include/cbtrck.104.min.js
-||inspij.org/stats^
 ||giga.de/api/core/tracking/
 ||s.7tv.de/webtrekk/*/webtrekk_*.min.js
 ||fulltrannytube.com/stats.gif
@@ -15870,8 +15840,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||distributor.streamroot.io/klara/traffic/usage
 ||altin.in/ajax.asp?i=adblock
 ||cdn.hivps.xyz/analytics-
-||ablaze-class.space/stats
-||alive-airport.space/advert
 ||api.socialmart.ru/analytics.php
 ||jwpltx.com/*/ping.gif
 ||pandanetwork.club/le/in.php^$3p
@@ -15972,7 +15940,6 @@ dizibey.com##.sidebar > #text-19
 ||ostsee-zeitung.de/viewlog_receiver.php?
 ||a.bf-tools.net/de/de.js
 ||cnn.com/*/js/cnn-analytics.min.js
-||d38ceu5cy6520w.cloudfront.net/assets/dist/js/collect/collect.min.js
 ||cimri.com/r/analytics
 ||embed.videosdemadurasx.com/js/u_hits_control.js
 ||jsengine.ru/geoproxy/ip
@@ -16454,7 +16421,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||tags.tagcade.com/*/tagcade.js^
 ||tamindir.com/cdn-cgi/pe/bag2?r[]=
 ||tchibo.de/prof/js?event
-||thisisacoolthing.com/fp.js^
 ||track.ad.nl^
 ||track.vitringez.com/tracking.js
 ||tracking.autoscout24.com^
@@ -17274,7 +17240,6 @@ cdn-settings.appsflyersdk.com^
 ||geoinfo.i2w.io^
 ||cmplay.did.ijinshan.com^
 ||tracking.i2w.io^
-||26f396e0b71780f057be4d4af8ebe55b.com^
 ||a.appbaqend.com^
 ||ue.flipboard.com^
 ||helpshift.com/api/lib/2/events/
@@ -17307,7 +17272,6 @@ cdn-settings.appsflyersdk.com^
 ||android.bugly.qq.com^
 ||astat.bugly.qq.com^
 ||ios.bugly.qq.com^
-||fdplttrk.com^
 ||tracking.trnox.com^
 ||rts.mobula.sdk.duapps.com^
 ||omni-ads.omni.news^
@@ -17419,7 +17383,6 @@ cdn-settings.appsflyersdk.com^
 ||lhzbdvm.com^
 ||log.droid4x.cn^
 ||log.umsns.com^
-||logger.ntracecloud.com^
 ||lp4.io^
 ||m.vk.com/counters.php
 ||m.xiangce.baidu.com/mobileapp/motu-*?guid=
