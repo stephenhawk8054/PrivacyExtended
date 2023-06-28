@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.27.5
+! Last modified: 2023.06.27.6
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1977,6 +1977,7 @@ returnpath.net/pixel.gif$image
 ||collector.tescocompare.com^
 ||collector1.xhamster.com^
 ||cologger.shopping.naver.com^
+||colossusssp.com^
 ||comet.sputniknews.com^
 ||cometlytrack.com^
 ||conf.international.baidu.com^
