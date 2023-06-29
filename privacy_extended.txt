@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.29.1
+! Last modified: 2023.06.29.2
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -969,7 +969,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||fallingfalcon.com^$3p
 ||fastonlineusers.com^$3p
 ||fastwebcounter.com^$3p
-||fetchback.com^$3p
 ||finderlocator.com^$3p
 ||fishhoo.com^$3p
 ||fixwap.net^$3p
@@ -2199,7 +2198,6 @@ returnpath.net/pixel.gif$image
 ||geoloc*.geostats.ovh^
 ||geoloc*.geovisite.ovh^
 ||geolocation.performgroup.com^
-||geolocation.stroeerdp.de^
 ||geosvc.globalmailer.com^
 ||gjtrack.uc.cn^
 ||global.ketchcdn.com^
@@ -16884,10 +16882,6 @@ link.gmapp*.net$image
 ! grafana
 ||stats.grafana.org^
 ! smotrim.ru
-!
-! Swiftkey(Microsoft) Keyboard
-||telemetry.api.swiftkey.com^
-||telemetry.swiftkey.com^
 !
 ! QuQa.ch for Android
 ||analytics.qoqa.ninja^
