@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.30.2
+! Last modified: 2023.06.30.3
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -2018,39 +2018,26 @@ returnpath.net/pixel.gif$image
 ||d1stxfv94hrhia.cloudfront.net^
 ||d1zxg9iar5y3ur.cloudfront.net^
 ||d1uy7uzra011au.cloudfront.net^
+||d20duyjzb7cuoc.cloudfront.net^
 ||d2dq2ahtl5zl1z.cloudfront.net^
 ||d2e0sxz09bo7k2.cloudfront.net^
-||d2gfdmu30u15x7.cloudfront.net^
 ||d2gfi8ctn6kki7.cloudfront.net^
 ||d2ieqaiwehnqqp.cloudfront.net^
 ||d2o5idwacg3gyw.cloudfront.net^
 ||d2qmp7jjpd79k7.cloudfront.net^
-||d2so4705rl485y.cloudfront.net^
 ||d2u1npnnqecmpq.cloudfront.net^
 ||d2uhnetoehh304.cloudfront.net^
-||d2wlwbnaa4keje.cloudfront.net^
-||d2xgf76oeu9pbh.cloudfront.net^
 ||d2yh8t8mdj4l9x.cloudfront.net^
-||d3a2okcloueqyx.cloudfront.net^
-||d3alqb8vzo7fun.cloudfront.net^
-||d3avqv6zaxegeu.cloudfront.net^
+||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
+||d31bfnnwekbny6.cloudfront.net^
 ||d3c3cq33003psk.cloudfront.net^
-||d3eyd961wi10bl.cloudfront.net^
 ||d3in1te4fdays6.cloudfront.net^
 ||d3nq5jrakcyw1w.cloudfront.net^
-||d3ojzyhbolvoi5.cloudfront.net^
 ||d3p8zr0ffa9t17.cloudfront.net^
-||d3phbp7p78bdk9.cloudfront.net^
 ||d3pkntwtp2ukl5.cloudfront.net^
-||d5i9o0tpq9sa1.cloudfront.net^
-||d5nxst8fruw4z.cloudfront.net^
-||d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com^
-||d20duyjzb7cuoc.cloudfront.net^
-||d31bfnnwekbny6.cloudfront.net^
-||d31j93rd8oukbv.cloudfront.net^
-||d33im0067v833a.cloudfront.net^
-||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
 ||d3-umami.up.railway.app^
+||d5i9o0tpq9sa1.cloudfront.net^
+||d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com^
 ||dadi.technology^
 ||dailymotion-ams.gravityrd-services.com^
 ||data-collector.wefi.com^
@@ -2072,7 +2059,6 @@ returnpath.net/pixel.gif$image
 ||discovery.newspic.kr^
 ||dj4odketdva9s.cloudfront.net^
 ||djibeacon.dowjoneson.com^
-||djtflbt20bdde.cloudfront.net^
 ||dl.reg.163.com^
 ||dmc1acwvwny3.cloudfront.net^
 ||dmp.citiservi.es^
