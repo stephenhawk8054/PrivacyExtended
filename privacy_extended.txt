@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.06.30.1
+! Last modified: 2023.06.30.2
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -530,7 +530,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||api.limbik.com^$3p
 ||analytics.lekumo.jp^
 ||bb.lekumo.jp^
-||promostats.ru^$3p
 ||rum.conde.io^
 ||ana.mediable.info^
 ||campaigns-collector.albacross.com^$3p
@@ -781,7 +780,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||checkyourgeo.info^$3p
 ||targetman.ru^$3p
 ||personaclick.com^$3p
-||redatastore.ru^$3p
 ||cinarra.com^$3p
 ||marketo.com^$3p
 ||bd4travel.com^$3p
@@ -824,7 +822,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||mobtop.com^$3p
 ||excpm.com^$3p
 ||smrtrdrct.com^$3p
-||medialogger.ru^
 ||rtbanalytics.com^
 ||sentifi.com^$3p
 ||yunit.org^$3p
@@ -856,7 +853,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||tt.ttarget.ru^$3p
 ||adplus.io^$3p
 ||ad.gt^$3p
-||toolcount.ru^$3p
 ||dmpcloud.net^$3p
 ||tanidigital.com^$3p
 //t100.ru^$3p
@@ -1136,7 +1132,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||state.sml2.ru^$3p
 ||statistiq.com^$3p
 ||statistx.com^$3p
-||statlife.ru^$3p
 ||statok.net^$3p
 ||stats.makethebusiness.com^$3p
 ||statsadvance-01.net^$3p
@@ -2023,18 +2018,12 @@ returnpath.net/pixel.gif$image
 ||d1stxfv94hrhia.cloudfront.net^
 ||d1zxg9iar5y3ur.cloudfront.net^
 ||d1uy7uzra011au.cloudfront.net^
-||d1yu5hbtu8mng9.cloudfront.net^
 ||d2dq2ahtl5zl1z.cloudfront.net^
 ||d2e0sxz09bo7k2.cloudfront.net^
 ||d2gfdmu30u15x7.cloudfront.net^
 ||d2gfi8ctn6kki7.cloudfront.net^
 ||d2ieqaiwehnqqp.cloudfront.net^
-||d2j3te7y7s8xxp.cloudfront.net^
-||d2kmrmwhq7wkvs.cloudfront.net^
-||d2lv4zbk7v5f93.cloudfront.net^
 ||d2o5idwacg3gyw.cloudfront.net^
-||d2pxb4n3f9klsc.cloudfront.net^
-||d2q7mvwub8tmwf.cloudfront.net^
 ||d2qmp7jjpd79k7.cloudfront.net^
 ||d2so4705rl485y.cloudfront.net^
 ||d2u1npnnqecmpq.cloudfront.net^
@@ -2047,27 +2036,20 @@ returnpath.net/pixel.gif$image
 ||d3avqv6zaxegeu.cloudfront.net^
 ||d3c3cq33003psk.cloudfront.net^
 ||d3eyd961wi10bl.cloudfront.net^
-||d3h1v5cflrhzi4.cloudfront.net^
-||d3hr5gm0wlxm5h.cloudfront.net^
 ||d3in1te4fdays6.cloudfront.net^
 ||d3nq5jrakcyw1w.cloudfront.net^
 ||d3ojzyhbolvoi5.cloudfront.net^
 ||d3p8zr0ffa9t17.cloudfront.net^
 ||d3phbp7p78bdk9.cloudfront.net^
 ||d3pkntwtp2ukl5.cloudfront.net^
-||d5etv3akk3gsa.cloudfront.net^
 ||d5i9o0tpq9sa1.cloudfront.net^
 ||d5nxst8fruw4z.cloudfront.net^
 ||d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com^
-||d9lq0o81skkdj.cloudfront.net^
 ||d20duyjzb7cuoc.cloudfront.net^
 ||d31bfnnwekbny6.cloudfront.net^
 ||d31j93rd8oukbv.cloudfront.net^
 ||d33im0067v833a.cloudfront.net^
-||d36lvucg9kzous.cloudfront.net^
-||d36wtdrdo22bqa.cloudfront.net^
 ||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
-||d3135glefggiep.cloudfront.net^
 ||d3-umami.up.railway.app^
 ||dadi.technology^
 ||dailymotion-ams.gravityrd-services.com^
@@ -2090,7 +2072,7 @@ returnpath.net/pixel.gif$image
 ||discovery.newspic.kr^
 ||dj4odketdva9s.cloudfront.net^
 ||djibeacon.dowjoneson.com^
-||dkhywqapojyk7.cloudfront.net^
+||djtflbt20bdde.cloudfront.net^
 ||dl.reg.163.com^
 ||dmc1acwvwny3.cloudfront.net^
 ||dmp.citiservi.es^
@@ -15027,7 +15009,6 @@ topics.nintendo.co.jp##.topics-recommend__headline
 chaos2ch.com###sub div.plugin-memo:last-child
 ||kraken.com/analytics
 ||lastpass.com/m.php/loadanalytics2
-||dspnow.ru/beacon/
 ||static.vocstatic.com/tag-manager/latest/vtm.js
 ||bilibili.com/x/frontend/finger/fpfmc?
 ||components.justanswer.com/v3/main-tracking-script@released.js
@@ -15515,7 +15496,6 @@ ctvnews.ca##img[alt="comscorebeacon"]
 ||iboysoft.com/js/track.js
 ||beam.remp.nv.ua^
 ||player.ani-stream.com/log
-||static-skin.ru/assets/js/tracking-frame.min.js
 ||static.spankbang.com/static_desktop/gen/*-ai-with-privacy.js
 ||rezka.ag/setinfo/
 ||pitomec.ru/top.gif
@@ -15536,7 +15516,6 @@ dokonline.com###Counters + div[class="block"]
 ||media2.newsobserver.com/newsobserver/products/escenic
 ||cewe.de/tracking/*.js
 ||welt.de/assets/resources/webtrekk^
-||movie2.kinoche.ru/iframe.js?id=$3p
 ||articles2.marketrealist.com/aptrk^
 ||sheego.de/request/pvp.php
 ||yastatic.net/s3/distribution/yanalytics/yanalytics.js
@@ -16018,7 +15997,6 @@ computerbild.de##.articleAdditional > .mehrthema
 ||tracking-opi.fonpit.de/tracking/
 ||dmx.sync.yume.com/tracker/
 m.lenta.ru##.b-footer_counters
-||88688.ru/api/geoip/
 ||imagecrest.com/asset/view/stats.php
 ||uaswitcher.org/logic/page/data
 ||vkcache.com/js/amung_counter.js
@@ -16041,7 +16019,6 @@ maxpark.com###listOfCounters
 ||static-*.plista.com/async.js$3p
 ||tidal.com/t|
 westnews.com.ua##a[href="http://www.bigmir.net/"]
-||alteregoru.ru/js/counter
 /g00/*/TU9SRVBIRVVTOCRodHRwOi8vY3AtaW4ubmFub3Zpc29yLmlvL2NsaWVudHByb2ZpbGVyL2FkYj9pMTBjLm1hcmsuc2NyaXB0LnR5cGU%3D_$1p
 ||mallorcamagazin.com/sfCounter
 ||mail.yandex.*/monitoring_liza.txt$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.com|mail.yandex.com.tr
@@ -16125,7 +16102,7 @@ europcar.com###wt_overlay
 .arnostat.nl/click.
 m24.ru##.b-counters > ul
 vesti-ua.net,udaff.com##.counters
-w-kino.ru,kinotochka.club,legend.az##.counts
+kinotochka.club,legend.az##.counts
 blogovo.ru##.metrika_sapaclick
 newslab.ru##.r-recommend
 businessinsider.co.uk,businessinsider.com##.rail-recommended
@@ -17561,6 +17538,8 @@ secure1.comed.com##+js(set, setupGoogleAnalytics, noopFunc)
 @@||tracking.immobilienscout24.de/tr.js?customCounterName=is24.de.meinkonto.merkzettel.myscout
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154583
 ||dl.reg.163.com^$frame,redirect-rule=noopframe,domain=mail.163.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/17133
+@@||djtflbt20bdde.cloudfront.net^$domain=feedly.com
 !
 ! https://github.com/stephenhawk8054/PrivacyExtended/issues/5
 @@||apple.com/metrics/ac-analytics/*/scripts/ac-analytics.js$script,1p
