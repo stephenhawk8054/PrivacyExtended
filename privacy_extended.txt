@@ -17506,6 +17506,8 @@ secure1.comed.com##+js(set, setupGoogleAnalytics, noopFunc)
 ! https://www.reddit.com/r/uBlockOrigin/comments/tihpyw/oldredditcom_outbound_tracking_via_out_reddit_com/i1f290z/?context=3
 ! https://github.com/uBlockOrigin/uAssets/issues/17321
 reddit.com##+js(set, Object.prototype.allowClickTracking, false)
+! https://github.com/uBlockOrigin/uAssets/issues/18785
+||redditstatic.com/shreddit/*/ad-event-$script,redirect=noopjs
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/2531
 twitter.com##+js(href-sanitizer, a[href^="https://t.co/"])
 ! https://github.com/uBlockOrigin/uAssets/pull/12351
