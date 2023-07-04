@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.07.04.1
+! Last modified: 2023.07.04.2
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1319,8 +1319,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||data.adobedc.net^$3p
 ! Commanders Act
 ||commandersact.com^$3p
-! DataUnlocker
-||delightful-development.ml^$3p
 ! Ingenious Technologies
 ||affex.org^
 !
@@ -1454,7 +1452,6 @@ returnpath.net/pixel.gif$image
 ||stat.airdroid.com^
 ||c.salon24.pl^
 ||pixel.archive.
-||st.bitban.com^
 ||in.unext.jp^
 ||sp0.baidu.com^
 ||analytics.map.qq.com^
@@ -1620,19 +1617,14 @@ returnpath.net/pixel.gif$image
 ||ad-log.wemakeprice.com^
 ||adat.freemail.hu^
 ||adc.xxxlshop.de^
-||adc.xxxlutz.de^
 ||adclear.baur.de^
-||adclear.teufel.de^
 ||adcounter*.uptolike.ru^
 ||adeventtrackermonitoring.spotify.com^
-||adg.bzgint.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||adtrack.xiaojukeji.com^
-||adwiretracker.fwix.com^
 ||aegis.qq.com^
 ||affiliate.gameladen.com^
 ||affiliate.gamesdeal.com^
-||affiliate.mercola.com^
 ||affiliate.productreview.com.au^
 ||affiliate.resellerclub.com^
 ||affiliates.cdkeys.com^
@@ -1792,12 +1784,10 @@ returnpath.net/pixel.gif$image
 ||bdg-analytics.appspot.com^
 ||beacon-1.newrelic.com^
 ||beacon.ehow.com^
-||beacon.examiner.com^
 ||beacon.gutefrage.net^
 ||beacon.indieclicktv.com^
 ||beacon.itmedia.jp^
 ||beacon.kmi-us.com^
-||beacon.livefyre.com^
 ||beacon.lycos.com^
 ||beacon.netflix.com^
 ||beacon.nuskin.com^
@@ -1806,7 +1796,6 @@ returnpath.net/pixel.gif$image
 ||beacon.tws.toyota.jp^
 ||beacon.walmart.ca^
 ||beacon.www.theguardian.com^
-||beacons.helium.com^
 ||beam.remp.impresa.pt^
 ||behave.noen.at^
 ||beta.simpel.nl^
@@ -2064,10 +2053,8 @@ returnpath.net/pixel.gif$image
 ||event-reporting-dot-webylytics.appspot.com^
 ||event.chitai-gorod.ru^
 ||event.condenastdigital.com^
-||event.demirorenteknoloji.com^
 ||event.impression-neo.naver.com^
 ||event.scimo.io^
-||event.trove.com^
 ||eventapi.afreecatv.com^
 ||eventlog.inspsearch.com^
 ||eventlogger.soundcloud.com^
@@ -16356,7 +16343,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||tchibo.de/prof/js?event
 ||track.ad.nl^
 ||track.vitringez.com/tracking.js
-||tracking.autoscout24.com^
 ||travel-assets.com^*/experimentrecorder
 ||travelocity.com/cl/data/bingpixels.json?
 ||travelocity.com/cl/data/typeahead_client_metrics.json
@@ -17212,7 +17198,6 @@ cdn-settings.appsflyersdk.com^
 ||npario-inc.net^
 ||wzrkt.com^
 ||analytics-events.inshorts.com^
-||collector-axa.cloud.ca.com^
 ||logger.cloudmobi.net^
 ||measuread.com^
 ||global.cmcs.service.amazonsilk.com/metrics
