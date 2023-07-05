@@ -11857,7 +11857,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||plan.seek.intel.com^
 ||rc.precisely.com^
 ||research.gartner.com^
-||software.seek.intel.com^
+||software.seek.intel.com^$~document,domain=~software.seek.intel.com
 ||t.bceagles.com^
 ||t.dawsoncreekeventscentre.com^
 ||t.gopack.com^
