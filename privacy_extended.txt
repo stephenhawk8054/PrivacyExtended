@@ -17560,6 +17560,8 @@ nrj-play.fr##^body:is(.home, .page-channel) > script:has-text(googletagmanager)
 /cmn-pf-nav-google-analytics.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155042
 yandex.*,ya.ru##main.serp .serp-list a[href][data-counter]:remove-attr(data-counter)
+! https://github.com/AdguardTeam/AdguardFilters/issues/155364
+/Common/Scripts/GoogleAnalytics.js
 ! Warning - break by design
 ! Click-tracking, email tracking
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/2693
