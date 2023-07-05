@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.07.05.2
+! Last modified: 2023.07.05.3
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -627,7 +627,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||los.2hisnd.com^$3p
 ||wh.giftd.tech^
 ||privatelands.biz^$3p
-||api.rubic.com.tr^$3p
 ||track-mixer.ru^$3p
 ||pwrlkyotm.com^$3p
 ||g.wait.re^$3p
@@ -17282,15 +17281,11 @@ cdn-settings.appsflyersdk.com^
 ||cb.ksmobile.com^
 ||cedexis-radar.net^
 ||cedexis.com^
-||click.webeyemob.com/*/ad/click?subsite_id=
 ||clientmetrics-augmentum.kik.com^
 ||clientmetrics.kik.com^
-||clktrk.display.io^
 ||collector.brandify.com^
-||counter.kingsoft.com^
 ||crasheye.cn^
 ||crittercism.com/api/
-||ep.xone.com^
 ||etl.xlmc.sandai.net^
 ||events.lbesecapi.com^
 ||facebook.com/rtb_impression/?tr=
@@ -17309,8 +17304,6 @@ cdn-settings.appsflyersdk.com^
 ||m.vk.com/counters.php
 ||m.xiangce.baidu.com/mobileapp/motu-*?guid=
 ||metrics.adflake.com^
-||metrics.bestbuy.com^
-||metrics.macys.net^
 ||metrics.sdkbox.com^
 ||mlb.did.ijinshan.com^
 ||mobile-collector.newrelic.com^
