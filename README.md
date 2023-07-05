@@ -13,4 +13,4 @@ This filter list is meant to use with uBlock Origin (uBO)'s default lists (espec
 - *Reduce extra whitelisting due to different approaches to the same issue between uBO and Adguard,*
 - *Resolving issue faster if reproducible is not stable between uBO and Adguard.*
 
-2. Click-tracking section is for stopping tracking instertitial page. The filters are intentionally crafted so users can decide to click on destination link or not. They are not breakages so please do not open "breakages" issues about these filters.
+2. Click-tracking section is for stopping tracking instertitial page. The filters are intentionally crafted so users can decide to click on destination link without loading the interstitial page. They are not breakages so please do not open "breakages" issues about these filters.
