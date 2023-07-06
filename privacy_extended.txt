@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.07.06.1
+! Last modified: 2023.07.06.2
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -2934,7 +2934,6 @@ returnpath.net/pixel.gif$image
 ||wtsdc.uhc.com^
 ||www-google-analytics.l.google.com^
 ||xtag.autotrader.com^
-||ya.domain-vip.net^
 ||ybx.yahoo.co.jp^
 ||yieldmo-builds.s3.amazonaws.com^
 ||ylog.nimo.tv^
@@ -15408,7 +15407,6 @@ kanobu.ru##a[href^="https://www.liveinternet.ru/click"]
 ||a24.biz/pixel/
 ||preved.tut.by/1px.gif
 ||tp-link.com^*/addHits.html
-||comgood.me/1px/
 ||google-analytics.com^$domain=promiflash.de,redirect=nooptext,important,image,media,frame,stylesheet,script,xhr,other
 ||csi.gstatic.com^$domain=promiflash.de,redirect=nooptext,important,image,media,frame,stylesheet,script,xhr,other
 ||js-agent.newrelic.com^$domain=chaturbate.com,redirect=nooptext,important,image,media,frame,stylesheet,script,xhr,other
@@ -15534,13 +15532,11 @@ tensaigakkou.ru###custom_html-16
 ||organicfruitapps.com/analytics
 ||myfonts.net/count
 ||news.de/empty.txt
-||ue.nordbayern.de/cre-*/tracking^
 ||secure.agoda.com/pixel.gif
 ||juicebeard.prod.tda.link/rec/*/tracking^
 ||track.tagesanzeiger.ch/cre*/static/tracking^
 ||injapan.com/rest/*/track?*&callback=
 ||youlead.pl/track?
-||api.code.com.tr/analytics
 ||kodik.cc/stats
 ||cdn.ustatik.com/vendor/metrica/watch.js
 ||rp-online.de/cre*/tracking^
@@ -15564,7 +15560,6 @@ continentseven.com##.gaoop
 ||t.blog.livedoor.jp/u.js
 ||pr-cy.net/image.php^$3p
 ||sm.batuu.pl/collect?
-||s.batuu.pl/smartlink/collect?
 ||vidmoly.me/metric.php?
 ||s.p7s1.io/datalayer/conviva
 ||video.golem.de/download/*&cpxl=$image
@@ -15698,7 +15693,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||wpdigital.net/metrics/
 ||alibaba.com/js/beacon_
 ||amazonaws.com/?wsid=
-||api.apisolutions.work/track/$3p
 ||api.aio.media/stat?
 ||yandex.ru/cycounter$3p
 ||xsltcache.alexa.com/site_stats/$3p
