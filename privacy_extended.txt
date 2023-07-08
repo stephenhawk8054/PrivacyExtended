@@ -17557,6 +17557,8 @@ yandex.*,ya.ru##main.serp .serp-list a[href][data-counter]:remove-attr(data-coun
 /assets/client/web-vitals~
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155656
 /UserRegisterTrackActionResource/*
+! https://github.com/AdguardTeam/AdguardFilters/issues/155733
+/crm/WebFormAnalyticsServeServlet?
 ! Warning - break by design
 ! Click-tracking, email tracking
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/2693
