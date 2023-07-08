@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.07.08.3
+! Last modified: 2023.07.08.4
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -440,7 +440,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||analytics.appsbnet.com.br^
 ||logging.prefixbox.com^
 ||cdn.preciso.net^$3p
-||www.trading24.io^$3p
 ||tag.contactatonce.co.uk^$3p
 ||mxradon.com^$3p
 ||goo-access-analytics.appspot.com^
@@ -482,8 +481,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||recs.richrelevance.com^$3p
 ||venetrigni.com^$3p
 ||ad3.cross-a.net^
-||analytics.monetiza.co^
-||analytics.core.retell.cc^
 ||powerbiz.co^$3p
 ||tag.search.sensefuel.live^$3p
 ||restisbench.com^$3p
@@ -652,7 +649,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||analytics-api.a-f.io^
 ||smetrics.att.com^
 ||fhits.xyz^$3p
-||pdc.dmleonyc.com^$3p
 ||stats*.videonow.ru^
 ||beak.bd.313.nl^
 ||tracker.durasite.net^
@@ -732,7 +728,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||trafficscanner.pl^$3p
 ||collect.blishtech.co^$3p
 ||rob.megaopen.ru^$3p
-||srv.dc-1.net^
 ||votetoda.com^$3p
 ||promclickapp.biz^$3p
 ||count.nuanyuehanxing.com^
@@ -744,7 +739,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||cdn.driveback.ru^$3p
 ||track.aplaut.io^$3p
 ||cervell.io^$3p
-||sonet-rp.swaxis.com^$3p
 ||admon.pro^$3p
 ||wapempire.com^$3p
 ||chali.info^$3p
@@ -913,7 +907,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||comagic.ru^$3p
 ||consentag.eu^$3p
 ||contemporaryceremonies.ca^$3p
-||content.ad^$3p
 ||contentexchange.me^$3p
 ||counter160.com^$3p
 ||countercity.de^$3p
@@ -945,7 +938,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||erkaseriilan.com.tr^$3p
 ||erotikcounter.org^$3p
 ||erotop.lv^$3p
-||estadisticasgratis.es^$3p
 ||ewebcounter.com^$3p
 ||exmarkt.de^$3p
 ||exovueplatform.com^$3p
@@ -965,7 +957,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||fqtag.com^$3p
 ||free-website-hit-counters.com^$3p
 ||freeonlineusers.com^$3p
-||freestats.tk^$3p
 ||freetracker.biz^$3p
 ||gallupnet.fi^$3p
 ||ganalytics.live^$3p
@@ -987,7 +978,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||hitfarm.com^$3p
 ||hitgelsin.com^$3p
 ||hitmeter.ru^$3p
-||hits.e.cl^$3p
 ||hlserve.com^$3p
 ||ibillboard.com^$3p
 ||ilk10.az^$3p
@@ -1034,7 +1024,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||millioncounter.com^$3p
 ||ml314.com^$3p
 ||mlstat.com^$3p
-||monitor.phorm.com^$3p
 ||moreusers.info^$3p
 ||morevisits.info^$3p
 ||myreferer.com^$3p
@@ -1049,7 +1038,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||nyctrl32.com^$3p
 ||oidah.com^$3p
 ||oix.com^$3p
-||oix.phorm.com^$3p
 ||omgpm.com^$3p
 ||onlinewebstats.com^$3p
 ||openinternetexchange.com^$3p
@@ -1126,7 +1114,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||suchmaschinen-ranking-hits.de^$3p
 ||sumologic.com^$3p
 ||sundaysky.com^$3p
-||supert.ag^$3p
 ||surfertracker.com^$3p
 ||svr-prc-01.com^$3p
 ||taboola.com.cn^$3p
@@ -1150,9 +1137,7 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||treehousei.com^$3p
 ||trueroas.io^$3p
 ||tst14netreal.com^$3p
-||tstlabs.co.uk^$3p
 ||tsw0.com^$3p
-||universaltrackingcontainer.com^$3p
 ||upalytics.com^$3p
 ||uptime.monitorus.ru^$3p
 ||users.51.la^$3p
@@ -1186,7 +1171,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||yadro.ru^$3p
 ||yip.su^$3p
 ||youcanoptout.com^$3p
-||youmetrix.co.uk^$3p
 ||zaehler.tv^$3p
 ||zhanzhang.toutiao.com^$3p
 ||zoomflow.com^$3p
