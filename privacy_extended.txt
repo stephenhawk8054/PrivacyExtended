@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.07.23.1
+! Last modified: 2023.07.23.2
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -578,7 +578,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||counter.yandro.ru^
 ||track-aws.notsy.io^
 ||track.notsy.io^
-||log.ca.gov.vn^
 ||ad-spire.net^
 ||counter.monkeybanana3.com^
 ||analytic-client.playful-fairies.com^
@@ -652,7 +651,6 @@ gmx.com##div[data-mod-name="taboolateasers"]
 ||statafun.ru^$3p
 ||sc.lfeeder.com^$3p
 ||tr.lfeeder.com^$3p
-||eba-amadeus.netdna-ssl.com^$3p
 ||erandex.com^$3p
 ||tagmanager.alright.network^$3p
 ||statad.ru^$3p
@@ -15266,7 +15264,6 @@ the-ans.jp##.side-reccomend
 ||www002.commutil.kr/adlog/adlog_arrviewset.php
 ||dtory.ebs.co.kr/wlo^
 ||home.ebs.co.kr/ebsnews/logProce/logAjax
-||pb.m.naver.com/abpblock
 ||ewaline.su/stats.js
 ||bbc.com/ngas/latest/dotcom-analytics.js
 ||piano.io/tracker/$domain=inc42.com,important
@@ -15617,7 +15614,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||goto.kz/img.php^$3p
 ||front.sspicy.ru/collect?$3p
 ||findme.ru/Counter$3p
-||eu.angsrvr.com/count
 ||engadget.com/ping
 ||elb.amazonaws.com/?page=$image
 ||ebay.com/op/t.do?event
@@ -15692,7 +15688,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||solvay.com/js/ext.js
 ||digital-dwh.dumont.de/custom/*ts_unix=*keywords=*metric
 ||baur.de/servlet/*?clientId=*&landmark=*&ssid=
-||secure.keytiles.com/stat.php^
 ||elitepartner.de/static_cms/elitepartner/static/peg_utils/tracking/pegtracking_combined.js
 ||airbnb.*/pg_pixel^
 ||static.bbci.co.uk/bbcdotcom/*/script/av/emp/analytics.js
@@ -15725,7 +15720,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||sportal.de/js/cf.analytics.js
 ||handelsblatt.com/images/blank/*/1-formatOriginal.gif
 ||kino.de/api/core/tracking^
-||sportdeutschland.vidibuscloud.net/themes/sportdeutschland*/javascripts/webtrekk.js
 ||boss.berlinonline.de/cp.php
 ||classic.comunio.de/external/ct^
 ||tvigle.ru/track/
@@ -15745,7 +15739,6 @@ abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenma
 ||aflt.market.yandex.ru/widgets/metrika
 ||timeturk.com/sayac^
 ||api.opinary.com/*events
-||distributor.streamroot.io/klara/traffic/usage
 ||altin.in/ajax.asp?i=adblock
 ||cdn.hivps.xyz/analytics-
 ||api.socialmart.ru/analytics.php
@@ -15843,7 +15836,6 @@ dizibey.com##.sidebar > #text-19
 ||bilder-a.akamaihd.net/rtl-v*/components/tracking/js/tc.min.js
 ||7.p.tdf.ringier.ch/rp.js
 ||manager-magazin.de/static/sys/pixel.gif
-||count.manager-magazin.de/nm_trck.gif
 ||emp.de/on/demandware.store/*/__Analytics-Tracking
 ||ostsee-zeitung.de/viewlog_receiver.php?
 ||a.bf-tools.net/de/de.js
@@ -15929,7 +15921,6 @@ m.lenta.ru##.b-footer_counters
 ||vkcache.com/js/amung_counter.js
 ||sitejabber.com/set-fingerprint/
 ||spinmedia.com/clarity.min.js
-||spinmediacdn.com/clarity.min.js
 ||dove.com*/Assets/JS/udm.js
 ||vkcache.com/js/video.*counter*.js
 ||vidoza.net/papi/*/addevent/promo_data
@@ -16966,7 +16957,6 @@ cdn-settings.appsflyersdk.com^
 ||mapi-log.qoo*.jp^
 ||events.api.red.wemesh.ca^
 ||piano_log.kingsoft.jp^
-||prod-plague-bacon.miniclippt.com^
 ||t.ndemiccreations.com/*/*?tv=*&uid=
 ||logend.cookpad.com^
 ||viva.api.xiaoying.co^
