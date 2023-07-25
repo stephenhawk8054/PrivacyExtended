@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.07.25.7
+! Last modified: 2023.07.25.8
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -2927,7 +2927,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ! alipay
 ||loggw.alipay.com^
 ||loggw.alipay.com.cn^
+||loggw.alipaydns.com^
 ||loggw-ex.alipay.com^
+||loggw-exsdk.alipay.com^
 ||openmonitor.alipay.com^
 ||openmonitor.alipay-eco.com^
 ! blueconic.net on hearst.com sites
