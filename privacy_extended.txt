@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.07.28.1
+! Last modified: 2023.07.28.2
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1748,17 +1748,12 @@ returnpath.net/pixel.gif$image
 ||behave.noen.at^
 ||beta.simpel.nl^
 ||bi-eventtracker-*.amazonaws.com^
-||bi-pipeline-collector.stylight.net^
-||bl.impresa.pt^
 ||blue.fox8.com^
 ||blue.thehill.com^
 ||bonfire.spklw.com^
-||bournemouthecho-gb.bournemouthecho.co.uk^
-||br.phorm.com^
 ||broker.datazoom.io^
 ||browser-intake-*-datadoghq.com^
 ||bt.mediaimpact.de^
-||bt.phorm.com^
 ||button.blogs.yandex.
 ||bwb101.goo.ne.jp^
 ||c.adroll.com^
@@ -1771,7 +1766,6 @@ returnpath.net/pixel.gif$image
 ||c.opinion.com.ua^
 ||c.pravo.ru^
 ||c.security.org^
-||c.t-online.de^
 ||c.tbex.ru^
 ||c*hit.zerkalo.io^
 ||c0.adalyser.com^
@@ -1841,7 +1835,6 @@ returnpath.net/pixel.gif$image
 ||collector-analytics.efigence.com^
 ||collector-cdn.github.com^
 ||collector-hpn.ghostery.net^
-||collector-medium.lightstep.com^
 ||collector-statistics.nhn-commerce.com^
 ||collector.apester.com^
 ||collector.bunchbox.co^
