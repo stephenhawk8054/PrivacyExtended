@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.07.28.3
+! Last modified: 2023.07.28.4
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1843,28 +1843,21 @@ returnpath.net/pixel.gif$image
 ||collector.ksax.com^
 ||collector.kstptv5.com^
 ||collector.leaddyno.com^
-||collector.puhutv.com^
 ||collector.retailcrm.pro^
 ||collector.roistat.com^
-||collector.shopstream.co^
-||collector.shorte.st^
 ||collector.szlcsc.com^
-||collector.tescocompare.com^
 ||collector1.xhamster.com^
 ||cologger.shopping.naver.com^
 ||colossusssp.com^
-||comet.sputniknews.com^
 ||cometlytrack.com^
 ||conf.international.baidu.com^
 ||cookie.fuel451.com^
 ||count.channeladvisor.com^
 ||count.livetv.ru^
 ||count.livetv.sx^
-||count.prx.org^
 ||count.rtl.de^
 ||counter.1gb.ru^
 ||counter.24log.es^
-||counter.24smi.info^
 ||counter.adguard.com^
 ||counter.ajansspor.com^
 ||counter.all.biz^
@@ -1875,7 +1868,6 @@ returnpath.net/pixel.gif$image
 ||counter.mgronline.com^
 ||counter.nv.ua^
 ||counter.ok.ee^
-||counter.opinion.com.ua^
 ||counter.promodeejay.net^
 ||counter.rian.ru^
 ||counter.scribblelive.net^
@@ -1884,13 +1876,11 @@ returnpath.net/pixel.gif$image
 ||counter.theconversation.edu.au^
 ||counter.tianjimedia.com^
 ||counter.top.kg^
-||counter.tovarro.com^
 ||counter.web.money^
 ||counter.zerohedge.com^
 ||counter*-yadro*-ru.unblocked.lol^
 ||counter1.fc2.com^
 ||counter24.luxnet.ua^
-||crm.zenguard.biz^
 ||cs*.mp3bars.com^
 ||csm.cxpublic.com^
 ||ct.buzzfeed.com^
@@ -2035,9 +2025,7 @@ returnpath.net/pixel.gif$image
 ||geo.mattel163.com^
 ||geo.metronews.ca^
 ||geo.mozilla.org^
-||geo.perezhilton.com^
 ||geo.play.it^
-||geo.theawesomer.com^
 ||geo-service.adtelligent.com^
 ||geobeacon.ign.com^
 ||geoip-lookup.vice.com^
@@ -2816,16 +2804,11 @@ returnpath.net/pixel.gif$image
 ||tracking.oui.sncf^
 ||tracking.overwolf.com^
 ||tracking.performgroup.com^
-||tracking.pixelfederation.com^
 ||tracking.porndoelabs.com^
-||tracking.pornhd.com^
-||tracking.propelmedia.com^
 ||tracking.rce.veeseo.com^
-||tracking.realtor.com^
 ||tracking.resumecompanion.com^
 ||tracking.shopback.com^
 ||tracking.shoptogether.buy.com^
-||tracking.sim-technik.de^
 ||tracking.skyword.com^
 ||tracking.softwareprojects.com^
 ||tracking.swogo.net^
@@ -2834,7 +2817,6 @@ returnpath.net/pixel.gif$image
 ||tracking.tomshardware.co.uk^
 ||tracking.ukwm.co.uk^
 ||tracking.ustream.tv^
-||tracking.vitringez.com^
 ||tracking.yourfilehost.com^
 ||tracking*.euroads.fi^
 ||trackingapi.kaufda.de^
