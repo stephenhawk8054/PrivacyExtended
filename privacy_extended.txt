@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.07.28.6
+! Last modified: 2023.07.29.1
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1600,7 +1600,6 @@ returnpath.net/pixel.gif$image
 ||affiliates.cdkeys.com^
 ||affiliates.genealogybank.com^
 ||affiliates.londonmarketing.com^
-||affiliates.mozy.com^
 ||affiliates.myfax.com^
 ||alpha.tracedock.com^
 ||alxc.addlv.smt.docomo.ne.jp^
@@ -1924,7 +1923,6 @@ returnpath.net/pixel.gif$image
 ||d5i9o0tpq9sa1.cloudfront.net^
 ||d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com^
 ||dadi.technology^
-||dailymotion-ams.gravityrd-services.com^
 ||data-collector.wefi.com^
 ||data.mimikama.at^
 ||data.mob.com^
@@ -2192,7 +2190,6 @@ returnpath.net/pixel.gif$image
 ||log.zingnews.vn^
 ||log-lb.skyperfectv.co.jp^
 ||log*.aliyuncs.com^
-||log1.24liveplus.com^
 ||log2.radiko.jp^
 ||logapi.tv.naver.com^
 ||logcol.kyobobook.co.kr^
@@ -2203,14 +2200,11 @@ returnpath.net/pixel.gif$image
 ||logger-*.dailymotion.com^
 ||logger.applovefrom.com^
 ||logger.cbs.co.kr^
-||logger.dailymotion.com^
 ||logger.goeuro.com^
 ||logger.tv.telstra.com.au^
 ||logger.tvchosun.com^
-||logger.viki.io^
 ||logger.virgul.com^
 ||logging.goodgamestudios.com^
-||loggingservices.tribune.com^
 ||loggly.cheatsheet.com^
 ||loginside.co.kr^
 ||loglady.publicbroadcasting.net^
@@ -2746,21 +2740,15 @@ returnpath.net/pixel.gif$image
 ||tracker.gpcdn.pl^
 ||tracker.joongang.co.kr^
 ||tracker.joost.com^
-||tracker.lolalytics.com^
 ||tracker.kantan-access.com^
 ||tracker.mattel.com^
-||tracker.neon-images.com^
 ||tracker.pinnaclesports.com^
 ||tracker.pracuj.pl^
 ||tracker.prom.ua^
 ||tracker.realclearpolitics.com^
-||tracker.redditmedia.com^
-||tracker.remp.impresa.pt^
 ||tracker.remp.sme.sk^
-||tracker.revip.info^
 ||tracker.secretescapes.com^
 ||tracker.stats.in.th^
-||tracker.washtimes.com^
 ||tracker.wordstream.com^
 ||trackerapi.service.echobox.com^
 ||trackers.adtarget.me^
@@ -2804,7 +2792,6 @@ returnpath.net/pixel.gif$image
 ||tracking.olx.
 ||tracking.oui.sncf^
 ||tracking.overwolf.com^
-||tracking.performgroup.com^
 ||tracking.porndoelabs.com^
 ||tracking.rce.veeseo.com^
 ||tracking.resumecompanion.com^
@@ -2847,7 +2834,6 @@ returnpath.net/pixel.gif$image
 ||ut.o2.pl^
 ||vhsrwd.aip24.pl^
 ||volts.shopping.naver.com^
-||vstats.digitaltrends.com^
 ||w.oix.net^
 ||w1jesu6.package12.com^
 ||w3-reporting-nel.reddit.com^
@@ -2855,7 +2841,6 @@ returnpath.net/pixel.gif$image
 ||wa.mail.com^
 ||wayfinderanalytics.servicebus.windows.net^
 ||web-vitals.booking.com^
-||webanalyzer.bussion.com^
 ||weblog.coupang.com^
 ||weblog.hankookilbo.com^
 ||weblog.woowa.in^
