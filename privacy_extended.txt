@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.08.02.8
+! Last modified: 2023.08.02.9
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -17566,6 +17566,11 @@ clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.co
 /public/dhtrack.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157146
 /sayacff.html
+! https://github.com/AdguardTeam/AdguardFilters/issues/157688
+/exp-metrika.js
+/yandex-metrika.js
+/mediascope.js$domain=russia-tv.online
+/liveinternet.js$domain=russia-tv.online
 ! Warning - break by design
 ! Click-tracking, email tracking
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/2693
