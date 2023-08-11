@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.08.02.12
+! Last modified: 2023.08.11.1
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1575,10 +1575,8 @@ returnpath.net/pixel.gif$image
 ||8digits.com^
 ||a.flux.jp^
 ||a.hstrck.com^
-||a.oix.net^
 ||a.pikabu.ru^
 ||a.ria.ru^
-||a1.huiqituan.com^
 ||a3.ogt.jp^
 ||ab.blogs.es^
 ||abc.esprit.de^
@@ -1724,7 +1722,6 @@ returnpath.net/pixel.gif$image
 ||awsync.yandex.ru^
 ||b-aws.aol.com^
 ||b.aol.com^
-||b.grvcdn.com^
 ||b.oix.net^
 ||b91.yahoo.co.jp^
 ||bc.nhk.jp^
@@ -1790,7 +1787,6 @@ returnpath.net/pixel.gif$image
 ||clc.stackoverflow.com^
 ||clck.yandex.com^
 ||click.jasmin.com^
-||click.livejasmin.com^
 ||click.mmosite.com^
 ||click2.cafepress.com^
 ||clicks.traffictrader.net^
@@ -1804,18 +1800,14 @@ returnpath.net/pixel.gif$image
 ||clkstat.china.cn^
 ||clog.go.com^
 ||clog*.yuanfudao.com^
-||cls.ichotelsgroup.com^
 ||clvk.viki.io^
 ||cmap.alibaba.com^
 ||cmp-cdn.ghostery.com^
 ||cmstrendslog.indiatimes.com^
 ||cmstrendslog.timesnow.tv^
 ||cnnx.link^
-||cmt.setrowid.com^
 ||cnt.alawar.com^
-||cnt.cerber.rambler.ru^
 ||cnt.hd21.
-||cnt.inforotor.net^
 ||cnt.nicemix.com^
 ||cnt.nuvid.
 ||cnt.proporn.
@@ -1825,8 +1817,6 @@ returnpath.net/pixel.gif$image
 ||cnt.winporn.
 ||cnt.xhamster.com^
 ||cnt.yeptube.
-||cntcerber.rambler.ru^
-||code.lockbot.net^
 ||codes.royalad.pl^
 ||collect-elb-*.amazonaws.com^
 ||collect-v*.51.la^
@@ -1943,7 +1933,6 @@ returnpath.net/pixel.gif$image
 ||discovery-script.newspic.kr^
 ||discovery.newspic.kr^
 ||dj4odketdva9s.cloudfront.net^
-||djibeacon.dowjoneson.com^
 ||dl.reg.163.com^
 ||dmc1acwvwny3.cloudfront.net^
 ||dmp.citiservi.es^
@@ -2300,11 +2289,8 @@ returnpath.net/pixel.gif$image
 ||n730.timesunion.com^
 ||newlog.overwolf.com^
 ||ng.virgul.com^
-||ngagement-engine.mobify.com^
 ||nmtracking.netflix.com^
 ||notify-bugs-fra1.rtl.de^
-||ns1.phorm.com^
-||ns2.phorm.com^
 ||ns336739.ip-37-187-249.eu^
 ||odtrtadl.com^
 ||ohcohz.stroeerdp.de^
