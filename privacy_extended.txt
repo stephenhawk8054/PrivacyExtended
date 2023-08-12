@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.08.11.2
+! Last modified: 2023.08.11.3
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -1982,14 +1982,12 @@ returnpath.net/pixel.gif$image
 ||events.cardsmobile.ru^
 ||events.emogi.com^
 ||events.jora.com^
-||events.kaloo.ga^
 ||events.niit-mts.com^
 ||events.paramount.tech^
 ||events.release.narrativ.com^
 ||events.sd-nbb.de^
 ||events.virtusize.jp^
 ||events*.cre.ma^
-||eventtracker.elitedaily.com^
 ||evs.data.ciceksepeti.com^
 ||evs.sgmt.loom.com^
 ||exacttarget.api.mashery.com^
@@ -2053,21 +2051,15 @@ returnpath.net/pixel.gif$image
 ||gtm.udemy.com^
 ||gtm.vanmoof.com^
 ||gtmdev.jabra.
-||happyunicorns.gutefrage.net^
-||harvester.eu.square-enix.com^
-||harvester.ext.square-enix-europe.com^
 ||harvester.hbpl.co.uk^
 ||harvester.hnonline.sk^
 ||hc-analytics.idp.clogin.att.com^
 ||hc.uralweb.ru^
 ||heartbeats.prd.data.s.joyn.de^
 ||hindsight.significanceapps.com^
-||hit-pool.upscore.io^
 ||hit.copesa.cl^
 ||hit.darmoweliczniki.pl^
 ||hit.demirorenteknoloji.com^
-||hit.dogannet.tv^
-||hit.duhnet.tv^
 ||hit.mynet.com^
 ||hits.top.lv^
 ||hitweb2.chosun.com^
@@ -2081,7 +2073,6 @@ returnpath.net/pixel.gif$image
 ||host*.polaroid.com^
 ||host*.rvshare.com^
 ||host*.rigbyandpeller.com^
-||howmanyview.com^
 ||hrumpoc.hotels.com^
 ||hstats*.hepsiburada.com^
 ||huffingtonpost.fr/px.gif^
@@ -2611,10 +2602,8 @@ returnpath.net/pixel.gif$image
 ||telemetry.battle.net^
 ||telemetry.malwarebytes.com^
 ||temptation.ad.nl^
-||terra.fp.oix.net^
 ||thj.astrakhan.ru^
 ||thoth.utyug.media^
-||timeslog.indiatimes.com^
 ||tivan.naver.com^
 ||tj3rql9siwef.www.freecodecamp.org^
 ||tk.kaufda.de^
@@ -2623,7 +2612,6 @@ returnpath.net/pixel.gif$image
 ||tmserverside.mango.com^
 ||tools.ranker.com^
 ||top.eomy.net^
-||top.gamesby.net^
 ||top.gigmir.net^
 ||top.hsdn.org^
 ||top.myfilms.su^
@@ -2654,12 +2642,10 @@ returnpath.net/pixel.gif$image
 ||trac.oferting.net^
 ||trac.oferting.org^
 ||tracelog.www.alibaba.com^
-||tracer.perezhilton.com^
 ||tracing-collector.strava.com^
 ||track.17goforward.com^
 ||track.americansongwriter.com^
 ||track.analitycs.net^
-||track.atom-data.io^
 ||track.audtd.com^
 ||track.berliner-kurier.de^
 ||track.bizjournals.com^
@@ -2669,7 +2655,6 @@ returnpath.net/pixel.gif$image
 ||track.catalogs.com^
 ||track.cbs.com^
 ||track.clkfly.com^$all
-||track.codepen.io^
 ||track.datescan.info
 ||track.easeus.com^
 ||track.effitarget.com^
