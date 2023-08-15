@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.08.15.1
+! Last modified: 2023.08.15.2
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -2290,6 +2290,7 @@ returnpath.net/pixel.gif$image
 ||ohcohz.stroeerdp.de^
 ||omapi.fangraphs.com^
 ||onclickpredictiv.com^
+||openrate.aweber.com^
 ||ovk.xceler8.io^
 ||p.alcmpn.com^
 ||p.gm99.com^
@@ -17563,6 +17564,8 @@ clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.co
 ! Others
 ://email.hello.scribd.com/o/$image
 ://fapp1.williamoneilindia.com/*?id=$image
+/openrate.aweber.com$image
+.openrate.aweber.com$image
 .blackbullmarkets.com/r/$image
 .callofwar.com/index.php?eID=pixel
 .cloudns.net/tr.php?
