@@ -1,7 +1,7 @@
 ! Title: Privacy Extended
 ! Description: Privacy filters forked from Adguard Tracking Protection, optimized for uBlock Origin
 ! Expires: 12 hours
-! Last modified: 2023.08.15.2
+! Last modified: 2023.08.26.1
 ! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
 ! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
 !
@@ -17549,6 +17549,8 @@ clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.co
 /liveinternet.js$domain=russia-tv.online
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158150
 /IOLAnalytics/dist/iol.analytics.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/158133
+||sendfox.com/trk/
 ! Warning - break by design
 ! Click-tracking, email tracking
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/2693
