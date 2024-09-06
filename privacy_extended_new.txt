@@ -1,0 +1,13 @@
+! Title: Privacy Extended New
+! Description: Additional filters to reduce network exposure or tracking cookies
+! Expires: 8 hours
+! Last modified: 2024.09.06.1
+! Homepage: https://github.com/stephenhawk8054/PrivacyExtended
+! License: https://github.com/stephenhawk8054/PrivacyExtended/blob/main/LICENSE
+!
+! GitHub issues: https://github.com/stephenhawk8054/PrivacyExtended/issues
+! GitHub pull requests: https://github.com/stephenhawk8054/PrivacyExtended/pulls
+
+! https://archive.is/kWkbi
+archive.is##+js(remove-cookie, _ga)
+archive.is##+js(acs, document.getElementById, _ga=)
